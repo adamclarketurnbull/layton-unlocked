@@ -1,0 +1,16 @@
+{
+  "name": "layton-unlocked",
+  "version": "1.0.0",
+  "description": "Layton Unlocked - static site (Eleventy) for laytonunlocked.com",
+  "private": true,
+  "scripts": {
+    "build": "eleventy",
+    "serve": "eleventy --serve",
+    "debug": "DEBUG=Eleventy* eleventy",
+    "deploy": "eleventy && wrangler deploy"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "wrangler": "^4.0.0"
+  }
+}

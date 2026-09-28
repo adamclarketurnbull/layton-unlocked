@@ -1,0 +1,100 @@
+[
+  {
+    "slug": "silent-disco-blooms-beats-walk",
+    "title": "Silent Disco: Blooms & Beats Walk",
+    "date": "2026-09-29",
+    "time": "11:30am",
+    "location": "Meet at Layton Methodist Church, walk around Layton",
+    "category": "Fitness",
+    "cost": "free",
+    "image": "/images/events/image-14.png",
+    "description": "Grab your headphones for a walking silent disco around Layton, dancing through the streets. Part of Pride in Place Layton with Wandering Women and Nurturefy. All adults welcome, free to attend, booking required.",
+    "link": ""
+  },
+  {
+    "slug": "speed-quiz-cask-layton",
+    "title": "Speed Quiz at Cask Layton",
+    "date": "2026-09-30",
+    "time": "Evening - confirm time",
+    "location": "Cask Layton",
+    "category": "Social",
+    "cost": "free",
+    "image": "",
+    "description": "Teams of four, quick-fire rounds and a warm welcome at Cask Layton for a laid-back midweek quiz night. Everyone welcome. [Placeholder copy - confirm exact time/entry cost from the live WordPress post before launch.]",
+    "link": ""
+  },
+  {
+    "slug": "community-harvest-supper-club",
+    "title": "Community Harvest Supper Club",
+    "date": "2026-10-02",
+    "time": "4:00pm-6:00pm",
+    "location": "Blackpool Boys & Girls Club",
+    "category": "Community",
+    "cost": "free",
+    "image": "",
+    "description": "A harvest-themed community supper club. This is currently the site's pinned \"Coming up next\" event - see whats-on.njk for how the pinned event is chosen.",
+    "link": "",
+    "pinned": true
+  },
+  {
+    "slug": "play-expo-blackpool-2026",
+    "title": "PLAY Expo Blackpool 2026",
+    "date": "2026-10-03",
+    "endDate": "2026-10-04",
+    "time": "10:00am-5:00pm",
+    "location": "Norcalympia Exhibition Centre",
+    "category": "Family & Kids",
+    "cost": "paid",
+    "image": "",
+    "description": "A weekend gaming and family expo at the Norcalympia Exhibition Centre. Confirm current ticket pricing and full listing details from the live WordPress post before launch.",
+    "link": ""
+  },
+  {
+    "slug": "skaface-layton-institute",
+    "title": "SkaFace at Layton Institute",
+    "date": "2026-10-16",
+    "time": "8:00pm",
+    "location": "Layton Institute",
+    "category": "Arts",
+    "cost": "paid",
+    "image": "",
+    "description": "Live ska music night at the Layton Institute. Confirm ticket price and support acts from the live WordPress post before launch.",
+    "link": ""
+  },
+  {
+    "slug": "bonkers-bingo-quizzie-quiz",
+    "title": "Bonkers Bingo & Quizzie Quiz (Fundraiser)",
+    "date": "2026-10-25",
+    "time": "6:00pm-8:30pm",
+    "location": "Layton Institute",
+    "category": "Social",
+    "cost": "paid",
+    "image": "",
+    "description": "A fundraiser night of bingo and quiz rounds at the Layton Institute. Confirm ticket price and the cause it's raising funds for from the live WordPress post before launch.",
+    "link": ""
+  },
+  {
+    "slug": "layton-lights-switch-on",
+    "title": "Layton Lights Switch On",
+    "date": "2026-11-27",
+    "time": "TBA",
+    "location": "Layton Square",
+    "category": "Community",
+    "cost": "free",
+    "image": "",
+    "description": "Layton's festive lights switch-on event at Layton Square. Confirm the exact time and full programme from the live WordPress post nearer the date.",
+    "link": ""
+  },
+  {
+    "slug": "a-buble-christmas",
+    "title": "A Bublé Christmas (Cameron Taylor)",
+    "date": "2026-12-06",
+    "time": "7:30pm",
+    "location": "Layton Institute",
+    "category": "Arts",
+    "cost": "paid",
+    "image": "",
+    "description": "A festive Michael Bublé tribute show with Cameron Taylor at the Layton Institute. Confirm ticket price from the live WordPress post before launch.",
+    "link": ""
+  }
+]

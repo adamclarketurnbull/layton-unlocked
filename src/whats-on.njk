@@ -1,0 +1,116 @@
+---
+layout: base.njk
+title: What's On - Layton Unlocked
+pinnedEvent: community-harvest-supper-club
+---
+<section class="page-hero" style="background:linear-gradient(135deg,#3a2a5c,#241443 55%,#150a1f);">
+  <div class="container page-hero__inner">
+    <h1 class="page-hero__heading" style="color:#fff;">What's On</h1>
+    <p class="page-hero__subhead" style="color:rgba(255,255,255,0.9);">Regular clubs and classes, plus one-off events, happening in and around Layton every week.</p>
+  </div>
+  <div class="wave wave--down wave--warm-white" aria-hidden="true">
+    <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path d="M0,40 C240,80 480,0 720,40 C960,80 1200,0 1440,40 L1440,80 L0,80 Z" fill="#FFF7EE"></path></svg>
+  </div>
+</section>
+
+{% set featured = events | findBy("slug", pinnedEvent) %}
+{% if featured %}
+<section class="pinned-service section" style="padding-bottom:40px;" id="{{ featured.slug }}">
+  <div class="container">
+    <article class="story-card wo-featured">
+      {% if featured.image %}
+        <div class="story-card__placeholder" style="background-image:url('{{ featured.image }}');"></div>
+      {% else %}
+        <div class="story-card__placeholder photo-placeholder" style="background:linear-gradient(135deg,var(--blue-sky),var(--blue-deep));"></div>
+      {% endif %}
+      <div class="wo-featured__body">
+        <p class="wo-featured__label">Coming up next</p>
+        <p class="wo-card__cat">{{ featured.category }}</p>
+        <h3>{{ featured.title }}</h3>
+        <p class="wo-featured__meta">{{ featured.date | shortDate }} &middot; {{ featured.time }} &middot; {{ featured.location }}</p>
+        <a class="wo-featured__cta" href="{{ featured.link or '#' + featured.slug }}">See details &rarr;</a>
+      </div>
+    </article>
+  </div>
+</section>
+{% endif %}
+
+<section class="section wo-tight">
+  <div class="container">
+    <div class="section__heading-group">
+      <h2 class="section__heading">Regular activities</h2>
+      <p class="reassurance__body" style="max-width:640px;">Free, friendly, and open to everyone - filter by category or day to find something for you.</p>
+    </div>
+
+    <div class="wo-chips-row">
+      <select class="wo-select" id="wo-filter-category" aria-label="Filter by activity type">
+        <option value="All">All activity types</option>
+        <option value="Fitness">Fitness</option>
+        <option value="Family & Kids">Family &amp; Kids</option>
+        <option value="Social">Social</option>
+        <option value="Community">Community</option>
+        <option value="Faith">Faith</option>
+        <option value="Arts">Arts</option>
+      </select>
+      <select class="wo-select" id="wo-filter-day" aria-label="Filter by day">
+        <option value="All">Every day</option>
+        <option value="Mon">Mon</option>
+        <option value="Tue">Tue</option>
+        <option value="Wed">Wed</option>
+        <option value="Thu">Thu</option>
+        <option value="Fri">Fri</option>
+        <option value="Sat">Sat</option>
+        <option value="Sun">Sun</option>
+      </select>
+    </div>
+
+    <div id="wo-activities-grid" class="wo-grid">
+      {% for a in activities %}
+      {% set cats = a.categories or [a.category] %}
+      <a class="wo-card" href="{{ a.url or '#' }}" target="_blank" rel="noopener"
+         data-day="{{ a.day }}" data-categories="{{ cats | join(',') }}">
+        <div class="story-card__placeholder wo-card__ph {{ 'wo-card__ph--' + (a.category | slugify) if not a.image }}"
+             {% if a.image %}style="background-image:url('{{ a.image }}');"{% endif %}>
+          <span class="wo-card__day">{{ a.day }}</span>
+        </div>
+        <div class="wo-card__body">
+          <p class="wo-card__cat">{{ a.category }}</p>
+          <p class="wo-card__name">{{ a.emoji }} {{ a.name }}</p>
+          <p class="wo-card__meta">{{ a.time }} &middot; {{ a.location }}</p>
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+    <p class="wo-empty" id="wo-activities-empty" style="display:none;">Nothing matches that filter right now - try "All" on one of the dropdowns.</p>
+  </div>
+</section>
+
+<section class="section wo-tight" style="padding-top:0;">
+  <div class="container">
+    <div class="section__heading-group">
+      <h2 class="section__heading">One-off events</h2>
+      <p class="reassurance__body" style="max-width:640px;">Coming up - scroll for more.</p>
+    </div>
+
+    <div id="wo-events-strip" class="wo-grid">
+      {% for e in events | upcoming %}
+      <a class="wo-card" href="{{ e.link if e.link else '#' + e.slug }}">
+        <div class="story-card__placeholder wo-card__ph {{ 'wo-card__ph--' + (e.category | slugify) if not e.image }}"
+             {% if e.image %}style="background-image:url('{{ e.image }}');"{% endif %}>
+          <span class="wo-card__day">{{ e.date | shortDate }}</span>
+          <span class="wo-card__cost wo-card__cost--{{ e.cost }}">{{ e.cost }}</span>
+        </div>
+        <div class="wo-card__body">
+          <p class="wo-card__cat">{{ e.category }}</p>
+          <p class="wo-card__name">{{ e.title }}</p>
+          <p class="wo-card__meta">{{ e.time }} &middot; {{ e.location }}</p>
+        </div>
+      </a>
+      {% else %}
+      <p class="wo-empty">No upcoming one-off events listed right now - check back soon.</p>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<script src="/js/whats-on.js"></script>

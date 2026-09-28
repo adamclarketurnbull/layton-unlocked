@@ -1,0 +1,151 @@
+---
+layout: base.njk
+title: Layton Unlocked
+pinnedEvent: community-harvest-supper-club
+---
+<section class="hero" style="background-image:url('/images/layton-hero.webp');background-size:cover;background-position:center;position:relative;">
+  <div class="hero__inner">
+    <div class="hero__content">
+      <h1 class="hero__heading">Layton.<br>Unlocked.</h1>
+      <p class="hero__subhead">A neighbourhood pulling together - events, support, and community pride in the heart of Blackpool.</p>
+      <a href="/whats-on/" class="btn btn--yellow">See what's on</a>
+    </div>
+  </div>
+  <div class="wave wave--down wave--warm-white" aria-hidden="true">
+    <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0,40 C240,80 480,0 720,40 C960,80 1200,0 1440,40 L1440,80 L0,80 Z" fill="#FFF7EE"></path>
+    </svg>
+  </div>
+</section>
+
+<section class="get-help section" id="get-help">
+  <div class="container">
+    <h2 class="section__heading">Need something?</h2>
+    <p class="section__subhead">We've pulled together the best local support in one place. Whatever you're looking for, there's something here for you.</p>
+  </div>
+
+  <div class="help-scroll-track">
+    <ul class="help-tiles">
+      <li class="help-tile help-tile--wide">
+        <a class="help-tile__link-wrap" href="/food-essentials/">
+          <div class="help-tile__icon help-tile__icon--photo" style="background-image:url('/images/help-food.webp')"></div>
+          <h3 class="help-tile__cat">Food &amp; essentials</h3>
+          <p class="help-tile__desc">Food pantries, community fridges, and emergency food support close to home.</p>
+          <span class="help-tile__link">Find out more &rarr;</span>
+        </a>
+      </li>
+      <li class="help-tile">
+        <a class="help-tile__link-wrap" href="/whats-on/">
+          <div class="help-tile__icon help-tile__icon--photo" style="background-image:url('/images/help-whats-on.webp')"></div>
+          <h3 class="help-tile__cat">What's On</h3>
+          <p class="help-tile__desc">From sports to arts to social clubs - free and low-cost activities for everyone.</p>
+          <span class="help-tile__link">Find out more &rarr;</span>
+        </a>
+      </li>
+      <li class="help-tile help-tile--cta">
+        <a class="help-tile__link-wrap" href="mailto:adamclarketurnbull@gmail.com">
+          <div class="help-tile__icon help-tile__icon--photo" style="background-image:url('/images/help-contact.jpg')"></div>
+          <h3 class="help-tile__cat">Can't find what you need?</h3>
+          <p class="help-tile__desc">Get in touch with the Layton Unlocked team - we'll point you in the right direction.</p>
+          <span class="help-tile__link">Contact us &rarr;</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="wave wave--down wave--sky" aria-hidden="true">
+    <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0,20 C360,80 720,0 1080,50 C1260,75 1380,30 1440,20 L1440,80 L0,80 Z" fill="#2EC4B6"></path>
+    </svg>
+  </div>
+</section>
+
+{% set featured = events | findBy("slug", pinnedEvent) %}
+{% if featured %}
+<section class="featured-event section" id="whats-on">
+  <div class="container featured-event__inner">
+    <div class="featured-event__content">
+      <p class="featured-event__label">Save the date</p>
+      <p class="featured-event__date">{{ featured.date | humanDate }}</p>
+      <h2 class="featured-event__heading">{{ featured.title }}</h2>
+      <p class="featured-event__body">{{ featured.description }}</p>
+      <a href="/whats-on/#{{ featured.slug }}" class="btn btn--yellow">Find out more &rarr;</a>
+    </div>
+    <div class="featured-event__image-wrap" style="height:300px;min-height:300px;">
+      {% if featured.image %}
+        <img src="{{ featured.image }}" alt="{{ featured.title }}" style="width:100%;height:100%;object-fit:cover;border-radius:12px;">
+      {% else %}
+        <div class="featured-event__placeholder" style="height:100%;border-radius:12px;"></div>
+      {% endif %}
+    </div>
+  </div>
+  <div class="wave wave--down wave--deep" aria-hidden="true">
+    <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0,50 C200,10 400,70 720,35 C1000,5 1250,65 1440,50 L1440,80 L0,80 Z" fill="#FFF7EE"></path>
+    </svg>
+  </div>
+</section>
+{% endif %}
+
+<section class="mission section">
+  <div class="container mission__inner">
+    <p>Layton Unlocked was built by Adam Turnbull, who believes that awesome communities don't just happen, they're supported &amp; empowered. We connect residents, organisations, and opportunities so that everyone in Layton can thrive.</p>
+    <p style="margin-top:1.25rem;"><a href="#newsletter" class="btn btn--yellow">Newsletter signup</a></p>
+  </div>
+  <div class="wave wave--down wave--sky" aria-hidden="true">
+    <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0,40 C240,80 480,0 720,40 C960,80 1200,0 1440,40 L1440,80 L0,80 Z" fill="#2EC4B6"></path>
+    </svg>
+  </div>
+</section>
+
+<section class="glance section">
+  <div class="container glance__inner">
+    <div class="glance__stat">
+      <p class="glance__number">12,000+</p>
+      <p class="glance__label">residents in the Layton ward</p>
+    </div>
+    <div class="glance__stat">
+      <p class="glance__number">7 partners</p>
+      <p class="glance__label">working together across Blackpool</p>
+    </div>
+    <div class="glance__stat">
+      <p class="glance__number">One place</p>
+      <p class="glance__label">to find events, support, and stories</p>
+    </div>
+  </div>
+  <div class="wave wave--down wave--warm-white" aria-hidden="true">
+    <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0,20 C360,80 720,0 1080,50 C1260,75 1380,30 1440,20 L1440,80 L0,80 Z" fill="#241443"></path>
+    </svg>
+  </div>
+</section>
+
+<section class="stories section" id="our-stories">
+  <div class="container">
+    <div class="section__heading-group">
+      <h2 class="section__heading">Our People. Our Stories.</h2>
+      <span class="burst" aria-hidden="true"></span>
+    </div>
+    <p style="color:var(--grey,#7A6B82);font-size:.85rem;font-style:italic;margin:-8px 0 20px;">Illustrative examples while we collect real stories from Layton residents - not verbatim quotes.</p>
+
+    <div class="stories__grid">
+      <article class="story-card">
+        <img class="story-card__placeholder" src="/images/stories/sandra.jpg" alt="Sandra, Layton resident">
+        <blockquote class="story-card__quote">"I'd lived here ten years and never felt part of it. Coming to a Layton Unlocked event changed that completely."</blockquote>
+        <p class="story-card__attribution">- Sandra, Layton resident</p>
+      </article>
+      <article class="story-card">
+        <img class="story-card__placeholder" src="/images/stories/marcus.jpg" alt="Marcus, community volunteer">
+        <blockquote class="story-card__quote">"We set up a little community garden and suddenly people were talking to their neighbours for the first time."</blockquote>
+        <p class="story-card__attribution">- Marcus, community volunteer</p>
+      </article>
+    </div>
+    <p class="stories__more"><a href="/layton-voices/" class="link-green">More stories coming soon &rarr;</a></p>
+  </div>
+  <div class="wave wave--down wave--deep" aria-hidden="true">
+    <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0,50 C200,10 400,70 720,35 C1000,5 1250,65 1440,50 L1440,80 L0,80 Z" fill="#241443"></path>
+    </svg>
+  </div>
+</section>

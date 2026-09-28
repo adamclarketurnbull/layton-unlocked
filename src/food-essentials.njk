@@ -1,0 +1,183 @@
+---
+layout: base.njk
+title: Food & Essentials - Layton Unlocked
+---
+<section class="page-hero page-hero--green">
+  <div class="container page-hero__inner">
+    <h1 class="page-hero__heading" style="color:#fff;">Good food. Close to home.</h1>
+    <p class="page-hero__subhead" style="color:rgba(255,255,255,0.9);">A guide to food support, community meals, and essentials in Layton and across Blackpool. Whatever you need, something here will help.</p>
+  </div>
+  <div class="wave wave--down wave--warm-white" aria-hidden="true">
+    <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path d="M0,40 C240,80 480,0 720,40 C960,80 1200,0 1440,40 L1440,80 L0,80 Z" fill="#2EC4B6"></path></svg>
+  </div>
+</section>
+
+<section class="section pinned-service" style="padding-bottom:40px;">
+  <div class="container">
+    <div class="pinned-card">
+      <h2 class="pinned-card__heading">Living Well in Blackpool - Support Hub</h2>
+      <p class="pinned-card__body">A new weekly drop-in offering wraparound support with money, employment, housing, food, health, family worries and learning new skills. Come in, have a chat, and we'll help you find the right support.</p>
+      <ul class="service-details">
+        <li>&#128197; Every Monday, 9.30am-12.30pm</li>
+        <li>&#128205; Layton Methodist Church, Westcliffe Drive, FY3 7DZ</li>
+        <li>&#127869; Free continental breakfast until 11am</li>
+        <li>Free - no appointment needed, just turn up</li>
+      </ul>
+      <a href="https://www.facebook.com/laytonmethodist" class="btn btn--yellow" target="_blank" rel="noopener">Layton Methodist on Facebook &rarr;</a>
+    </div>
+  </div>
+  <div class="wave wave--down wave--warm-white" aria-hidden="true">
+    <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path d="M0,50 C200,10 400,70 720,35 C1000,5 1250,65 1440,50 L1440,80 L0,80 Z" fill="#2EC4B6"></path></svg>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section__heading-group">
+      <h2 class="section__heading">Infant Essentials</h2>
+    </div>
+    <p class="reassurance__body">Our Infant Essentials service is available every Friday at Layton Community House. We can help parents and carers of infants in Layton and Grange Park with nappies, formula, infant toiletries, donated clothing and other essentials.</p>
+    <article class="service-card service-card--wide">
+      <p class="service-card__location">5 Grenfell Ave, Layton, FY3 7BP</p>
+      <p class="service-card__hours">Fridays, 9.30am-12.15pm</p>
+      <p class="service-card__body">Nappies, formula, toiletries, clothing &amp; more</p>
+      <a href="https://www.facebook.com/LCHlayton" class="link-green" target="_blank" rel="noopener">Layton Community House on Facebook &rarr;</a>
+    </article>
+
+    <div style="margin-top:28px;">
+      <h3 style="font-family:'Baloo 2','Nunito',sans-serif;font-weight:800;font-size:1.3rem;color:var(--blue-deep);">Layton Larder</h3>
+      <p class="reassurance__body">&pound;3 buys a meal-prep pack that serves up to 4 people. This month's recipes: corned beef hash, cheese and onion pie, tuna fish cakes, and cowboy pie.</p>
+      <article class="service-card service-card--wide">
+        <p class="service-card__hours">Order Saturday from 10.30am &middot; collect the following week</p>
+        <p class="service-card__body">&pound;3 per pack &middot; serves up to 4 &middot; all ingredients included &middot; easy to cook. Hosted by Layton Methodist (Forward Project) - the same team behind our food bank.</p>
+        <a href="https://www.facebook.com/laytonmethodist" class="link-green" target="_blank" rel="noopener">Find Layton Methodist on Facebook &rarr;</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section services-section">
+  <div class="container">
+    <div class="section__heading-group">
+      <h2 class="section__heading">Sit down and eat</h2>
+    </div>
+    <p class="section__subhead">Free or heavily discounted hot meals and community lunches in and around Layton.</p>
+
+    <div class="service-grid">
+      {% for s in [
+        { name: "Wholesome Wednesdays", location: "Layton Methodist Forward Centre · Westcliffe Drive, FY3 7DZ", hours: "Wednesday 11am-1pm · Breakfast from 8:30am", body: "Main from £3.95 · Main + pudding + brew £5.95. Gluten free and veggie options available. All welcome." },
+        { name: "Oasis Café", location: "Layton Methodist Forward Centre · Westcliffe Drive, FY3 7DZ", hours: "Monday-Saturday 8.30-1.30pm", body: "Café prices · warm space · friendly faces. Drop in any time." },
+        { name: "Salvation Army - Bridge Project (Homeless Hub)", location: "Salvation Army, Raikes Parade, Blackpool FY1 4EL", hours: "Monday, Tuesday, Thursday, Friday · 9am-11am breakfast &amp; hot shower · 12pm-2pm hot meal", body: "Homeless hub drop-in for adults 26 and over - separate from the Salvation Army's £3 community lunch below.", link: "https://www.facebook.com/", linkText: "Find the Bridge Project on Facebook →" },
+        { name: "Street Life - The Base", location: "48 Buchanan Street, Blackpool", hours: "Monday-Friday · Cook &amp; Eat, drop-ins and activities · menu changes weekly", body: "18-25 years only. Free hot food every weekday - fry ups, pasta bakes, fish finger butties and more. Drop in or join an activity.", link: "https://www.facebook.com/", linkText: "Find out more on Facebook →", unverified: true },
+        { name: "Salvation Army community lunch", location: "Raikes Parade, Blackpool FY1 4EL · 01253 626114", hours: "Mon, Tue, Thu, Fri · 11:30am-12:30pm", body: "2-course hot meal with sweet and drink · £1. Short bus ride from Layton." },
+        { name: "Helping Hearts Blackpool", location: "Boothly Road, Blackpool (just outside Layton)", hours: "Thursday 3:30pm-5:30pm families &amp; 60+ (quieter) · 6:15pm evening session, open to everyone", body: "A free hot meal every Thursday - no referral needed, open year-round to anyone in Blackpool, Fylde and Wyre. Also: food bank, baby bank, pet food bank, clothing, toiletries, hot showers and sanitary products.", link: "https://www.facebook.com/", linkText: "Find Helping Hearts on Facebook →" },
+        { name: "Blackpool Street Angels", location: "Bank Street Car Park, Blackpool FY1 2DT", hours: "Monday, 7pm-8pm", body: "Free hot meal and takeaway food from the street outreach team. Evening drop-in, everyone welcome.", link: "https://www.facebook.com/", linkText: "Find Blackpool & the Fylde Street Angels on Facebook →" },
+        { name: "Comfort C.A.F.E.", location: "St Thomas' Church, 135 Caunce St, Blackpool FY1 3NJ", hours: "Tuesday, 11am-12:30pm", body: "Free hot meal and takeaway food. For adults 18 and over.", link: "https://www.facebook.com/", linkText: "Find St Thomas' Church on Facebook →" },
+        { name: "St Peter's Church", location: "190 Lytham Road, Blackpool FY1 6DJ", hours: "Tuesday, 6pm", body: "Free hot meal, fruit, cakes and a hot drink. Open to people of any age.", link: "https://www.facebook.com/", linkText: "Find St Peter's Church, South Shore →" },
+        { name: "Holy Cross Church", location: "Central Drive, Blackpool FY1 6LA", hours: "Saturday, 4:30pm-6pm", body: "Free hot meal and takeaway food.", link: "https://www.facebook.com/", linkText: "Find Holy Cross Church on Facebook →" },
+        { name: "Games and a Cuppa / Warm Hub", location: "St Thomas' Church, 135 Caunce St, Blackpool FY1 3NJ", hours: "Thursday, 1pm-4pm", body: "Free meal and social time - games and a cuppa, becoming Warm Hub through the colder months. Especially popular with older folk, but everyone's welcome.", link: "https://www.facebook.com/", linkText: "Find St Thomas' Church on Facebook →" }
+      ] %}
+      <article class="service-card {{ 'service-card--unverified' if s.unverified }}">
+        <h3 class="service-card__name">{{ s.name }}</h3>
+        <p class="service-card__location">{{ s.location | safe }}</p>
+        <p class="service-card__hours">{{ s.hours | safe }}</p>
+        <p class="service-card__body">{{ s.body | safe }}</p>
+        {% if s.link %}<a href="{{ s.link }}" class="link-green" target="_blank" rel="noopener">{{ s.linkText }}</a>{% endif %}
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section services-section services-section--sky">
+  <div class="container">
+    <div class="section__heading-group">
+      <h2 class="section__heading">Take something home</h2>
+    </div>
+    <p class="section__subhead">Food parcels, surplus food, and pantry shopping near you.</p>
+
+    <div class="service-grid">
+      {% for s in [
+        { name: "The Big Food Truck", location: "Layton Methodist Church · Westcliffe Drive, FY3 7DZ", hours: "Every Thursday · 2pm-3pm", body: "Text your name to register - they'll confirm your order by text before each week. Free to join, free to use.", link: "https://thebigfoodproject.co.uk", linkText: "thebigfoodproject.co.uk →" },
+        { name: "Mobile Pantry - Argosy Court", location: "Argosy Court, FY3 7PW", hours: "Thursdays · 9am-12noon", body: "Spend £5-10 on tins, packaged food, and toiletries - then choose free bakery, fruit, veg, dairy and frozen food. Your haul will be worth around £20-25. No referral needed." },
+        { name: "Free Surplus Food Stall", location: "Layton Methodist, Westcliffe Drive, FY3 7DZ", hours: "Saturday from 10:30am · weekly", body: "Free surplus food - open to everyone, no questions asked. Come along, see what's available, and be part of the community. Subject to availability." },
+        { name: "Helping Hearts Blackpool - Food Bank", location: "Boothly Road, Blackpool (just outside Layton)", hours: "Thursday 3:30pm-5:30pm &amp; 6:15pm", body: "Runs a food bank alongside their weekly hot meal - no referral needed. Also covers baby bank, pet food bank, clothing and toiletries.", link: "https://www.facebook.com/", linkText: "Find Helping Hearts on Facebook →" },
+        { name: "Claremont First Steps", location: "Methodist Church Building, Dickson Road, Blackpool FY1 2AP", hours: "Thursday, 10:30am-11:30am", body: "Free takeaway food for anyone in need, no referral required.", link: "https://www.facebook.com/", linkText: "Find Claremont First Step Community Centre on Facebook →" },
+        { name: "Sacred Heart Church", location: "17 Talbot Road, Blackpool FY1 1LB (green doors at church house)", hours: "Thursday, 9:30am-11am", body: "Free emergency food.", link: "https://www.facebook.com/", linkText: "Find Sacred Heart Church on Facebook →" }
+      ] %}
+      <article class="service-card">
+        <h3 class="service-card__name">{{ s.name }}</h3>
+        <p class="service-card__location">{{ s.location | safe }}</p>
+        <p class="service-card__hours">{{ s.hours | safe }}</p>
+        <p class="service-card__body">{{ s.body | safe }}</p>
+        {% if s.link %}<a href="{{ s.link }}" class="link-green" target="_blank" rel="noopener">{{ s.linkText }}</a>{% endif %}
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section services-section">
+  <div class="container">
+    <div class="section__heading-group">
+      <h2 class="section__heading">Affordable shopping</h2>
+    </div>
+    <p class="section__subhead">Stretch your food budget further.</p>
+
+    <div class="service-grid">
+      <article class="service-card service-card--wide">
+        <h3 class="service-card__name">Community Grocery Blackpool</h3>
+        <p class="service-card__location">Kings Church &middot; 241 Bispham Road &middot; Blackpool FY2 0LB</p>
+        <p class="service-card__hours">Mon 9:30am-5:30pm &middot; Tue-Fri 9:30am-4:30pm</p>
+        <p class="service-card__body">&pound;5 annual membership &middot; then &pound;4 per shop &middot; your basket is worth &pound;20-25. No proof of income. No ID required. Just turn up and join. On several bus routes from Layton.</p>
+        <a href="https://communitygrocery.org.uk/blackpool/" class="link-green" target="_blank" rel="noopener">communitygrocery.org.uk/blackpool &rarr;</a>
+      </article>
+    </div>
+
+    <div class="callout callout--amber">
+      <p>Free school meals are changing. From September 2026, all children in households receiving Universal Credit will qualify for free school meals.</p>
+      <a href="https://www.blackpool.gov.uk/Residents/Benefits/Forms/Helpwithfreeschoolmeals.aspx" class="link-green" target="_blank" rel="noopener">Apply via Blackpool Council &rarr;</a>
+    </div>
+
+    <p class="reassurance__body" style="margin-top:28px;"><strong>You don't need to qualify.</strong> Most services here don't have criteria. You don't need to explain yourself or prove anything. If things are tight - even a little - these services are exactly what they're there for.</p>
+    <p class="reassurance__body">If you're not sure where to start, or you need something you can't find on this page, the Layton Unlocked team will point you in the right direction. No fuss. <a href="mailto:adamclarketurnbull@gmail.com" class="link-green" style="margin:0;">Get in touch &rarr;</a></p>
+  </div>
+</section>
+
+<section class="section services-section">
+  <div class="container">
+    <div class="section__heading-group">
+      <h2 class="section__heading">Beyond food</h2>
+    </div>
+    <p class="section__subhead">Clothing, household items, and other essentials.</p>
+
+    <div class="service-grid">
+      <article class="service-card">
+        <h3 class="service-card__name">Salvation Army - Community Wardrobe</h3>
+        <p class="service-card__location">Raikes Parade, Blackpool FY1 4EL</p>
+        <p class="service-card__hours">01253 626114 &middot; blackpool@salvationarmy.org.uk</p>
+        <p class="service-card__body">Good quality preloved clothing for babies, children and adults. No charge. Call or visit to arrange an appointment.</p>
+      </article>
+      <article class="service-card service-card--placeholder">
+        <h3 class="service-card__name">Furniture and household items</h3>
+        <p class="service-card__body">Coming soon - we're pulling this together.</p>
+        <a href="mailto:adamclarketurnbull@gmail.com" class="link-green">Know a service? Tell us &rarr;</a>
+      </article>
+      <article class="service-card">
+        <h3 class="service-card__name">Pet Bank (Helping Hearts Blackpool)</h3>
+        <p class="service-card__location">Boothly Road, Blackpool (just outside Layton)</p>
+        <p class="service-card__hours">Thursday 3:30pm-5:30pm &amp; 6:15pm</p>
+        <p class="service-card__body">Struggling to feed a pet? Helping Hearts run a pet food bank alongside their food bank, baby bank and weekly hot meal - no referral needed.</p>
+        <a href="https://www.facebook.com/" class="link-green" target="_blank" rel="noopener">Find Helping Hearts on Facebook &rarr;</a>
+      </article>
+    </div>
+
+    <p class="services__footer-note">Know a service we've missed? <a href="mailto:adamclarketurnbull@gmail.com" class="link-green" style="margin:0;">Tell us &rarr;</a></p>
+  </div>
+</section>
+
+<section class="section wo-tight" style="padding:40px 0 60px;background:var(--black);">
+  <div class="container" style="text-align:center;color:#fff;">
+    <p class="services__footer-note" style="color:#fff;">Found these listings useful? <a href="mailto:adamclarketurnbull@gmail.com?subject=Feedback on Layton Unlocked Food and Essentials" class="link-green">Let us know &rarr;</a></p>
+  </div>
+</section>

@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ title or "Layton Unlocked" }}</title>
+  <meta name="description" content="{{ description or 'A neighbourhood pulling together - events, support, and community pride in the heart of Blackpool.' }}">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+<nav class="nav" id="nav">
+  <div class="nav__inner">
+    <a class="nav__wordmark" href="/">Layton Unlocked</a>
+
+    <input type="checkbox" id="nav-toggle" class="nav__toggle-input" aria-label="Toggle navigation">
+    <label for="nav-toggle" class="nav__hamburger" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </label>
+
+    <ul class="nav__links">
+      <li><a href="/whats-on/">What's On</a></li>
+      <li><a href="/food-essentials/">Food &amp; Essentials</a></li>
+    </ul>
+  </div>
+</nav>
+
+{{ content | safe }}
+
+<footer class="footer">
+  <div class="container footer__inner">
+    <p class="footer__name">Layton Unlocked</p>
+    <p class="footer__desc">A community initiative connecting residents, events, and support across Layton, Blackpool.</p>
+    <p class="footer__disclaimer">We're not connected, endorsed or affiliated with any organisation mentioned here. Spot a mistake? <a href="mailto:adamclarketurnbull@gmail.com">adamclarketurnbull@gmail.com</a></p>
+
+    <div class="footer__newsletter">
+      <h3>Join the Layton Loop</h3>
+      <p>Events, activities and community news from Layton, straight to your inbox.</p>
+      <form action="https://1da708ea.sibforms.com/serve/MUIFAD2nromBtm2W2FbLPYLUdZMmXHQowt5D-EqpfZurETkQWMNW8hUUQrGA0gWbe9HHziGUIOqeWi_c5Lac94clOXgNBy7SpCP5o3q8pLkvnWajeB8EOfQtn7o2slS9SaFJhookFK8sPFU4wpYx8_mKovjSxpb1F7LbSHM1E_W5V0l48eCsqUBx3X_p_IIyFntJkDPN_MU-twbn7A==" method="POST" class="loop-signup-form" data-success="You are in! Welcome to the Layton Loop.">
+        <input type="email" name="EMAIL" placeholder="Your email address" aria-label="Email address" required>
+        <button type="submit">Join</button>
+        <label>
+          <input type="checkbox" name="OPT_IN" value="1" required>
+          <span>I agree to receive Layton Loop emails and accept the <a href="/privacy-policy/">privacy statement</a>.</span>
+        </label>
+        <input type="text" name="email_address_check" value="" style="display:none !important" tabindex="-1" autocomplete="off">
+        <input type="hidden" name="locale" value="en">
+        <input type="hidden" name="html_type" value="simple">
+      </form>
+    </div>
+  </div>
+</footer>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  document.querySelectorAll('form.loop-signup-form').forEach(function (form) {
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var data = new FormData(form);
+      var successMsg = form.getAttribute('data-success') || "You're in! Thanks for joining the Layton Loop.";
+      fetch(form.action, { method: 'POST', body: data, mode: 'no-cors' }).finally(function () {
+        form.innerHTML = '<p style="margin:0;font-weight:700;">' + successMsg + '</p>';
+      });
+    });
+  });
+});
+</script>
+</body>
+</html>
