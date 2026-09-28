@@ -1,0 +1,40 @@
+name: Fetch site images
+
+# Manual, one-off (or occasional) job: downloads the real photos/illustrations from
+# thesortingagent.com's WordPress media library, compresses them, and commits them into
+# src/images/. Not run automatically on every push - images rarely change, and this needs
+# outbound internet access to the old WordPress site which the Cloudflare build doesn't need.
+# To run: GitHub repo -> Actions tab -> "Fetch site images" -> Run workflow.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-images:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install sharp (image compression)
+        run: npm install --no-save sharp
+
+      - name: Fetch and compress images
+        run: node scripts/fetch-images.js
+
+      - name: Commit images if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add src/images
+          if git diff --cached --quiet; then
+            echo "No image changes to commit."
+          else
+            git commit -m "Fetch and compress site images from thesortingagent.com"
+            git push
+          fi
