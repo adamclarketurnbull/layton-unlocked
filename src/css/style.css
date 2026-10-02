@@ -273,6 +273,8 @@ img { max-width: 100%; display: block; }
    MISSION STRIP
    ============================================================ */
 .mission { background: var(--blue-deep); color: var(--white-warm); }
+.mission--short { padding-block: 28px; padding-bottom: 88px; }
+@media (min-width: 768px) { .mission--short { padding-block: 36px; padding-bottom: 96px; } }
 .mission__inner { display: flex; flex-direction: column; gap: 1.25rem; max-width: 760px; }
 .mission__inner p { font-size: 1.05rem; line-height: 1.75; }
 .mission__heading {
@@ -415,7 +417,7 @@ img { max-width: 100%; display: block; }
   appearance: none; -webkit-appearance: none;
   background: #fff url('data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%2212%22 height=%228%22 viewBox=%220 0 12 8%22><path d=%22M1 1l5 5 5-5%22 stroke=%22%233B3B3B%22 stroke-width=%222%22 fill=%22none%22 fill-rule=%22evenodd%22/></svg>') no-repeat right 16px center;
   border: 1px solid #E3E3E3; color: #3B3B3B; font-family: 'Inter', sans-serif; font-size: .85rem; font-weight: 600;
-  padding: 10px 40px 10px 18px; border-radius: 999px; cursor: pointer; flex: 1 1 220px; min-width: 180px;
+  padding: 10px 40px 10px 18px; border-radius: 999px; cursor: pointer; flex: 0 1 200px; min-width: 160px; max-width: 220px;
 }
 .wo-select:focus { outline: 2px solid var(--blue-deep, #241443); outline-offset: 1px; }
 @media (max-width: 480px) { .wo-select { flex-basis: 100%; } }
