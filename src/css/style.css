@@ -429,6 +429,8 @@ img { max-width: 100%; display: block; }
 @media (max-width: 820px) { .wo-grid { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 480px) { .wo-grid { grid-template-columns: 1fr; } }
 .wo-card { text-decoration: none; color: inherit; display: block; }
+.wo-card__link { text-decoration: none; color: inherit; display: block; }
+.wo-card__venue-link { display: block; padding: 0 14px 12px; font-size: .74rem; font-weight: 700; color: var(--blue-deep, #241443); text-decoration: underline; }
 .wo-card .story-card__placeholder,
 .wo-card__ph { height: 100px; margin-bottom: 0; background-size: cover; background-position: center; position: relative; aspect-ratio: unset; }
 .wo-card__day { position: absolute; top: 12px; left: 12px; background: var(--blue-deep, #241443); color: #fff; font-size: .68rem; font-weight: 800; padding: 5px 11px; border-radius: 999px; text-transform: uppercase; letter-spacing: .03em; }

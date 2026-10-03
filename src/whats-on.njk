@@ -100,18 +100,21 @@ pinnedEvent: evening-silent-disco-blooms-beats-walk
 
     <div id="wo-events-strip" class="wo-grid">
       {% for e in events | upcoming %}
-      <a class="wo-card" href="{{ e.link if e.link else '#' + e.slug }}">
-        <div class="story-card__placeholder wo-card__ph {{ 'wo-card__ph--' + (e.category | slugify) if not e.image }}"
-             {% if e.image %}style="background-image:url('{{ e.image }}');"{% endif %}>
-          <span class="wo-card__day">{{ e.date | shortDate }}</span>
-          <span class="wo-card__cost wo-card__cost--{{ e.cost }}">{{ e.cost }}</span>
-        </div>
-        <div class="wo-card__body">
-          <p class="wo-card__cat">{{ e.category }}</p>
-          <p class="wo-card__name">{{ e.title }}</p>
-          <p class="wo-card__meta">{{ e.time }} &middot; {{ e.location }}</p>
-        </div>
-      </a>
+      <div class="wo-card">
+        <a class="wo-card__link" href="{{ e.link if e.link else '#' + e.slug }}" target="_blank" rel="noopener">
+          <div class="story-card__placeholder wo-card__ph {{ 'wo-card__ph--' + (e.category | slugify) if not e.image }}"
+               {% if e.image %}style="background-image:url('{{ e.image }}');"{% endif %}>
+            <span class="wo-card__day">{{ e.date | shortDate }}</span>
+            <span class="wo-card__cost wo-card__cost--{{ e.cost }}">{{ e.cost }}</span>
+          </div>
+          <div class="wo-card__body">
+            <p class="wo-card__cat">{{ e.category }}</p>
+            <p class="wo-card__name">{{ e.title }}</p>
+            <p class="wo-card__meta">{{ e.time }} &middot; {{ e.location }}</p>
+          </div>
+        </a>
+        {% if e.venueLink %}<a class="wo-card__venue-link" href="{{ e.venueLink }}" target="_blank" rel="noopener">{{ e.venueLinkText or "Venue on Facebook →" }}</a>{% endif %}
+      </div>
       {% else %}
       <p class="wo-empty">No upcoming one-off events listed right now - check back soon.</p>
       {% endfor %}
