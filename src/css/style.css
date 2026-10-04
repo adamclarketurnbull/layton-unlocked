@@ -588,3 +588,6 @@ img { max-width: 100%; display: block; }
     justify-content: center;
   }
 }
+
+.footer__credit { margin-top: 1rem; font-size: 0.7rem; line-height: 1.4; opacity: 0.5; color: #fff; }
+.footer__credit a { color: #fff; text-decoration: underline; }
