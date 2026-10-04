@@ -1,10 +1,9 @@
-// Occasional "what's missing in Layton" survey pop-up.
-// Shows once per visitor (remembered in localStorage), lets them pick one of
-// six options, and posts the choice to /api/survey/vote for tallying.
+// "What's missing in Layton" survey pop-up.
+// Shows once, ever, per visitor. Once they close it (X) or pick an answer,
+// it's marked done in localStorage and never shows again on any page.
 (function () {
-  var STORAGE_KEY = "lu_survey_v1";
+  var STORAGE_KEY = "lu_survey_done";
   var SHOW_AFTER_MS = 4000;
-  var REPEAT_DAYS = 120;
 
   var popup = document.getElementById("survey-popup");
   if (!popup) return;
@@ -14,27 +13,25 @@
   var options = popup.querySelectorAll(".survey-popup__option");
   var thanks = popup.querySelector(".survey-popup__thanks");
 
-  function getState() {
+  function isDone() {
     try {
-      return JSON.parse(localStorage.getItem(STORAGE_KEY) || "null");
+      return localStorage.getItem(STORAGE_KEY) === "1";
     } catch (e) {
-      return null;
+      return false;
     }
   }
 
-  function setState(state) {
+  function markDone() {
     try {
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+      localStorage.setItem(STORAGE_KEY, "1");
     } catch (e) {}
   }
 
-  var state = getState();
-  var repeatMs = REPEAT_DAYS * 24 * 60 * 60 * 1000;
-  if (state && state.lastSeen && Date.now() - state.lastSeen < repeatMs) return;
+  if (isDone()) return;
 
   function openPopup() {
+    if (isDone()) return;
     popup.hidden = false;
-    setState({ lastSeen: Date.now() });
   }
 
   function closePopup() {
@@ -45,11 +42,15 @@
 
   closeBtn.addEventListener("click", function () {
     clearTimeout(timer);
+    markDone();
     closePopup();
   });
 
   popup.addEventListener("click", function (e) {
-    if (e.target === popup) closePopup();
+    if (e.target === popup) {
+      markDone();
+      closePopup();
+    }
   });
 
   options.forEach(function (btn) {
@@ -61,6 +62,7 @@
         body: JSON.stringify({ choice: choice }),
       }).catch(function () {});
 
+      markDone();
       optionsWrap.hidden = true;
       thanks.hidden = false;
       setTimeout(closePopup, 1600);
