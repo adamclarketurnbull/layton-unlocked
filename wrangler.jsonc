@@ -2,8 +2,16 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "layton-unlocked",
   "compatibility_date": "2026-09-28",
+  "main": "src/worker.js",
   "assets": {
     "directory": "./_site",
+    "binding": "ASSETS",
     "not_found_handling": "404-page"
-  }
+  },
+  "kv_namespaces": [
+    {
+      "binding": "SURVEY_VOTES",
+      "id": "e0487cff0da84b2f8d30c3fa64775d67"
+    }
+  ]
 }

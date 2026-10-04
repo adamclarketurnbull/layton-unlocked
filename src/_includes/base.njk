@@ -65,5 +65,23 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 });
 </script>
+
+<div id="survey-popup" class="survey-popup" role="dialog" aria-modal="true" aria-labelledby="survey-popup-title" hidden>
+  <div class="survey-popup__card">
+    <button type="button" class="survey-popup__close" aria-label="Close">&times;</button>
+    <p id="survey-popup-title" class="survey-popup__question">What's missing in Layton? Tell us what you'd love to see more of 👇</p>
+    <div class="survey-popup__options">
+      <button type="button" class="survey-popup__option" data-choice="community-garden">A community garden</button>
+      <button type="button" class="survey-popup__option" data-choice="youth-hub">A youth hub</button>
+      <button type="button" class="survey-popup__option" data-choice="free-activities">More free things to do</button>
+      <button type="button" class="survey-popup__option" data-choice="food-essentials">More support with food &amp; essentials</button>
+      <button type="button" class="survey-popup__option" data-choice="work-training">Help getting into work or training</button>
+      <button type="button" class="survey-popup__option" data-choice="none">None of the above</button>
+    </div>
+    <p class="survey-popup__thanks" hidden>Thanks, noted! 💛</p>
+  </div>
+</div>
+<script src="/js/survey.js"></script>
+
 </body>
 </html>
