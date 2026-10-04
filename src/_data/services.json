@@ -1,0 +1,298 @@
+[
+  {
+    "slug": "living-well-support-hub",
+    "section": "pinned",
+    "name": "Living Well in Blackpool - Support Hub",
+    "location": "Layton Methodist Church, Westcliffe Drive, FY3 7DZ",
+    "hours": "Every Monday, 9.30am-12.30pm",
+    "body": "A weekly drop-in offering wraparound support with money, employment, housing, food, health, family worries and learning new skills. Free continental breakfast until 11am. Free - no appointment needed, just turn up.",
+    "link": "https://www.facebook.com/laytonmethodist",
+    "linkText": "Layton Methodist on Facebook →",
+    "days": [
+      "Mon"
+    ]
+  },
+  {
+    "slug": "infant-essentials",
+    "section": "infant",
+    "name": "Infant Essentials",
+    "location": "5 Grenfell Ave, Layton, FY3 7BP",
+    "hours": "Fridays, 9.30am-12.15pm",
+    "body": "Nappies, formula, infant toiletries, donated clothing and other essentials for parents and carers of infants in Layton and Grange Park.",
+    "link": "https://www.facebook.com/LCHlayton",
+    "linkText": "Layton Community House on Facebook →",
+    "days": [
+      "Fri"
+    ]
+  },
+  {
+    "slug": "layton-larder",
+    "section": "larder",
+    "name": "Layton Larder",
+    "location": "Layton Methodist Church, Westcliffe Drive, FY3 7DZ",
+    "hours": "Order Saturday from 10.30am · collect the following week",
+    "body": "£3 per recipe pack · serves up to 4 · all ingredients included · easy to cook. Hosted by Layton Methodist (Forward Project) - the same team behind our food bank.",
+    "link": "https://www.facebook.com/laytonmethodist",
+    "linkText": "Find Layton Methodist on Facebook →",
+    "days": [
+      "Sat"
+    ]
+  },
+  {
+    "slug": "wholesome-wednesdays",
+    "section": "sit-down",
+    "name": "Wholesome Wednesdays",
+    "location": "Layton Methodist Forward Centre · Westcliffe Drive, FY3 7DZ",
+    "hours": "Wednesday 11am-1pm · Breakfast from 8:30am",
+    "body": "Main from £3.95 · Main + pudding + brew £5.95. Gluten free and veggie options available. All welcome.",
+    "days": [
+      "Wed"
+    ]
+  },
+  {
+    "slug": "oasis-cafe",
+    "section": "sit-down",
+    "name": "Oasis Café",
+    "location": "Layton Methodist Forward Centre · Westcliffe Drive, FY3 7DZ",
+    "hours": "Monday-Saturday 8.30-1.30pm",
+    "body": "Café prices · warm space · friendly faces. Drop in any time.",
+    "days": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat"
+    ]
+  },
+  {
+    "slug": "salvation-army-bridge-project",
+    "section": "sit-down",
+    "name": "Salvation Army - Bridge Project (Homeless Hub)",
+    "location": "Salvation Army, Raikes Parade, Blackpool FY1 4EL",
+    "hours": "Monday, Tuesday, Thursday, Friday · 9am-11am breakfast &amp; hot shower · 12pm-2pm hot meal",
+    "body": "Homeless hub drop-in for adults 26 and over - separate from the Salvation Army's £3 community lunch below.",
+    "link": "https://www.facebook.com/SalvationArmyBlackpoolBridge/",
+    "linkText": "Find the Bridge Project on Facebook →",
+    "days": [
+      "Mon",
+      "Tue",
+      "Thu",
+      "Fri"
+    ]
+  },
+  {
+    "slug": "street-life-the-base",
+    "section": "sit-down",
+    "name": "Street Life - The Base",
+    "location": "48 Buchanan Street, Blackpool",
+    "hours": "Monday-Friday · Cook &amp; Eat, drop-ins and activities · menu changes weekly",
+    "body": "18-25 years only. Free hot food every weekday - fry ups, pasta bakes, fish finger butties and more. Drop in or join an activity.",
+    "link": "https://www.facebook.com/share/1BDCYWpxDX/",
+    "linkText": "Find out more on Facebook →",
+    "unverified": true,
+    "days": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri"
+    ]
+  },
+  {
+    "slug": "salvation-army-community-lunch",
+    "section": "sit-down",
+    "name": "Salvation Army community lunch",
+    "location": "Raikes Parade, Blackpool FY1 4EL · 01253 626114",
+    "hours": "Mon, Tue, Thu, Fri · 11:30am-12:30pm",
+    "body": "2-course hot meal with sweet and drink · £1. Short bus ride from Layton.",
+    "days": [
+      "Mon",
+      "Tue",
+      "Thu",
+      "Fri"
+    ]
+  },
+  {
+    "slug": "helping-hearts-hot-meal",
+    "section": "sit-down",
+    "name": "Helping Hearts Blackpool",
+    "location": "Boothly Road, Blackpool (just outside Layton)",
+    "hours": "Thursday 3:30pm-5:30pm families &amp; 60+ (quieter) · 6:15pm evening session, open to everyone",
+    "body": "A free hot meal every Thursday - no referral needed, open year-round to anyone in Blackpool, Fylde and Wyre. Also: food bank, baby bank, pet food bank, clothing, toiletries, hot showers and sanitary products.",
+    "link": "https://www.facebook.com/helpingheartsfylde",
+    "linkText": "Find Helping Hearts on Facebook →",
+    "days": [
+      "Thu"
+    ]
+  },
+  {
+    "slug": "blackpool-street-angels",
+    "section": "sit-down",
+    "name": "Blackpool Street Angels",
+    "location": "Bank Street Car Park, Blackpool FY1 2DT",
+    "hours": "Monday, 7pm-8pm",
+    "body": "Free hot meal and takeaway food from the street outreach team. Evening drop-in, everyone welcome.",
+    "link": "https://www.facebook.com/BFStreetAngels/",
+    "linkText": "Find Blackpool & the Fylde Street Angels on Facebook →",
+    "days": [
+      "Mon"
+    ]
+  },
+  {
+    "slug": "comfort-cafe",
+    "section": "sit-down",
+    "name": "Comfort C.A.F.E.",
+    "location": "St Thomas' Church, 135 Caunce St, Blackpool FY1 3NJ",
+    "hours": "Tuesday, 11am-12:30pm",
+    "body": "Free hot meal and takeaway food. For adults 18 and over.",
+    "link": "https://www.facebook.com/354643027950000",
+    "linkText": "Find St Thomas' Church on Facebook →",
+    "days": [
+      "Tue"
+    ]
+  },
+  {
+    "slug": "st-peters-church",
+    "section": "sit-down",
+    "name": "St Peter's Church",
+    "location": "190 Lytham Road, Blackpool FY1 6DJ",
+    "hours": "Tuesday, 6pm",
+    "body": "Free hot meal, fruit, cakes and a hot drink. Open to people of any age.",
+    "link": "https://www.achurchnearyou.com/church/11565/",
+    "linkText": "Find St Peter's Church, South Shore →",
+    "days": [
+      "Tue"
+    ]
+  },
+  {
+    "slug": "holy-cross-church",
+    "section": "sit-down",
+    "name": "Holy Cross Church",
+    "location": "Central Drive, Blackpool FY1 6LA",
+    "hours": "Saturday, 4:30pm-6pm",
+    "body": "Free hot meal and takeaway food.",
+    "link": "https://www.facebook.com/holycrosschurchblackpool/",
+    "linkText": "Find Holy Cross Church on Facebook →",
+    "days": [
+      "Sat"
+    ]
+  },
+  {
+    "slug": "games-and-a-cuppa",
+    "section": "sit-down",
+    "name": "Games and a Cuppa / Warm Hub",
+    "location": "St Thomas' Church, 135 Caunce St, Blackpool FY1 3NJ",
+    "hours": "Thursday, 1pm-4pm",
+    "body": "Free meal and social time - games and a cuppa, becoming Warm Hub through the colder months. Especially popular with older folk, but everyone's welcome.",
+    "link": "https://www.facebook.com/354643027950000",
+    "linkText": "Find St Thomas' Church on Facebook →",
+    "days": [
+      "Thu"
+    ]
+  },
+  {
+    "slug": "big-food-truck",
+    "section": "take-home",
+    "name": "The Big Food Truck",
+    "location": "Layton Methodist Church · Westcliffe Drive, FY3 7DZ",
+    "hours": "Every Thursday · 2pm-3pm",
+    "body": "Text your name to register - they'll confirm your order by text before each week. Free to join, free to use.",
+    "link": "https://thebigfoodproject.co.uk",
+    "linkText": "thebigfoodproject.co.uk →",
+    "days": [
+      "Thu"
+    ]
+  },
+  {
+    "slug": "mobile-pantry-argosy-court",
+    "section": "take-home",
+    "name": "Mobile Pantry - Argosy Court",
+    "location": "Argosy Court, FY3 7PW",
+    "hours": "Thursdays · 9am-12noon",
+    "body": "Spend £5-10 on tins, packaged food, and toiletries - then choose free bakery, fruit, veg, dairy and frozen food. Your haul will be worth around £20-25. No referral needed.",
+    "days": [
+      "Thu"
+    ]
+  },
+  {
+    "slug": "free-surplus-food-stall",
+    "section": "take-home",
+    "name": "Free Surplus Food Stall",
+    "location": "Layton Methodist, Westcliffe Drive, FY3 7DZ",
+    "hours": "Saturday from 10:30am · weekly",
+    "body": "Free surplus food - open to everyone, no questions asked. Come along, see what's available, and be part of the community. Subject to availability.",
+    "days": [
+      "Sat"
+    ]
+  },
+  {
+    "slug": "helping-hearts-food-bank",
+    "section": "take-home",
+    "name": "Helping Hearts Blackpool - Food Bank",
+    "location": "Boothly Road, Blackpool (just outside Layton)",
+    "hours": "Thursday 3:30pm-5:30pm &amp; 6:15pm",
+    "body": "Runs a food bank alongside their weekly hot meal - no referral needed. Also covers baby bank, pet food bank, clothing and toiletries.",
+    "link": "https://www.facebook.com/helpingheartsfylde",
+    "linkText": "Find Helping Hearts on Facebook →",
+    "days": [
+      "Thu"
+    ]
+  },
+  {
+    "slug": "claremont-first-steps",
+    "section": "take-home",
+    "name": "Claremont First Steps",
+    "location": "Methodist Church Building, Dickson Road, Blackpool FY1 2AP",
+    "hours": "Thursday, 10:30am-11:30am",
+    "body": "Free takeaway food for anyone in need, no referral required.",
+    "link": "https://www.facebook.com/claremontfirststepcommunitycentre/",
+    "linkText": "Find Claremont First Step Community Centre on Facebook →",
+    "days": [
+      "Thu"
+    ]
+  },
+  {
+    "slug": "sacred-heart-church",
+    "section": "take-home",
+    "name": "Sacred Heart Church",
+    "location": "17 Talbot Road, Blackpool FY1 1LB (green doors at church house)",
+    "hours": "Thursday, 9:30am-11am",
+    "body": "Free emergency food.",
+    "link": "https://www.facebook.com/sacredheartchurchblackpool/",
+    "linkText": "Find Sacred Heart Church on Facebook →",
+    "days": [
+      "Thu"
+    ]
+  },
+  {
+    "slug": "community-grocery-blackpool",
+    "section": "shopping",
+    "name": "Community Grocery Blackpool",
+    "location": "Kings Church · 241 Bispham Road · Blackpool FY2 0LB",
+    "hours": "Mon 9:30am-5:30pm · Tue-Fri 9:30am-4:30pm",
+    "body": "£5 annual membership · then £4 per shop · your basket is worth £20-25. No proof of income. No ID required. Just turn up and join. On several bus routes from Layton.",
+    "link": "https://communitygrocery.org.uk/blackpool/",
+    "linkText": "communitygrocery.org.uk/blackpool →",
+    "days": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri"
+    ]
+  },
+  {
+    "slug": "pet-bank",
+    "section": "beyond-food",
+    "name": "Pet Bank (Helping Hearts Blackpool)",
+    "location": "Boothly Road, Blackpool (just outside Layton)",
+    "hours": "Thursday 3:30pm-5:30pm &amp; 6:15pm",
+    "body": "Struggling to feed a pet? Helping Hearts run a pet food bank alongside their food bank, baby bank and weekly hot meal - no referral needed.",
+    "link": "https://www.facebook.com/helpingheartsfylde",
+    "linkText": "Find Helping Hearts on Facebook →",
+    "days": [
+      "Thu"
+    ]
+  }
+]

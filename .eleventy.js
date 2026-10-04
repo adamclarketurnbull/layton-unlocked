@@ -29,6 +29,12 @@ module.exports = function (eleventyConfig) {
   });
 
   // Find one item in an array by a field value, e.g. events | findBy("slug", pinnedEvent)
+  eleventyConfig.addFilter("json", (obj) => JSON.stringify(obj));
+
+  eleventyConfig.addFilter("filterBy", (arr, field, value) =>
+    (arr || []).filter((item) => item[field] === value)
+  );
+
   eleventyConfig.addFilter("findBy", (arr, field, value) =>
     (arr || []).find((item) => item[field] === value)
   );

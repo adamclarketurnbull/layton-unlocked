@@ -549,3 +549,42 @@ img { max-width: 100%; display: block; }
   color: var(--blue-deep);
   margin: 8px 0 0;
 }
+
+/* ============================================================
+   Layton Larder — image-next-to-text card variant
+   ============================================================ */
+.service-card--media-side {
+  flex-direction: column;
+  padding: 0;
+  overflow: hidden;
+}
+
+.service-card--media-side .service-card__media {
+  width: 100%;
+  min-height: 180px;
+  border-radius: var(--radius-card) var(--radius-card) 0 0;
+}
+
+.service-card--media-side .service-card__content {
+  padding: 16px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+@media (min-width: 640px) {
+  .service-card--media-side {
+    flex-direction: row;
+    align-items: stretch;
+  }
+  .service-card--media-side .service-card__media {
+    width: 220px;
+    flex: 0 0 220px;
+    min-height: auto;
+    border-radius: var(--radius-card) 0 0 var(--radius-card);
+  }
+  .service-card--media-side .service-card__content {
+    flex: 1;
+    justify-content: center;
+  }
+}

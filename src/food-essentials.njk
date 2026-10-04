@@ -12,7 +12,30 @@ title: Food & Essentials - Layton Unlocked
   </div>
 </section>
 
-<section class="section pinned-service" style="padding-bottom:40px;">
+<section class="section wo-tight" style="padding-bottom:0;">
+  <div class="container">
+    <div class="section__heading-group">
+      <h2 class="section__heading">Find what's on, by day</h2>
+      <p class="reassurance__body" style="max-width:640px;">Pick a day to pull everything on this page that happens then into one list.</p>
+    </div>
+    <div class="wo-chips-row">
+      <select class="wo-select" id="fe-day-select" aria-label="Filter by day">
+        <option value="All">All days</option>
+        <option value="Mon">Monday</option>
+        <option value="Tue">Tuesday</option>
+        <option value="Wed">Wednesday</option>
+        <option value="Thu">Thursday</option>
+        <option value="Fri">Friday</option>
+        <option value="Sat">Saturday</option>
+        <option value="Sun">Sunday</option>
+      </select>
+    </div>
+    <div id="fe-day-results" class="service-grid" style="margin-top:20px;" hidden></div>
+    <p class="wo-empty" id="fe-day-empty" style="display:none;">Nothing listed for that day yet - try another day, or "All days" to browse everything.</p>
+  </div>
+</section>
+
+<section class="section pinned-service" id="fe-section-pinned" style="padding-bottom:40px;">
   <div class="container">
     <div class="pinned-card">
       <div class="photo-placeholder photo-placeholder--pinned" style="background-image:url('/images/living-well-support-hub.webp');background-size:contain;background-repeat:no-repeat;background-position:center;background-color:#fff;height:auto;aspect-ratio:771/386;"></div>
@@ -32,7 +55,7 @@ title: Food & Essentials - Layton Unlocked
   </div>
 </section>
 
-<section class="section">
+<section class="section" id="fe-section-infant">
   <div class="container">
     <div class="section__heading-group">
       <h2 class="section__heading">Infant Essentials</h2>
@@ -48,18 +71,20 @@ title: Food & Essentials - Layton Unlocked
 
     <div style="margin-top:28px;">
       <h3 style="font-family:'Baloo 2','Nunito',sans-serif;font-weight:800;font-size:1.3rem;color:var(--blue-deep);">Layton Larder</h3>
-      <p class="reassurance__body">&pound;3 buys a meal-prep pack that serves up to 4 people. This month's recipes: corned beef hash, cheese and onion pie, tuna fish cakes, and cowboy pie.</p>
-      <article class="service-card service-card--wide">
-        <div class="photo-placeholder pinned-card__media" style="background-image:url('/images/layton-larder-sept.webp');background-size:cover;background-position:center;"></div>
-        <p class="service-card__hours">Order Saturday from 10.30am &middot; collect the following week</p>
-        <p class="service-card__body">&pound;3 per pack &middot; serves up to 4 &middot; all ingredients included &middot; easy to cook. Hosted by Layton Methodist (Forward Project) - the same team behind our food bank.</p>
-        <a href="https://www.facebook.com/laytonmethodist" class="link-green" target="_blank" rel="noopener">Find Layton Methodist on Facebook &rarr;</a>
+      <p class="reassurance__body">&pound;3 buys a recipe pack that serves up to 4 people. This month's recipes: mushroom and baby potato frittata, broccoli mac and cheese, beef chilli with spice wedges, and cottage pie.</p>
+      <article class="service-card service-card--wide service-card--media-side">
+        <div class="photo-placeholder pinned-card__media service-card__media" style="background-image:url('/images/layton-larder-oct.webp');background-size:cover;background-position:center;"></div>
+        <div class="service-card__content">
+          <p class="service-card__hours">Order Saturday from 10.30am &middot; collect the following week</p>
+          <p class="service-card__body">&pound;3 per pack &middot; serves up to 4 &middot; all ingredients included &middot; easy to cook. Hosted by Layton Methodist (Forward Project) - the same team behind our food bank.</p>
+          <a href="https://www.facebook.com/laytonmethodist" class="link-green" target="_blank" rel="noopener">Find Layton Methodist on Facebook &rarr;</a>
+        </div>
       </article>
     </div>
   </div>
 </section>
 
-<section class="section services-section">
+<section class="section services-section" id="fe-section-sitdown">
   <div class="container">
     <div class="section__heading-group">
       <h2 class="section__heading">Sit down and eat</h2>
@@ -68,19 +93,7 @@ title: Food & Essentials - Layton Unlocked
     <div class="photo-placeholder photo-placeholder--wide" style="background-image:url('/images/fe-wide-1.webp');background-size:cover;background-position:center;"></div>
 
     <div class="service-grid">
-      {% for s in [
-        { name: "Wholesome Wednesdays", location: "Layton Methodist Forward Centre · Westcliffe Drive, FY3 7DZ", hours: "Wednesday 11am-1pm · Breakfast from 8:30am", body: "Main from £3.95 · Main + pudding + brew £5.95. Gluten free and veggie options available. All welcome." },
-        { name: "Oasis Café", location: "Layton Methodist Forward Centre · Westcliffe Drive, FY3 7DZ", hours: "Monday-Saturday 8.30-1.30pm", body: "Café prices · warm space · friendly faces. Drop in any time." },
-        { name: "Salvation Army - Bridge Project (Homeless Hub)", location: "Salvation Army, Raikes Parade, Blackpool FY1 4EL", hours: "Monday, Tuesday, Thursday, Friday · 9am-11am breakfast &amp; hot shower · 12pm-2pm hot meal", body: "Homeless hub drop-in for adults 26 and over - separate from the Salvation Army's £3 community lunch below.", link: "https://www.facebook.com/SalvationArmyBlackpoolBridge/", linkText: "Find the Bridge Project on Facebook →" },
-        { name: "Street Life - The Base", location: "48 Buchanan Street, Blackpool", hours: "Monday-Friday · Cook &amp; Eat, drop-ins and activities · menu changes weekly", body: "18-25 years only. Free hot food every weekday - fry ups, pasta bakes, fish finger butties and more. Drop in or join an activity.", link: "https://www.facebook.com/share/1BDCYWpxDX/", linkText: "Find out more on Facebook →", unverified: true },
-        { name: "Salvation Army community lunch", location: "Raikes Parade, Blackpool FY1 4EL · 01253 626114", hours: "Mon, Tue, Thu, Fri · 11:30am-12:30pm", body: "2-course hot meal with sweet and drink · £1. Short bus ride from Layton." },
-        { name: "Helping Hearts Blackpool", location: "Boothly Road, Blackpool (just outside Layton)", hours: "Thursday 3:30pm-5:30pm families &amp; 60+ (quieter) · 6:15pm evening session, open to everyone", body: "A free hot meal every Thursday - no referral needed, open year-round to anyone in Blackpool, Fylde and Wyre. Also: food bank, baby bank, pet food bank, clothing, toiletries, hot showers and sanitary products.", link: "https://www.facebook.com/helpingheartsfylde", linkText: "Find Helping Hearts on Facebook →" },
-        { name: "Blackpool Street Angels", location: "Bank Street Car Park, Blackpool FY1 2DT", hours: "Monday, 7pm-8pm", body: "Free hot meal and takeaway food from the street outreach team. Evening drop-in, everyone welcome.", link: "https://www.facebook.com/BFStreetAngels/", linkText: "Find Blackpool & the Fylde Street Angels on Facebook →" },
-        { name: "Comfort C.A.F.E.", location: "St Thomas' Church, 135 Caunce St, Blackpool FY1 3NJ", hours: "Tuesday, 11am-12:30pm", body: "Free hot meal and takeaway food. For adults 18 and over.", link: "https://www.facebook.com/354643027950000", linkText: "Find St Thomas' Church on Facebook →" },
-        { name: "St Peter's Church", location: "190 Lytham Road, Blackpool FY1 6DJ", hours: "Tuesday, 6pm", body: "Free hot meal, fruit, cakes and a hot drink. Open to people of any age.", link: "https://www.achurchnearyou.com/church/11565/", linkText: "Find St Peter's Church, South Shore →" },
-        { name: "Holy Cross Church", location: "Central Drive, Blackpool FY1 6LA", hours: "Saturday, 4:30pm-6pm", body: "Free hot meal and takeaway food.", link: "https://www.facebook.com/holycrosschurchblackpool/", linkText: "Find Holy Cross Church on Facebook →" },
-        { name: "Games and a Cuppa / Warm Hub", location: "St Thomas' Church, 135 Caunce St, Blackpool FY1 3NJ", hours: "Thursday, 1pm-4pm", body: "Free meal and social time - games and a cuppa, becoming Warm Hub through the colder months. Especially popular with older folk, but everyone's welcome.", link: "https://www.facebook.com/354643027950000", linkText: "Find St Thomas' Church on Facebook →" }
-      ] %}
+      {% for s in services | filterBy("section", "sit-down") %}
       <article class="service-card {{ 'service-card--unverified' if s.unverified }}">
         <h3 class="service-card__name">{{ s.name }}</h3>
         <p class="service-card__location">{{ s.location | safe }}</p>
@@ -96,7 +109,7 @@ title: Food & Essentials - Layton Unlocked
   </div>
 </section>
 
-<section class="section services-section services-section--sky" style="padding-bottom:calc(var(--section-pad-v) + 60px);">
+<section class="section services-section services-section--sky" id="fe-section-takehome" style="padding-bottom:calc(var(--section-pad-v) + 60px);">
   <div class="container">
     <div class="section__heading-group">
       <h2 class="section__heading">Take something home</h2>
@@ -104,15 +117,8 @@ title: Food & Essentials - Layton Unlocked
     <p class="section__subhead">Food parcels, surplus food, and pantry shopping near you.</p>
 
     <div class="service-grid">
-      {% for s in [
-        { name: "The Big Food Truck", location: "Layton Methodist Church · Westcliffe Drive, FY3 7DZ", hours: "Every Thursday · 2pm-3pm", body: "Text your name to register - they'll confirm your order by text before each week. Free to join, free to use.", link: "https://thebigfoodproject.co.uk", linkText: "thebigfoodproject.co.uk →" },
-        { name: "Mobile Pantry - Argosy Court", location: "Argosy Court, FY3 7PW", hours: "Thursdays · 9am-12noon", body: "Spend £5-10 on tins, packaged food, and toiletries - then choose free bakery, fruit, veg, dairy and frozen food. Your haul will be worth around £20-25. No referral needed." },
-        { name: "Free Surplus Food Stall", location: "Layton Methodist, Westcliffe Drive, FY3 7DZ", hours: "Saturday from 10:30am · weekly", body: "Free surplus food - open to everyone, no questions asked. Come along, see what's available, and be part of the community. Subject to availability." },
-        { name: "Helping Hearts Blackpool - Food Bank", location: "Boothly Road, Blackpool (just outside Layton)", hours: "Thursday 3:30pm-5:30pm &amp; 6:15pm", body: "Runs a food bank alongside their weekly hot meal - no referral needed. Also covers baby bank, pet food bank, clothing and toiletries.", link: "https://www.facebook.com/helpingheartsfylde", linkText: "Find Helping Hearts on Facebook →" },
-        { name: "Claremont First Steps", location: "Methodist Church Building, Dickson Road, Blackpool FY1 2AP", hours: "Thursday, 10:30am-11:30am", body: "Free takeaway food for anyone in need, no referral required.", link: "https://www.facebook.com/claremontfirststepcommunitycentre/", linkText: "Find Claremont First Step Community Centre on Facebook →" },
-        { name: "Sacred Heart Church", location: "17 Talbot Road, Blackpool FY1 1LB (green doors at church house)", hours: "Thursday, 9:30am-11am", body: "Free emergency food.", link: "https://www.facebook.com/sacredheartchurchblackpool/", linkText: "Find Sacred Heart Church on Facebook →" }
-      ] %}
-      <article class="service-card">
+      {% for s in services | filterBy("section", "take-home") %}
+      <article class="service-card {{ 'service-card--unverified' if s.unverified }}">
         <h3 class="service-card__name">{{ s.name }}</h3>
         <p class="service-card__location">{{ s.location | safe }}</p>
         <p class="service-card__hours">{{ s.hours | safe }}</p>
@@ -127,7 +133,7 @@ title: Food & Essentials - Layton Unlocked
   </div>
 </section>
 
-<section class="section services-section">
+<section class="section services-section" id="fe-section-shopping">
   <div class="container">
     <div class="section__heading-group">
       <h2 class="section__heading">Affordable shopping</h2>
@@ -154,7 +160,7 @@ title: Food & Essentials - Layton Unlocked
   </div>
 </section>
 
-<section class="section services-section">
+<section class="section services-section" id="fe-section-beyond">
   <div class="container">
     <div class="section__heading-group">
       <h2 class="section__heading">Beyond food</h2>
@@ -191,3 +197,6 @@ title: Food & Essentials - Layton Unlocked
     <p class="services__footer-note" style="color:#fff;">Found these listings useful? <a href="mailto:adam@laytonunlocked.com?subject=Feedback on Layton Unlocked Food and Essentials" class="link-green">Let us know &rarr;</a></p>
   </div>
 </section>
+
+<script type="application/json" id="fe-services-data">{{ services | json | safe }}</script>
+<script src="/js/food-essentials.js"></script>
