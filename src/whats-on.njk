@@ -28,7 +28,7 @@ pinnedEvent: craft-and-table-top-sale-10-october
         <p class="wo-card__cat">{{ featured.category }}</p>
         <h3>{{ featured.title }}</h3>
         <p class="wo-featured__meta">{{ featured.date | shortDate }} &middot; {{ featured.time }} &middot; {{ featured.location }}</p>
-        <a class="wo-featured__cta" href="{{ featured.link or '#' + featured.slug }}">See details &rarr;</a>
+        <a class="wo-featured__cta" href="{{ featured.page or featured.link or '#' + featured.slug }}">See details &rarr;</a>
       </div>
     </article>
   </div>
@@ -101,7 +101,7 @@ pinnedEvent: craft-and-table-top-sale-10-october
     <div id="wo-events-strip" class="wo-grid">
       {% for e in events | upcoming %}
       <div class="wo-card">
-        <a class="wo-card__link" href="{{ e.link if e.link else '#' + e.slug }}" target="_blank" rel="noopener">
+        <a class="wo-card__link" href="{{ e.page or e.link or ('#' + e.slug) }}"{% if not e.page %} target="_blank" rel="noopener"{% endif %}>
           <div class="story-card__placeholder wo-card__ph {{ 'wo-card__ph--' + (e.category | slugify) if not e.image }}"
                {% if e.image %}style="background-image:url('{{ e.image }}');"{% endif %}>
             <span class="wo-card__day">{{ e.date | shortDate }}</span>

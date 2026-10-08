@@ -1,0 +1,761 @@
+[
+  {
+    "slug": "christmas-market-blackpool-cricket-club",
+    "title": "Christmas Market at Blackpool Cricket Club",
+    "kicker": "Community",
+    "theme": "orange",
+    "summary": "A festive afternoon of gifts, sweet treats and decorations from local small businesses at Blackpool Cricket Club on Sunday 15 November 2026. Free entry, raising money for Mind.",
+    "ogImage": "/images/og/events/christmas-market-blackpool-cricket-club.jpg",
+    "posters": [
+      {
+        "src": "/images/christmas-market-blackpool-cricket-club.webp",
+        "alt": "Poster for the Christmas Market at Blackpool Cricket Club on Sunday 15 November 2026, 1pm to 5pm, free entry"
+      }
+    ],
+    "sessions": [
+      {
+        "dateLabel": "Sunday 15 November 2026",
+        "time": "1:00pm to 5:00pm",
+        "start": "2026-11-15T13:00:00+00:00",
+        "end": "2026-11-15T17:00:00+00:00"
+      }
+    ],
+    "venue": {
+      "name": "Blackpool Cricket Club",
+      "locality": "Blackpool"
+    },
+    "cost": "Free entry",
+    "offers": {
+      "price": "0"
+    },
+    "facts": [
+      {
+        "label": "Good to know",
+        "value": "Raising money for Mind"
+      }
+    ],
+    "intro": "Come along for a gorgeous festive afternoon at Blackpool Cricket Club, supporting small local businesses and getting a head start on your Christmas shopping.",
+    "sections": [
+      {
+        "heading": "What to expect",
+        "html": "<p>Plenty of stalls, with gifting, sweet treats, decorations and more. The stalls are fully sold out, so there will be a full line-up of traders to browse.</p><p>The bar will be open throughout the afternoon, and you could even book yourself a table for Sunday lunch while you are there.</p>"
+      },
+      {
+        "heading": "Supporting a good cause",
+        "html": "<p>The market is raising money for Mind, the mental health charity, so every visit helps.</p>"
+      }
+    ],
+    "links": [
+      {
+        "type": "facebook",
+        "label": "Find us on Facebook",
+        "url": "https://www.facebook.com/groups/899351090106991/user/100043111851754/"
+      }
+    ]
+  },
+  {
+    "slug": "christmas-market-christ-king-church",
+    "title": "Christmas Market at Christ King Church",
+    "kicker": "Community",
+    "theme": "teal",
+    "summary": "Handmade gifts, unique finds and treats from local small businesses at Christ King Church, Bispham Road, on Saturday 21 November 2026, 11am to 3pm. Free entry.",
+    "ogImage": "/images/og/events/christmas-market-christ-king-church.jpg",
+    "posters": [
+      {
+        "src": "/images/christmas-market-christ-king-church.webp",
+        "alt": "Poster for the Christmas Market at Christ King Church, Saturday 21 November 2026, 11am to 3pm, free entry, listing some of the local businesses attending"
+      }
+    ],
+    "sessions": [
+      {
+        "dateLabel": "Saturday 21 November 2026",
+        "time": "11:00am to 3:00pm",
+        "start": "2026-11-21T11:00:00+00:00",
+        "end": "2026-11-21T15:00:00+00:00"
+      }
+    ],
+    "venue": {
+      "name": "Christ King Church",
+      "street": "241 Bispham Road",
+      "locality": "Blackpool",
+      "postcode": "FY2 0LB"
+    },
+    "cost": "Free entry",
+    "offers": {
+      "price": "0"
+    },
+    "intro": "Lots of handmade gifts, unique finds and treats, with something for everyone. A great way to get a head start on your Christmas shopping while supporting local small businesses.",
+    "sections": [
+      {
+        "heading": "Who will be there",
+        "html": "<p>Stalls so far include Boo Blooms, Resin by Olivia, Bling by Amy, Inner Sparkle and The Dessert Lab, with more to be announced.</p><p>Mr Whippy Blackpool will be outside serving ice creams and waffles.</p>"
+      },
+      {
+        "heading": "Getting there",
+        "html": "<p>Christ King Church is at 241 Bispham Road, Blackpool FY2 0LB. Entry is free, so just turn up on the day.</p>"
+      }
+    ],
+    "links": []
+  },
+  {
+    "slug": "mums-playin-out",
+    "title": "Mum's Playin' Out",
+    "kicker": "Family & Kids",
+    "theme": "yellow",
+    "summary": "Free events for new mums in Layton: poetry, drag bingo, rag wreath making, baby-wearing dance and comedy, with babies welcome. Part of Pride in Place Layton.",
+    "ogImage": "/images/og/events/mums-playin-out.jpg",
+    "posters": [
+      {
+        "src": "/images/mums-playin-out-poster.webp",
+        "alt": "Poster for Mum's Playin' Out, a series of free events for new mums in Layton, part of Pride in Place Layton"
+      }
+    ],
+    "seriesName": "Mum's Playin' Out",
+    "sessions": [
+      {
+        "name": "Playdate Poetry",
+        "dateLabel": "Friday 9 October 2026",
+        "time": "1:00pm",
+        "start": "2026-10-09T13:00:00+01:00",
+        "venue": "Argosy Community Centre, Grange Park",
+        "venueName": "Argosy Community Centre",
+        "locality": "Blackpool",
+        "blurb": "Come and listen to some spoken word, then join other mums to explore what \"playing out\" looks and feels like postpartum. No experience needed. Babies 2 and under welcome."
+      },
+      {
+        "name": "Baby Friendly Drag Bingo",
+        "dateLabel": "Friday 16 October 2026",
+        "time": "10:30am",
+        "start": "2026-10-16T10:30:00+01:00",
+        "venue": "Layton Institute, Layton",
+        "venueName": "Layton Institute",
+        "street": "30 Westcliffe Drive",
+        "locality": "Blackpool",
+        "postcode": "FY3 7HG",
+        "blurb": "Daytime drag bingo for mums who miss feeling like themselves. Daft prizes, a fabulous drag queen and a proper laugh. Adult content, so babies 18 months and under welcome."
+      },
+      {
+        "name": "Rag Wreath Making",
+        "dateLabel": "Friday 23 October 2026",
+        "time": "10:30am",
+        "start": "2026-10-23T10:30:00+01:00",
+        "venue": "Layton Institute, Layton",
+        "venueName": "Layton Institute",
+        "street": "30 Westcliffe Drive",
+        "locality": "Blackpool",
+        "postcode": "FY3 7HG",
+        "blurb": "Not a baby craft, a loud and messy one for you. Make a bright rag wreath, have a chat and take it home. Wonky is the look. Babies 2 and under welcome."
+      },
+      {
+        "name": "Baby-Wearing Dance",
+        "dateLabel": "Friday 30 October 2026",
+        "time": "10:30am",
+        "start": "2026-10-30T10:30:00+00:00",
+        "venue": "The Grange, Grange Park",
+        "venueName": "The Grange",
+        "street": "2a Bathurst Avenue",
+        "locality": "Blackpool",
+        "postcode": "FY3 7RW",
+        "blurb": "Join Charlie from \"Dance Like a Mother\": baby in the carrier, music up, dancing like no one can see. Two left feet welcome. Babies from 8 weeks to 2 years."
+      },
+      {
+        "name": "Baby Friendly Comedy",
+        "dateLabel": "Friday 6 November 2026",
+        "time": "10:30am",
+        "start": "2026-11-06T10:30:00+00:00",
+        "venue": "The Grange, Grange Park",
+        "venueName": "The Grange",
+        "street": "2a Bathurst Avenue",
+        "locality": "Blackpool",
+        "postcode": "FY3 7RW",
+        "blurb": "Comedy clubs don't want your baby. We do. Daytime laughs with the fabulous comedians Black Liver and friends. No shushing. Adult content, so babies 18 months and under welcome."
+      }
+    ],
+    "venue": {
+      "name": "Argosy Community Centre, Layton Institute and The Grange",
+      "locality": "Blackpool"
+    },
+    "cost": "Free",
+    "offers": {
+      "price": "0"
+    },
+    "facts": [
+      {
+        "label": "Who it's for",
+        "value": "New mums and their babies"
+      },
+      {
+        "label": "Part of",
+        "value": "Pride in Place Layton"
+      }
+    ],
+    "intro": "Mum's Playin' Out is a run of free events for new mums in Layton, designed to support mental health, sense of identity and joy. Babies are welcome at every session.",
+    "sections": [
+      {
+        "heading": "About the series",
+        "html": "<p>Mum's Playin' Out is part of Pride in Place Layton. Each session is free and aimed at new mums who want to feel like themselves again, meet other mums, and have some fun, with the baby right there beside you.</p><p>Each session has its own age guidance for babies, so check the dates below to find the right one for you.</p>"
+      }
+    ],
+    "links": [
+      {
+        "type": "facebook",
+        "label": "Mum's Playin' Out on Facebook",
+        "url": "https://www.facebook.com/share/1F9S7JRUUN/"
+      }
+    ],
+    "organiser": {
+      "name": "Pride in Place Layton"
+    },
+    "lead": "Five free sessions for new mums, 9 October to 6 November 2026",
+    "whenSummary": "Five Fridays, 9 October to 6 November 2026 (dates below)",
+    "whereSummary": "Argosy Community Centre, Layton Institute and The Grange (see each date below)"
+  },
+  {
+    "slug": "halloween-themed-lunch-club",
+    "title": "Halloween Themed Lunch Club",
+    "kicker": "Social",
+    "theme": "orange",
+    "summary": "A spook-tacular Halloween lunch at The Grange, Blackpool on Tuesday 27 October 2026: 2-course meal, bingo, quiz and optional fancy dress for \u00a34. Everyone welcome.",
+    "ogImage": "/images/og/events/halloween-themed-lunch-club.jpg",
+    "posters": [
+      {
+        "src": "/images/halloween-lunch-club.webp",
+        "alt": "Poster for the Halloween Themed Lunch Club on Tuesday 27 October at 12:30pm, \u00a34 per person"
+      }
+    ],
+    "sessions": [
+      {
+        "dateLabel": "Tuesday 27 October 2026",
+        "time": "12:30pm",
+        "start": "2026-10-27T12:30:00+00:00"
+      }
+    ],
+    "venue": {
+      "name": "The Grange",
+      "street": "2a Bathurst Avenue (off Dinmore Avenue)",
+      "locality": "Blackpool",
+      "postcode": "FY3 7RW"
+    },
+    "cost": "\u00a34 per person",
+    "offers": {
+      "price": "4"
+    },
+    "facts": [
+      {
+        "label": "Dress code",
+        "value": "Fancy dress optional, with a prize for the best dressed guest"
+      }
+    ],
+    "intro": "A spook-tacular afternoon of good food, fun and laughter at The Grange. Everyone is welcome, so bring a friend.",
+    "sections": [
+      {
+        "heading": "What's included",
+        "html": "<ul><li>A 2-course meal</li><li>Tea and coffee</li><li>Bingo</li><li>A Halloween quiz</li></ul><p>All for \u00a34 per person.</p>"
+      },
+      {
+        "heading": "Fancy dress",
+        "html": "<p>Dressing up is optional, but there is a prize for the best dressed guest, so it is worth the effort.</p>"
+      }
+    ],
+    "links": [
+      {
+        "type": "facebook",
+        "label": "The Grange on Facebook",
+        "url": "https://www.facebook.com/profile.php?id=100064311027215"
+      }
+    ],
+    "organiser": {
+      "name": "The Grange",
+      "url": "https://www.facebook.com/profile.php?id=100064311027215"
+    }
+  },
+  {
+    "slug": "barbie-spooky-styling-session",
+    "title": "Barbie Spooky Styling Session",
+    "kicker": "Family & Kids",
+    "theme": "yellow",
+    "summary": "A free children's Barbie and Ken styling and play session at Layton Library on Friday 30 October 2026, 10:30am to 12:30pm. Fancy dress optional. Booking essential.",
+    "ogImage": "/images/og/events/barbie-spooky-styling-session.jpg",
+    "posters": [
+      {
+        "src": "/images/barbie-spooky-styling-layton-library.webp",
+        "alt": "Poster for the free Barbie and Ken spooky styling and play session at Layton Library on Friday 30 October, 10:30am to 12:30pm"
+      }
+    ],
+    "sessions": [
+      {
+        "dateLabel": "Friday 30 October 2026",
+        "time": "10:30am to 12:30pm",
+        "start": "2026-10-30T10:30:00+00:00",
+        "end": "2026-10-30T12:30:00+00:00"
+      }
+    ],
+    "venue": {
+      "name": "Layton Library",
+      "locality": "Blackpool"
+    },
+    "cost": "Free",
+    "offers": {
+      "price": "0"
+    },
+    "facts": [
+      {
+        "label": "Booking",
+        "value": "Essential: call 01253 478145 or email layton.library@blackpool.gov.uk"
+      },
+      {
+        "label": "Hosted by",
+        "value": "Vintagebarbieclare"
+      }
+    ],
+    "intro": "A free children's Barbie and Ken styling and play event at Layton Library, hosted by Vintagebarbieclare. Fancy dress is optional and everything you need is provided.",
+    "sections": [
+      {
+        "heading": "What happens",
+        "html": "<p>Children pick their Barbie or Ken, choose an outfit and accessories, then either take photos (optional) or just play. Everything is provided.</p><p>Adults are welcome to join in with their children.</p>"
+      },
+      {
+        "heading": "How to book",
+        "html": "<p>Booking is essential. Contact Layton Library on <a href=\"tel:01253478145\">01253 478145</a> or email <a href=\"mailto:layton.library@blackpool.gov.uk\">layton.library@blackpool.gov.uk</a> to book your child's place.</p>"
+      }
+    ],
+    "links": [
+      {
+        "type": "phone",
+        "label": "Call to book",
+        "url": "tel:01253478145",
+        "primary": true
+      },
+      {
+        "type": "email",
+        "label": "Email to book",
+        "url": "mailto:layton.library@blackpool.gov.uk"
+      }
+    ],
+    "organiser": {
+      "name": "Vintagebarbieclare"
+    }
+  },
+  {
+    "slug": "bonkers-bingo-quizzie-quiz",
+    "title": "Bonkers Bingo & Quizzie Quiz: LCH Fundraiser Night",
+    "kicker": "Social",
+    "theme": "teal",
+    "summary": "A fundraiser night for Layton Community House at Layton Institute on Sunday 25 October 2026: bingo, quiz, raffle and prizes. Tickets \u00a310, pay on the door.",
+    "ogImage": "/images/og/events/bonkers-bingo-quizzie-quiz.jpg",
+    "posters": [
+      {
+        "src": "/images/bonkers-bingo-flyer.webp",
+        "alt": "Flyer for Bonkers Bingo and Quizzie Quiz, a fundraiser night for Layton Community House at Layton Institute on 25 October"
+      }
+    ],
+    "sessions": [
+      {
+        "dateLabel": "Sunday 25 October 2026",
+        "time": "6:00pm to 8:30pm",
+        "start": "2026-10-25T18:00:00+00:00",
+        "end": "2026-10-25T20:30:00+00:00"
+      }
+    ],
+    "venue": {
+      "name": "Layton Institute",
+      "street": "30 Westcliffe Drive",
+      "locality": "Blackpool",
+      "postcode": "FY3 7HG"
+    },
+    "cost": "\u00a310 including raffle tickets, pay on the door",
+    "offers": {
+      "price": "10"
+    },
+    "facts": [
+      {
+        "label": "Bring",
+        "value": "Your dabbers"
+      },
+      {
+        "label": "Raising money for",
+        "value": "Layton Community House"
+      }
+    ],
+    "intro": "A fundraiser night in aid of Layton Community House, at Layton Institute. Expect laughter, prizes and surprises.",
+    "sections": [
+      {
+        "heading": "What to expect",
+        "html": "<p>An evening of bingo and a quiz, with raffle tickets included in the price, plenty of prizes and a few surprises along the way.</p><p>Just turn up with your dabbers. Tickets are \u00a310 and include your raffle tickets, paid on the door.</p>"
+      },
+      {
+        "heading": "Why it matters",
+        "html": "<p>The night is in aid of Layton Community House, so every ticket helps.</p>"
+      }
+    ],
+    "links": [
+      {
+        "type": "facebook",
+        "label": "Event on Facebook",
+        "url": "https://www.facebook.com/events/1569545347679193"
+      },
+      {
+        "type": "facebook",
+        "label": "Layton Community House on Facebook",
+        "url": "https://www.facebook.com/LCHlayton"
+      }
+    ],
+    "organiser": {
+      "name": "Layton Community House",
+      "url": "https://www.facebook.com/LCHlayton"
+    }
+  },
+  {
+    "slug": "the-deadbeats-halloween-party-night",
+    "title": "The Deadbeats: Halloween Party Night",
+    "kicker": "Live music",
+    "theme": "purple",
+    "summary": "The Deadbeats play a Halloween party night at Layton Institute on Saturday 31 October 2026. Live rock, pop and party classics, doors 8pm, \u00a35 advance, fancy dress welcome.",
+    "ogImage": "/images/og/events/the-deadbeats-halloween-party-night.jpg",
+    "posters": [
+      {
+        "src": "/images/deadbeats-halloween-party-layton-institute.webp",
+        "alt": "Poster for The Deadbeats Halloween Party Night at Layton Institute, Saturday 31 October 2026, doors open 8pm, \u00a35 advance or \u00a38 on the door, come in fancy dress if you dare"
+      }
+    ],
+    "sessions": [
+      {
+        "dateLabel": "Saturday 31 October 2026",
+        "time": "8:00pm to 11:45pm",
+        "start": "2026-10-31T20:00:00+00:00",
+        "end": "2026-10-31T23:45:00+00:00"
+      }
+    ],
+    "venue": {
+      "name": "Layton Institute",
+      "street": "30 Westcliffe Drive",
+      "locality": "Blackpool",
+      "postcode": "FY3 7HG"
+    },
+    "cost": "\u00a35 in advance, \u00a38 on the door",
+    "offers": {
+      "price": "5",
+      "url": "https://laytoninstitute.com/product/the-deadbeats-halloween-party-night-31st-october-2026/"
+    },
+    "facts": [
+      {
+        "label": "Dress code",
+        "value": "Fancy dress optional, but encouraged"
+      }
+    ],
+    "intro": "Celebrate Halloween in style as The Deadbeats return to Layton Institute for a night of live music, dancing and entertainment.",
+    "sections": [
+      {
+        "heading": "The night",
+        "html": "<p>Known for their energetic performances and crowd-pleasing setlists, The Deadbeats play a mix of rock, pop and party classics from across the decades. Whether you come for the music, the atmosphere or just a good night out, it is a great way to spend Halloween.</p>"
+      },
+      {
+        "heading": "Fancy dress",
+        "html": "<p>Fancy dress is completely optional, but why not get into the spirit? From witches and vampires to zombies and superheroes, everyone is welcome, and there may be a few surprises on the night.</p>"
+      },
+      {
+        "heading": "Tickets",
+        "html": "<p>Tickets are \u00a35 in advance or \u00a38 on the door. Advance tickets are available from the Layton Institute website.</p>"
+      }
+    ],
+    "links": [
+      {
+        "type": "booking",
+        "label": "Book tickets",
+        "url": "https://laytoninstitute.com/product/the-deadbeats-halloween-party-night-31st-october-2026/",
+        "primary": true
+      },
+      {
+        "type": "website",
+        "label": "Layton Institute website",
+        "url": "https://laytoninstitute.com"
+      },
+      {
+        "type": "facebook",
+        "label": "Layton Institute on Facebook",
+        "url": "https://www.facebook.com/LaytonInstitute"
+      }
+    ],
+    "organiser": {
+      "name": "Layton Institute",
+      "url": "https://laytoninstitute.com"
+    }
+  },
+  {
+    "slug": "pink-tribute-full-band-beautiful-trauma",
+    "title": "P!NK Tribute Live with Full Band: Beautiful Trauma",
+    "kicker": "Live music",
+    "theme": "pink",
+    "summary": "Beautiful Trauma featuring Stacy Green as P!NK, live with a full band at Layton Institute on Friday 13 November 2026. \u00a312 in advance, \u00a316 on the door.",
+    "ogImage": "/images/og/events/pink-tribute-full-band-beautiful-trauma.jpg",
+    "posters": [
+      {
+        "src": "/images/pnk-tribute-beautiful-trauma-layton-institute.webp",
+        "alt": "Poster for P!NK Full Band tribute Beautiful Trauma featuring Stacy Green as P!NK, Friday 13 November 2026 at Layton Institute, \u00a312 advance, \u00a316 on the door"
+      }
+    ],
+    "sessions": [
+      {
+        "dateLabel": "Friday 13 November 2026",
+        "time": "8:00pm to 11:45pm",
+        "start": "2026-11-13T20:00:00+00:00",
+        "end": "2026-11-13T23:45:00+00:00"
+      }
+    ],
+    "venue": {
+      "name": "Layton Institute",
+      "street": "30 Westcliffe Drive",
+      "locality": "Blackpool",
+      "postcode": "FY3 7HG"
+    },
+    "cost": "\u00a312 in advance, \u00a316 on the door",
+    "offers": {
+      "price": "12",
+      "url": "https://laytoninstitute.com/product/pnk-tribute-an-full-band-13th-nov-2026/"
+    },
+    "facts": [
+      {
+        "label": "Performing",
+        "value": "Beautiful Trauma, featuring Stacy Green as P!NK"
+      },
+      {
+        "label": "Tickets",
+        "value": "Expected to sell quickly, so book early"
+      }
+    ],
+    "intro": "An unforgettable night of live music as the P!NK tribute Beautiful Trauma, featuring Stacy Green as P!NK and a full live band, comes to Layton Institute.",
+    "sections": [
+      {
+        "heading": "The show",
+        "html": "<p>A high-energy show celebrating the biggest hits from one of the world's most iconic pop-rock stars. Expect powerhouse vocals, stunning stage presence and all the chart-topping favourites, including Just Like a Pill, Raise Your Glass, So What, Try, Who Knew, Get the Party Started, What About Us and many more.</p><p>Whether you are a lifelong P!NK fan or simply love a great live performance, it is packed with energy, singalong anthems and a fantastic atmosphere from start to finish.</p>"
+      },
+      {
+        "heading": "Make a night of it",
+        "html": "<p>Bring your friends, grab a drink from the bar and get ready to sing, dance and party the night away.</p>"
+      },
+      {
+        "heading": "Tickets",
+        "html": "<p>Tickets are \u00a312 in advance or \u00a316 on the door. They are expected to sell quickly, so book early to avoid missing out.</p>"
+      }
+    ],
+    "links": [
+      {
+        "type": "booking",
+        "label": "Book tickets",
+        "url": "https://laytoninstitute.com/product/pnk-tribute-an-full-band-13th-nov-2026/",
+        "primary": true
+      },
+      {
+        "type": "facebook",
+        "label": "Event on Facebook",
+        "url": "https://www.facebook.com/events/2723000458060939"
+      },
+      {
+        "type": "website",
+        "label": "Layton Institute website",
+        "url": "https://laytoninstitute.com"
+      }
+    ],
+    "organiser": {
+      "name": "Layton Institute",
+      "url": "https://laytoninstitute.com"
+    }
+  },
+  {
+    "slug": "elf-jr-the-musical",
+    "title": "Elf Jr. The Musical",
+    "kicker": "Theatre",
+    "theme": "green",
+    "summary": "AVR present Elf Jr. The Musical at Layton Institute on Sunday 20 and Monday 21 December 2026, 7pm. A festive family show full of songs, dance and Christmas magic.",
+    "ogImage": "/images/og/events/elf-jr-the-musical.jpg",
+    "posters": [
+      {
+        "src": "/images/elf-jr-sunday-20-december.webp",
+        "alt": "Poster for AVR presents Elf Jr. The Musical, Sunday 20th December, 7pm, with a green elf boot in a snowy festive scene"
+      },
+      {
+        "src": "/images/elf-jr-monday-21-december.webp",
+        "alt": "Poster for AVR presents Elf Jr. The Musical, Monday 21st December, 7pm, with a green elf boot in a snowy festive scene"
+      }
+    ],
+    "sessions": [
+      {
+        "dateLabel": "Sunday 20 December 2026",
+        "time": "7:00pm to 9:00pm",
+        "start": "2026-12-20T19:00:00+00:00",
+        "end": "2026-12-20T21:00:00+00:00",
+        "bookingUrl": "https://laytoninstitute.com/product/elf-jr-the-musical-sunday-20th-december-7pm/"
+      },
+      {
+        "dateLabel": "Monday 21 December 2026",
+        "time": "7:00pm to 9:00pm",
+        "start": "2026-12-21T19:00:00+00:00",
+        "end": "2026-12-21T21:00:00+00:00",
+        "bookingUrl": "https://laytoninstitute.com/product/elf-jr-the-musical-monday-21st-december-7pm/"
+      }
+    ],
+    "venue": {
+      "name": "Layton Institute",
+      "street": "30 Westcliffe Drive",
+      "locality": "Blackpool",
+      "postcode": "FY3 7HG"
+    },
+    "cost": "Standard \u00a312, concession (over 60 and under 16) \u00a310",
+    "offers": {
+      "price": "10"
+    },
+    "facts": [
+      {
+        "label": "Performed by",
+        "value": "AVR"
+      },
+      {
+        "label": "Who it's for",
+        "value": "The whole family"
+      }
+    ],
+    "intro": "Get ready to spread some Christmas cheer with AVR's magical production of Elf Jr. The Musical, a festive family adventure packed with laughter, singing, dancing and plenty of Christmas magic.",
+    "sections": [
+      {
+        "heading": "The story",
+        "html": "<p>Based on the much-loved Christmas film, Elf Jr. The Musical tells the hilarious and heartwarming story of Buddy, a young orphan who mistakenly crawls into Santa's sack and is transported to the North Pole. Raised as an elf, Buddy soon discovers he is actually human and sets off on an unforgettable journey to New York City to find his real father and discover where he truly belongs.</p>"
+      },
+      {
+        "heading": "The show",
+        "html": "<p>With catchy songs, fantastic dance routines, colourful characters and lots of festive fun, the talented AVR performers are ready to bring this Christmas favourite to life on stage. Bring the whole family and get into the Christmas spirit.</p>"
+      },
+      {
+        "heading": "Tickets",
+        "html": "<p>There are two performances, on Sunday 20 and Monday 21 December, both at 7pm. Standard tickets are \u00a312 and concession tickets (over 60 and under 16) are \u00a310. Book early, as tickets are likely to go quickly.</p>"
+      }
+    ],
+    "links": [
+      {
+        "type": "booking",
+        "label": "Book Sunday 20 Dec",
+        "url": "https://laytoninstitute.com/product/elf-jr-the-musical-sunday-20th-december-7pm/",
+        "primary": true
+      },
+      {
+        "type": "booking",
+        "label": "Book Monday 21 Dec",
+        "url": "https://laytoninstitute.com/product/elf-jr-the-musical-monday-21st-december-7pm/",
+        "primary": true
+      },
+      {
+        "type": "facebook",
+        "label": "AVR on Facebook",
+        "url": "https://www.facebook.com/avrdanceblackpool"
+      },
+      {
+        "type": "website",
+        "label": "AVR website",
+        "url": "https://avrdance.co.uk"
+      }
+    ],
+    "organiser": {
+      "name": "AVR",
+      "url": "https://www.facebook.com/avrdanceblackpool"
+    },
+    "lead": "Sunday 20 and Monday 21 December 2026, 7pm at Layton Institute",
+    "offersList": [
+      {
+        "name": "Standard",
+        "price": "12"
+      },
+      {
+        "name": "Concession (over 60 and under 16)",
+        "price": "10"
+      }
+    ]
+  },
+  {
+    "slug": "avr-dance-camp-october-half-term",
+    "title": "AVR Dance Camp: October Half Term",
+    "kicker": "Family & Kids",
+    "theme": "pink",
+    "summary": "A week of dance, performance and fun with AVR over October half term, Monday 26 to Friday 30 October 2026, 8:30am to 3:30pm. \u00a313 a day or \u00a355 for the week. Everyone welcome.",
+    "ogImage": "/images/og/events/avr-dance-camp-october-half-term.jpg",
+    "posters": [
+      {
+        "src": "/images/avr-dance-camp-half-term.webp",
+        "alt": "Poster for AVR Dance Camp, Monday 26 to Friday 30 October 2026, 8:30am to 3:30pm, \u00a313 per day or \u00a355 for the full week"
+      }
+    ],
+    "sessions": [
+      {
+        "dateLabel": "Monday 26 to Friday 30 October 2026",
+        "time": "8:30am to 3:30pm each day",
+        "start": "2026-10-26T08:30:00+00:00",
+        "end": "2026-10-30T15:30:00+00:00"
+      }
+    ],
+    "venue": {
+      "name": "AVR Dance, Layton Concert Hall",
+      "street": "1 Granby Avenue",
+      "locality": "Blackpool",
+      "postcode": "FY3 7HG"
+    },
+    "cost": "\u00a313 per person per day, or \u00a355 for the full week",
+    "offers": {
+      "price": "13"
+    },
+    "facts": [
+      {
+        "label": "Open to",
+        "value": "AVR students and non-AVR students, everyone is welcome"
+      },
+      {
+        "label": "Runs",
+        "value": "Every school half term from now on"
+      },
+      {
+        "label": "Venue",
+        "value": "AVR's base at Layton Concert Hall. Check AVR's Facebook page to confirm"
+      }
+    ],
+    "intro": "Following the success of their previous Dance Camps, AVR Dance Camp will now run every half term. Starting this October half term, dancers can join for fun-filled days of dance, performance, creativity and time with friends.",
+    "sections": [
+      {
+        "heading": "What it is",
+        "html": "<p>AVR Dance Camp is the perfect way to keep dancing, build confidence, learn new skills and make memories during the school holidays.</p><p>It is open to AVR students and non-AVR students, so everyone is welcome. More dancing, more fun, every half term.</p>"
+      },
+      {
+        "heading": "Prices",
+        "html": "<ul><li>\u00a313 per person, per day</li><li>\u00a355 per person for the full week</li></ul>"
+      },
+      {
+        "heading": "How to book",
+        "html": "<p>Check the AVR Facebook page for booking details and the latest information, and message AVR with any questions.</p>"
+      }
+    ],
+    "links": [
+      {
+        "type": "facebook",
+        "label": "AVR on Facebook",
+        "url": "https://www.facebook.com/avrdanceblackpool",
+        "primary": true
+      },
+      {
+        "type": "website",
+        "label": "AVR website",
+        "url": "https://avrdance.co.uk"
+      }
+    ],
+    "organiser": {
+      "name": "AVR",
+      "url": "https://www.facebook.com/avrdanceblackpool"
+    },
+    "lead": "Monday 26 to Friday 30 October 2026, 8:30am to 3:30pm",
+    "offersList": [
+      {
+        "name": "Per day",
+        "price": "13"
+      },
+      {
+        "name": "Full week",
+        "price": "55"
+      }
+    ]
+  }
+]

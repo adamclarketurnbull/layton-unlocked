@@ -114,7 +114,8 @@
     "image": "/images/bonkers-bingo-flyer.webp",
     "link": "https://www.facebook.com/LCHlayton",
     "description": "Fundraiser night in aid of Layton Community House, at Layton Institute. Expect laughter, prizes and surprises! Tickets \u00a310, including raffle tickets, pay on the door. Just turn up with your dabbers! Layton Community House on Facebook \u2192",
-    "pinned": false
+    "pinned": false,
+    "page": "/events/bonkers-bingo-quizzie-quiz/"
   },
   {
     "slug": "skaface-at-layton-institute",
@@ -140,7 +141,8 @@
     "image": "/images/mums-playin-out-poster.webp",
     "link": "https://www.facebook.com/share/1F9S7JRUUN/",
     "description": "Come listen to some spoken word before joining other mums to explore what \"playing out\" looks and feels like postpartum. No experience needed. Babies 2 and under welcome. Part of Mum's Playin' Out - Pride in Place Layton, free events for new mums to support their mental health, sense of identity and joy. Friday 9 October, 1pm at Argosy Community Centre, Grange Park. Mum's Playin' Out on Facebook \u2192",
-    "pinned": false
+    "pinned": false,
+    "page": "/events/mums-playin-out/"
   },
   {
     "slug": "mums-playin-out-baby-friendly-drag-bingo",
@@ -155,7 +157,8 @@
     "venueLink": "https://www.facebook.com/LaytonInstitute",
     "venueLinkText": "Layton Institute on Facebook \u2192",
     "description": "Daytime drag bingo for mums who miss feeling like themselves. Daft prizes, a fabulous drag queen, and a proper laugh. Adult content, so babies 18 months and under welcome. Part of Mum's Playin' Out - Pride in Place Layton, free events for new mums to support their mental health, sense of identity and joy. Friday 16 October, 10:30am at Layton Institute, Layton. Mum's Playin' Out on Facebook \u2192",
-    "pinned": false
+    "pinned": false,
+    "page": "/events/mums-playin-out/"
   },
   {
     "slug": "mums-playin-out-rag-wreath-making",
@@ -170,7 +173,8 @@
     "venueLink": "https://www.facebook.com/LaytonInstitute",
     "venueLinkText": "Layton Institute on Facebook \u2192",
     "description": "Not a baby craft - a loud, messy one for you. Make a bright rag wreath, have a chat, and take it home. Wonky is the look. Babies 2 and under welcome. Part of Mum's Playin' Out - Pride in Place Layton, free events for new mums to support their mental health, sense of identity and joy. Friday 23 October, 10:30am at Layton Institute, Layton. Mum's Playin' Out on Facebook \u2192",
-    "pinned": false
+    "pinned": false,
+    "page": "/events/mums-playin-out/"
   },
   {
     "slug": "mums-playin-out-baby-wearing-dance",
@@ -185,7 +189,8 @@
     "venueLink": "https://www.facebook.com/profile.php?id=100064311027215",
     "venueLinkText": "The Grange on Facebook \u2192",
     "description": "Join Charlie from \"Dance Like a Mother\" - baby in the carrier, music up, dancing like no one can see. Two left feet welcome. Babies from 8 weeks to 2 years. Part of Mum's Playin' Out - Pride in Place Layton, free events for new mums to support their mental health, sense of identity and joy. Friday 30 October, 10:30am at The Grange, Grange Park. Mum's Playin' Out on Facebook \u2192",
-    "pinned": false
+    "pinned": false,
+    "page": "/events/mums-playin-out/"
   },
   {
     "slug": "mums-playin-out-baby-friendly-comedy",
@@ -200,7 +205,8 @@
     "venueLink": "https://www.facebook.com/profile.php?id=100064311027215",
     "venueLinkText": "The Grange on Facebook \u2192",
     "description": "Comedy clubs don't want your baby. We do. Daytime laughs with the fabulous comedians Black Liver & friends. No shushing. Adult content, so babies 18 months and under welcome. Part of Mum's Playin' Out - Pride in Place Layton, free events for new mums to support their mental health, sense of identity and joy. Friday 6 November, 10:30am at The Grange, Grange Park. Mum's Playin' Out on Facebook \u2192",
-    "pinned": false
+    "pinned": false,
+    "page": "/events/mums-playin-out/"
   },
   {
     "slug": "christmas-market-blackpool-cricket-club-15-november",
@@ -213,7 +219,8 @@
     "image": "/images/christmas-market-blackpool-cricket-club.webp",
     "link": "https://www.facebook.com/groups/899351090106991/user/100043111851754/",
     "description": "Stalls are fully sold out! Please come along for a gorgeous festive afternoon, supporting small businesses. Plenty of gorgeous stalls, gifting, sweet treats, decorations etc. The bar is open and you could even book yourself a table for Sunday lunch! Sunday 15 November, 1pm-5pm at Blackpool Cricket Club. Free entry. Raising money for Mind. Blackpool Cricket Club on Facebook \u2192",
-    "pinned": false
+    "pinned": false,
+    "page": "/events/christmas-market-blackpool-cricket-club/"
   },
   {
     "slug": "garba-night-the-grange-10-october",
@@ -249,7 +256,8 @@
     "description": "A spook-tacular afternoon of good food, fun and laughter. \u00a34 per person includes a 2-course meal, tea and coffee, bingo and a Halloween quiz. Optional fancy dress, with a prize for the best dressed guest. Everyone welcome, so bring a friend. Tuesday 27 October, 12:30pm. At The Grange.",
     "pinned": false,
     "venueLink": "https://www.facebook.com/profile.php?id=100064311027215",
-    "venueLinkText": "The Grange on Facebook \u2192"
+    "venueLinkText": "The Grange on Facebook \u2192",
+    "page": "/events/halloween-themed-lunch-club/"
   },
   {
     "slug": "barbie-spooky-styling-session-layton-library-30-october",
@@ -261,7 +269,8 @@
     "cost": "free",
     "image": "/images/barbie-spooky-styling-layton-library.webp",
     "description": "A free children\u2019s Barbie and Ken styling and play session hosted by Vintagebarbieclare. Pick your Barbie or Ken, choose their outfit and accessories, then take photos (optional) or just play. Fancy dress optional. Everything is provided and adults are welcome to join in with their children. Friday 30 October, 10:30am-12:30pm at Layton Library. Booking essential: contact Layton Library on 01253 478145 or layton.library@blackpool.gov.uk to book your child\u2019s place.",
-    "pinned": false
+    "pinned": false,
+    "page": "/events/barbie-spooky-styling-session/"
   },
   {
     "slug": "christmas-market-christ-king-church-21-november",
@@ -273,6 +282,72 @@
     "cost": "free",
     "image": "/images/christmas-market-christ-king-church.webp",
     "description": "Lots of handmade gifts, unique finds and treats, with something for everyone. A great way to get a head start on your Christmas shopping while supporting local small businesses. Stalls so far include Boo Blooms, Resin by Olivia, Bling by Amy, Inner Sparkle, The Dessert Lab and more, with Mr Whippy Blackpool outside serving ice creams and waffles. Saturday 21 November 2026, 11am-3pm. Free entry.",
-    "pinned": false
+    "pinned": false,
+    "page": "/events/christmas-market-christ-king-church/"
+  },
+  {
+    "slug": "the-deadbeats-halloween-party-night-31-october",
+    "title": "The Deadbeats: Halloween Party Night",
+    "date": "2026-10-31",
+    "time": "Doors 8:00pm",
+    "location": "Layton Institute",
+    "category": "Arts",
+    "cost": "paid",
+    "image": "/images/deadbeats-halloween-party-layton-institute.webp",
+    "description": "Live rock, pop and party classics from The Deadbeats at Layton Institute. Saturday 31 October, doors 8pm. \u00a35 in advance or \u00a38 on the door. Fancy dress welcome if you dare.",
+    "pinned": false,
+    "page": "/events/the-deadbeats-halloween-party-night/"
+  },
+  {
+    "slug": "pnk-tribute-beautiful-trauma-13-november",
+    "title": "P!NK Tribute Live with Full Band: Beautiful Trauma",
+    "date": "2026-11-13",
+    "time": "8:00pm",
+    "location": "Layton Institute",
+    "category": "Arts",
+    "cost": "paid",
+    "image": "/images/pnk-tribute-beautiful-trauma-layton-institute.webp",
+    "description": "Beautiful Trauma, featuring Stacy Green as P!NK, live with a full band at Layton Institute. Friday 13 November, 8pm. \u00a312 in advance or \u00a316 on the door.",
+    "pinned": false,
+    "page": "/events/pink-tribute-full-band-beautiful-trauma/"
+  },
+  {
+    "slug": "elf-jr-the-musical-20-december",
+    "title": "Elf Jr. The Musical",
+    "date": "2026-12-20",
+    "time": "7:00pm",
+    "location": "Layton Institute",
+    "category": "Arts",
+    "cost": "paid",
+    "image": "/images/elf-jr-sunday-20-december.webp",
+    "description": "AVR present Elf Jr. The Musical, a festive family show full of songs, dance and Christmas magic. Sunday 20 December, 7pm at Layton Institute. Standard \u00a312, concession (over 60 and under 16) \u00a310.",
+    "pinned": false,
+    "page": "/events/elf-jr-the-musical/"
+  },
+  {
+    "slug": "elf-jr-the-musical-21-december",
+    "title": "Elf Jr. The Musical",
+    "date": "2026-12-21",
+    "time": "7:00pm",
+    "location": "Layton Institute",
+    "category": "Arts",
+    "cost": "paid",
+    "image": "/images/elf-jr-monday-21-december.webp",
+    "description": "AVR present Elf Jr. The Musical, a festive family show full of songs, dance and Christmas magic. Monday 21 December, 7pm at Layton Institute. Standard \u00a312, concession (over 60 and under 16) \u00a310.",
+    "pinned": false,
+    "page": "/events/elf-jr-the-musical/"
+  },
+  {
+    "slug": "avr-dance-camp-october-half-term-26-october",
+    "title": "AVR Dance Camp: October Half Term",
+    "date": "2026-10-26",
+    "time": "Mon-Fri, 8:30am-3:30pm",
+    "location": "AVR Dance, Layton Concert Hall",
+    "category": "Family & Kids",
+    "cost": "paid",
+    "image": "/images/avr-dance-camp-half-term.webp",
+    "description": "A week of dance, performance and fun over October half term, Monday 26 to Friday 30 October, 8:30am to 3:30pm. \u00a313 per person per day or \u00a355 for the full week. Open to AVR students and non-AVR students, everyone welcome. Runs every half term.",
+    "pinned": false,
+    "page": "/events/avr-dance-camp-october-half-term/"
   }
 ]

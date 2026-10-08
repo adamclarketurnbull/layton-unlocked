@@ -1,0 +1,231 @@
+/* ============================================================
+   Event pages (/events/<slug>/)
+   Loaded only on event pages via the `pageCss` front matter.
+   Uses the site's colour variables with fallbacks, so it follows
+   whichever theme style.css is carrying.
+   ============================================================ */
+
+.ev {
+  --ev-ink: var(--black, #2B1400);
+  --ev-paper: var(--white-warm, #FFF4E8);
+  --ev-yellow: var(--yellow, #FFC247);
+  --ev-hero-bg: #4FD6B5;
+  --ev-hero-ink: #0E2C27;
+  --ev-radius: 18px;
+  color: var(--ev-ink);
+}
+
+/* Theme per event */
+.ev--teal   { --ev-hero-bg: #4FD6B5; --ev-hero-ink: #0E2C27; }
+.ev--orange { --ev-hero-bg: #FF8A5C; --ev-hero-ink: #3B0E08; }
+.ev--yellow { --ev-hero-bg: #FFC247; --ev-hero-ink: #2B1400; }
+.ev--purple { --ev-hero-bg: #5B3A9A; --ev-hero-ink: #FFFFFF; }
+.ev--pink   { --ev-hero-bg: #F0388B; --ev-hero-ink: #1A0710; }
+.ev--green  { --ev-hero-bg: #1F7A45; --ev-hero-ink: #FFFFFF; }
+
+/* ---------- Hero ---------- */
+.ev-hero {
+  background: var(--ev-hero-bg);
+  color: var(--ev-hero-ink);
+  padding-block: 28px 44px;
+  border-bottom: 3px solid var(--ev-ink);
+}
+.ev-back {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: inherit;
+  border-bottom: 2px solid currentColor;
+  margin-bottom: 22px;
+}
+.ev-back:hover { opacity: 0.8; }
+.ev-badge {
+  display: block;
+  width: fit-content;
+  padding: 5px 14px;
+  border-radius: 999px;
+  background: var(--ev-ink);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+}
+.ev-title {
+  font-family: 'Fredoka', 'Baloo 2', sans-serif;
+  font-weight: 700;
+  font-size: clamp(2rem, 6vw, 3.25rem);
+  line-height: 1.1;
+  margin: 0 0 12px;
+  max-width: 20ch;
+  color: inherit;
+}
+.ev-lead {
+  font-size: clamp(1.05rem, 2.4vw, 1.25rem);
+  font-weight: 700;
+  margin: 0;
+  max-width: 44ch;
+  color: inherit;
+}
+
+/* ---------- Body grid ---------- */
+.ev-body {
+  display: grid;
+  gap: 32px;
+  padding-block: 32px 48px;
+}
+@media (min-width: 880px) {
+  .ev-body {
+    grid-template-columns: minmax(280px, 400px) 1fr;
+    gap: 56px;
+    padding-block: 48px 72px;
+    align-items: start;
+  }
+  .ev-posters { position: sticky; top: calc(var(--nav-height, 64px) + 24px); }
+}
+
+/* ---------- Poster ---------- */
+.ev-posters { display: grid; gap: 24px; }
+.ev-poster { margin: 0; }
+.ev-poster a { display: block; }
+.ev-poster img {
+  width: 100%;
+  height: auto;
+  border: 3px solid var(--ev-ink);
+  border-radius: var(--ev-radius);
+  box-shadow: 6px 6px 0 var(--ev-ink);
+  background: #fff;
+}
+@media (max-width: 879px) {
+  .ev-posters { max-width: 440px; }
+}
+
+/* ---------- Main column ---------- */
+.ev-intro {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  font-weight: 600;
+  margin: 0 0 24px;
+}
+
+.ev-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 32px;
+}
+.ev-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 0.7rem 1.4rem;
+  border: 3px solid var(--ev-ink);
+  border-radius: 14px;
+  background: #fff;
+  color: var(--ev-ink);
+  font-family: 'Fredoka', 'Baloo 2', sans-serif;
+  font-weight: 600;
+  font-size: 1.05rem;
+  line-height: 1.2;
+  text-align: center;
+  box-shadow: 4px 4px 0 var(--ev-ink);
+  transition: transform 0.12s, box-shadow 0.12s;
+}
+.ev-btn:hover { transform: translate(-1px, -1px); box-shadow: 5px 5px 0 var(--ev-ink); }
+.ev-btn:active { transform: translate(2px, 2px); box-shadow: 2px 2px 0 var(--ev-ink); }
+.ev-btn:focus-visible, .ev-poster a:focus-visible, .ev-back:focus-visible {
+  outline: 3px solid var(--ev-ink);
+  outline-offset: 3px;
+}
+.ev-btn--primary { background: var(--ev-yellow); }
+@media (max-width: 480px) {
+  .ev-actions { flex-direction: column; }
+  .ev-btn { width: 100%; }
+}
+
+/* ---------- Key facts ---------- */
+.ev-facts {
+  margin: 0 0 36px;
+  padding: 8px 22px;
+  background: #fff;
+  border: 3px solid var(--ev-ink);
+  border-radius: var(--ev-radius);
+}
+.ev-fact { padding: 14px 0; }
+.ev-fact + .ev-fact { border-top: 2px dashed rgba(43, 20, 0, 0.25); }
+.ev-fact dt {
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  opacity: 0.7;
+  margin-bottom: 2px;
+}
+.ev-fact dd { margin: 0; font-size: 1.05rem; line-height: 1.5; }
+.ev-fact__line { display: block; }
+
+/* ---------- Content sections ---------- */
+.ev-section { margin-bottom: 32px; }
+.ev-section h2 {
+  font-family: 'Fredoka', 'Baloo 2', sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.2;
+  margin: 0 0 10px;
+}
+.ev-section p { margin: 0 0 14px; line-height: 1.7; }
+.ev-section ul { margin: 0 0 14px; padding-left: 1.3rem; line-height: 1.7; }
+.ev-section li + li { margin-top: 4px; }
+.ev-section a { text-decoration: underline; text-underline-offset: 3px; font-weight: 700; }
+
+/* Series sessions */
+.ev-sessions { list-style: none; margin: 0; padding: 0; display: grid; gap: 16px; }
+.ev-session {
+  padding: 18px 20px;
+  background: #fff;
+  border: 3px solid var(--ev-ink);
+  border-radius: var(--ev-radius);
+}
+.ev-session__when {
+  margin: 0 0 4px !important;
+  font-size: 0.85rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.ev-session h3 {
+  font-family: 'Fredoka', 'Baloo 2', sans-serif;
+  font-weight: 700;
+  font-size: 1.25rem;
+  margin: 0 0 6px;
+}
+.ev-session p { margin: 0 0 8px; }
+.ev-session__where { font-weight: 700; margin-bottom: 0 !important; }
+
+.ev-note {
+  font-size: 0.9rem;
+  line-height: 1.55;
+  opacity: 0.8;
+  margin: 8px 0 0;
+}
+
+/* ---------- Footer CTA ---------- */
+.ev-more {
+  background: var(--ev-yellow);
+  border-top: 3px solid var(--ev-ink);
+  padding-block: 36px;
+  text-align: center;
+}
+.ev-more p {
+  font-family: 'Fredoka', 'Baloo 2', sans-serif;
+  font-weight: 600;
+  font-size: 1.3rem;
+  margin: 0 0 16px;
+}
+.ev-more .ev-btn--primary { background: #fff; }
+
+@media (prefers-reduced-motion: reduce) {
+  .ev-btn { transition: none; }
+}

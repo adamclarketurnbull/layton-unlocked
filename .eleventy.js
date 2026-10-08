@@ -58,6 +58,9 @@ module.exports = function (eleventyConfig) {
       .sort((a, b) => new Date(a.date) - new Date(b.date));
   });
 
+  // Event page helpers (maps link + JSON-LD)
+  require("./eventFilters.js")(eleventyConfig);
+
   return {
     dir: {
       input: "src",

@@ -1,0 +1,124 @@
+---
+layout: base.njk
+pagination:
+  data: eventPages
+  size: 1
+  alias: ev
+permalink: "/events/{{ ev.slug }}/"
+pageCss: /css/event-page.css
+eleventyComputed:
+  title: "{{ ev.title | safe }} - Layton Unlocked"
+  description: "{{ ev.summary | safe }}"
+  ogImage: "{{ ev.ogImage }}"
+---
+{% set first = ev.sessions[0] %}
+{% set isSeries = ev.seriesName %}
+<article class="ev ev--{{ ev.theme }}">
+
+  <header class="ev-hero">
+    <div class="container">
+      <a class="ev-back" href="/whats-on/">&larr; Back to What's On</a>
+      <span class="ev-badge">{{ ev.kicker }}</span>
+      <h1 class="ev-title">{{ ev.title }}</h1>
+      <p class="ev-lead">{{ ev.lead or (first.dateLabel + ", " + first.time + " at " + ev.venue.name) }}</p>
+    </div>
+  </header>
+
+  <div class="container ev-body">
+
+    <div class="ev-posters">
+      {% for p in ev.posters %}
+      <figure class="ev-poster">
+        <a href="{{ p.src }}" target="_blank" rel="noopener" aria-label="Open the poster full size (opens in a new tab)">
+          <img src="{{ p.src }}" alt="{{ p.alt }}" loading="{{ 'eager' if loop.first else 'lazy' }}">
+        </a>
+      </figure>
+      {% endfor %}
+    </div>
+
+    <div class="ev-main">
+      <p class="ev-intro">{{ ev.intro }}</p>
+
+      <div class="ev-actions">
+        {% for l in ev.links %}
+          {% set external = l.type != "phone" and l.type != "email" %}
+          <a class="ev-btn{{ ' ev-btn--primary' if l.primary }}" href="{{ l.url }}"{% if external %} target="_blank" rel="noopener"{% endif %}>{{ l.label }}</a>
+        {% endfor %}
+        {% if not isSeries and (ev.venue.street or ev.venue.name) %}
+          <a class="ev-btn" href="{{ ev.venue | mapsUrl }}" target="_blank" rel="noopener">Directions</a>
+        {% endif %}
+      </div>
+
+      <dl class="ev-facts">
+        <div class="ev-fact">
+          <dt>When</dt>
+          <dd>
+            {% if isSeries %}
+              {{ ev.whenSummary }}
+            {% else %}
+              {% for s in ev.sessions %}
+                <span class="ev-fact__line"><strong>{{ s.dateLabel }}</strong>, {{ s.time }}</span>
+              {% endfor %}
+            {% endif %}
+          </dd>
+        </div>
+        <div class="ev-fact">
+          <dt>Where</dt>
+          <dd>
+            {% if isSeries %}
+              {{ ev.whereSummary }}
+            {% else %}
+              <strong>{{ ev.venue.name }}</strong>{% if ev.venue.street %}<br>{{ ev.venue.street }}, {{ ev.venue.locality }} {{ ev.venue.postcode }}{% else %}<br>{{ ev.venue.locality }}{% endif %}
+            {% endif %}
+          </dd>
+        </div>
+        <div class="ev-fact">
+          <dt>Cost</dt>
+          <dd>{{ ev.cost }}</dd>
+        </div>
+        {% for f in ev.facts %}
+        <div class="ev-fact">
+          <dt>{{ f.label }}</dt>
+          <dd>{{ f.value }}</dd>
+        </div>
+        {% endfor %}
+      </dl>
+
+      {% for sec in ev.sections %}
+      <section class="ev-section">
+        <h2>{{ sec.heading }}</h2>
+        {{ sec.html | safe }}
+      </section>
+      {% endfor %}
+
+      {% if isSeries %}
+      <section class="ev-section">
+        <h2>The five sessions</h2>
+        <ol class="ev-sessions">
+          {% for s in ev.sessions %}
+          <li class="ev-session">
+            <p class="ev-session__when">{{ s.dateLabel }}, {{ s.time }}</p>
+            <h3>{{ s.name }}</h3>
+            <p>{{ s.blurb }}</p>
+            <p class="ev-session__where">{{ s.venue }}
+              &middot; <a href="{{ { name: s.venueName, street: s.street, locality: s.locality, postcode: s.postcode } | mapsUrl }}" target="_blank" rel="noopener">Directions</a>
+            </p>
+          </li>
+          {% endfor %}
+        </ol>
+      </section>
+      {% endif %}
+
+      <p class="ev-note">Event details come from the organisers and can change, so please check with them before you travel. Layton Unlocked is not the organiser of this event.</p>
+    </div>
+  </div>
+
+  <section class="ev-more">
+    <div class="container">
+      <p>Looking for more to do in Layton?</p>
+      <a class="ev-btn ev-btn--primary" href="/whats-on/">See everything on What's On</a>
+    </div>
+  </section>
+
+  <script type="application/ld+json">{{ ev | eventJsonLd | safe }}</script>
+</article>

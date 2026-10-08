@@ -6,21 +6,23 @@
   <title>{{ title or "Layton Unlocked" }}</title>
   <meta name="description" content="{{ description or 'A neighbourhood pulling together - events, support, and community pride in the heart of Blackpool.' }}">
   {% set social = meta[page.url] or meta.default %}
+  {% set ogImagePath = ogImage or social.image %}
   <link rel="canonical" href="https://laytonunlocked.com{{ page.url }}">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Layton Unlocked">
   <meta property="og:title" content="{{ title or 'Layton Unlocked' }}">
   <meta property="og:description" content="{{ description or social.description }}">
   <meta property="og:url" content="https://laytonunlocked.com{{ page.url }}">
-  <meta property="og:image" content="https://laytonunlocked.com{{ social.image }}">
+  <meta property="og:image" content="https://laytonunlocked.com{{ ogImagePath }}">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{{ title or 'Layton Unlocked' }}">
   <meta name="twitter:description" content="{{ description or social.description }}">
-  <meta name="twitter:image" content="https://laytonunlocked.com{{ social.image }}">
+  <meta name="twitter:image" content="https://laytonunlocked.com{{ ogImagePath }}">
   <link rel="stylesheet" href="/css/style.css">
   <link rel="stylesheet" href="/css/consent.css">
+  {% if pageCss %}<link rel="stylesheet" href="{{ pageCss }}">{% endif %}
   <script src="/js/consent.js" data-ga-id="{{ site.gaMeasurementId }}" defer></script>
 </head>
 <body>
