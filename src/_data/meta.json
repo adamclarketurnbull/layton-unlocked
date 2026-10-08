@@ -1,0 +1,10 @@
+{
+  "default": {
+    "image": "/images/og-home.jpg",
+    "description": "A neighbourhood pulling together - events, support, and community pride in the heart of Blackpool."
+  },
+  "/whats-on/": {
+    "image": "/images/og-whats-on.jpg",
+    "description": "Regular clubs and classes, plus one-off events, happening in and around Layton every week."
+  }
+}
