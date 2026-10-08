@@ -214,5 +214,65 @@
     "link": "https://www.facebook.com/groups/899351090106991/user/100043111851754/",
     "description": "Stalls are fully sold out! Please come along for a gorgeous festive afternoon, supporting small businesses. Plenty of gorgeous stalls, gifting, sweet treats, decorations etc. The bar is open and you could even book yourself a table for Sunday lunch! Sunday 15 November, 1pm-5pm at Blackpool Cricket Club. Free entry. Raising money for Mind. Blackpool Cricket Club on Facebook \u2192",
     "pinned": false
+  },
+  {
+    "slug": "garba-night-the-grange-10-october",
+    "title": "Garba Night at The Grange",
+    "date": "2026-10-10",
+    "time": "6:30pm-10:00pm",
+    "location": "The Grange, 2a Bathurst Avenue (off Dinmore Ave), Blackpool FY3 7RW",
+    "category": "Social",
+    "image": "/images/garba-night-the-grange.webp",
+    "description": "Fylde Coast Hindu Society brings Garba to Layton and Grange Park for the first time. An evening of dance, music, tradition and community spirit, with fun Garba for all ages, a live DJ and food stalls. Everyone welcome. Saturday 10 October, 6:30pm-10:00pm at The Grange. Dress code: casual, Indian preferred. Funded by Pride in Place. Contact details are on the poster.",
+    "pinned": false
+  },
+  {
+    "slug": "ceilidh-st-marks-church-hall-10-october",
+    "title": "Ceilidh at St Mark\u2019s",
+    "date": "2026-10-10",
+    "time": "5:00pm-7:30pm",
+    "location": "St Mark\u2019s Church Hall, Westcliffe Drive, Layton",
+    "category": "Social",
+    "image": "/images/ceilidh-st-marks-layton.webp",
+    "description": "All are welcome. Come and join us for a fun evening of dancing and food, with guest speaker Rev Sarah O\u2019Donoghue. Saturday 10 October, 5:00pm-7:30pm at St Mark\u2019s Church Hall, Westcliffe Drive. Hosted by The Trinity Parish.",
+    "pinned": false
+  },
+  {
+    "slug": "halloween-themed-lunch-club-27-october",
+    "title": "Halloween Themed Lunch Club",
+    "date": "2026-10-27",
+    "time": "12:30pm",
+    "location": "The Grange, 2a Bathurst Avenue (off Dinmore Ave), Blackpool FY3 7RW",
+    "category": "Social",
+    "cost": "paid",
+    "image": "/images/halloween-lunch-club.webp",
+    "description": "A spook-tacular afternoon of good food, fun and laughter. \u00a34 per person includes a 2-course meal, tea and coffee, bingo and a Halloween quiz. Optional fancy dress, with a prize for the best dressed guest. Everyone welcome, so bring a friend. Tuesday 27 October, 12:30pm. At The Grange.",
+    "pinned": false,
+    "venueLink": "https://www.facebook.com/profile.php?id=100064311027215",
+    "venueLinkText": "The Grange on Facebook \u2192"
+  },
+  {
+    "slug": "barbie-spooky-styling-session-layton-library-30-october",
+    "title": "Barbie Spooky Styling Session",
+    "date": "2026-10-30",
+    "time": "10:30am-12:30pm",
+    "location": "Layton Library",
+    "category": "Family & Kids",
+    "cost": "free",
+    "image": "/images/barbie-spooky-styling-layton-library.webp",
+    "description": "A free children\u2019s Barbie and Ken styling and play session hosted by Vintagebarbieclare. Pick your Barbie or Ken, choose their outfit and accessories, then take photos (optional) or just play. Fancy dress optional. Everything is provided and adults are welcome to join in with their children. Friday 30 October, 10:30am-12:30pm at Layton Library. Booking essential: contact Layton Library on 01253 478145 or layton.library@blackpool.gov.uk to book your child\u2019s place.",
+    "pinned": false
+  },
+  {
+    "slug": "christmas-market-christ-king-church-21-november",
+    "title": "Christmas Market at Christ King Church",
+    "date": "2026-11-21",
+    "time": "11:00am-3:00pm",
+    "location": "Christ King Church, 241 Bispham Road, Blackpool FY2 0LB",
+    "category": "Community",
+    "cost": "free",
+    "image": "/images/christmas-market-christ-king-church.webp",
+    "description": "Lots of handmade gifts, unique finds and treats, with something for everyone. A great way to get a head start on your Christmas shopping while supporting local small businesses. Stalls so far include Boo Blooms, Resin by Olivia, Bling by Amy, Inner Sparkle, The Dessert Lab and more, with Mr Whippy Blackpool outside serving ice creams and waffles. Saturday 21 November 2026, 11am-3pm. Free entry.",
+    "pinned": false
   }
 ]
