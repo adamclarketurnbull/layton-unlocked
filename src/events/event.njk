@@ -24,8 +24,9 @@ eleventyComputed:
     </div>
   </header>
 
-  <div class="container ev-body">
+  <div class="container ev-body{{ ' ev-body--single' if not ev.posters.length }}">
 
+    {% if ev.posters.length %}
     <div class="ev-posters">
       {% for p in ev.posters %}
       <figure class="ev-poster">
@@ -35,6 +36,7 @@ eleventyComputed:
       </figure>
       {% endfor %}
     </div>
+    {% endif %}
 
     <div class="ev-main">
       <p class="ev-intro">{{ ev.intro }}</p>
@@ -72,10 +74,12 @@ eleventyComputed:
             {% endif %}
           </dd>
         </div>
+        {% if ev.cost %}
         <div class="ev-fact">
           <dt>Cost</dt>
           <dd>{{ ev.cost }}</dd>
         </div>
+        {% endif %}
         {% for f in ev.facts %}
         <div class="ev-fact">
           <dt>{{ f.label }}</dt>

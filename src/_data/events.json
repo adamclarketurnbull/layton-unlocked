@@ -75,7 +75,8 @@
     "image": "",
     "link": "",
     "description": "Artist Ivan Morison worked in the field to turn the harvested crop into a series of sculptures, coated in sand and lime \u2013 creatures that will look after the meadow over winter. This Lightpool, help welcome these field creatures to the land, with an evening of unexpected light from artists AndNow. Friday 23 October, 6:30pm-8pm at the Field of Dreams. Free. Part of \"Autumn in the Field of Dreams\", run by Leftcoast, supported by Arts Council England. Under 14s must be accompanied by an adult.",
-    "pinned": false
+    "pinned": false,
+    "page": "/events/lightpool-2026-field-of-dreams/"
   },
   {
     "slug": "a-buble-christmas-starring-cameron-taylor",
@@ -99,7 +100,7 @@
     "category": "Community",
     "cost": "free",
     "image": "",
-    "link": "",
+    "link": "https://www.facebook.com/laytonmethodist",
     "description": "Community lights switch-on event at Layton Square. See the Layton Methodist Facebook page for full details.",
     "pinned": false
   },
@@ -128,7 +129,8 @@
     "image": "/images/skaface-flyer.webp",
     "link": "",
     "description": "Live ska music from SkaFace at the Layton Institute. \u00a35 advance, \u00a38 on the door.",
-    "pinned": false
+    "pinned": false,
+    "page": "/events/skaface-live-layton-institute/"
   },
   {
     "slug": "mums-playin-out-playdate-poetry",
@@ -231,7 +233,8 @@
     "category": "Social",
     "image": "/images/garba-night-the-grange.webp",
     "description": "Fylde Coast Hindu Society brings Garba to Layton and Grange Park for the first time. An evening of dance, music, tradition and community spirit, with fun Garba for all ages, a live DJ and food stalls. Everyone welcome. Saturday 10 October, 6:30pm-10:00pm at The Grange. Dress code: casual, Indian preferred. Funded by Pride in Place. Contact details are on the poster.",
-    "pinned": false
+    "pinned": false,
+    "page": "/events/garba-night-the-grange/"
   },
   {
     "slug": "ceilidh-st-marks-church-hall-10-october",
@@ -242,7 +245,8 @@
     "category": "Social",
     "image": "/images/ceilidh-st-marks-layton.webp",
     "description": "All are welcome. Come and join us for a fun evening of dancing and food, with guest speaker Rev Sarah O\u2019Donoghue. Saturday 10 October, 5:00pm-7:30pm at St Mark\u2019s Church Hall, Westcliffe Drive. Hosted by The Trinity Parish.",
-    "pinned": false
+    "pinned": false,
+    "page": "/events/ceilidh-st-marks-church-hall/"
   },
   {
     "slug": "halloween-themed-lunch-club-27-october",

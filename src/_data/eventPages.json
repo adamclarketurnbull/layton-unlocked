@@ -757,5 +757,250 @@
         "price": "55"
       }
     ]
+  },
+  {
+    "slug": "lightpool-2026-field-of-dreams",
+    "title": "Lightpool 2026: Welcoming Winter at the Field of Dreams",
+    "kicker": "Arts",
+    "theme": "purple",
+    "summary": "An evening of unexpected light from artists AndNow at the Field of Dreams, Bowness Avenue, on Friday 23 October 2026, 6:30pm to 8pm. Free.",
+    "ogImage": "/images/og/events/lightpool-2026-field-of-dreams.jpg",
+    "posters": [],
+    "sessions": [
+      {
+        "dateLabel": "Friday 23 October 2026",
+        "time": "6:30pm to 8:00pm",
+        "start": "2026-10-23T18:30:00+01:00",
+        "end": "2026-10-23T20:00:00+01:00"
+      }
+    ],
+    "venue": {
+      "name": "Field of Dreams",
+      "street": "Bowness Avenue",
+      "locality": "Blackpool",
+      "postcode": "FY4 4TE"
+    },
+    "cost": "Free",
+    "offers": {
+      "price": "0"
+    },
+    "facts": [
+      {
+        "label": "Good to know",
+        "value": "Under 14s must be accompanied by an adult"
+      },
+      {
+        "label": "Part of",
+        "value": "Autumn in the Field of Dreams, run by Leftcoast and supported by Arts Council England"
+      }
+    ],
+    "intro": "Help welcome the field creatures to the land, with an evening of unexpected light from artists AndNow.",
+    "sections": [
+      {
+        "heading": "The story",
+        "html": "<p>Artist Ivan Morison worked in the field to turn the harvested crop into a series of sculptures, coated in sand and lime. They are creatures that will look after the meadow over winter.</p>"
+      },
+      {
+        "heading": "The evening",
+        "html": "<p>This Lightpool, come and help welcome these field creatures to the land, with an evening of unexpected light from artists AndNow. It runs from 6:30pm to 8pm at the Field of Dreams and is free.</p>"
+      }
+    ],
+    "links": [],
+    "organiser": {
+      "name": "Leftcoast"
+    }
+  },
+  {
+    "slug": "skaface-live-layton-institute",
+    "title": "SkaFace Live at Layton Institute",
+    "kicker": "Live music",
+    "theme": "orange",
+    "summary": "SkaFace play the hits of Madness, The Specials, Bad Manners and more at Layton Institute on Friday 16 October 2026. \u00a35 in advance, \u00a38 on the door.",
+    "ogImage": "/images/og/events/skaface-live-layton-institute.jpg",
+    "posters": [
+      {
+        "src": "/images/skaface-flyer.webp",
+        "alt": "Flyer for SkaFace live at Layton Institute on Friday 16 October 2026, \u00a35 in advance, \u00a38 on the door"
+      }
+    ],
+    "sessions": [
+      {
+        "dateLabel": "Friday 16 October 2026",
+        "time": "8:00pm to 11:45pm",
+        "start": "2026-10-16T20:00:00+01:00",
+        "end": "2026-10-16T23:45:00+01:00"
+      }
+    ],
+    "venue": {
+      "name": "Layton Institute",
+      "street": "30 Westcliffe Drive",
+      "locality": "Blackpool",
+      "postcode": "FY3 7HG"
+    },
+    "cost": "\u00a35 in advance, \u00a38 on the door",
+    "offers": {
+      "price": "5",
+      "url": "https://laytoninstitute.com/product/skaface-live-friday-16th-october/"
+    },
+    "facts": [
+      {
+        "label": "Tickets",
+        "value": "Expected to sell fast, so book early"
+      }
+    ],
+    "intro": "A night of infectious rhythms, classic tunes and non-stop dancing as SkaFace take to the stage at Layton Institute.",
+    "sections": [
+      {
+        "heading": "The band",
+        "html": "<p>One of the UK's favourite ska and two-tone tribute bands, SkaFace deliver an electrifying live show packed with the timeless hits of Madness, The Specials, Bad Manners, The Beat, The Selecter, The Bodysnatchers and more. Expect a superb live band, authentic sound and boundless energy.</p>"
+      },
+      {
+        "heading": "The night",
+        "html": "<p>Whether you are a lifelong ska fan or just after a great night out, it is an evening of singalong classics and a brilliant party atmosphere. Dust off your pork pie hat and bring your friends.</p>"
+      },
+      {
+        "heading": "Tickets",
+        "html": "<p>Tickets are \u00a35 in advance or \u00a38 on the door, and are expected to sell fast.</p>"
+      }
+    ],
+    "links": [
+      {
+        "type": "booking",
+        "label": "Book tickets",
+        "url": "https://laytoninstitute.com/product/skaface-live-friday-16th-october/",
+        "primary": true
+      },
+      {
+        "type": "website",
+        "label": "Layton Institute website",
+        "url": "https://laytoninstitute.com"
+      },
+      {
+        "type": "facebook",
+        "label": "Layton Institute on Facebook",
+        "url": "https://www.facebook.com/LaytonInstitute"
+      }
+    ],
+    "organiser": {
+      "name": "Layton Institute",
+      "url": "https://laytoninstitute.com"
+    }
+  },
+  {
+    "slug": "garba-night-the-grange",
+    "title": "Garba Night at The Grange",
+    "kicker": "Social",
+    "theme": "orange",
+    "summary": "Fylde Coast Hindu Society brings Garba to Layton and Grange Park for the first time: dance, music, a live DJ and food stalls at The Grange on Saturday 10 October 2026.",
+    "ogImage": "/images/og/events/garba-night-the-grange.jpg",
+    "posters": [
+      {
+        "src": "/images/garba-night-the-grange.webp",
+        "alt": "Poster for Garba Night at The Grange, Saturday 10 October 2026, 6:30pm to 10pm, with Fylde Coast Hindu Society"
+      }
+    ],
+    "sessions": [
+      {
+        "dateLabel": "Saturday 10 October 2026",
+        "time": "6:30pm to 10:00pm",
+        "start": "2026-10-10T18:30:00+01:00",
+        "end": "2026-10-10T22:00:00+01:00"
+      }
+    ],
+    "venue": {
+      "name": "The Grange",
+      "street": "2a Bathurst Avenue (off Dinmore Avenue)",
+      "locality": "Blackpool",
+      "postcode": "FY3 7RW"
+    },
+    "cost": "",
+    "facts": [
+      {
+        "label": "Dress code",
+        "value": "Casual, Indian dress preferred"
+      },
+      {
+        "label": "Who it's for",
+        "value": "All ages, everyone welcome"
+      },
+      {
+        "label": "Funded by",
+        "value": "Pride in Place"
+      },
+      {
+        "label": "Contact",
+        "value": "Details are on the poster"
+      }
+    ],
+    "intro": "Fylde Coast Hindu Society brings Garba to Layton and Grange Park for the first time, with an evening of dance, music, tradition and community spirit.",
+    "sections": [
+      {
+        "heading": "What to expect",
+        "html": "<ul><li>Fun Garba dancing for all ages</li><li>A live DJ</li><li>Food stalls</li></ul><p>Everyone is welcome, whether you have danced Garba before or have never tried it.</p>"
+      },
+      {
+        "heading": "What to wear",
+        "html": "<p>Dress is casual, with Indian dress preferred if you have it.</p>"
+      }
+    ],
+    "links": [
+      {
+        "type": "facebook",
+        "label": "The Grange on Facebook",
+        "url": "https://www.facebook.com/profile.php?id=100064311027215"
+      }
+    ],
+    "organiser": {
+      "name": "Fylde Coast Hindu Society"
+    }
+  },
+  {
+    "slug": "ceilidh-st-marks-church-hall",
+    "title": "Ceilidh at St Mark's",
+    "kicker": "Social",
+    "theme": "teal",
+    "summary": "An evening of dancing and food at St Mark's Church Hall, Westcliffe Drive, Layton on Saturday 10 October 2026, with guest speaker Rev Sarah O'Donoghue. All welcome.",
+    "ogImage": "/images/og/events/ceilidh-st-marks-church-hall.jpg",
+    "posters": [
+      {
+        "src": "/images/ceilidh-st-marks-layton.webp",
+        "alt": "Poster for a Ceilidh at St Mark's Church Hall, Westcliffe Drive, Saturday 10 October 2026, 5pm to 7:30pm, all welcome"
+      }
+    ],
+    "sessions": [
+      {
+        "dateLabel": "Saturday 10 October 2026",
+        "time": "5:00pm to 7:30pm",
+        "start": "2026-10-10T17:00:00+01:00",
+        "end": "2026-10-10T19:30:00+01:00"
+      }
+    ],
+    "venue": {
+      "name": "St Mark's Church Hall",
+      "street": "Westcliffe Drive",
+      "locality": "Layton, Blackpool"
+    },
+    "cost": "",
+    "facts": [
+      {
+        "label": "Guest speaker",
+        "value": "Rev Sarah O'Donoghue"
+      },
+      {
+        "label": "Hosted by",
+        "value": "The Trinity Parish"
+      }
+    ],
+    "intro": "All are welcome to come and join in a fun evening of dancing and food at St Mark's Church Hall.",
+    "sections": [
+      {
+        "heading": "The evening",
+        "html": "<p>A ceilidh with dancing and food, plus a guest speaker, Rev Sarah O'Donoghue. Everyone is welcome.</p>"
+      }
+    ],
+    "links": [],
+    "organiser": {
+      "name": "The Trinity Parish"
+    }
   }
 ]
