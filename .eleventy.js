@@ -1,4 +1,7 @@
 module.exports = function (eleventyConfig) {
+  // Do not publish the images README as a page
+  eleventyConfig.ignores.add("src/images/README.md");
+
   // Static passthroughs
   eleventyConfig.addPassthroughCopy("src/css");
   eleventyConfig.addPassthroughCopy("src/js");

@@ -31,6 +31,12 @@
 
   function openPopup() {
     if (isDone()) return;
+    // Wait until the cookie banner has been answered so the two don't stack.
+    var cookieBanner = document.getElementById("lu-consent");
+    if (cookieBanner && !cookieBanner.hidden) {
+      setTimeout(openPopup, 1000);
+      return;
+    }
     popup.hidden = false;
   }
 
