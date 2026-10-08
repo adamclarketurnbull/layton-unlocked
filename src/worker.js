@@ -37,13 +37,34 @@ async function handleVote(request, env) {
   return jsonResponse({ ok: true });
 }
 
-async function handleResults(env) {
+// Constant-time string comparison so the key can't be guessed by timing.
+function safeEqual(a, b) {
+  if (typeof a !== "string" || typeof b !== "string" || a.length !== b.length) return false;
+  let diff = 0;
+  for (let i = 0; i < a.length; i++) diff |= a.charCodeAt(i) ^ b.charCodeAt(i);
+  return diff === 0;
+}
+
+// Results are private. They need the RESULTS_KEY secret, passed as ?key=...
+// If the secret has not been set, the endpoint behaves as if it does not exist.
+async function handleResults(request, env) {
+  if (!env.RESULTS_KEY) {
+    return new Response("Not found", { status: 404 });
+  }
+  const provided = new URL(request.url).searchParams.get("key");
+  if (!safeEqual(provided, env.RESULTS_KEY)) {
+    return new Response("Not found", { status: 404 });
+  }
+
   const results = {};
   for (const option of SURVEY_OPTIONS) {
     const value = await env.SURVEY_VOTES.get("votes:" + option);
     results[option] = parseInt(value, 10) || 0;
   }
-  return jsonResponse(results);
+  const res = jsonResponse(results);
+  res.headers.set("cache-control", "no-store");
+  res.headers.set("x-robots-tag", "noindex");
+  return res;
 }
 
 export default {
@@ -55,7 +76,7 @@ export default {
     }
 
     if (url.pathname === "/api/survey/results" && request.method === "GET") {
-      return handleResults(env);
+      return handleResults(request, env);
     }
 
     return env.ASSETS.fetch(request);
