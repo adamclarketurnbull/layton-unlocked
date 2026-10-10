@@ -71,9 +71,9 @@ pinnedEvent: pride-in-place-layton-community-party
       <p class="featured-event__body">{{ featured.description }}</p>
       <a href="/whats-on/#{{ featured.slug }}" class="btn btn--yellow">Find out more &rarr;</a>
     </div>
-    <div class="featured-event__image-wrap" style="height:300px;min-height:300px;">
+    <div class="featured-event__image-wrap featured-event__image-wrap--portrait">
       {% if featured.image %}
-        <img src="{{ featured.image }}" alt="{{ featured.title }}" style="width:100%;height:100%;object-fit:cover;border-radius:12px;">
+        <img src="{{ featured.image }}" alt="{{ featured.title }}">
       {% else %}
         <div class="featured-event__placeholder" style="height:100%;border-radius:12px;"></div>
       {% endif %}

@@ -17,9 +17,9 @@ pinnedEvent: pride-in-place-layton-community-party
 {% if featured %}
 <section class="pinned-service section" style="padding-bottom:40px;" id="{{ featured.slug }}">
   <div class="container">
-    <article class="story-card wo-featured">
+    <article class="story-card wo-featured wo-featured--portrait">
       {% if featured.image %}
-        <div class="story-card__placeholder" style="background-image:url('{{ featured.image }}');"></div>
+        <img class="wo-featured__img" src="{{ featured.image }}" alt="{{ featured.title }}">
       {% else %}
         <div class="story-card__placeholder photo-placeholder" style="background:linear-gradient(135deg,var(--blue-sky),var(--blue-deep));"></div>
       {% endif %}
