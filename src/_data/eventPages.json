@@ -102,7 +102,7 @@
     "title": "Mum's Playin' Out",
     "kicker": "Family & Kids",
     "theme": "yellow",
-    "summary": "Free events for new mums in Layton: poetry, drag bingo, rag wreath making, baby-wearing dance and comedy, with babies welcome. Part of Pride in Place Layton.",
+    "summary": "Free events for new mums in Layton: drag bingo, rag wreath making, baby-wearing dance and comedy, with babies welcome. Part of Pride in Place Layton.",
     "ogImage": "/images/og/events/mums-playin-out.jpg",
     "posters": [
       {
@@ -112,16 +112,6 @@
     ],
     "seriesName": "Mum's Playin' Out",
     "sessions": [
-      {
-        "name": "Playdate Poetry",
-        "dateLabel": "Friday 9 October 2026",
-        "time": "1:00pm",
-        "start": "2026-10-09T13:00:00+01:00",
-        "venue": "Argosy Community Centre, Grange Park",
-        "venueName": "Argosy Community Centre",
-        "locality": "Blackpool",
-        "blurb": "Come and listen to some spoken word, then join other mums to explore what \"playing out\" looks and feels like postpartum. No experience needed. Babies 2 and under welcome."
-      },
       {
         "name": "Baby Friendly Drag Bingo",
         "dateLabel": "Friday 16 October 2026",
@@ -172,7 +162,7 @@
       }
     ],
     "venue": {
-      "name": "Argosy Community Centre, Layton Institute and The Grange",
+      "name": "Layton Institute and The Grange",
       "locality": "Blackpool"
     },
     "cost": "Free",
@@ -206,9 +196,9 @@
     "organiser": {
       "name": "Pride in Place Layton"
     },
-    "lead": "Five free sessions for new mums, 9 October to 6 November 2026",
-    "whenSummary": "Five Fridays, 9 October to 6 November 2026 (dates below)",
-    "whereSummary": "Argosy Community Centre, Layton Institute and The Grange (see each date below)"
+    "lead": "Four free sessions for new mums, 16 October to 6 November 2026",
+    "whenSummary": "Four Fridays, 16 October to 6 November 2026 (dates below)",
+    "whereSummary": "Layton Institute and The Grange (see each date below)"
   },
   {
     "slug": "halloween-themed-lunch-club",
@@ -884,123 +874,6 @@
     "organiser": {
       "name": "Layton Institute",
       "url": "https://laytoninstitute.com"
-    }
-  },
-  {
-    "slug": "garba-night-the-grange",
-    "title": "Garba Night at The Grange",
-    "kicker": "Social",
-    "theme": "orange",
-    "summary": "Fylde Coast Hindu Society brings Garba to Layton and Grange Park for the first time: dance, music, a live DJ and food stalls at The Grange on Saturday 10 October 2026.",
-    "ogImage": "/images/og/events/garba-night-the-grange.jpg",
-    "posters": [
-      {
-        "src": "/images/garba-night-the-grange.webp",
-        "alt": "Poster for Garba Night at The Grange, Saturday 10 October 2026, 6:30pm to 10pm, with Fylde Coast Hindu Society"
-      }
-    ],
-    "sessions": [
-      {
-        "dateLabel": "Saturday 10 October 2026",
-        "time": "6:30pm to 10:00pm",
-        "start": "2026-10-10T18:30:00+01:00",
-        "end": "2026-10-10T22:00:00+01:00"
-      }
-    ],
-    "venue": {
-      "name": "The Grange",
-      "street": "2a Bathurst Avenue (off Dinmore Avenue)",
-      "locality": "Blackpool",
-      "postcode": "FY3 7RW"
-    },
-    "cost": "",
-    "facts": [
-      {
-        "label": "Dress code",
-        "value": "Casual, Indian dress preferred"
-      },
-      {
-        "label": "Who it's for",
-        "value": "All ages, everyone welcome"
-      },
-      {
-        "label": "Funded by",
-        "value": "Pride in Place"
-      },
-      {
-        "label": "Contact",
-        "value": "Details are on the poster"
-      }
-    ],
-    "intro": "Fylde Coast Hindu Society brings Garba to Layton and Grange Park for the first time, with an evening of dance, music, tradition and community spirit.",
-    "sections": [
-      {
-        "heading": "What to expect",
-        "html": "<ul><li>Fun Garba dancing for all ages</li><li>A live DJ</li><li>Food stalls</li></ul><p>Everyone is welcome, whether you have danced Garba before or have never tried it.</p>"
-      },
-      {
-        "heading": "What to wear",
-        "html": "<p>Dress is casual, with Indian dress preferred if you have it.</p>"
-      }
-    ],
-    "links": [
-      {
-        "type": "facebook",
-        "label": "The Grange on Facebook",
-        "url": "https://www.facebook.com/profile.php?id=100064311027215"
-      }
-    ],
-    "organiser": {
-      "name": "Fylde Coast Hindu Society"
-    }
-  },
-  {
-    "slug": "ceilidh-st-marks-church-hall",
-    "title": "Ceilidh at St Mark's",
-    "kicker": "Social",
-    "theme": "teal",
-    "summary": "An evening of dancing and food at St Mark's Church Hall, Westcliffe Drive, Layton on Saturday 10 October 2026, with guest speaker Rev Sarah O'Donoghue. All welcome.",
-    "ogImage": "/images/og/events/ceilidh-st-marks-church-hall.jpg",
-    "posters": [
-      {
-        "src": "/images/ceilidh-st-marks-layton.webp",
-        "alt": "Poster for a Ceilidh at St Mark's Church Hall, Westcliffe Drive, Saturday 10 October 2026, 5pm to 7:30pm, all welcome"
-      }
-    ],
-    "sessions": [
-      {
-        "dateLabel": "Saturday 10 October 2026",
-        "time": "5:00pm to 7:30pm",
-        "start": "2026-10-10T17:00:00+01:00",
-        "end": "2026-10-10T19:30:00+01:00"
-      }
-    ],
-    "venue": {
-      "name": "St Mark's Church Hall",
-      "street": "Westcliffe Drive",
-      "locality": "Layton, Blackpool"
-    },
-    "cost": "",
-    "facts": [
-      {
-        "label": "Guest speaker",
-        "value": "Rev Sarah O'Donoghue"
-      },
-      {
-        "label": "Hosted by",
-        "value": "The Trinity Parish"
-      }
-    ],
-    "intro": "All are welcome to come and join in a fun evening of dancing and food at St Mark's Church Hall.",
-    "sections": [
-      {
-        "heading": "The evening",
-        "html": "<p>A ceilidh with dancing and food, plus a guest speaker, Rev Sarah O'Donoghue. Everyone is welcome.</p>"
-      }
-    ],
-    "links": [],
-    "organiser": {
-      "name": "The Trinity Parish"
     }
   }
 ]

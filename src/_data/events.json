@@ -26,19 +26,6 @@
     "pinned": false
   },
   {
-    "slug": "craft-and-table-top-sale-10-october",
-    "title": "Craft and Table-Top Sale \u2013 10 October",
-    "date": "2026-10-10",
-    "time": "9:30am",
-    "location": "Layton Methodist, Westcliffe Drive, Blackpool FY3 7DZ",
-    "category": "Arts",
-    "cost": "free",
-    "image": "/images/craft-tabletop-sale-poster.webp",
-    "link": "https://www.facebook.com/laytonmethodist",
-    "description": "A morning of browsing, chatting and supporting local crafters and sellers, with a cuppa from the caf\u00e9. Proceeds go towards our new Youth and Skills Hub. Saturday 10 October 2026, doors open 9:30am. Layton Methodist, Westcliffe Drive, Blackpool FY3 7DZ. Caf\u00e9 open for refreshments. Free entry, everyone welcome. Layton Methodist on Facebook \u2192",
-    "pinned": true
-  },
-  {
     "slug": "free-community-microchipping-day",
     "title": "Free Community Microchipping Day",
     "date": "2026-10-17",
@@ -133,20 +120,6 @@
     "page": "/events/skaface-live-layton-institute/"
   },
   {
-    "slug": "mums-playin-out-playdate-poetry",
-    "title": "Mum's Playin' Out: Playdate Poetry",
-    "date": "2026-10-09",
-    "time": "1pm",
-    "location": "Argosy Community Centre, Grange Park",
-    "category": "Family & Kids",
-    "cost": "free",
-    "image": "/images/mums-playin-out-poster.webp",
-    "link": "https://www.facebook.com/share/1F9S7JRUUN/",
-    "description": "Come listen to some spoken word before joining other mums to explore what \"playing out\" looks and feels like postpartum. No experience needed. Babies 2 and under welcome. Part of Mum's Playin' Out - Pride in Place Layton, free events for new mums to support their mental health, sense of identity and joy. Friday 9 October, 1pm at Argosy Community Centre, Grange Park. Mum's Playin' Out on Facebook \u2192",
-    "pinned": false,
-    "page": "/events/mums-playin-out/"
-  },
-  {
     "slug": "mums-playin-out-baby-friendly-drag-bingo",
     "title": "Mum's Playin' Out: Baby Friendly Drag Bingo",
     "date": "2026-10-16",
@@ -223,30 +196,6 @@
     "description": "Stalls are fully sold out! Please come along for a gorgeous festive afternoon, supporting small businesses. Plenty of gorgeous stalls, gifting, sweet treats, decorations etc. The bar is open and you could even book yourself a table for Sunday lunch! Sunday 15 November, 1pm-5pm at Blackpool Cricket Club. Free entry. Raising money for Mind. Blackpool Cricket Club on Facebook \u2192",
     "pinned": false,
     "page": "/events/christmas-market-blackpool-cricket-club/"
-  },
-  {
-    "slug": "garba-night-the-grange-10-october",
-    "title": "Garba Night at The Grange",
-    "date": "2026-10-10",
-    "time": "6:30pm-10:00pm",
-    "location": "The Grange, 2a Bathurst Avenue (off Dinmore Ave), Blackpool FY3 7RW",
-    "category": "Social",
-    "image": "/images/garba-night-the-grange.webp",
-    "description": "Fylde Coast Hindu Society brings Garba to Layton and Grange Park for the first time. An evening of dance, music, tradition and community spirit, with fun Garba for all ages, a live DJ and food stalls. Everyone welcome. Saturday 10 October, 6:30pm-10:00pm at The Grange. Dress code: casual, Indian preferred. Funded by Pride in Place. Contact details are on the poster.",
-    "pinned": false,
-    "page": "/events/garba-night-the-grange/"
-  },
-  {
-    "slug": "ceilidh-st-marks-church-hall-10-october",
-    "title": "Ceilidh at St Mark\u2019s",
-    "date": "2026-10-10",
-    "time": "5:00pm-7:30pm",
-    "location": "St Mark\u2019s Church Hall, Westcliffe Drive, Layton",
-    "category": "Social",
-    "image": "/images/ceilidh-st-marks-layton.webp",
-    "description": "All are welcome. Come and join us for a fun evening of dancing and food, with guest speaker Rev Sarah O\u2019Donoghue. Saturday 10 October, 5:00pm-7:30pm at St Mark\u2019s Church Hall, Westcliffe Drive. Hosted by The Trinity Parish.",
-    "pinned": false,
-    "page": "/events/ceilidh-st-marks-church-hall/"
   },
   {
     "slug": "halloween-themed-lunch-club-27-october",
