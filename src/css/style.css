@@ -19,14 +19,14 @@
   --grey: #8A7458;        /* warm muted grey-brown */
 
   --max-width: 1100px;
-  --section-pad-v: 48px;
+  --section-pad-v: 34px;
   --nav-height: 64px;
   --radius-card: 20px;
   --radius-btn: 14px;
 }
 
 @media (min-width: 768px) {
-  :root { --section-pad-v: 80px; }
+  :root { --section-pad-v: 56px; }
 }
 
 /* ============================================================
@@ -468,7 +468,7 @@ img { max-width: 100%; display: block; }
   transition: opacity 0.15s, transform 0.15s;
 }
 .wo-show-more-btn:hover { opacity: 0.88; transform: translateY(-1px); }
-.wo-tight { padding-top: 36px; }
+.wo-tight { padding-top: 26px; }
 .wo-tight .section__heading-group { margin-bottom: 0; }
 
 /* ============================================================
@@ -870,7 +870,7 @@ a.wo-card:hover, .help-tile:hover, .story-card:hover { transform: translate(-2px
 #fe-section-infant .section__heading-group { margin-bottom: 0.25rem; }
 #fe-section-infant .reassurance__body { margin-bottom: 1rem; }
 
-.services-section { padding-block: 32px; }
+.services-section { padding-block: 24px; }
 .services-section .section__heading-group { margin-bottom: 0.25rem; }
 .services-section .section__subhead { margin-bottom: 1rem; }
 .fe-intro { padding-bottom: 0; padding-top: 40px; }
