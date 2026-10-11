@@ -124,6 +124,8 @@ img { max-width: 100%; display: block; }
 .photo-placeholder__icon { font-size: 2.2rem; line-height: 1; }
 .photo-placeholder__label { font-size: .85rem; font-weight: 700; opacity: .9; letter-spacing: .02em; }
 .photo-placeholder--hero { position: absolute; inset: 0; z-index: -1; background: linear-gradient(135deg,#3a2a5c,#241443 55%,#150a1f); }
+#fe-section-infant .pinned-card__media { width: 100%; max-width: 320px; margin: 0 auto 16px; border-radius: var(--radius-card); border: 3px solid var(--black); flex: none; }
+@media (min-width: 768px) { #fe-section-infant .pinned-card__media { max-width: 360px; } }
 
 /* ============================================================
    BUTTONS & LINKS
@@ -637,7 +639,7 @@ img { max-width: 100%; display: block; }
 
 /* HERO */
 .hero--zine::before { display: none; }
-.hero--zine .hero__scrim { position: absolute; inset: 0; background: rgba(79,214,181,0.60); pointer-events: none; }
+.hero--zine .hero__scrim { position: absolute; inset: 0; background: rgba(79,214,181,0.30); pointer-events: none; }
 .hero--zine .hero__heading { color: #0E2C27; text-shadow: none; transform: rotate(-1deg); }
 .hero--zine .hero__subhead { color: #0E2C27; text-shadow: none; opacity: 1; }
 .hero--zine .btn--orange { background: var(--green); color: var(--white-warm); }
@@ -735,10 +737,10 @@ a.wo-card:hover, .help-tile:hover, .story-card:hover { transform: translate(-2px
 .page-hero--zine .page-hero__scrim { position: absolute; inset: 0; }
 .page-hero--zine .page-hero__inner { position: relative; z-index: 1; }
 .page-hero--zine .page-hero__heading { transform: rotate(-1deg); margin-bottom: 14px; }
-.page-hero--teal .page-hero__scrim { background: rgba(79,214,181,0.88); }
+.page-hero--teal .page-hero__scrim { background: rgba(79,214,181,0.44); }
 .page-hero--teal .page-hero__heading,
 .page-hero--teal .page-hero__subhead { color: #0E2C27; }
-.page-hero--orange .page-hero__scrim { background: rgba(255,107,74,0.88); }
+.page-hero--orange .page-hero__scrim { background: rgba(255,107,74,0.44); }
 .page-hero--orange .page-hero__heading,
 .page-hero--orange .page-hero__subhead { color: #3B0E08; }
 
@@ -856,9 +858,9 @@ a.wo-card:hover, .help-tile:hover, .story-card:hover { transform: translate(-2px
 .hero--zine .hero__subhead { font-weight: 700; }
 .page-hero--zine .page-hero__heading { text-shadow: 2px 2px 0 rgba(255,255,255,0.55); }
 .hero--zine .hero__heading { text-shadow: none; }
-.page-hero--teal .page-hero__scrim { background: rgba(79,214,181,0.93); }
-.page-hero--orange .page-hero__scrim { background: rgba(255,138,92,0.93); }
-.hero--zine .hero__scrim { background: rgba(79,214,181,0.66); }
+.page-hero--teal .page-hero__scrim { background: rgba(79,214,181,0.465); }
+.page-hero--orange .page-hero__scrim { background: rgba(255,138,92,0.465); }
+.hero--zine .hero__scrim { background: rgba(79,214,181,0.33); }
 
 /* Food & Essentials: pinned Living Well box gets room at the bottom so the
    tilted card no longer crowds the section edge. */
