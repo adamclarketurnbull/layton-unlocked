@@ -1,7 +1,6 @@
 ---
 layout: base.njk
 title: Layton Unlocked
-pinnedEvent: pride-in-place-layton-community-party
 ---
 <section class="hero hero--zine" style="background-image:url('/images/layton-hero.webp');background-size:cover;background-position:center;position:relative;">
   <div class="hero__scrim" aria-hidden="true"></div>
@@ -53,26 +52,19 @@ pinnedEvent: pride-in-place-layton-community-party
   </div>
 </section>
 
-{% set featured = events | findBy("slug", pinnedEvent) %}
-{% if featured %}
 <section class="featured-event section" id="whats-on">
   <div class="container featured-event__inner">
     <div class="featured-event__content">
-      <span class="zc-badge zc-badge--dark">Save the date - {{ featured.date | humanDate }}</span>
-      <h2 class="featured-event__heading">{{ featured.title }}</h2>
-      <p class="featured-event__body">{{ featured.description }}</p>
-      <a href="/whats-on/#{{ featured.slug }}" class="btn btn--card btn--teal">Find out more &rarr;</a>
+      <span class="zc-badge zc-badge--dark">Every Monday, 9.30am-12.30pm</span>
+      <h2 class="featured-event__heading">Living Well in Blackpool - Support Hub</h2>
+      <p class="featured-event__body">A new weekly drop-in offering wraparound support with money, employment, housing, food, health, family worries and learning new skills. Come in, have a chat, and we'll help you find the right support.</p>
+      <a href="/food-essentials/#fe-section-pinned" class="btn btn--card btn--teal">Find out more &rarr;</a>
     </div>
-    <div class="featured-event__image-wrap featured-event__image-wrap--portrait zc-rotate-2">
-      {% if featured.image %}
-        <img src="{{ featured.image }}" alt="{{ featured.title }}">
-      {% else %}
-        <div class="featured-event__placeholder" style="height:100%;"></div>
-      {% endif %}
+    <div class="featured-event__image-wrap featured-event__image-wrap--landscape zc-rotate-2">
+      <img src="/images/living-well-support-hub.webp" alt="Living Well in Blackpool - Support Hub">
     </div>
   </div>
 </section>
-{% endif %}
 
 
 <section class="mission section mission--short" id="newsletter-cta">
@@ -88,7 +80,7 @@ pinnedEvent: pride-in-place-layton-community-party
       <h2 class="section__heading">Our People. Our Stories.</h2>
       <span class="burst" aria-hidden="true"></span>
     </div>
-    <p style="color:var(--grey,#8A7458);font-size:.85rem;font-style:italic;margin:-8px 0 20px;">Illustrative examples while we collect real stories from Layton residents - not verbatim quotes.</p>
+    <p style="color:var(--black);font-size:1rem;font-weight:700;font-style:italic;margin:-4px 0 22px;">Illustrative examples while we collect real stories from Layton residents - not verbatim quotes.</p>
 
     <div class="stories__grid">
       <article class="story-card zc-rotate-1">

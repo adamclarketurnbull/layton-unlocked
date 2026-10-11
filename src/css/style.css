@@ -578,8 +578,8 @@ img { max-width: 100%; display: block; }
     align-items: stretch;
   }
   .service-card--media-side .service-card__media {
-    width: 220px;
-    flex: 0 0 220px;
+    width: 260px;
+    flex: 0 0 260px;
     min-height: auto;
     border-radius: var(--radius-card) 0 0 var(--radius-card);
   }
@@ -884,6 +884,19 @@ a.wo-card:hover, .help-tile:hover, .story-card:hover { transform: translate(-2px
   width: 100%;
   height: 100%;
   object-fit: contain;
+}
+.featured-event__image-wrap--landscape {
+  width: 100%;
+  aspect-ratio: 2 / 1;
+  margin-inline: auto;
+  box-shadow: 0 8px 24px rgba(36, 20, 67, 0.18);
+}
+.featured-event__image-wrap--landscape img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  background: #fff;
 }
 .wo-featured--portrait { grid-template-columns: minmax(200px, 300px) 1fr; }
 .wo-featured--portrait .wo-featured__img {
