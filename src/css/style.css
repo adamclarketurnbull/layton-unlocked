@@ -124,8 +124,10 @@ img { max-width: 100%; display: block; }
 .photo-placeholder__icon { font-size: 2.2rem; line-height: 1; }
 .photo-placeholder__label { font-size: .85rem; font-weight: 700; opacity: .9; letter-spacing: .02em; }
 .photo-placeholder--hero { position: absolute; inset: 0; z-index: -1; background: linear-gradient(135deg,#3a2a5c,#241443 55%,#150a1f); }
-#fe-section-infant .pinned-card__media { width: 100%; max-width: 320px; margin: 0 auto 16px; border-radius: var(--radius-card); border: 3px solid var(--black); flex: none; }
-@media (min-width: 768px) { #fe-section-infant .pinned-card__media { max-width: 360px; } }
+#fe-section-infant .service-card__media { min-height: 260px; }
+@media (min-width: 640px) {
+  #fe-section-infant .service-card__media { width: 200px; flex: 0 0 200px; }
+}
 
 /* ============================================================
    BUTTONS & LINKS
