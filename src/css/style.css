@@ -14,7 +14,7 @@
   --green: #FF6B4A;       /* legacy name - this is actually an orange accent */
   --yellow: #FFC247;      /* tertiary accent */
   --red: #4FD6B5;         /* link/CTA accent - reuses teal for contrast; re-check in QA */
-  --white-warm: #FFF4E8;  /* page background */
+  --white-warm: #F0E4CD;  /* page background - muted 11 Oct 2026, was too bright/high-contrast */
   --black: #2B1400;       /* ink */
   --grey: #8A7458;        /* warm muted grey-brown */
 
