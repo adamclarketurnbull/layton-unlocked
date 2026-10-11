@@ -196,9 +196,9 @@ img { max-width: 100%; display: block; }
 .hero__inner {
   max-width: var(--max-width); margin-inline: auto; padding-inline: 20px;
   display: flex; flex-direction: column; align-items: center; text-align: center;
-  padding-top: 16px; padding-bottom: 20px; min-height: 240px; justify-content: center;
+  padding-top: 10px; padding-bottom: 12px; min-height: 150px; justify-content: center;
 }
-@media (min-width: 768px) { .hero__inner { padding-inline: 40px; min-height: 360px; } }
+@media (min-width: 768px) { .hero__inner { padding-inline: 40px; min-height: 200px; } }
 .hero__content { display: flex; flex-direction: column; align-items: center; gap: 1.25rem; position: relative; z-index: 1; max-width: 640px; }
 .hero__heading {
   font-family: 'Fredoka', sans-serif; font-weight: 800;
@@ -213,9 +213,12 @@ img { max-width: 100%; display: block; }
 /* ============================================================
    GET HELP — HOMEPAGE 3-CARD ROW
    ============================================================ */
-.get-help { background: var(--white-warm); }
+.get-help { background: var(--white-warm); padding-top: 28px !important; }
+@media (min-width: 768px) { .get-help { padding-top: 36px !important; } }
+.get-help .section__heading { margin-bottom: 6px; }
+.get-help .section__subhead { margin-bottom: 0; }
 .help-scroll-track {
-  margin-top: 2rem; overflow-x: auto; -webkit-overflow-scrolling: touch;
+  margin-top: 1rem; overflow-x: auto; -webkit-overflow-scrolling: touch;
   scrollbar-width: none; padding-bottom: 8px;
   max-width: var(--max-width); margin-inline: auto;
 }
@@ -336,8 +339,8 @@ img { max-width: 100%; display: block; }
 /* ============================================================
    PAGE HERO (inner pages)
    ============================================================ */
-.page-hero { min-height: 240px; position: relative; padding-top: 24px; padding-bottom: 64px; overflow: hidden; }
-@media (min-width: 768px) { .page-hero { min-height: 360px; } }
+.page-hero { min-height: 175px; position: relative; padding-top: 16px; padding-bottom: 36px; overflow: hidden; }
+@media (min-width: 768px) { .page-hero { min-height: 260px; } }
 .page-hero--green { background: var(--green); }
 .page-hero__inner { max-width: var(--max-width); margin-inline: auto; padding-inline: 20px; position: relative; z-index: 1; }
 @media (min-width: 768px) { .page-hero__inner { padding-inline: 40px; } }
@@ -632,9 +635,10 @@ img { max-width: 100%; display: block; }
 
 /* HERO */
 .hero--zine::before { display: none; }
-.hero--zine .hero__scrim { position: absolute; inset: 0; background: rgba(255,244,232,0.82); pointer-events: none; }
-.hero--zine .hero__heading { color: var(--black); text-shadow: none; transform: rotate(-1deg); }
-.hero--zine .hero__subhead { color: var(--black); text-shadow: none; opacity: 1; }
+.hero--zine .hero__scrim { position: absolute; inset: 0; background: rgba(79,214,181,0.60); pointer-events: none; }
+.hero--zine .hero__heading { color: #0E2C27; text-shadow: none; transform: rotate(-1deg); }
+.hero--zine .hero__subhead { color: #0E2C27; text-shadow: none; opacity: 1; }
+.hero--zine .btn--orange { background: var(--green); color: var(--white-warm); }
 .hero--zine .hero__content { gap: 1.5rem; }
 
 /* HELP TILES as zine cards */
@@ -773,9 +777,14 @@ a.wo-card:hover, .help-tile:hover, .story-card:hover { transform: translate(-2px
   background: var(--yellow);
   border: 3px solid var(--black);
   border-radius: var(--radius-card);
-  padding: 26px 28px;
-  max-width: 640px;
+  padding: 14px 22px;
+  max-width: 620px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
 }
+.fe-day-card__label { font-size: 1.05rem; margin-bottom: 0; }
 
 /* --- Pinned support-hub card --- */
 .pinned-card--zine {
@@ -837,16 +846,16 @@ a.wo-card:hover, .help-tile:hover, .story-card:hover { transform: translate(-2px
 .page-hero--teal .page-hero__heading,
 .page-hero--teal .page-hero__subhead,
 .page-hero--orange .page-hero__heading,
-.page-hero--orange .page-hero__subhead,
+.page-hero--orange .page-hero__subhead { color: var(--black); }
 .hero--zine .hero__heading,
-.hero--zine .hero__subhead { color: var(--black); }
+.hero--zine .hero__subhead { color: #0E2C27; }
 .page-hero--zine .page-hero__subhead,
 .hero--zine .hero__subhead { font-weight: 700; }
-.page-hero--zine .page-hero__heading,
-.hero--zine .hero__heading { text-shadow: 2px 2px 0 rgba(255,255,255,0.55); }
+.page-hero--zine .page-hero__heading { text-shadow: 2px 2px 0 rgba(255,255,255,0.55); }
+.hero--zine .hero__heading { text-shadow: none; }
 .page-hero--teal .page-hero__scrim { background: rgba(79,214,181,0.93); }
 .page-hero--orange .page-hero__scrim { background: rgba(255,138,92,0.93); }
-.hero--zine .hero__scrim { background: rgba(255,244,232,0.9); }
+.hero--zine .hero__scrim { background: rgba(79,214,181,0.66); }
 
 /* Food & Essentials: pinned Living Well box gets room at the bottom so the
    tilted card no longer crowds the section edge. */
