@@ -3,18 +3,14 @@ layout: base.njk
 title: Layton Unlocked
 pinnedEvent: pride-in-place-layton-community-party
 ---
-<section class="hero" style="background-image:url('/images/layton-hero.webp');background-size:cover;background-position:center;position:relative;">
+<section class="hero hero--zine" style="background-image:url('/images/layton-hero.webp');background-size:cover;background-position:center;position:relative;">
+  <div class="hero__scrim" aria-hidden="true"></div>
   <div class="hero__inner">
     <div class="hero__content">
       <h1 class="hero__heading">Layton.<br>Unlocked.</h1>
       <p class="hero__subhead">A neighbourhood pulling together - events, support, and community pride in the heart of Blackpool.</p>
-      <a href="/whats-on/" class="btn btn--yellow">See what's on</a>
+      <a href="/whats-on/" class="btn btn--card btn--orange">See what's on &rarr;</a>
     </div>
-  </div>
-  <div class="wave wave--down wave--warm-white" aria-hidden="true">
-    <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0,40 C240,80 480,0 720,40 C960,80 1200,0 1440,40 L1440,80 L0,80 Z" fill="#FFF7EE"></path>
-    </svg>
   </div>
 </section>
 
@@ -26,37 +22,34 @@ pinnedEvent: pride-in-place-layton-community-party
 
   <div class="help-scroll-track">
     <ul class="help-tiles">
-      <li class="help-tile help-tile--wide">
+      <li class="help-tile zc-rotate-1" style="background:var(--blue-sky)">
         <a class="help-tile__link-wrap" href="/food-essentials/">
           <div class="help-tile__icon help-tile__icon--photo" style="background-image:url('/images/image-3.webp')"></div>
+          <span class="zc-badge zc-badge--dark">Need Food?</span>
           <h3 class="help-tile__cat">Food &amp; essentials</h3>
           <p class="help-tile__desc">Food pantries, community fridges, and emergency food support close to home.</p>
           <span class="help-tile__link">Find out more &rarr;</span>
         </a>
       </li>
-      <li class="help-tile">
+      <li class="help-tile zc-rotate-2" style="background:var(--yellow)">
         <a class="help-tile__link-wrap" href="/whats-on/">
           <div class="help-tile__icon help-tile__icon--photo" style="background-image:url('/images/craft-club.webp')"></div>
+          <span class="zc-badge zc-badge--dark">Get Out There</span>
           <h3 class="help-tile__cat">What's On</h3>
           <p class="help-tile__desc">From sports to arts to social clubs - free and low-cost activities for everyone.</p>
           <span class="help-tile__link">Find out more &rarr;</span>
         </a>
       </li>
-      <li class="help-tile help-tile--cta">
+      <li class="help-tile help-tile--cta zc-rotate-1" style="background:var(--green)">
         <a class="help-tile__link-wrap" href="mailto:adam@laytonunlocked.com">
           <div class="help-tile__icon help-tile__icon--photo" style="background-image:url('/images/hand-sunset.jpg')"></div>
+          <span class="zc-badge zc-badge--dark">Say Hello</span>
           <h3 class="help-tile__cat">Can't find what you need?</h3>
           <p class="help-tile__desc">Get in touch with the Layton Unlocked team - we'll point you in the right direction.</p>
           <span class="help-tile__link">Contact us &rarr;</span>
         </a>
       </li>
     </ul>
-  </div>
-
-  <div class="wave wave--down wave--sky" aria-hidden="true">
-    <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0,20 C360,80 720,0 1080,50 C1260,75 1380,30 1440,20 L1440,80 L0,80 Z" fill="#2EC4B6"></path>
-    </svg>
   </div>
 </section>
 
@@ -65,37 +58,27 @@ pinnedEvent: pride-in-place-layton-community-party
 <section class="featured-event section" id="whats-on">
   <div class="container featured-event__inner">
     <div class="featured-event__content">
-      <p class="featured-event__label">Save the date</p>
-      <p class="featured-event__date">{{ featured.date | humanDate }}</p>
+      <span class="zc-badge zc-badge--dark">Save the date - {{ featured.date | humanDate }}</span>
       <h2 class="featured-event__heading">{{ featured.title }}</h2>
       <p class="featured-event__body">{{ featured.description }}</p>
-      <a href="/whats-on/#{{ featured.slug }}" class="btn btn--yellow">Find out more &rarr;</a>
+      <a href="/whats-on/#{{ featured.slug }}" class="btn btn--card btn--teal">Find out more &rarr;</a>
     </div>
-    <div class="featured-event__image-wrap featured-event__image-wrap--portrait">
+    <div class="featured-event__image-wrap featured-event__image-wrap--portrait zc-rotate-2">
       {% if featured.image %}
         <img src="{{ featured.image }}" alt="{{ featured.title }}">
       {% else %}
-        <div class="featured-event__placeholder" style="height:100%;border-radius:12px;"></div>
+        <div class="featured-event__placeholder" style="height:100%;"></div>
       {% endif %}
     </div>
-  </div>
-  <div class="wave wave--down wave--deep" aria-hidden="true">
-    <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0,50 C200,10 400,70 720,35 C1000,5 1250,65 1440,50 L1440,80 L0,80 Z" fill="#241443"></path>
-    </svg>
   </div>
 </section>
 {% endif %}
 
-<section class="mission section mission--short">
+
+<section class="mission section mission--short" id="newsletter-cta">
   <div class="container mission__inner">
-    <p>Layton Unlocked was built by Adam Turnbull, who believes that awesome communities don't just happen, they're supported &amp; empowered. We connect residents, organisations, and opportunities so that everyone in Layton can thrive.</p>
-    <p style="margin-top:1.25rem;"><a href="#newsletter" class="btn btn--yellow">Newsletter signup</a></p>
-  </div>
-  <div class="wave wave--down wave--warm-white" aria-hidden="true">
-    <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0,40 C240,80 480,0 720,40 C960,80 1200,0 1440,40 L1440,80 L0,80 Z" fill="#FFF7EE"></path>
-    </svg>
+    <p>Want to know what's happening in Layton before everyone else? Join the Layton Loop and get events, activities and community news straight to your inbox - no spam, just the good stuff.</p>
+    <p style="margin-top:0.5rem;"><a href="#newsletter" class="btn btn--card btn--yellow">Join the Layton Loop &darr;</a></p>
   </div>
 </section>
 
@@ -105,25 +88,20 @@ pinnedEvent: pride-in-place-layton-community-party
       <h2 class="section__heading">Our People. Our Stories.</h2>
       <span class="burst" aria-hidden="true"></span>
     </div>
-    <p style="color:var(--grey,#7A6B82);font-size:.85rem;font-style:italic;margin:-8px 0 20px;">Illustrative examples while we collect real stories from Layton residents - not verbatim quotes.</p>
+    <p style="color:var(--grey,#8A7458);font-size:.85rem;font-style:italic;margin:-8px 0 20px;">Illustrative examples while we collect real stories from Layton residents - not verbatim quotes.</p>
 
     <div class="stories__grid">
-      <article class="story-card">
+      <article class="story-card zc-rotate-1">
         <img class="story-card__placeholder" src="/images/florist.jpg" alt="Sandra, Layton resident">
         <blockquote class="story-card__quote">"I'd lived here ten years and never felt part of it. Coming to a Layton Unlocked event changed that completely."</blockquote>
-        <p class="story-card__attribution">- Sandra, Layton resident</p>
+        <p class="story-card__attribution"><span class="zc-badge zc-badge--teal">Sandra, Layton resident</span></p>
       </article>
-      <article class="story-card">
+      <article class="story-card zc-rotate-2">
         <img class="story-card__placeholder" src="/images/garden.jpg" alt="Marcus, community volunteer">
         <blockquote class="story-card__quote">"We set up a little community garden and suddenly people were talking to their neighbours for the first time."</blockquote>
-        <p class="story-card__attribution">- Marcus, community volunteer</p>
+        <p class="story-card__attribution"><span class="zc-badge zc-badge--orange">Marcus, community volunteer</span></p>
       </article>
     </div>
     <p class="stories__more"><a href="/layton-voices/" class="link-green">More stories coming soon &rarr;</a></p>
-  </div>
-  <div class="wave wave--down wave--deep" aria-hidden="true">
-    <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0,50 C200,10 400,70 720,35 C1000,5 1250,65 1440,50 L1440,80 L0,80 Z" fill="#241443"></path>
-    </svg>
   </div>
 </section>

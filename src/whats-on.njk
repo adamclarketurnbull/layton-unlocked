@@ -3,37 +3,32 @@ layout: base.njk
 title: What's On - Layton Unlocked
 pinnedEvent: pride-in-place-layton-community-party
 ---
-<section class="page-hero" style="background-image:url('/images/whats-on-hero.jpg');background-size:cover;background-position:center;">
+<section class="page-hero page-hero--zine page-hero--teal" style="background-image:url('/images/whats-on-hero.jpg');background-size:cover;background-position:center;">
+  <div class="page-hero__scrim" aria-hidden="true"></div>
   <div class="container page-hero__inner">
-    <h1 class="page-hero__heading" style="color:#fff;">What's On</h1>
-    <p class="page-hero__subhead" style="color:rgba(255,255,255,0.9);">Regular clubs and classes, plus one-off events, happening in and around Layton every week.</p>
-  </div>
-  <div class="wave wave--down wave--sky" aria-hidden="true">
-    <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path d="M0,40 C240,80 480,0 720,40 C960,80 1200,0 1440,40 L1440,80 L0,80 Z" fill="#2EC4B6"></path></svg>
+    <h1 class="page-hero__heading">What's On</h1>
+    <p class="page-hero__subhead">Regular clubs and classes, plus one-off events, happening in and around Layton every week.</p>
   </div>
 </section>
 
 {% set featured = events | findBy("slug", pinnedEvent) %}
 {% if featured %}
-<section class="pinned-service section" style="padding-bottom:40px;" id="{{ featured.slug }}">
+<section class="pinned-service section" style="padding-bottom:0;" id="{{ featured.slug }}">
   <div class="container">
-    <article class="story-card wo-featured wo-featured--portrait">
+    <article class="story-card wo-featured wo-featured--portrait zc-rotate-1">
       {% if featured.image %}
         <img class="wo-featured__img" src="{{ featured.image }}" alt="{{ featured.title }}">
       {% else %}
         <div class="story-card__placeholder photo-placeholder" style="background:linear-gradient(135deg,var(--blue-sky),var(--blue-deep));"></div>
       {% endif %}
       <div class="wo-featured__body">
-        <p class="wo-featured__label">Coming up next</p>
-        <p class="wo-card__cat">{{ featured.category }}</p>
+        <span class="zc-badge zc-badge--yellow">Coming up next</span>
+        <p class="wo-featured__label">{{ featured.date | shortDate }} &middot; {{ featured.category }}</p>
         <h3>{{ featured.title }}</h3>
-        <p class="wo-featured__meta">{{ featured.date | shortDate }} &middot; {{ featured.time }} &middot; {{ featured.location }}</p>
+        <p class="wo-featured__meta">{{ featured.time }} &middot; {{ featured.location }}</p>
         <a class="wo-featured__cta" href="{{ featured.page or featured.link or '#' + featured.slug }}">See details &rarr;</a>
       </div>
     </article>
-  </div>
-  <div class="wave wave--down wave--warm-white" aria-hidden="true">
-    <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path d="M0,50 C200,10 400,70 720,35 C1000,5 1250,65 1440,50 L1440,80 L0,80 Z" fill="#FFF7EE"></path></svg>
   </div>
 </section>
 {% endif %}
@@ -86,16 +81,23 @@ pinnedEvent: pride-in-place-layton-community-party
     </div>
     <p class="wo-empty" id="wo-activities-empty" style="display:none;">Nothing matches that filter right now - try "All" on one of the dropdowns.</p>
     <div class="wo-loadmore-row">
-      <button type="button" id="wo-activities-show-more" class="wo-show-more-btn" style="display:none;">Show more</button>
+      <button type="button" id="wo-activities-show-more" class="wo-show-more-btn btn--card">Show more</button>
     </div>
   </div>
 </section>
 
-<section class="section wo-tight" style="padding-top:0;">
+<section class="mission section mission--short" id="newsletter-cta-wo">
+  <div class="container mission__inner">
+    <p>Want to know what's happening in Layton before everyone else? Join the Layton Loop and get events, activities and community news straight to your inbox - no spam, just the good stuff.</p>
+    <p style="margin-top:0.5rem;"><a href="#newsletter" class="btn btn--card btn--yellow">Join the Layton Loop &darr;</a></p>
+  </div>
+</section>
+
+<section class="section wo-tight wo-dark" style="padding-top:48px;">
   <div class="container">
     <div class="section__heading-group">
-      <h2 class="section__heading">One-off events</h2>
-      <p class="reassurance__body" style="max-width:640px;">Coming up - scroll for more.</p>
+      <h2 class="section__heading" style="color:var(--white-warm);">One-off events</h2>
+      <p class="reassurance__body" style="max-width:640px;color:#C9A98C;">Coming up - scroll for more.</p>
     </div>
 
     <div id="wo-events-strip" class="wo-grid">
@@ -116,7 +118,7 @@ pinnedEvent: pride-in-place-layton-community-party
         {% if e.venueLink %}<a class="wo-card__venue-link" href="{{ e.venueLink }}" target="_blank" rel="noopener">{{ e.venueLinkText or "Venue on Facebook →" }}</a>{% endif %}
       </div>
       {% else %}
-      <p class="wo-empty">No upcoming one-off events listed right now - check back soon.</p>
+      <p class="wo-empty" style="color:#C9A98C;">No upcoming one-off events listed right now - check back soon.</p>
       {% endfor %}
     </div>
   </div>

@@ -1,29 +1,28 @@
 /* ============================================================
-   Layton Unlocked — ported design system
-   This file reproduces the current live site's palette, type and
-   component styles (captured read-only from thesortingagent.com on
-   28 Sept 2026) so the rebuilt static site looks the same as today's
-   WordPress/Kadence site. Don't re-theme this without asking Adam -
-   he asked to keep the current look, not adopt a new mockup.
+   Layton Unlocked — design system
+   Sunset Citrus / "Playful Zine" palette and type, approved by Adam
+   on 4 Oct 2026 to replace the ported WordPress/Kadence look captured
+   28 Sept 2026. Source: the Claude Design canvas mockup
+   (Home / What's On / Food & Essentials, Sunset Citrus variant).
    ============================================================ */
 
-@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Inter:wght@400;500&family=Nunito:wght@700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito+Sans:wght@400;600;700;800&display=swap');
 
 :root {
-  --blue-deep: #241443;
-  --blue-sky: #2EC4B6;
-  --green: #FF8A3D;   /* legacy name - this is actually an orange accent */
-  --yellow: #FFD166;
-  --red: #F0388B;
-  --white-warm: #FFF7EE;
-  --black: #1A1225;
-  --grey: #7A6B82;
+  --blue-deep: #2B1400;   /* dark ink / surface - legacy name kept for compat */
+  --blue-sky: #4FD6B5;    /* primary teal accent */
+  --green: #FF6B4A;       /* legacy name - this is actually an orange accent */
+  --yellow: #FFC247;      /* tertiary accent */
+  --red: #4FD6B5;         /* link/CTA accent - reuses teal for contrast; re-check in QA */
+  --white-warm: #FFF4E8;  /* page background */
+  --black: #2B1400;       /* ink */
+  --grey: #8A7458;        /* warm muted grey-brown */
 
   --max-width: 1100px;
   --section-pad-v: 48px;
   --nav-height: 64px;
-  --radius-card: 16px;
-  --radius-btn: 10px;
+  --radius-card: 20px;
+  --radius-btn: 14px;
 }
 
 @media (min-width: 768px) {
@@ -40,7 +39,7 @@ html { scroll-behavior: smooth; scroll-padding-top: var(--nav-height); }
 body, html { background: var(--white-warm); margin: 0; }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 1rem;
   line-height: 1.6;
   color: var(--black);
@@ -75,7 +74,7 @@ img { max-width: 100%; display: block; }
 .partners.section { padding-bottom: var(--section-pad-v); }
 
 .section__heading {
-  font-family: 'Baloo 2', 'Nunito', sans-serif;
+  font-family: 'Fredoka', sans-serif;
   font-size: clamp(1.75rem, 4vw, 2.5rem);
   font-weight: 800;
   color: var(--blue-deep);
@@ -114,13 +113,13 @@ img { max-width: 100%; display: block; }
 /* IMAGE PLACEHOLDER */
 .img-placeholder {
   display: flex; align-items: center; justify-content: center;
-  font-family: 'Inter', sans-serif; font-size: 13px; letter-spacing: 0.05em;
+  font-family: 'Nunito Sans', sans-serif; font-size: 13px; letter-spacing: 0.05em;
   color: rgba(255,255,255,0.6); text-align: center; width: 100%; line-height: 1.6;
 }
 .photo-placeholder {
   display: flex; align-items: center; justify-content: center; flex-direction: column; gap: 8px;
   background: linear-gradient(135deg, var(--blue-sky), var(--blue-deep));
-  color: #fff; font-family: Nunito, sans-serif; font-weight: 800; text-align: center;
+  color: #fff; font-family: 'Fredoka', sans-serif; font-weight: 800; text-align: center;
 }
 .photo-placeholder__icon { font-size: 2.2rem; line-height: 1; }
 .photo-placeholder__label { font-size: .85rem; font-weight: 700; opacity: .9; letter-spacing: .02em; }
@@ -133,7 +132,7 @@ img { max-width: 100%; display: block; }
   display: inline-block;
   padding: 0.75rem 1.75rem;
   border-radius: var(--radius-btn);
-  font-family: 'Inter', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-weight: 500;
   font-size: 1rem;
   cursor: pointer;
@@ -162,7 +161,7 @@ img { max-width: 100%; display: block; }
 }
 @media (min-width: 768px) { .nav__inner { padding-inline: 40px; } }
 .nav .nav__wordmark {
-  font-family: 'Baloo 2', 'Nunito', sans-serif; font-weight: 800; font-size: 1.2rem;
+  font-family: 'Fredoka', sans-serif; font-weight: 800; font-size: 1.2rem;
   color: var(--white-warm); white-space: nowrap;
 }
 .nav__toggle-input { display: none; }
@@ -202,7 +201,7 @@ img { max-width: 100%; display: block; }
 @media (min-width: 768px) { .hero__inner { padding-inline: 40px; min-height: 360px; } }
 .hero__content { display: flex; flex-direction: column; align-items: center; gap: 1.25rem; position: relative; z-index: 1; max-width: 640px; }
 .hero__heading {
-  font-family: 'Baloo 2', 'Nunito', sans-serif; font-weight: 800;
+  font-family: 'Fredoka', sans-serif; font-weight: 800;
   font-size: clamp(2.5rem, 7vw, 4rem); color: var(--white-warm); line-height: 1.1;
   margin-bottom: 12px; text-shadow: 0 2px 10px rgba(0,0,0,0.55);
 }
@@ -235,7 +234,7 @@ img { max-width: 100%; display: block; }
   border-radius: var(--radius-card); margin-bottom: 0.75rem; font-size: 0;
 }
 .help-tile__cat {
-  font-family: 'Baloo 2', 'Nunito', sans-serif; font-weight: 800; font-size: 1rem;
+  font-family: 'Fredoka', sans-serif; font-weight: 800; font-size: 1rem;
   color: var(--blue-deep); line-height: 1.3; margin: 0;
 }
 .help-tile__desc { color: var(--grey); font-size: 0.9rem; line-height: 1.55; flex: 1; margin: 0; }
@@ -258,11 +257,11 @@ img { max-width: 100%; display: block; }
   color: var(--blue-deep, #241443); margin-bottom: 0.5rem;
 }
 .featured-event__date {
-  font-family: 'Baloo 2', 'Nunito', sans-serif; font-weight: 800;
+  font-family: 'Fredoka', sans-serif; font-weight: 800;
   font-size: clamp(1.75rem, 4vw, 2.5rem); color: var(--blue-deep); line-height: 1.1; margin-bottom: 0.5rem;
 }
 .featured-event__heading {
-  font-family: 'Baloo 2', 'Nunito', sans-serif; font-weight: 800;
+  font-family: 'Fredoka', sans-serif; font-weight: 800;
   font-size: clamp(1.4rem, 3vw, 2rem); color: var(--blue-deep); margin-bottom: 1rem;
 }
 .featured-event__body { color: var(--black); margin-bottom: 1.5rem; max-width: 480px; line-height: 1.65; }
@@ -278,7 +277,7 @@ img { max-width: 100%; display: block; }
 .mission__inner { display: flex; flex-direction: column; gap: 1.25rem; max-width: 760px; }
 .mission__inner p { font-size: 1.05rem; line-height: 1.75; }
 .mission__heading {
-  font-family: 'Baloo 2', 'Nunito', sans-serif; font-weight: 800;
+  font-family: 'Fredoka', sans-serif; font-weight: 800;
   font-size: clamp(1.75rem, 4vw, 2.5rem); color: var(--white-warm); margin-bottom: 0.75rem;
 }
 
@@ -290,7 +289,7 @@ img { max-width: 100%; display: block; }
 @media (min-width: 600px) { .glance__inner { grid-template-columns: repeat(3, 1fr); gap: 32px; } }
 .glance__stat { background: rgba(255,255,255,0.2); border-radius: var(--radius-card); padding: 28px 24px; }
 .glance__number {
-  font-family: 'Baloo 2', 'Nunito', sans-serif; font-weight: 800;
+  font-family: 'Fredoka', sans-serif; font-weight: 800;
   font-size: clamp(2rem, 5vw, 3rem); color: var(--blue-deep); line-height: 1.1; margin-bottom: 0.4rem;
 }
 .glance__label { font-size: 0.95rem; color: var(--black); line-height: 1.4; }
@@ -311,7 +310,7 @@ img { max-width: 100%; display: block; }
    PARTNERS
    ============================================================ */
 .partners { background: var(--blue-deep); color: var(--white-warm); }
-.partners__heading { font-family: 'Baloo 2', 'Nunito', sans-serif; font-size: clamp(1.5rem, 3.5vw, 2rem); font-weight: 800; margin-bottom: 1.75rem; }
+.partners__heading { font-family: 'Fredoka', sans-serif; font-size: clamp(1.5rem, 3.5vw, 2rem); font-weight: 800; margin-bottom: 1.75rem; }
 .partners__list { display: flex; flex-wrap: wrap; gap: 10px; }
 .partners__pill { background: rgba(255,255,255,0.12); border-radius: 999px; padding: 0.4rem 1.1rem; font-size: 0.9rem; font-weight: 500; white-space: nowrap; }
 
@@ -320,7 +319,7 @@ img { max-width: 100%; display: block; }
    ============================================================ */
 .footer { background: #1A1225; padding-block: 40px; }
 .footer__inner { display: flex; flex-direction: column; gap: 0.5rem; }
-.footer__name { font-family: 'Baloo 2', 'Nunito', sans-serif; font-weight: 700; font-size: 1.1rem; color: var(--white-warm); margin: 0 0 4px; }
+.footer__name { font-family: 'Fredoka', sans-serif; font-weight: 700; font-size: 1.1rem; color: var(--white-warm); margin: 0 0 4px; }
 .footer__desc, .footer__meta { font-size: 0.875rem; color: #C4AFC9; line-height: 1.5; }
 .footer__desc { margin: 0; }
 .footer__disclaimer { margin-top: 0.6rem; font-size: 0.78rem; line-height: 1.4; opacity: 0.65; color: #fff; max-width: 520px; }
@@ -343,7 +342,7 @@ img { max-width: 100%; display: block; }
 .page-hero__inner { max-width: var(--max-width); margin-inline: auto; padding-inline: 20px; position: relative; z-index: 1; }
 @media (min-width: 768px) { .page-hero__inner { padding-inline: 40px; } }
 .page-hero__heading {
-  font-family: 'Baloo 2', 'Nunito', sans-serif; font-weight: 800;
+  font-family: 'Fredoka', sans-serif; font-weight: 800;
   font-size: clamp(2.25rem, 6vw, 3.5rem); line-height: 1.1; margin-bottom: 1rem;
 }
 .page-hero__subhead { font-size: 1.1rem; max-width: 700px; line-height: 1.65; }
@@ -357,7 +356,7 @@ img { max-width: 100%; display: block; }
 .pinned-service { background: var(--blue-sky); }
 .pinned-card { background: var(--white-warm); border-radius: var(--radius-card); border-left: 6px solid var(--blue-deep); padding: 36px 32px; max-width: 820px; }
 .pinned-card__label { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--blue-deep); margin-bottom: 0.5rem; }
-.pinned-card__heading { font-family: 'Baloo 2', 'Nunito', sans-serif; font-weight: 800; font-size: clamp(1.5rem, 3.5vw, 2.25rem); color: var(--blue-deep); margin: 0 0 0.75rem; }
+.pinned-card__heading { font-family: 'Fredoka', sans-serif; font-weight: 800; font-size: clamp(1.5rem, 3.5vw, 2.25rem); color: var(--blue-deep); margin: 0 0 0.75rem; }
 .pinned-card__day-badge { display: inline-block; background: var(--yellow); color: var(--black); font-size: 0.75rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; padding: 4px 12px; border-radius: 100px; margin-bottom: 8px; }
 .pinned-card__body { color: var(--grey); line-height: 1.7; margin-bottom: 1.5rem; max-width: 600px; }
 .service-details { display: flex; flex-direction: column; gap: 0.5rem; margin-bottom: 1.75rem; font-size: 0.95rem; color: var(--black); }
@@ -381,10 +380,10 @@ img { max-width: 100%; display: block; }
 .service-card--unverified { border-left-color: var(--yellow, #FFD166); }
 .verify-badge {
   display: inline-block; background: #FFE8D1; color: #B5490B; font-size: 11px; padding: 2px 8px;
-  border-radius: 4px; float: right; font-family: 'Inter', sans-serif; font-weight: 500;
+  border-radius: 4px; float: right; font-family: 'Nunito Sans', sans-serif; font-weight: 500;
   margin-left: auto; margin-bottom: 0.25rem;
 }
-.service-card__name { font-family: 'Baloo 2', 'Nunito', sans-serif; font-weight: 800; font-size: 1.05rem; color: var(--blue-deep); line-height: 1.2; clear: right; margin: 0 0 3px; }
+.service-card__name { font-family: 'Fredoka', sans-serif; font-weight: 800; font-size: 1.05rem; color: var(--blue-deep); line-height: 1.2; clear: right; margin: 0 0 3px; }
 .service-card__location { font-size: 0.875rem; color: var(--blue-deep); font-weight: 500; margin: 0 0 4px; line-height: 1.3; }
 .service-card__hours { font-size: 0.875rem; color: var(--black); line-height: 1.3; margin: 0 0 6px; }
 .service-card__body { font-size: 0.9rem; color: var(--grey); line-height: 1.4; flex: 1; margin: 0; }
@@ -402,7 +401,7 @@ img { max-width: 100%; display: block; }
 .wo-featured .story-card__placeholder { height: 100%; min-height: 260px; margin-bottom: 0; border-radius: 16px 0 0 16px; background-size: cover; background-position: center; position: relative; aspect-ratio: unset; }
 .wo-featured__body { padding: 32px 40px; display: flex; flex-direction: column; justify-content: center; }
 .wo-featured__label { font-size: .75rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; color: var(--blue-deep, #241443); margin: 0 0 14px; }
-.wo-featured h3 { font-family: Nunito, sans-serif; font-size: 1.5rem; color: #1A1225; margin: 0 0 10px; }
+.wo-featured h3 { font-family: 'Fredoka', sans-serif; font-size: 1.5rem; color: #1A1225; margin: 0 0 10px; }
 .wo-featured__meta { font-size: .95rem; color: #7A6B82; margin: 0 0 18px; }
 .wo-featured__cta { display: inline-block; background: var(--blue-deep, #241443); color: #fff; font-weight: 700; font-size: .9rem; padding: 11px 24px; border-radius: 999px; text-decoration: none; width: fit-content; }
 .wo-featured__cta, .wo-featured__cta:visited, .wo-featured__cta:hover, .wo-featured__cta:focus { color: #fff; }
@@ -417,7 +416,7 @@ img { max-width: 100%; display: block; }
 .wo-select {
   appearance: none; -webkit-appearance: none;
   background: #fff url('data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%2212%22 height=%228%22 viewBox=%220 0 12 8%22><path d=%22M1 1l5 5 5-5%22 stroke=%22%233B3B3B%22 stroke-width=%222%22 fill=%22none%22 fill-rule=%22evenodd%22/></svg>') no-repeat right 16px center;
-  border: 1px solid #E3E3E3; color: #3B3B3B; font-family: 'Inter', sans-serif; font-size: .85rem; font-weight: 600;
+  border: 1px solid #E3E3E3; color: #3B3B3B; font-family: 'Nunito Sans', sans-serif; font-size: .85rem; font-weight: 600;
   padding: 10px 40px 10px 18px; border-radius: 999px; cursor: pointer; flex: 0 1 200px; min-width: 160px; max-width: 220px;
 }
 .wo-select:focus { outline: 2px solid var(--blue-deep, #241443); outline-offset: 1px; }
@@ -447,7 +446,7 @@ img { max-width: 100%; display: block; }
 .wo-card__ph--faith { background: linear-gradient(135deg,#2EC4B6,#2E8FC7); }
 .wo-card__body { padding: 10px 14px 2px; }
 .wo-card__cat { font-size: .68rem; font-weight: 800; color: #F0388B; text-transform: uppercase; letter-spacing: .04em; margin: 0 0 4px; }
-.wo-card__name { font-family: Nunito, sans-serif; font-size: .95rem; color: #1A1225; margin: 0 0 4px; line-height: 1.25; }
+.wo-card__name { font-family: 'Fredoka', sans-serif; font-size: .95rem; color: #1A1225; margin: 0 0 4px; line-height: 1.25; }
 .wo-card__meta { font-size: .76rem; color: #7A6B82; margin: 0; }
 .wo-empty { color: #7A6B82; font-size: 1rem; text-align: center; padding: 30px 0; }
 .wo-show-more-btn {
@@ -456,7 +455,7 @@ img { max-width: 100%; display: block; }
   border-radius: var(--radius-btn, 999px);
   background: var(--yellow, #FFD166);
   color: var(--black, #1A1225);
-  font-family: 'Inter', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-weight: 700;
   font-size: 0.95rem;
   border: none;
@@ -593,6 +592,283 @@ img { max-width: 100%; display: block; }
 .footer__credit { margin-top: 1rem; font-size: 0.7rem; line-height: 1.4; opacity: 0.5; color: #fff; }
 .footer__credit a { color: #fff; text-decoration: underline; }
 
+/* ============================================================
+   PHASE 2 — ZINE LAYOUT (cards, rotation, flat sections)
+   Added 4 Oct 2026 to bring the Sunset Citrus mockup's structure
+   (not just its colours/type) onto the live templates.
+   ============================================================ */
+
+/* Flatten the old wavy section dividers - the zine mockup uses
+   flat colour blocks, not curved transitions. */
+.wave { display: none !important; }
+.section { padding-bottom: var(--section-pad-v); }
+.mission--short { padding-bottom: 36px; }
+@media (min-width: 768px) { .mission--short { padding-bottom: 48px; } }
+
+/* Reusable zine card utilities */
+.zc-rotate-1 { transform: rotate(-1deg); }
+.zc-rotate-2 { transform: rotate(1deg); }
+.zc-badge {
+  display: inline-block; padding: 6px 14px; border-radius: 999px;
+  font-size: 12px; font-weight: 700; letter-spacing: .03em; text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.zc-badge--dark { background: var(--black); color: #fff; }
+.zc-badge--teal { background: var(--blue-sky); color: var(--black); }
+.zc-badge--orange { background: var(--green); color: var(--black); }
+
+.btn--card {
+  border: 3px solid var(--black);
+  border-radius: var(--radius-btn);
+  box-shadow: 4px 4px 0 var(--black);
+  font-family: 'Fredoka', sans-serif;
+  font-weight: 600;
+  padding: 0.75rem 1.75rem;
+}
+.btn--card:hover { transform: translate(-1px,-1px); box-shadow: 5px 5px 0 var(--black); }
+.btn--orange { background: var(--green); color: var(--black); }
+.btn--teal { background: var(--blue-sky); color: var(--black); }
+.btn--yellow.btn--card { background: var(--yellow); color: var(--black); }
+
+/* HERO */
+.hero--zine::before { display: none; }
+.hero--zine .hero__scrim { position: absolute; inset: 0; background: rgba(255,244,232,0.82); pointer-events: none; }
+.hero--zine .hero__heading { color: var(--black); text-shadow: none; transform: rotate(-1deg); }
+.hero--zine .hero__subhead { color: var(--black); text-shadow: none; opacity: 1; }
+.hero--zine .hero__content { gap: 1.5rem; }
+
+/* HELP TILES as zine cards */
+.help-tile {
+  border: 3px solid var(--black);
+  border-radius: var(--radius-card);
+  box-shadow: 6px 6px 0 var(--black);
+  padding: 0;
+  overflow: hidden;
+  transition: transform 0.15s;
+}
+.help-tile:hover { border-color: var(--black); transform: translate(-2px,-2px); }
+.help-tile .help-tile__link-wrap { padding: 20px 22px 24px; }
+.help-tile__icon--photo { margin: 0 0 14px; border-radius: 0; height: 140px; }
+.help-tile__cat, .help-tile--cta .help-tile__cat { color: var(--black); }
+.help-tile__desc, .help-tile--cta .help-tile__desc { color: var(--black); opacity: 0.85; }
+.help-tile__link, .help-tile--cta .help-tile__link { color: var(--black); text-decoration: underline; font-weight: 700; }
+.help-tile--cta { background: var(--green) !important; }
+
+/* FEATURED EVENT as zine card */
+.featured-event { background: var(--white-warm); }
+.featured-event__inner { align-items: center; }
+.featured-event__label { display: none; }
+.featured-event__heading, .featured-event__date { color: var(--black); }
+.featured-event__image-wrap {
+  border: 3px solid var(--black); border-radius: var(--radius-card);
+  box-shadow: 6px 6px 0 var(--black);
+}
+.featured-event__placeholder { background: var(--blue-sky); }
+
+/* MISSION -> NEWSLETTER CTA band */
+.mission { background: var(--blue-sky); color: var(--black); text-align: center; }
+.mission__inner { margin-inline: auto; align-items: center; }
+.mission__inner p:first-child { font-size: 1.15rem; font-weight: 700; line-height: 1.6; }
+
+/* STAT BANNER (two-up) */
+.glance { background: var(--white-warm); }
+.glance__inner--duo { grid-template-columns: 1fr; gap: 24px; text-align: center; max-width: 640px; }
+@media (min-width: 600px) { .glance__inner--duo { grid-template-columns: 1fr 1fr; } }
+.glance__stat--duo { background: none; padding: 0; }
+.glance__stat--duo .glance__number { font-size: clamp(2.5rem, 6vw, 3.25rem); color: var(--green); }
+.glance__stat--duo .glance__number--alt { color: var(--yellow); }
+.glance__stat--duo .glance__label { font-size: 0.78rem; font-weight: 700; text-transform: uppercase; color: var(--black); }
+
+/* STORY CARDS as zine quote cards */
+.story-card {
+  border: 3px solid var(--black); border-radius: var(--radius-card);
+  box-shadow: 6px 6px 0 var(--black); padding: 22px 0 22px;
+}
+.story-card__placeholder { border-radius: var(--radius-card) var(--radius-card) 0 0; }
+.story-card__quote { color: var(--black); font-weight: 600; font-style: normal; }
+.story-card__attribution { padding-inline: 1.25rem; }
+
+/* FOOTER NEWSLETTER as a prominent zine card */
+.footer__newsletter {
+  background: var(--blue-sky); color: var(--black);
+  border: 3px solid var(--white-warm); border-radius: var(--radius-card);
+  box-shadow: 6px 6px 0 rgba(255,244,232,0.3);
+  padding: 24px 24px 20px; margin-top: 1.5rem;
+}
+.footer__newsletter h3, .footer__newsletter p { color: var(--black); }
+.loop-signup-form input[type="email"] { border: 3px solid var(--black); border-radius: 999px; font-weight: 700; }
+.loop-signup-form button {
+  background: var(--black); color: var(--blue-sky); border-radius: 999px;
+  border: 3px solid var(--black); font-family: 'Fredoka', sans-serif;
+}
+.loop-signup-form label { color: var(--black); opacity: 1; }
+.loop-signup-form label a { color: var(--black); }
+
+/* ============================================================
+   PHASE 2b — visual polish pass + What's On / Food & Essentials
+   Added 4 Oct 2026.
+   ============================================================ */
+
+/* --- Home polish: hover states, consistent rhythm --- */
+.btn--card, .help-tile, .story-card, .service-card, .pinned-card, .wo-card .story-card__placeholder {
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+a.wo-card:hover, .help-tile:hover, .story-card:hover { transform: translate(-2px,-2px); }
+.featured-event__image-wrap img { transition: transform 0.2s; }
+.glance__stat--duo { transition: transform 0.15s; }
+.glance__stat--duo:hover { transform: translateY(-2px); }
+.section__heading { letter-spacing: -0.01em; }
+.mission__inner { padding-block: 4px; }
+
+/* badge color variants used across inner pages */
+.zc-badge--yellow { background: var(--yellow); color: var(--black); }
+
+/* --- PAGE HERO (What's On / Food & Essentials) zine treatment --- */
+.page-hero--zine { position: relative; display: flex; align-items: center; }
+.page-hero--zine .page-hero__scrim { position: absolute; inset: 0; }
+.page-hero--zine .page-hero__inner { position: relative; z-index: 1; }
+.page-hero--zine .page-hero__heading { transform: rotate(-1deg); margin-bottom: 14px; }
+.page-hero--teal .page-hero__scrim { background: rgba(79,214,181,0.88); }
+.page-hero--teal .page-hero__heading,
+.page-hero--teal .page-hero__subhead { color: #0E2C27; }
+.page-hero--orange .page-hero__scrim { background: rgba(255,107,74,0.88); }
+.page-hero--orange .page-hero__heading,
+.page-hero--orange .page-hero__subhead { color: #3B0E08; }
+
+/* --- Chip-style filter selects --- */
+.wo-select {
+  border: 3px solid var(--black);
+  border-radius: 999px;
+  font-weight: 700;
+  background-color: var(--white-warm);
+}
+.fe-day-card .wo-select { background-color: var(--white-warm); }
+
+/* --- Featured event card (What's On) --- */
+.wo-featured {
+  border: 3px solid var(--black) !important;
+  box-shadow: 6px 6px 0 var(--black);
+}
+.wo-featured__label { color: var(--grey); font-size: 0.8rem; font-weight: 700; text-transform: uppercase; margin: 10px 0 6px; }
+.wo-featured h3 { color: var(--black); }
+
+/* --- Regular / one-off activity cards --- */
+.wo-card {
+  border: 3px solid var(--black);
+  border-radius: var(--radius-card);
+  overflow: hidden;
+  background: var(--white-warm);
+}
+.wo-grid > .wo-card:nth-child(odd) { transform: rotate(-0.6deg); }
+.wo-grid > .wo-card:nth-child(even) { transform: rotate(0.6deg); }
+.wo-card__name { color: var(--black); }
+.wo-show-more-btn.btn--card { background: var(--yellow); }
+
+/* One-off events section on dark background */
+.wo-dark { background: var(--black); }
+.wo-dark .wo-card { background: var(--white-warm); }
+
+/* --- Food & Essentials: day-filter card --- */
+.fe-day-card {
+  background: var(--yellow);
+  border: 3px solid var(--black);
+  border-radius: var(--radius-card);
+  padding: 26px 28px;
+  max-width: 640px;
+}
+
+/* --- Pinned support-hub card --- */
+.pinned-card--zine {
+  background: var(--blue-sky);
+  border: 3px solid var(--black);
+  border-left: 3px solid var(--black);
+  box-shadow: 6px 6px 0 var(--black);
+}
+.pinned-card--zine .pinned-card__heading,
+.pinned-card--zine .pinned-card__body,
+.pinned-card--zine .service-details { color: var(--black); }
+
+/* --- Service cards (Food & Essentials) as zine cards --- */
+.service-card {
+  border: 3px solid var(--black);
+  border-left: 3px solid var(--black);
+  box-shadow: 5px 5px 0 var(--black);
+  background: var(--white-warm);
+}
+.service-card--placeholder { border-color: #D1C4AE; box-shadow: none; }
+.service-card--unverified { border-color: var(--yellow); }
+.service-grid--single { display: flex; flex-direction: column; gap: 14px; margin-top: 14px; }
+
+/* Sit down / take home as a two-up layout */
+.fe-duo-grid { display: grid; grid-template-columns: 1fr; gap: 36px; margin-top: 1rem; }
+@media (min-width: 640px) { .fe-duo-grid { grid-template-columns: 1fr 1fr; } }
+
+/* newsletter CTA band ids reuse .mission styling already defined */
+
+/* --- Calm the "What's On" card wall down to match the mockup's neutral
+   placeholder treatment instead of six clashing saturated gradients.
+   (Swap for real photos later - see implementation plan "Open decisions".) --- */
+.wo-card__ph--social,
+.wo-card__ph--community,
+.wo-card__ph--arts,
+.wo-card__ph--fitness,
+.wo-card__ph--family-kids,
+.wo-card__ph--faith {
+  background: repeating-linear-gradient(45deg,#F2E9CE,#F2E9CE 10px,#EADFC1 10px,#EADFC1 20px);
+}
+.wo-card__cat { color: var(--grey); }
+.wo-card__cost--free { background: var(--blue-sky); color: var(--black); }
+.wo-card__cost--paid { background: var(--green); color: var(--black); }
+.wo-card__cost--donation { background: var(--yellow); color: var(--black); }
+.wo-card__day { background: var(--black); }
+
+/* Remove the leftover empty heading wrapper's bottom gap now that
+   sit-down/take-home are full-width sections again. */
+.fe-duo-grid { display: contents; }
+
+
+/* ============================================================
+   PHASE 3 TWEAKS - 10 Oct 2026
+   Hero text colour + tighter Food & Essentials spacing
+   ============================================================ */
+
+/* Hero text: one ink colour on every hero (home, What's On, Food & Essentials),
+   a firmer scrim so the photo sits back, bolder subhead. */
+.page-hero--teal .page-hero__heading,
+.page-hero--teal .page-hero__subhead,
+.page-hero--orange .page-hero__heading,
+.page-hero--orange .page-hero__subhead,
+.hero--zine .hero__heading,
+.hero--zine .hero__subhead { color: var(--black); }
+.page-hero--zine .page-hero__subhead,
+.hero--zine .hero__subhead { font-weight: 700; }
+.page-hero--zine .page-hero__heading,
+.hero--zine .hero__heading { text-shadow: 2px 2px 0 rgba(255,255,255,0.55); }
+.page-hero--teal .page-hero__scrim { background: rgba(79,214,181,0.93); }
+.page-hero--orange .page-hero__scrim { background: rgba(255,138,92,0.93); }
+.hero--zine .hero__scrim { background: rgba(255,244,232,0.9); }
+
+/* Food & Essentials: pinned Living Well box gets room at the bottom so the
+   tilted card no longer crowds the section edge. */
+#fe-section-pinned { padding-top: 56px; padding-bottom: 72px; }
+@media (min-width: 768px) { #fe-section-pinned { padding-top: 72px; padding-bottom: 88px; } }
+
+/* Tighten the stack of sections underneath */
+#fe-section-infant { padding-top: 32px; padding-bottom: 40px; }
+#fe-section-infant .section__heading-group { margin-bottom: 0.25rem; }
+#fe-section-infant .reassurance__body { margin-bottom: 1rem; }
+
+.services-section { padding-block: 32px; }
+.services-section .section__heading-group { margin-bottom: 0.25rem; }
+.services-section .section__subhead { margin-bottom: 1rem; }
+.fe-intro { padding-bottom: 0; padding-top: 40px; }
+#fe-section-sitdown { padding-top: 12px; }
+#fe-section-shopping { padding-top: 32px; padding-bottom: 0; }
+#fe-section-shopping .reassurance__body { margin-top: 16px !important; margin-bottom: 0.5rem; }
+#fe-section-beyond { padding-top: 16px; }
+#fe-section-infant .section__heading,
+.services-section .section__heading { margin-top: 0; }
+
 /* ===== Portrait event image (Pride in Place) - 10 Oct 2026 ===== */
 /* The promoted event artwork is portrait (2:3). Show it whole, in a portrait box, never cropped. */
 .featured-event__image-wrap--portrait {
@@ -623,19 +899,3 @@ img { max-width: 100%; display: block; }
   .wo-featured--portrait { grid-template-columns: 1fr; }
   .wo-featured--portrait .wo-featured__img { max-width: 300px; margin: 20px auto 0; border-radius: 12px; }
 }
-
-/* ===== Spacing tidy-up (less empty space) - 10 Oct 2026 ===== */
-.section:not(.wo-tight) { padding-top: 48px; padding-bottom: 88px; }
-.section:not(.wo-tight):not(:has(> .wave)) { padding-bottom: 48px; }
-.section.wo-tight { padding-bottom: 56px; }
-.section__heading-group { margin-bottom: 16px; }
-.section__heading { margin-top: 0; }
-.section__subhead { margin-top: 0; margin-bottom: 24px; }
-.services-section--sky .section__subhead { color: var(--black); }
-/* Food & Essentials: pull each block up under the one above */
-#fe-section-pinned { padding-bottom: 104px !important; }
-#fe-section-infant { padding-top: 16px; }
-#fe-section-sitdown, #fe-section-beyond { padding-top: 16px; }
-#fe-section-takehome { padding-top: 48px; padding-bottom: 104px !important; }
-#fe-section-shopping { padding-top: 48px; }
-#fe-section-beyond { padding-bottom: 40px; }
