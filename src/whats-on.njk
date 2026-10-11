@@ -117,6 +117,14 @@ pinnedEvent: skaface-at-layton-institute
         </a>
         {% if e.venueLink %}<a class="wo-card__venue-link" href="{{ e.venueLink }}" target="_blank" rel="noopener">{{ e.venueLinkText or "Venue on Facebook →" }}</a>{% endif %}
       </div>
+      {% if loop.index == 6 %}
+      <div class="wo-card wo-card--promo">
+        <div class="wo-card__promo-inner">
+          <span class="wo-card__promo-icon" aria-hidden="true">&#x1F49A;</span>
+          <p class="wo-card__promo-text">If Layton Unlocked helped you find this, mention it &ndash; it helps us a lot!</p>
+        </div>
+      </div>
+      {% endif %}
       {% else %}
       <p class="wo-empty" style="color:#C9A98C;">No upcoming one-off events listed right now - check back soon.</p>
       {% endfor %}

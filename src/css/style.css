@@ -928,3 +928,17 @@ a.wo-card:hover, .help-tile:hover, .story-card:hover { transform: translate(-2px
   .wo-featured--portrait { grid-template-columns: 1fr; }
   .wo-featured--portrait .wo-featured__img { max-width: 300px; margin: 20px auto 0; border-radius: 12px; }
 }
+
+/* "Found us here?" promo card inserted into the one-off events grid */
+.wo-card--promo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--blue-sky);
+  min-height: 174px;
+  padding: 18px;
+  text-align: center;
+}
+.wo-card__promo-inner { display: flex; flex-direction: column; align-items: center; gap: 8px; }
+.wo-card__promo-icon { font-size: 1.8rem; line-height: 1; }
+.wo-card__promo-text { font-family: 'Fredoka', sans-serif; font-weight: 700; font-size: 0.92rem; color: #0E2C27; line-height: 1.35; margin: 0; max-width: 200px; }
