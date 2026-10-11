@@ -2,6 +2,7 @@
 layout: base.njk
 title: What's On - Layton Unlocked
 pinnedEvent: skaface-at-layton-institute
+pinnedEvent2: free-community-microchipping-day
 ---
 <section class="page-hero page-hero--zine page-hero--teal" style="background-image:url('/images/whats-on-hero.jpg');background-size:cover;background-position:center;">
   <div class="page-hero__scrim" aria-hidden="true"></div>
@@ -12,23 +13,42 @@ pinnedEvent: skaface-at-layton-institute
 </section>
 
 {% set featured = events | findBy("slug", pinnedEvent) %}
+{% set featured2 = events | findBy("slug", pinnedEvent2) %}
 {% if featured %}
-<section class="pinned-service section" style="padding-bottom:0;" id="{{ featured.slug }}">
+<section class="pinned-service section" style="padding-bottom:0;">
   <div class="container">
-    <article class="story-card wo-featured wo-featured--portrait zc-rotate-1">
-      {% if featured.image %}
-        <img class="wo-featured__img" src="{{ featured.image }}" alt="{{ featured.title }}">
-      {% else %}
-        <div class="story-card__placeholder photo-placeholder" style="background:linear-gradient(135deg,var(--blue-sky),var(--blue-deep));"></div>
+    <div class="wo-featured-grid{{ ' wo-featured-grid--single' if not featured2 }}">
+      <article class="story-card wo-featured wo-featured--portrait zc-rotate-1" id="{{ featured.slug }}">
+        {% if featured.image %}
+          <img class="wo-featured__img" src="{{ featured.image }}" alt="{{ featured.title }}">
+        {% else %}
+          <div class="story-card__placeholder photo-placeholder" style="background:linear-gradient(135deg,var(--blue-sky),var(--blue-deep));"></div>
+        {% endif %}
+        <div class="wo-featured__body">
+          <span class="zc-badge zc-badge--yellow">Coming up next</span>
+          <p class="wo-featured__label">{{ featured.date | shortDate }} &middot; {{ featured.category }}</p>
+          <h3>{{ featured.title }}</h3>
+          <p class="wo-featured__meta">{{ featured.time }} &middot; {{ featured.location }}</p>
+          <a class="wo-featured__cta" href="{{ featured.page or featured.link or '#' + featured.slug }}"{% if not featured.page %} target="_blank" rel="noopener"{% endif %}>See details &rarr;</a>
+        </div>
+      </article>
+      {% if featured2 %}
+      <article class="story-card wo-featured wo-featured--portrait zc-rotate-2" id="{{ featured2.slug }}">
+        {% if featured2.image %}
+          <img class="wo-featured__img" src="{{ featured2.image }}" alt="{{ featured2.title }}">
+        {% else %}
+          <div class="story-card__placeholder photo-placeholder" style="background:linear-gradient(135deg,var(--blue-sky),var(--blue-deep));"></div>
+        {% endif %}
+        <div class="wo-featured__body">
+          <span class="zc-badge zc-badge--yellow">Coming up next</span>
+          <p class="wo-featured__label">{{ featured2.date | shortDate }} &middot; {{ featured2.category }}</p>
+          <h3>{{ featured2.title }}</h3>
+          <p class="wo-featured__meta">{{ featured2.time }} &middot; {{ featured2.location }}</p>
+          <a class="wo-featured__cta" href="{{ featured2.page or featured2.link or '#' + featured2.slug }}"{% if not featured2.page %} target="_blank" rel="noopener"{% endif %}>See details &rarr;</a>
+        </div>
+      </article>
       {% endif %}
-      <div class="wo-featured__body">
-        <span class="zc-badge zc-badge--yellow">Coming up next</span>
-        <p class="wo-featured__label">{{ featured.date | shortDate }} &middot; {{ featured.category }}</p>
-        <h3>{{ featured.title }}</h3>
-        <p class="wo-featured__meta">{{ featured.time }} &middot; {{ featured.location }}</p>
-        <a class="wo-featured__cta" href="{{ featured.page or featured.link or '#' + featured.slug }}">See details &rarr;</a>
-      </div>
-    </article>
+    </div>
   </div>
 </section>
 {% endif %}
