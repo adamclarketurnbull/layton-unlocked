@@ -9,6 +9,18 @@ module.exports = function (eleventyConfig) {
     return "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(q);
   });
 
+  // Date label for an event card. One day: "Fri 23 Oct". Several days: "Mon 19 - Thu 22 Oct".
+  eleventyConfig.addFilter("dateRange", (e) => {
+    if (!e || !e.date) return "";
+    const days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+    const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+    const a = new Date(e.date + "T00:00:00");
+    if (!e.endDate || e.endDate === e.date) return `${days[a.getDay()]} ${a.getDate()} ${months[a.getMonth()]}`;
+    const b = new Date(e.endDate + "T00:00:00");
+    const left = a.getMonth() === b.getMonth() ? `${days[a.getDay()]} ${a.getDate()}` : `${days[a.getDay()]} ${a.getDate()} ${months[a.getMonth()]}`;
+    return `${left} - ${days[b.getDay()]} ${b.getDate()} ${months[b.getMonth()]}`;
+  });
+
   // schema.org Event JSON-LD for an entry in _data/eventPages.json.
   // One object for a single date, an array when the page covers several sessions.
   eleventyConfig.addFilter("eventJsonLd", (ev) => {

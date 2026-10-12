@@ -126,8 +126,8 @@ pinnedEvent2: free-community-microchipping-day
         <a class="wo-card__link" href="{{ e.page or e.link or ('#' + e.slug) }}"{% if not e.page %} target="_blank" rel="noopener"{% endif %}>
           <div class="story-card__placeholder wo-card__ph {{ 'wo-card__ph--' + (e.category | slugify) if not e.image }}"
                {% if e.image %}style="background-image:url('{{ e.image }}');"{% endif %}>
-            <span class="wo-card__day">{{ e.date | shortDate }}</span>
-            <span class="wo-card__cost wo-card__cost--{{ e.cost }}">{{ e.cost }}</span>
+            <span class="wo-card__day">{{ e | dateRange }}</span>
+            {% if e.cost %}<span class="wo-card__cost wo-card__cost--{{ e.cost }}">{{ e.cost }}</span>{% endif %}
           </div>
           <div class="wo-card__body">
             <p class="wo-card__cat">{{ e.category }}</p>

@@ -289,5 +289,17 @@
     "description": "A week of dance, performance and fun over October half term, Monday 26 to Friday 30 October, 8:30am to 3:30pm. £13 per person per day or £55 for the full week. Open to AVR students and non-AVR students, everyone welcome. Runs every half term.",
     "pinned": false,
     "page": "/events/avr-dance-camp-october-half-term/"
+  },
+  {
+    "slug": "inter-spinal-unit-games-2026",
+    "title": "WheelPower Inter Spinal Unit Games 2026",
+    "date": "2026-10-19",
+    "endDate": "2026-10-22",
+    "time": "Mon to Thu",
+    "location": "Blackpool Sports Centre",
+    "category": "Community",
+    "description": "The 37th WheelPower Inter Spinal Unit Games, Monday 19 to Thursday 22 October at Blackpool Sports Centre. Over 100 patients from 14 spinal units take part across more than 20 sports. Open to spinal unit teams only.",
+    "pinned": false,
+    "page": "/events/inter-spinal-unit-games-2026/"
   }
 ]

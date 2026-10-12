@@ -875,5 +875,80 @@
       "name": "Layton Institute",
       "url": "https://laytoninstitute.com"
     }
+  },
+  {
+    "slug": "inter-spinal-unit-games-2026",
+    "title": "WheelPower Inter Spinal Unit Games 2026",
+    "kicker": "Community",
+    "theme": "green",
+    "summary": "The 37th WheelPower Inter Spinal Unit Games come to Blackpool Sports Centre from Monday 19 to Thursday 22 October 2026. Over 100 patients from 14 spinal units take part across more than 20 sports.",
+    "ogImage": "/images/og/events/inter-spinal-unit-games-2026.jpg",
+    "posters": [],
+    "sessions": [
+      {
+        "dateLabel": "Monday 19 to Thursday 22 October 2026",
+        "time": "Four days of sport",
+        "start": "2026-10-19",
+        "end": "2026-10-22"
+      }
+    ],
+    "venue": {
+      "name": "Blackpool Sports Centre",
+      "street": "West Park Drive",
+      "locality": "Blackpool",
+      "postcode": "FY3 9HQ"
+    },
+    "facts": [
+      {
+        "label": "Who takes part",
+        "value": "Current spinal patients on a participating spinal unit team. Individuals cannot enter on their own"
+      },
+      {
+        "label": "Watching",
+        "value": "Spectator details are not published on the WheelPower page. Please contact WheelPower before you travel"
+      },
+      {
+        "label": "Organiser",
+        "value": "WheelPower, the British Wheelchair Sports Foundation"
+      }
+    ],
+    "intro": "The WheelPower Inter Spinal Unit Games are a week of sport for people with spinal cord injuries, and a vital part of the rehabilitation journey. This year the Games are in Blackpool.",
+    "sections": [
+      {
+        "heading": "What it is",
+        "html": "<p>Over 100 patients and 60 support staff from 14 Spinal Injury Centres and Specialist Units take part in the 37th Inter Spinal Unit Games, with expert coaching and demonstrations in more than 20 sports.</p><p>Sports include archery, wheelchair rugby, athletics, fencing, wheelchair basketball, powerlifting, boccia, swimming, shooting and wheelchair tennis.</p>"
+      },
+      {
+        "heading": "Who can take part",
+        "html": "<p>The Games are open only to current spinal patients on a participating spinal unit team. Spinal units and their Physical Activity Advisors select the teams, so individuals cannot enter independently.</p><p>Adults who are not in a spinal unit can look at WheelPower's Sports Festivals instead, through the WheelPower website.</p>"
+      },
+      {
+        "heading": "Come and watch",
+        "html": "<p>WheelPower has not published spectator or ticket information for the Blackpool Games. If you would like to come along, please get in touch with WheelPower first, using the phone number or email on this page.</p>"
+      }
+    ],
+    "links": [
+      {
+        "type": "website",
+        "label": "WheelPower event page",
+        "url": "https://www.wheelpower.org.uk/activities/inter-spinal-unit-games/",
+        "primary": true
+      },
+      {
+        "type": "phone",
+        "label": "Call WheelPower",
+        "url": "tel:01296395995"
+      },
+      {
+        "type": "email",
+        "label": "Email WheelPower",
+        "url": "mailto:info@wheelpower.org.uk"
+      }
+    ],
+    "organiser": {
+      "name": "WheelPower",
+      "url": "https://www.wheelpower.org.uk"
+    },
+    "lead": "Monday 19 to Thursday 22 October 2026 at Blackpool Sports Centre"
   }
 ]

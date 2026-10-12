@@ -54,7 +54,7 @@ module.exports = function (eleventyConfig) {
     const today = new Date();
     today.setHours(0, 0, 0, 0);
     return (events || [])
-      .filter((e) => new Date(e.date + "T00:00:00") >= today)
+      .filter((e) => new Date((e.endDate || e.date) + "T00:00:00") >= today)
       .sort((a, b) => new Date(a.date) - new Date(b.date));
   });
 
