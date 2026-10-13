@@ -951,3 +951,6 @@ a.wo-card:hover, .help-tile:hover, .story-card:hover { transform: translate(-2px
   .wo-featured-grid:not(.wo-featured-grid--single) .wo-featured__body { padding: 22px 26px; }
   .wo-featured-grid:not(.wo-featured-grid--single) .wo-featured h3 { font-size: 1.25rem; }
 }
+
+/* Extra tag on one-off event cards, e.g. "Women's" */
+.wo-card__tag { position: absolute; bottom: 12px; left: 12px; background: #fff; color: var(--black, #2B1400); border: 2px solid var(--black, #2B1400); font-size: .68rem; font-weight: 800; padding: 4px 10px; border-radius: 999px; text-transform: uppercase; letter-spacing: .03em; }

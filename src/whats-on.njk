@@ -128,6 +128,7 @@ pinnedEvent2: free-community-microchipping-day
                {% if e.image %}style="background-image:url('{{ e.image }}');"{% endif %}>
             <span class="wo-card__day">{{ e | dateRange }}</span>
             {% if e.cost %}<span class="wo-card__cost wo-card__cost--{{ e.cost }}">{{ e.cost }}</span>{% endif %}
+            {% if e.tag %}<span class="wo-card__tag">{{ e.tag }}</span>{% endif %}
           </div>
           <div class="wo-card__body">
             <p class="wo-card__cat">{{ e.category }}</p>

@@ -301,5 +301,19 @@
     "description": "The 37th WheelPower Inter Spinal Unit Games, Monday 19 to Thursday 22 October at Blackpool Sports Centre. Over 100 patients from 14 spinal units take part across more than 20 sports. Open to spinal unit teams only.",
     "pinned": false,
     "page": "/events/inter-spinal-unit-games-2026/"
+  },
+  {
+    "slug": "family-nature-walk-and-picnic-27-october",
+    "title": "Family Nature Walk & Picnic",
+    "date": "2026-10-27",
+    "time": "11:00am",
+    "location": "Stanley Park Clock Tower",
+    "category": "Family & Kids",
+    "cost": "free",
+    "tag": "Women's",
+    "image": "/images/family-nature-walk-27-october.webp",
+    "description": "A half-term nature walk and picnic for mums, babies, children and prams, put on together by Ameelia Unfiltered, Blackpool Mums and Babies, Wandering Women, Mighty Minds and Solo Parents United. Tuesday 27 October, 11am, meet at the Clock Tower, Stanley Park. Free.",
+    "pinned": false,
+    "page": "/events/family-nature-walk-and-picnic/"
   }
 ]

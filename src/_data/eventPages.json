@@ -950,5 +950,75 @@
       "url": "https://www.wheelpower.org.uk"
     },
     "lead": "Monday 19 to Thursday 22 October 2026 at Blackpool Sports Centre"
+  },
+  {
+    "slug": "family-nature-walk-and-picnic",
+    "title": "Family Nature Walk & Picnic",
+    "kicker": "Free women's event",
+    "theme": "orange",
+    "summary": "A half-term nature walk and picnic for mums, babies, children and prams, from five Blackpool community groups. Tuesday 27 October 2026, 11am, meet at the Clock Tower, Stanley Park. Free.",
+    "ogImage": "/images/og/events/family-nature-walk-and-picnic.jpg",
+    "posters": [
+      {
+        "src": "/images/family-nature-walk-27-october.webp",
+        "alt": "Poster for the Family Nature Walk and Picnic, 27th October at 11am, meet at the Clock Tower, Stanley Park, Blackpool. Mums, children and prams welcome. Nature activities, picnic and playtime."
+      }
+    ],
+    "sessions": [
+      {
+        "dateLabel": "Tuesday 27 October 2026",
+        "time": "11:00am",
+        "start": "2026-10-27T11:00:00+00:00"
+      }
+    ],
+    "venue": {
+      "name": "Clock Tower, Stanley Park",
+      "locality": "Blackpool"
+    },
+    "cost": "Free",
+    "offers": {
+      "price": "0"
+    },
+    "facts": [
+      {
+        "label": "Who it's for",
+        "value": "Women and their children. Mums, babies, children and prams are all welcome"
+      },
+      {
+        "label": "Bring",
+        "value": "Your own picnic, and wrap up warm"
+      },
+      {
+        "label": "Organised by",
+        "value": "Ameelia Unfiltered, Blackpool Mums and Babies Group, Wandering Women, Mighty Minds and Solo Parents United"
+      }
+    ],
+    "intro": "A special half-term family adventure. Local women and community organisations are bringing the mums, children, babies and prams together for a nature walk, a picnic and plenty of time to play, explore and have a proper natter.",
+    "sections": [
+      {
+        "heading": "What's happening",
+        "html": "<p>Meet at the Clock Tower in Stanley Park for a gentle nature walk, then enjoy your picnics together while the children play.</p><p>Mighty Minds are providing binoculars, magnifying glasses and activities for the little explorers, so the children can discover different leaves and take a closer look at nature. Mighty Minds can't be there in person because they have their own Halloween party at the same time, but they are still part of the day.</p>"
+      },
+      {
+        "heading": "Who it's for",
+        "html": "<p>Wandering Women's walks are usually for adults, so this is a special family collaboration to let the little ones join in too. The organisers hope to do these occasionally, most likely in the school holidays.</p><p>You don't need to have been to a mummy meet-up before or know anyone. Whether you come through one of the organisations, follow the organiser's page or someone has just shared this with you, you are welcome.</p>"
+      },
+      {
+        "heading": "Coming on your own?",
+        "html": "<p>If you would love to come but would be coming on your own, message the organiser. Walking into something new can feel daunting, and they can make sure you have someone to say hello to when you arrive.</p>"
+      }
+    ],
+    "links": [
+      {
+        "type": "facebook",
+        "label": "Wandering Women on Facebook",
+        "url": "https://www.facebook.com/groups/598900096327160/",
+        "primary": true
+      }
+    ],
+    "organiser": {
+      "name": "Ameelia Unfiltered, Blackpool Mums and Babies Group, Wandering Women, Mighty Minds and Solo Parents United"
+    },
+    "lead": "Tuesday 27 October 2026, 11am, meet at the Clock Tower, Stanley Park"
   }
 ]
