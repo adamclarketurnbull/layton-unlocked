@@ -315,5 +315,17 @@
     "description": "A half-term nature walk and picnic for mums, babies, children and prams, put on together by Ameelia Unfiltered, Blackpool Mums and Babies, Wandering Women, Mighty Minds and Solo Parents United. Tuesday 27 October, 11am, meet at the Clock Tower, Stanley Park. Free.",
     "pinned": false,
     "page": "/events/family-nature-walk-and-picnic/"
+  },
+  {
+    "slug": "layton-police-and-community-together-20-october",
+    "title": "Layton Police and Community Together",
+    "date": "2026-10-20",
+    "time": "5:30pm",
+    "location": "Layton Methodist",
+    "category": "Community",
+    "image": "/images/layton-police-and-community-together-20-october.webp",
+    "description": "Do you have any policing concerns or ideas for Layton? Come and talk to Layton police, hosted by Layton Together and Forward Project. Tuesday 20 October, 5:30pm at Layton Methodist, FY3 7DZ.",
+    "pinned": false,
+    "page": "/events/layton-police-and-community-together/"
   }
 ]

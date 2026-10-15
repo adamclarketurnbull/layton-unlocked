@@ -1040,5 +1040,66 @@
       "name": "Ameelia Unfiltered, Blackpool Mums and Babies Group, Wandering Women, Mighty Minds and Solo Parents United"
     },
     "lead": "Tuesday 27 October 2026, 11am, meet at the Clock Tower, Stanley Park"
+  },
+  {
+    "slug": "layton-police-and-community-together",
+    "title": "Layton Police and Community Together",
+    "kicker": "Community",
+    "theme": "purple",
+    "summary": "Do you have any policing concerns or ideas for Layton? Come and talk to Layton police at Layton Methodist, Tuesday 20 October 2026, 5:30pm. Hosted by Layton Together.",
+    "ogImage": "/images/og/events/layton-police-and-community-together.jpg",
+    "posters": [
+      {
+        "src": "/images/layton-police-and-community-together-20-october.webp",
+        "alt": "Poster for Layton Police and Community Together: do you have any policing concerns or ideas for Layton? Tuesday 20 October 2026, 5.30pm, Layton Methodist, FY3 7DZ. Lancashire Constabulary, Layton Together and Forward Project."
+      }
+    ],
+    "sessions": [
+      {
+        "dateLabel": "Tuesday 20 October 2026",
+        "time": "5:30pm",
+        "start": "2026-10-20T17:30:00+01:00"
+      }
+    ],
+    "venue": {
+      "name": "Layton Methodist Church",
+      "street": "Westcliffe Drive",
+      "locality": "Blackpool",
+      "postcode": "FY3 7DZ"
+    },
+    "facts": [
+      {
+        "label": "Who it's for",
+        "value": "Anyone who lives or works in Layton and has policing concerns or ideas"
+      },
+      {
+        "label": "Hosted by",
+        "value": "Layton Together and Forward Project, with Lancashire Constabulary"
+      }
+    ],
+    "intro": "Do you have any policing concerns or ideas for Layton? Layton police and the community are getting together to talk, listen and share ideas for making the area better.",
+    "sections": [
+      {
+        "heading": "What it is",
+        "html": "<p>An evening for residents to meet Layton police and have a say on local policing. Bring your concerns, questions and ideas for Layton.</p>"
+      },
+      {
+        "heading": "Find out more",
+        "html": "<p>For updates, follow Layton Together on Facebook.</p>"
+      }
+    ],
+    "links": [
+      {
+        "type": "facebook",
+        "label": "Layton Together on Facebook",
+        "url": "https://www.facebook.com/laytontogether",
+        "primary": true
+      }
+    ],
+    "organiser": {
+      "name": "Layton Together",
+      "url": "https://www.facebook.com/laytontogether"
+    },
+    "lead": "Tuesday 20 October 2026, 5:30pm at Layton Methodist"
   }
 ]
