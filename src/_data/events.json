@@ -26,19 +26,6 @@
     "pinned": false
   },
   {
-    "slug": "free-community-microchipping-day",
-    "title": "Free Community Microchipping Day",
-    "date": "2026-10-17",
-    "time": "10:00am-3:00pm",
-    "location": "Layton Community House, 5 Grenfell Ave, Layton, FY3 7BP",
-    "category": "Community",
-    "cost": "free",
-    "image": "/images/image-15.png",
-    "link": "https://www.facebook.com/LCHlayton",
-    "description": "Layton Community House and Longview Animal Centre (your local independent RSPCA branch) are working together to help local pet owners keep their cats and dogs safe. Saturday 17 October, 10am–3pm at Layton Community House, 5 Grenfell Ave, Layton, FY3 7BP. Microchipping is quick and simple, and gives your pet the best chance of being reunited with you if they ever go missing – it's also now a legal requirement. No appointment needed, just come along. Please bring cats in a secure carrier and keep dogs on a secure lead. Layton Community House on Facebook →",
-    "pinned": false
-  },
-  {
     "slug": "lightpool-2026-field-of-dreams",
     "title": "Lightpool 2026: Welcoming Winter at the Field of Dreams",
     "date": "2026-10-23",
@@ -91,20 +78,6 @@
     "description": "Fundraiser night in aid of Layton Community House, at Layton Institute. Expect laughter, prizes and surprises! Tickets £10, including raffle tickets, pay on the door. Just turn up with your dabbers! Layton Community House on Facebook →",
     "pinned": false,
     "page": "/events/bonkers-bingo-quizzie-quiz/"
-  },
-  {
-    "slug": "skaface-at-layton-institute",
-    "title": "SkaFace at Layton Institute",
-    "date": "2026-10-16",
-    "time": "20:00",
-    "location": "Layton Institute",
-    "category": "Arts",
-    "cost": "paid",
-    "image": "/images/skaface-flyer.webp",
-    "link": "",
-    "description": "Live ska music from SkaFace at the Layton Institute. £5 advance, £8 on the door.",
-    "pinned": false,
-    "page": "/events/skaface-live-layton-institute/"
   },
   {
     "slug": "mums-playin-out-baby-friendly-drag-bingo",
@@ -326,6 +299,7 @@
     "image": "/images/layton-police-and-community-together-20-october.webp",
     "description": "Do you have any policing concerns or ideas for Layton? Come and talk to Layton police, hosted by Layton Together and Forward Project. Tuesday 20 October, 5:30pm at Layton Methodist, FY3 7DZ.",
     "pinned": false,
-    "page": "/events/layton-police-and-community-together/"
+    "page": "/events/layton-police-and-community-together/",
+    "landscape": true
   }
 ]

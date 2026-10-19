@@ -954,3 +954,8 @@ a.wo-card:hover, .help-tile:hover, .story-card:hover { transform: translate(-2px
 
 /* Extra tag on one-off event cards, e.g. "Women's" */
 .wo-card__tag { position: absolute; bottom: 12px; left: 12px; background: #fff; color: var(--black, #2B1400); border: 2px solid var(--black, #2B1400); font-size: .68rem; font-weight: 800; padding: 4px 10px; border-radius: 999px; text-transform: uppercase; letter-spacing: .03em; }
+
+/* Featured card variants: landscape/square poster stacks on top; no image = text only */
+.wo-featured--stack, .wo-featured--noimg { grid-template-columns: 1fr; }
+.wo-featured--stack .wo-featured__img { display: block; width: 100%; height: auto; border-radius: 16px 16px 0 0; }
+.wo-featured-grid { align-items: center; }
