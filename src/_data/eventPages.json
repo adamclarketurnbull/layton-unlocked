@@ -840,11 +840,19 @@
     "sections": [
       {
         "heading": "What it is",
-        "html": "<p>Over 100 patients and 60 support staff from 14 Spinal Injury Centres and Specialist Units take part in the 37th Inter Spinal Unit Games, with expert coaching and demonstrations in more than 20 sports.</p><p>Sports include archery, wheelchair rugby, athletics, fencing, wheelchair basketball, powerlifting, boccia, swimming, shooting and wheelchair tennis.</p>"
+        "html": "<p>Over 100 patients and 60 support staff from 14 Spinal Injury Centres and Specialist Units across the UK take part in the 37th Inter Spinal Unit Games, with expert coaching and demonstrations in more than 20 sports.</p><p>Sports include archery, wheelchair rugby, athletics, fencing, wheelchair basketball, powerlifting, boccia, swimming, shooting and wheelchair tennis.</p><p>For many people taking part, it is the first time they have been out of hospital since their injury.</p>"
       },
       {
         "heading": "Who can take part",
         "html": "<p>The Games are open only to current spinal patients on a participating spinal unit team. Spinal units and their Physical Activity Advisors select the teams, so individuals cannot enter independently.</p><p>Adults who are not in a spinal unit can look at WheelPower's Sports Festivals instead, through the WheelPower website.</p>"
+      },
+      {
+        "heading": "The Jean Stone Trophy",
+        "html": "<p>The unit with the most points from taster sessions and competitions at the end of the week wins the Jean Stone Trophy. Each unit earns 3 points for every sport it tries during the week. In the individual competitions, first place scores 10 points, second 6 and third 4.</p>"
+      },
+      {
+        "heading": "A bit of history",
+        "html": "<p>The idea of a competition between spinal units was developed around 1988 by Jean Stone MBE and Harry Metcalfe, a remedial gymnast at the National Spinal Injuries Centre. It draws on the first Stoke Mandeville Games in July 1948. The first Games were supported by the Marchday Charitable Fund, with teams of up to eight people competing for the Marchday Shield.</p><p>Some past participants have gone on to compete nationally and to become Paralympians.</p>"
       },
       {
         "heading": "Come and watch",
@@ -857,6 +865,16 @@
         "label": "WheelPower event page",
         "url": "https://www.wheelpower.org.uk/activities/inter-spinal-unit-games/",
         "primary": true
+      },
+      {
+        "type": "website",
+        "label": "Photos from the 2024 Games",
+        "url": "https://www.flickr.com/photos/wheelpowerevents/albums/72177720320970019/"
+      },
+      {
+        "type": "website",
+        "label": "WheelPower Sports Festivals",
+        "url": "https://www.wheelpower.org.uk/activities/sports-events/"
       },
       {
         "type": "phone",
