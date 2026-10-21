@@ -303,5 +303,19 @@
     "pinned": false,
     "page": "/events/layton-police-and-community-together/",
     "landscape": true
+  },
+  {
+    "slug": "family-film-night-frankenweenie-24-october",
+    "title": "Family Film Night: Frankenweenie",
+    "date": "2026-10-24",
+    "time": "Food 5:30pm, film 6pm",
+    "location": "Layton Methodist Church",
+    "category": "Family & Kids",
+    "cost": "free",
+    "image": "/images/family-film-night-frankenweenie-24-october.webp",
+    "landscape": true,
+    "description": "Layton Methodist Church presents Family Film Night, showing Tim Burton's Frankenweenie. Saturday 24 October, food and drinks from 5:30pm, film starts at 6pm. Free, but you need a ticket.",
+    "pinned": false,
+    "page": "/events/family-film-night-frankenweenie/"
   }
 ]

@@ -1048,5 +1048,93 @@
       "url": "https://www.facebook.com/laytontogether"
     },
     "lead": "Tuesday 20 October 2026, 5:30pm at Layton Methodist"
+  },
+  {
+    "slug": "family-film-night-frankenweenie",
+    "title": "Family Film Night: Frankenweenie",
+    "kicker": "Family & Kids",
+    "theme": "orange",
+    "summary": "Layton Methodist Church presents Family Film Night, showing Tim Burton's Frankenweenie. Saturday 24 October 2026, food and drinks from 5:30pm, film at 6pm. Free, but you need a ticket.",
+    "ogImage": "/images/og/events/family-film-night-frankenweenie.jpg",
+    "posters": [
+      {
+        "src": "/images/family-film-night-frankenweenie-24-october.webp",
+        "alt": "Poster for Family Film Night at Layton Methodist Church, showing Disney's Frankenweenie on Saturday 24th October. Food and drinks served from 5:30pm, film starts at 6:00pm. Free event, ticketed."
+      }
+    ],
+    "sessions": [
+      {
+        "dateLabel": "Saturday 24 October 2026",
+        "time": "Food and drinks from 5:30pm, film at 6:00pm",
+        "start": "2026-10-24T17:30:00+01:00"
+      }
+    ],
+    "venue": {
+      "name": "Layton Methodist Church",
+      "street": "1 Westcliffe Drive",
+      "locality": "Blackpool",
+      "postcode": "FY3 7DZ"
+    },
+    "cost": "Free, but you need a ticket",
+    "offers": {
+      "price": "0",
+      "url": "https://tinyurl.com/FamilyFilmNightFrankenweenie"
+    },
+    "facts": [
+      {
+        "label": "Food and drinks",
+        "value": "Served from 5:30pm"
+      },
+      {
+        "label": "Film starts",
+        "value": "6:00pm"
+      },
+      {
+        "label": "Tickets",
+        "value": "Free, but the night is ticketed. Book through the link on this page"
+      },
+      {
+        "label": "Allergies",
+        "value": "Please message Layton Methodist on Facebook before the night"
+      }
+    ],
+    "intro": "Layton Methodist Church is hosting a Family Film Night, showing Disney's Tim Burton's Frankenweenie. Come along for food and drinks, then settle in for the film.",
+    "sections": [
+      {
+        "heading": "What's happening",
+        "html": "<p>Food and drinks are served from 5:30pm, and the film starts at 6:00pm. It is a free event for families, held at Layton Methodist Church.</p>"
+      },
+      {
+        "heading": "Tickets",
+        "html": "<p>Family Film Night is a ticketed event. Tickets are free and are booked through the ticket link on this page. They went live at 6:30pm on Wednesday 21 October.</p>"
+      },
+      {
+        "heading": "Allergies",
+        "html": "<p>If anyone in your family has an allergy, please message the Layton Methodist page on Facebook before the night so the team can plan.</p>"
+      }
+    ],
+    "links": [
+      {
+        "type": "website",
+        "label": "Get free tickets",
+        "url": "https://tinyurl.com/FamilyFilmNightFrankenweenie",
+        "primary": true
+      },
+      {
+        "type": "facebook",
+        "label": "Layton Methodist on Facebook",
+        "url": "https://www.facebook.com/laytonmethodist"
+      },
+      {
+        "type": "email",
+        "label": "Email the events team",
+        "url": "mailto:events@forwardproject.org.uk"
+      }
+    ],
+    "organiser": {
+      "name": "Layton Methodist Church",
+      "url": "https://www.facebook.com/laytonmethodist"
+    },
+    "lead": "Saturday 24 October 2026, food from 5:30pm, film at 6pm"
   }
 ]
