@@ -1,6 +1,7 @@
 ---
 layout: base.njk
 title: Layton Unlocked
+featuredEvent: bonkers-bingo-quizzie-quiz-lch-fundraiser-night
 ---
 <section class="hero hero--zine" style="background-image:url('/images/layton-hero.webp');background-size:cover;background-position:center;position:relative;">
   <div class="hero__scrim" aria-hidden="true"></div>
@@ -24,7 +25,6 @@ title: Layton Unlocked
       <li class="help-tile zc-rotate-1" style="background:var(--blue-sky)">
         <a class="help-tile__link-wrap" href="/food-essentials/">
           <div class="help-tile__icon help-tile__icon--photo" style="background-image:url('/images/image-3.webp')"></div>
-          <span class="zc-badge zc-badge--dark">Need Food?</span>
           <h3 class="help-tile__cat">Food &amp; essentials</h3>
           <p class="help-tile__desc">Food pantries, community fridges, and emergency food support close to home.</p>
           <span class="help-tile__link">Find out more &rarr;</span>
@@ -33,7 +33,6 @@ title: Layton Unlocked
       <li class="help-tile zc-rotate-2" style="background:var(--yellow)">
         <a class="help-tile__link-wrap" href="/whats-on/">
           <div class="help-tile__icon help-tile__icon--photo" style="background-image:url('/images/craft-club.webp')"></div>
-          <span class="zc-badge zc-badge--dark">Get Out There</span>
           <h3 class="help-tile__cat">What's On</h3>
           <p class="help-tile__desc">From sports to arts to social clubs - free and low-cost activities for everyone.</p>
           <span class="help-tile__link">Find out more &rarr;</span>
@@ -42,7 +41,6 @@ title: Layton Unlocked
       <li class="help-tile help-tile--cta zc-rotate-1" style="background:var(--green)">
         <a class="help-tile__link-wrap" href="mailto:adam@laytonunlocked.com">
           <div class="help-tile__icon help-tile__icon--photo" style="background-image:url('/images/hand-sunset.jpg')"></div>
-          <span class="zc-badge zc-badge--dark">Say Hello</span>
           <h3 class="help-tile__cat">Can't find what you need?</h3>
           <p class="help-tile__desc">Get in touch with the Layton Unlocked team - we'll point you in the right direction.</p>
           <span class="help-tile__link">Contact us &rarr;</span>
@@ -52,6 +50,24 @@ title: Layton Unlocked
   </div>
 </section>
 
+{% set homeFeatured = events | upcoming | findBy("slug", featuredEvent) %}
+{% if homeFeatured %}
+<section class="featured-event section" id="whats-on">
+  <div class="container featured-event__inner">
+    <div class="featured-event__content">
+      <span class="zc-badge zc-badge--dark">{{ homeFeatured | dateRange }} &middot; {{ homeFeatured.time }}</span>
+      <h2 class="featured-event__heading">{{ homeFeatured.title }}</h2>
+      <p class="featured-event__body">{{ homeFeatured.homeBlurb or homeFeatured.description }}</p>
+      <a href="{{ homeFeatured.page or homeFeatured.link or '/whats-on/' }}" class="btn btn--card btn--teal">See details &rarr;</a>
+    </div>
+    {% if homeFeatured.image %}
+    <div class="featured-event__image-wrap featured-event__image-wrap--{{ 'landscape' if homeFeatured.landscape else 'portrait' }} zc-rotate-2">
+      <img src="{{ homeFeatured.image }}" alt="{{ homeFeatured.title }}">
+    </div>
+    {% endif %}
+  </div>
+</section>
+{% else %}
 <section class="featured-event section" id="whats-on">
   <div class="container featured-event__inner">
     <div class="featured-event__content">
@@ -65,6 +81,7 @@ title: Layton Unlocked
     </div>
   </div>
 </section>
+{% endif %}
 
 
 <section class="mission section mission--short" id="newsletter-cta">
