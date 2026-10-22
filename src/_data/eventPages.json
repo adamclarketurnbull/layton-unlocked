@@ -965,5 +965,66 @@
       "url": "https://www.facebook.com/laytonmethodist"
     },
     "lead": "Saturday 24 October 2026, food from 5:30pm, film at 6pm"
+  },
+  {
+    "slug": "layton-police-and-community-together",
+    "title": "Layton Police and Community Together (PACT)",
+    "kicker": "Community",
+    "theme": "purple",
+    "summary": "Do you have any policing concerns or ideas for Layton? Come and talk to Layton police at Layton Methodist, Tuesday 1 December 2026, 5:30pm. Hosted by Layton Together.",
+    "ogImage": "/images/og/events/layton-police-and-community-together.jpg",
+    "posters": [
+      {
+        "src": "/images/layton-police-and-community-together-1-december.webp",
+        "alt": "Poster for Layton Police and Community Together (PACT): do you have any policing concerns or ideas for Layton? Tuesday 1 December 2026, 5.30pm, Layton Methodist, FY3 7DZ. Lancashire Constabulary, Layton Together and Forward Project."
+      }
+    ],
+    "sessions": [
+      {
+        "dateLabel": "Tuesday 1 December 2026",
+        "time": "5:30pm",
+        "start": "2026-12-01T17:30:00+00:00"
+      }
+    ],
+    "venue": {
+      "name": "Layton Methodist Church",
+      "street": "Westcliffe Drive",
+      "locality": "Blackpool",
+      "postcode": "FY3 7DZ"
+    },
+    "facts": [
+      {
+        "label": "Who it's for",
+        "value": "Anyone who lives or works in Layton and has policing concerns or ideas"
+      },
+      {
+        "label": "Hosted by",
+        "value": "Layton Together and Forward Project, with Lancashire Constabulary"
+      }
+    ],
+    "intro": "PACT stands for Police and Communities Together. Do you have any policing concerns or ideas for Layton? Come along and share them with Layton police and your neighbours.",
+    "sections": [
+      {
+        "heading": "What it is",
+        "html": "<p>An evening for residents to meet Layton police and have a say on local policing. Bring your concerns, questions and ideas for Layton.</p>"
+      },
+      {
+        "heading": "Find out more",
+        "html": "<p>For updates, follow Layton Together on Facebook.</p>"
+      }
+    ],
+    "links": [
+      {
+        "type": "facebook",
+        "label": "Layton Together on Facebook",
+        "url": "https://www.facebook.com/laytontogether",
+        "primary": true
+      }
+    ],
+    "organiser": {
+      "name": "Layton Together",
+      "url": "https://www.facebook.com/laytontogether"
+    },
+    "lead": "Tuesday 1 December 2026, 5:30pm at Layton Methodist"
   }
 ]

@@ -275,5 +275,18 @@
     "description": "Layton Methodist Church presents Family Film Night, showing Tim Burton's Frankenweenie. Saturday 24 October, food and drinks from 5:30pm, film starts at 6pm. Free, but you need a ticket.",
     "pinned": false,
     "page": "/events/family-film-night-frankenweenie/"
+  },
+  {
+    "slug": "layton-police-and-community-together-1-december",
+    "title": "Layton Police and Community Together (PACT)",
+    "date": "2026-12-01",
+    "time": "5:30pm",
+    "location": "Layton Methodist",
+    "category": "Community",
+    "image": "/images/layton-police-and-community-together-1-december.webp",
+    "landscape": true,
+    "description": "Do you have any policing concerns or ideas for Layton? Come and talk to Layton police, hosted by Layton Together and Forward Project. Tuesday 1 December, 5:30pm at Layton Methodist, FY3 7DZ.",
+    "pinned": false,
+    "page": "/events/layton-police-and-community-together/"
   }
 ]
