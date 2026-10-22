@@ -976,3 +976,23 @@ a.wo-card:hover, .help-tile:hover, .story-card:hover { transform: translate(-2px
   .loop-preview__pages { max-width: none; }
   .footer__newsletter .loop-preview__title { max-width: none; }
 }
+
+/* Homepage hero: text sits on a cream zine card so it stays readable over the
+   busy photo (22 Oct 2026, option B). */
+.hero--zine .hero__scrim { background: rgba(79,214,181,0.12); }
+.hero--zine .hero__inner { min-height: 300px; padding: 36px 16px; }
+.hero--zine .hero__content {
+  background: var(--white-warm);
+  border: 3px solid var(--black);
+  border-radius: var(--radius-card);
+  box-shadow: 6px 6px 0 var(--black);
+  padding: 26px 28px 28px;
+  max-width: 680px;
+  transform: rotate(-0.6deg);
+}
+.hero--zine .hero__heading { margin-bottom: 0; }
+.hero--zine .hero__subhead { color: var(--black); white-space: normal; max-width: 560px; margin-bottom: 0; }
+@media (min-width: 900px) {
+  .hero--zine .hero__content { max-width: 680px; }
+  .hero--zine .hero__subhead { white-space: normal; max-width: 560px; }
+}
