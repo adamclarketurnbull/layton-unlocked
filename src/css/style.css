@@ -977,22 +977,28 @@ a.wo-card:hover, .help-tile:hover, .story-card:hover { transform: translate(-2px
   .footer__newsletter .loop-preview__title { max-width: none; }
 }
 
-/* Homepage hero: text sits on a cream zine card so it stays readable over the
-   busy photo (22 Oct 2026, option B). */
-.hero--zine .hero__scrim { background: rgba(79,214,181,0.12); }
-.hero--zine .hero__inner { min-height: 300px; padding: 36px 16px; }
-.hero--zine .hero__content {
-  background: var(--white-warm);
-  border: 3px solid var(--black);
-  border-radius: var(--radius-card);
-  box-shadow: 6px 6px 0 var(--black);
-  padding: 26px 28px 28px;
-  max-width: 680px;
-  transform: rotate(-0.6deg);
+/* Hero readability (22 Oct 2026, option A): dark wash over the photo with cream
+   text, on the home, What's On and Food & Essentials heroes. */
+.hero--zine .hero__scrim,
+.page-hero--zine .page-hero__scrim,
+.page-hero--teal .page-hero__scrim,
+.page-hero--orange .page-hero__scrim {
+  background: linear-gradient(180deg, rgba(14,44,39,0.72), rgba(14,44,39,0.82));
 }
-.hero--zine .hero__heading { margin-bottom: 0; }
-.hero--zine .hero__subhead { color: var(--black); white-space: normal; max-width: 560px; margin-bottom: 0; }
+.hero--zine .hero__inner { min-height: 260px; padding-block: 36px; }
+.hero--zine .hero__heading,
+.hero--zine .hero__subhead,
+.page-hero--zine .page-hero__heading,
+.page-hero--zine .page-hero__subhead,
+.page-hero--teal .page-hero__heading,
+.page-hero--teal .page-hero__subhead,
+.page-hero--orange .page-hero__heading,
+.page-hero--orange .page-hero__subhead { color: #FFF6E3; }
+.hero--zine .hero__heading,
+.page-hero--zine .page-hero__heading { text-shadow: 0 3px 0 rgba(14,44,39,0.55); }
+.hero--zine .hero__subhead,
+.page-hero--zine .page-hero__subhead { text-shadow: 0 1px 4px rgba(0,0,0,0.6); }
+.hero--zine .hero__subhead { white-space: normal; max-width: 640px; }
 @media (min-width: 900px) {
-  .hero--zine .hero__content { max-width: 680px; }
-  .hero--zine .hero__subhead { white-space: normal; max-width: 560px; }
+  .hero--zine .hero__subhead { white-space: normal; max-width: 640px; }
 }

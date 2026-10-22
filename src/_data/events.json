@@ -80,22 +80,6 @@
     "page": "/events/bonkers-bingo-quizzie-quiz/"
   },
   {
-    "slug": "mums-playin-out-baby-friendly-drag-bingo",
-    "title": "Mum's Playin' Out: Baby Friendly Drag Bingo",
-    "date": "2026-10-16",
-    "time": "10:30am",
-    "location": "Layton Institute, Layton",
-    "category": "Social",
-    "cost": "free",
-    "image": "/images/mums-playin-out-poster.webp",
-    "link": "https://www.facebook.com/share/1F9S7JRUUN/",
-    "venueLink": "https://www.facebook.com/LaytonInstitute",
-    "venueLinkText": "Layton Institute on Facebook →",
-    "description": "Daytime drag bingo for mums who miss feeling like themselves. Daft prizes, a fabulous drag queen, and a proper laugh. Adult content, so babies 18 months and under welcome. Part of Mum's Playin' Out - Pride in Place Layton, free events for new mums to support their mental health, sense of identity and joy. Friday 16 October, 10:30am at Layton Institute, Layton. Mum's Playin' Out on Facebook →",
-    "pinned": false,
-    "page": "/events/mums-playin-out/"
-  },
-  {
     "slug": "mums-playin-out-rag-wreath-making",
     "title": "Mum's Playin' Out: Rag Wreath Making",
     "date": "2026-10-23",
@@ -264,20 +248,6 @@
     "page": "/events/avr-dance-camp-october-half-term/"
   },
   {
-    "slug": "inter-spinal-unit-games-2026",
-    "title": "WheelPower Inter Spinal Unit Games 2026",
-    "date": "2026-10-19",
-    "endDate": "2026-10-22",
-    "time": "Mon to Thu",
-    "location": "Blackpool Sports Centre",
-    "category": "Community",
-    "description": "The 37th WheelPower Inter Spinal Unit Games, Monday 19 to Thursday 22 October at Blackpool Sports Centre. Over 100 patients from 14 spinal units take part across more than 20 sports. Open to spinal unit teams only.",
-    "pinned": false,
-    "page": "/events/inter-spinal-unit-games-2026/",
-    "image": "/images/inter-spinal-unit-games-wheelchair-tennis.webp",
-    "landscape": true
-  },
-  {
     "slug": "family-nature-walk-and-picnic-27-october",
     "title": "Family Nature Walk & Picnic",
     "date": "2026-10-27",
@@ -290,19 +260,6 @@
     "description": "A half-term nature walk and picnic for mums, babies, children and prams, put on together by Ameelia Unfiltered, Blackpool Mums and Babies, Wandering Women, Mighty Minds and Solo Parents United. Tuesday 27 October, 11am, meet at the Clock Tower, Stanley Park. Free.",
     "pinned": false,
     "page": "/events/family-nature-walk-and-picnic/"
-  },
-  {
-    "slug": "layton-police-and-community-together-20-october",
-    "title": "Layton Police and Community Together",
-    "date": "2026-10-20",
-    "time": "5:30pm",
-    "location": "Layton Methodist",
-    "category": "Community",
-    "image": "/images/layton-police-and-community-together-20-october.webp",
-    "description": "Do you have any policing concerns or ideas for Layton? Come and talk to Layton police, hosted by Layton Together and Forward Project. Tuesday 20 October, 5:30pm at Layton Methodist, FY3 7DZ.",
-    "pinned": false,
-    "page": "/events/layton-police-and-community-together/",
-    "landscape": true
   },
   {
     "slug": "family-film-night-frankenweenie-24-october",
