@@ -1002,3 +1002,12 @@ a.wo-card:hover, .help-tile:hover, .story-card:hover { transform: translate(-2px
 @media (min-width: 900px) {
   .hero--zine .hero__subhead { white-space: normal; max-width: 640px; }
 }
+
+/* Footer Facebook link (22 Oct 2026) */
+.footer__social { margin: 0.75rem 0 0; }
+.footer .footer__fb {
+  display: inline-flex; align-items: center; gap: 0.5rem;
+  padding: 8px 16px; border: 2px solid var(--white-warm); border-radius: 999px;
+  color: var(--white-warm); font-weight: 700; font-size: 0.9rem; text-decoration: none;
+}
+.footer .footer__fb:hover, .footer .footer__fb:focus-visible { background: var(--white-warm); color: var(--black); }
