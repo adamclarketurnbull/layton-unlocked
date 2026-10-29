@@ -706,7 +706,7 @@
         "value": "Marsden Building Society"
       }
     ],
-    "intro": "Layton Methodist Church is launching a new monthly Afternoon Film Club. Our first film is The Great Escaper, the moving true story of a Second World War veteran who sets off on a remarkable journey to Normandy to remember those who served.",
+    "intro": "Layton Methodist Church is launching a new monthly Afternoon Film Club. The first film is The Great Escaper, the moving true story of a Second World War veteran who sets off on a remarkable journey to Normandy to remember those who served.",
     "sections": [
       {
         "heading": "What's happening",
@@ -715,10 +715,6 @@
       {
         "heading": "Come along",
         "html": "<p>Admission is free. Donations are welcome but never expected. Come along on your own or bring a friend. Everyone is welcome.</p>"
-      },
-      {
-        "heading": "Thank you",
-        "html": "<p>A big thank you to Marsden Building Society for supporting the new Film Club.</p>"
       }
     ],
     "links": [
