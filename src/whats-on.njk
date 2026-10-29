@@ -1,8 +1,8 @@
 ---
 layout: base.njk
 title: What's On - Layton Unlocked
-pinnedEvent: family-film-night-frankenweenie-24-october
-pinnedEvent2: bonkers-bingo-quizzie-quiz-lch-fundraiser-night
+pinnedEvent: layton-afternoon-film-club-the-great-escaper-11-november
+pinnedEvent2: the-deadbeats-halloween-party-night-31-october
 ---
 <section class="page-hero page-hero--zine page-hero--teal" style="background-image:url('/images/whats-on-hero.jpg');background-size:cover;background-position:center;">
   <div class="page-hero__scrim" aria-hidden="true"></div>
@@ -12,8 +12,12 @@ pinnedEvent2: bonkers-bingo-quizzie-quiz-lch-fundraiser-night
   </div>
 </section>
 
-{% set featured = events | findBy("slug", pinnedEvent) %}
-{% set featured2 = events | findBy("slug", pinnedEvent2) %}
+{# Featured slots: the pinned event while it is still upcoming; once it has passed, the slot fills itself with the next upcoming event that has a poster #}
+{% set upcomingEvents = events | upcoming %}
+{% set featured = upcomingEvents | findBy("slug", pinnedEvent) %}
+{% set featured2 = upcomingEvents | findBy("slug", pinnedEvent2) %}
+{% if not featured %}{% set featured = upcomingEvents | nextFeatured(featured2.slug if featured2 else "") %}{% endif %}
+{% if not featured2 %}{% set featured2 = upcomingEvents | nextFeatured(featured.slug if featured else "") %}{% endif %}
 {# Card layout by image: portrait poster = side column, landscape/square poster = stacked on top, no image = text only #}
 {% set f1cls = ("wo-featured--stack" if featured.landscape else "wo-featured--portrait") if featured.image else "wo-featured--noimg" %}
 {% set f2cls = ("wo-featured--stack" if featured2.landscape else "wo-featured--portrait") if featured2.image else "wo-featured--noimg" %}

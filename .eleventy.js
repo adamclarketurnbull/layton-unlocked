@@ -42,6 +42,11 @@ module.exports = function (eleventyConfig) {
     (arr || []).find((item) => item[field] === value)
   );
 
+  // First upcoming event that has a poster, skipping one slug (used to fill empty featured slots)
+  eleventyConfig.addFilter("nextFeatured", (arr, skipSlug) =>
+    (arr || []).find((e) => e.image && e.slug !== skipSlug)
+  );
+
   eleventyConfig.addFilter("slugify", (str) =>
     String(str)
       .toLowerCase()

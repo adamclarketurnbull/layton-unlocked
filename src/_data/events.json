@@ -26,20 +26,6 @@
     "pinned": false
   },
   {
-    "slug": "lightpool-2026-field-of-dreams",
-    "title": "Lightpool 2026: Welcoming Winter at the Field of Dreams",
-    "date": "2026-10-23",
-    "time": "18:30-20:00",
-    "location": "Field of Dreams, Bowness Ave, Blackpool, FY4 4TE",
-    "category": "Arts",
-    "cost": "free",
-    "image": "",
-    "link": "",
-    "description": "Artist Ivan Morison worked in the field to turn the harvested crop into a series of sculptures, coated in sand and lime – creatures that will look after the meadow over winter. This Lightpool, help welcome these field creatures to the land, with an evening of unexpected light from artists AndNow. Friday 23 October, 6:30pm-8pm at the Field of Dreams. Free. Part of \"Autumn in the Field of Dreams\", run by Leftcoast, supported by Arts Council England. Under 14s must be accompanied by an adult.",
-    "pinned": false,
-    "page": "/events/lightpool-2026-field-of-dreams/"
-  },
-  {
     "slug": "a-buble-christmas-starring-cameron-taylor",
     "title": "A Bublé Christmas – Starring Cameron Taylor",
     "date": "2026-12-06",
@@ -64,37 +50,6 @@
     "link": "https://www.facebook.com/laytonmethodist",
     "description": "Community lights switch-on event at Layton Square. See the Layton Methodist Facebook page for full details.",
     "pinned": false
-  },
-  {
-    "slug": "bonkers-bingo-quizzie-quiz-lch-fundraiser-night",
-    "title": "Bonkers Bingo & Quizzie Quiz – LCH Fundraiser Night",
-    "date": "2026-10-25",
-    "time": "18:00–20:30",
-    "location": "Layton Institute",
-    "category": "Social",
-    "cost": "paid",
-    "image": "/images/bonkers-bingo-flyer.webp",
-    "link": "https://www.facebook.com/LCHlayton",
-    "description": "Fundraiser night in aid of Layton Community House, at Layton Institute. Expect laughter, prizes and surprises! Tickets £10, including raffle tickets, pay on the door. Just turn up with your dabbers! Layton Community House on Facebook →",
-    "pinned": false,
-    "page": "/events/bonkers-bingo-quizzie-quiz/",
-    "homeBlurb": "A fundraiser night in aid of Layton Community House, at Layton Institute. Expect laughter, prizes and surprises! Tickets are £10 including raffle tickets, paid on the door. Just turn up with your dabbers!"
-  },
-  {
-    "slug": "mums-playin-out-rag-wreath-making",
-    "title": "Mum's Playin' Out: Rag Wreath Making",
-    "date": "2026-10-23",
-    "time": "10:30am",
-    "location": "Layton Institute, Layton",
-    "category": "Arts",
-    "cost": "free",
-    "image": "/images/mums-playin-out-poster.webp",
-    "link": "https://www.facebook.com/share/1F9S7JRUUN/",
-    "venueLink": "https://www.facebook.com/LaytonInstitute",
-    "venueLinkText": "Layton Institute on Facebook →",
-    "description": "Not a baby craft - a loud, messy one for you. Make a bright rag wreath, have a chat, and take it home. Wonky is the look. Babies 2 and under welcome. Part of Mum's Playin' Out - Pride in Place Layton, free events for new mums to support their mental health, sense of identity and joy. Friday 23 October, 10:30am at Layton Institute, Layton. Mum's Playin' Out on Facebook →",
-    "pinned": false,
-    "page": "/events/mums-playin-out/"
   },
   {
     "slug": "mums-playin-out-baby-wearing-dance",
@@ -141,21 +96,6 @@
     "description": "Stalls are fully sold out! Please come along for a gorgeous festive afternoon, supporting small businesses. Plenty of gorgeous stalls, gifting, sweet treats, decorations etc. The bar is open and you could even book yourself a table for Sunday lunch! Sunday 15 November, 1pm-5pm at Blackpool Cricket Club. Free entry. Raising money for Mind. Blackpool Cricket Club on Facebook →",
     "pinned": false,
     "page": "/events/christmas-market-blackpool-cricket-club/"
-  },
-  {
-    "slug": "halloween-themed-lunch-club-27-october",
-    "title": "Halloween Themed Lunch Club",
-    "date": "2026-10-27",
-    "time": "12:30pm",
-    "location": "The Grange, 2a Bathurst Avenue (off Dinmore Ave), Blackpool FY3 7RW",
-    "category": "Social",
-    "cost": "paid",
-    "image": "/images/halloween-lunch-club.webp",
-    "description": "A spook-tacular afternoon of good food, fun and laughter. £4 per person includes a 2-course meal, tea and coffee, bingo and a Halloween quiz. Optional fancy dress, with a prize for the best dressed guest. Everyone welcome, so bring a friend. Tuesday 27 October, 12:30pm. At The Grange.",
-    "pinned": false,
-    "venueLink": "https://www.facebook.com/profile.php?id=100064311027215",
-    "venueLinkText": "The Grange on Facebook →",
-    "page": "/events/halloween-themed-lunch-club/"
   },
   {
     "slug": "barbie-spooky-styling-session-layton-library-30-october",
@@ -246,35 +186,8 @@
     "image": "/images/avr-dance-camp-half-term.webp",
     "description": "A week of dance, performance and fun over October half term, Monday 26 to Friday 30 October, 8:30am to 3:30pm. £13 per person per day or £55 for the full week. Open to AVR students and non-AVR students, everyone welcome. Runs every half term.",
     "pinned": false,
-    "page": "/events/avr-dance-camp-october-half-term/"
-  },
-  {
-    "slug": "family-nature-walk-and-picnic-27-october",
-    "title": "Family Nature Walk & Picnic",
-    "date": "2026-10-27",
-    "time": "11:00am",
-    "location": "Stanley Park Clock Tower",
-    "category": "Family & Kids",
-    "cost": "free",
-    "tag": "Women's",
-    "image": "/images/family-nature-walk-27-october.webp",
-    "description": "A half-term nature walk and picnic for mums, babies, children and prams, put on together by Ameelia Unfiltered, Blackpool Mums and Babies, Wandering Women, Mighty Minds and Solo Parents United. Tuesday 27 October, 11am, meet at the Clock Tower, Stanley Park. Free.",
-    "pinned": false,
-    "page": "/events/family-nature-walk-and-picnic/"
-  },
-  {
-    "slug": "family-film-night-frankenweenie-24-october",
-    "title": "Family Film Night: Frankenweenie",
-    "date": "2026-10-24",
-    "time": "Food 5:30pm, film 6pm",
-    "location": "Layton Methodist Church",
-    "category": "Family & Kids",
-    "cost": "free",
-    "image": "/images/family-film-night-frankenweenie-24-october.webp",
-    "landscape": true,
-    "description": "Layton Methodist Church presents Family Film Night, showing Tim Burton's Frankenweenie. Saturday 24 October, food and drinks from 5:30pm, film starts at 6pm. Free, but you need a ticket.",
-    "pinned": false,
-    "page": "/events/family-film-night-frankenweenie/"
+    "page": "/events/avr-dance-camp-october-half-term/",
+    "endDate": "2026-10-30"
   },
   {
     "slug": "layton-police-and-community-together-1-december",
@@ -288,5 +201,20 @@
     "description": "Do you have any policing concerns or ideas for Layton? Come and talk to Layton police, hosted by Layton Together and Forward Project. Tuesday 1 December, 5:30pm at Layton Methodist, FY3 7DZ.",
     "pinned": false,
     "page": "/events/layton-police-and-community-together/"
+  },
+  {
+    "slug": "layton-afternoon-film-club-the-great-escaper-11-november",
+    "title": "Monthly Afternoon Film Club: The Great Escaper",
+    "date": "2026-11-11",
+    "time": "2pm",
+    "location": "Layton Methodist Church",
+    "category": "Community",
+    "cost": "free",
+    "image": "/images/layton-afternoon-film-club-the-great-escaper-11-november.webp",
+    "landscape": true,
+    "description": "Layton's new monthly Afternoon Film Club launches with The Great Escaper, the moving true story of a Second World War veteran who sets off on a remarkable journey to Normandy to remember those who served. A fitting choice for Remembrance Day. Wednesday 11 November, 2pm at Layton Methodist Church, FY3 7DZ. Certificate 12A. Free admission, with tea, coffee and scones.",
+    "homeBlurb": "Our first Afternoon Film Club shows The Great Escaper, the moving true story of a Second World War veteran's journey to Normandy to remember those who served. A fitting choice for Remembrance Day. Free admission, with tea, coffee and scones. Everyone welcome.",
+    "pinned": false,
+    "page": "/events/layton-afternoon-film-club/"
   }
 ]

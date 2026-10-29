@@ -102,7 +102,7 @@
     "title": "Mum's Playin' Out",
     "kicker": "Family & Kids",
     "theme": "yellow",
-    "summary": "Free events for new mums in Layton: rag wreath making, baby-wearing dance and comedy, with babies welcome. Part of Pride in Place Layton.",
+    "summary": "Free events for new mums in Layton: baby-wearing dance and comedy, with babies welcome. Part of Pride in Place Layton.",
     "ogImage": "/images/og/events/mums-playin-out.jpg",
     "posters": [
       {
@@ -112,18 +112,6 @@
     ],
     "seriesName": "Mum's Playin' Out",
     "sessions": [
-      {
-        "name": "Rag Wreath Making",
-        "dateLabel": "Friday 23 October 2026",
-        "time": "10:30am",
-        "start": "2026-10-23T10:30:00+01:00",
-        "venue": "Layton Institute, Layton",
-        "venueName": "Layton Institute",
-        "street": "30 Westcliffe Drive",
-        "locality": "Blackpool",
-        "postcode": "FY3 7HG",
-        "blurb": "Not a baby craft, a loud and messy one for you. Make a bright rag wreath, have a chat and take it home. Wonky is the look. Babies 2 and under welcome."
-      },
       {
         "name": "Baby-Wearing Dance",
         "dateLabel": "Friday 30 October 2026",
@@ -150,7 +138,7 @@
       }
     ],
     "venue": {
-      "name": "Layton Institute and The Grange",
+      "name": "The Grange",
       "locality": "Blackpool"
     },
     "cost": "Free",
@@ -184,68 +172,9 @@
     "organiser": {
       "name": "Pride in Place Layton"
     },
-    "lead": "Three free sessions for new mums, 23 October to 6 November 2026",
-    "whenSummary": "Three Fridays, 23 October to 6 November 2026 (dates below)",
-    "whereSummary": "Layton Institute and The Grange (see each date below)"
-  },
-  {
-    "slug": "halloween-themed-lunch-club",
-    "title": "Halloween Themed Lunch Club",
-    "kicker": "Social",
-    "theme": "orange",
-    "summary": "A spook-tacular Halloween lunch at The Grange, Blackpool on Tuesday 27 October 2026: 2-course meal, bingo, quiz and optional fancy dress for \u00a34. Everyone welcome.",
-    "ogImage": "/images/og/events/halloween-themed-lunch-club.jpg",
-    "posters": [
-      {
-        "src": "/images/halloween-lunch-club.webp",
-        "alt": "Poster for the Halloween Themed Lunch Club on Tuesday 27 October at 12:30pm, \u00a34 per person"
-      }
-    ],
-    "sessions": [
-      {
-        "dateLabel": "Tuesday 27 October 2026",
-        "time": "12:30pm",
-        "start": "2026-10-27T12:30:00+00:00"
-      }
-    ],
-    "venue": {
-      "name": "The Grange",
-      "street": "2a Bathurst Avenue (off Dinmore Avenue)",
-      "locality": "Blackpool",
-      "postcode": "FY3 7RW"
-    },
-    "cost": "\u00a34 per person",
-    "offers": {
-      "price": "4"
-    },
-    "facts": [
-      {
-        "label": "Dress code",
-        "value": "Fancy dress optional, with a prize for the best dressed guest"
-      }
-    ],
-    "intro": "A spook-tacular afternoon of good food, fun and laughter at The Grange. Everyone is welcome, so bring a friend.",
-    "sections": [
-      {
-        "heading": "What's included",
-        "html": "<ul><li>A 2-course meal</li><li>Tea and coffee</li><li>Bingo</li><li>A Halloween quiz</li></ul><p>All for \u00a34 per person.</p>"
-      },
-      {
-        "heading": "Fancy dress",
-        "html": "<p>Dressing up is optional, but there is a prize for the best dressed guest, so it is worth the effort.</p>"
-      }
-    ],
-    "links": [
-      {
-        "type": "facebook",
-        "label": "The Grange on Facebook",
-        "url": "https://www.facebook.com/profile.php?id=100064311027215"
-      }
-    ],
-    "organiser": {
-      "name": "The Grange",
-      "url": "https://www.facebook.com/profile.php?id=100064311027215"
-    }
+    "lead": "Two free sessions for new mums, 30 October and 6 November 2026",
+    "whenSummary": "Two Fridays, 30 October and 6 November 2026 (dates below)",
+    "whereSummary": "The Grange, Grange Park"
   },
   {
     "slug": "barbie-spooky-styling-session",
@@ -312,75 +241,6 @@
     ],
     "organiser": {
       "name": "Vintagebarbieclare"
-    }
-  },
-  {
-    "slug": "bonkers-bingo-quizzie-quiz",
-    "title": "Bonkers Bingo & Quizzie Quiz: LCH Fundraiser Night",
-    "kicker": "Social",
-    "theme": "teal",
-    "summary": "A fundraiser night for Layton Community House at Layton Institute on Sunday 25 October 2026: bingo, quiz, raffle and prizes. Tickets \u00a310, pay on the door.",
-    "ogImage": "/images/og/events/bonkers-bingo-quizzie-quiz.jpg",
-    "posters": [
-      {
-        "src": "/images/bonkers-bingo-flyer.webp",
-        "alt": "Flyer for Bonkers Bingo and Quizzie Quiz, a fundraiser night for Layton Community House at Layton Institute on 25 October"
-      }
-    ],
-    "sessions": [
-      {
-        "dateLabel": "Sunday 25 October 2026",
-        "time": "6:00pm to 8:30pm",
-        "start": "2026-10-25T18:00:00+00:00",
-        "end": "2026-10-25T20:30:00+00:00"
-      }
-    ],
-    "venue": {
-      "name": "Layton Institute",
-      "street": "30 Westcliffe Drive",
-      "locality": "Blackpool",
-      "postcode": "FY3 7HG"
-    },
-    "cost": "\u00a310 including raffle tickets, pay on the door",
-    "offers": {
-      "price": "10"
-    },
-    "facts": [
-      {
-        "label": "Bring",
-        "value": "Your dabbers"
-      },
-      {
-        "label": "Raising money for",
-        "value": "Layton Community House"
-      }
-    ],
-    "intro": "A fundraiser night in aid of Layton Community House, at Layton Institute. Expect laughter, prizes and surprises.",
-    "sections": [
-      {
-        "heading": "What to expect",
-        "html": "<p>An evening of bingo and a quiz, with raffle tickets included in the price, plenty of prizes and a few surprises along the way.</p><p>Just turn up with your dabbers. Tickets are \u00a310 and include your raffle tickets, paid on the door.</p>"
-      },
-      {
-        "heading": "Why it matters",
-        "html": "<p>The night is in aid of Layton Community House, so every ticket helps.</p>"
-      }
-    ],
-    "links": [
-      {
-        "type": "facebook",
-        "label": "Event on Facebook",
-        "url": "https://www.facebook.com/events/1569545347679193"
-      },
-      {
-        "type": "facebook",
-        "label": "Layton Community House on Facebook",
-        "url": "https://www.facebook.com/LCHlayton"
-      }
-    ],
-    "organiser": {
-      "name": "Layton Community House",
-      "url": "https://www.facebook.com/LCHlayton"
     }
   },
   {
@@ -737,236 +597,6 @@
     ]
   },
   {
-    "slug": "lightpool-2026-field-of-dreams",
-    "title": "Lightpool 2026: Welcoming Winter at the Field of Dreams",
-    "kicker": "Arts",
-    "theme": "purple",
-    "summary": "An evening of unexpected light from artists AndNow at the Field of Dreams, Bowness Avenue, on Friday 23 October 2026, 6:30pm to 8pm. Free.",
-    "ogImage": "/images/og/events/lightpool-2026-field-of-dreams.jpg",
-    "posters": [],
-    "sessions": [
-      {
-        "dateLabel": "Friday 23 October 2026",
-        "time": "6:30pm to 8:00pm",
-        "start": "2026-10-23T18:30:00+01:00",
-        "end": "2026-10-23T20:00:00+01:00"
-      }
-    ],
-    "venue": {
-      "name": "Field of Dreams",
-      "street": "Bowness Avenue",
-      "locality": "Blackpool",
-      "postcode": "FY4 4TE"
-    },
-    "cost": "Free",
-    "offers": {
-      "price": "0"
-    },
-    "facts": [
-      {
-        "label": "Good to know",
-        "value": "Under 14s must be accompanied by an adult"
-      },
-      {
-        "label": "Part of",
-        "value": "Autumn in the Field of Dreams, run by Leftcoast and supported by Arts Council England"
-      }
-    ],
-    "intro": "Help welcome the field creatures to the land, with an evening of unexpected light from artists AndNow.",
-    "sections": [
-      {
-        "heading": "The story",
-        "html": "<p>Artist Ivan Morison worked in the field to turn the harvested crop into a series of sculptures, coated in sand and lime. They are creatures that will look after the meadow over winter.</p>"
-      },
-      {
-        "heading": "The evening",
-        "html": "<p>This Lightpool, come and help welcome these field creatures to the land, with an evening of unexpected light from artists AndNow. It runs from 6:30pm to 8pm at the Field of Dreams and is free.</p>"
-      }
-    ],
-    "links": [],
-    "organiser": {
-      "name": "Leftcoast"
-    }
-  },
-  {
-    "slug": "family-nature-walk-and-picnic",
-    "title": "Family Nature Walk & Picnic",
-    "kicker": "Free women's event",
-    "theme": "orange",
-    "summary": "A half-term nature walk and picnic for mums, babies, children and prams, from five Blackpool community groups. Tuesday 27 October 2026, 11am, meet at the Clock Tower, Stanley Park. Free.",
-    "ogImage": "/images/og/events/family-nature-walk-and-picnic.jpg",
-    "posters": [
-      {
-        "src": "/images/family-nature-walk-27-october.webp",
-        "alt": "Poster for the Family Nature Walk and Picnic, 27th October at 11am, meet at the Clock Tower, Stanley Park, Blackpool. Mums, children and prams welcome. Nature activities, picnic and playtime."
-      }
-    ],
-    "sessions": [
-      {
-        "dateLabel": "Tuesday 27 October 2026",
-        "time": "11:00am",
-        "start": "2026-10-27T11:00:00+00:00"
-      }
-    ],
-    "venue": {
-      "name": "Clock Tower, Stanley Park",
-      "locality": "Blackpool"
-    },
-    "cost": "Free",
-    "offers": {
-      "price": "0"
-    },
-    "facts": [
-      {
-        "label": "Who it's for",
-        "value": "Women and their children. Mums, babies, children and prams are all welcome"
-      },
-      {
-        "label": "Bring",
-        "value": "Your own picnic, and wrap up warm"
-      },
-      {
-        "label": "Organised by",
-        "value": "Ameelia Unfiltered, Blackpool Mums and Babies Group, Wandering Women, Mighty Minds and Solo Parents United"
-      }
-    ],
-    "intro": "A special half-term family adventure. Local women and community organisations are bringing the mums, children, babies and prams together for a nature walk, a picnic and plenty of time to play, explore and have a proper natter.",
-    "sections": [
-      {
-        "heading": "What's happening",
-        "html": "<p>Meet at the Clock Tower in Stanley Park for a gentle nature walk, then enjoy your picnics together while the children play.</p><p>Mighty Minds are providing binoculars, magnifying glasses and activities for the little explorers, so the children can discover different leaves and take a closer look at nature. Mighty Minds can't be there in person because they have their own Halloween party at the same time, but they are still part of the day.</p>"
-      },
-      {
-        "heading": "Who it's for",
-        "html": "<p>Wandering Women's walks are usually for adults, so this is a special family collaboration to let the little ones join in too. The organisers hope to do these occasionally, most likely in the school holidays.</p><p>You don't need to have been to a mummy meet-up before or know anyone. Whether you come through one of the organisations, follow the organiser's page or someone has just shared this with you, you are welcome.</p>"
-      },
-      {
-        "heading": "Coming on your own?",
-        "html": "<p>If you would love to come but would be coming on your own, message the organiser. Walking into something new can feel daunting, and they can make sure you have someone to say hello to when you arrive.</p>"
-      }
-    ],
-    "links": [
-      {
-        "type": "facebook",
-        "label": "Blackpool Mums and Babies Group on Facebook",
-        "url": "https://www.facebook.com/groups/1514756812153363/",
-        "primary": true
-      },
-      {
-        "type": "facebook",
-        "label": "Ameelia Unfiltered",
-        "url": "https://www.facebook.com/groups/1514756812153363/user/1066850292/"
-      },
-      {
-        "type": "facebook",
-        "label": "Wandering Women",
-        "url": "https://www.facebook.com/groups/598900096327160/"
-      },
-      {
-        "type": "facebook",
-        "label": "Mighty Minds",
-        "url": "https://www.facebook.com/groups/1514756812153363/user/61590783084436/"
-      },
-      {
-        "type": "facebook",
-        "label": "Solo Parents United",
-        "url": "https://www.facebook.com/groups/1514756812153363/user/100085520823366/"
-      }
-    ],
-    "organiser": {
-      "name": "Ameelia Unfiltered, Blackpool Mums and Babies Group, Wandering Women, Mighty Minds and Solo Parents United"
-    },
-    "lead": "Tuesday 27 October 2026, 11am, meet at the Clock Tower, Stanley Park"
-  },
-  {
-    "slug": "family-film-night-frankenweenie",
-    "title": "Family Film Night: Frankenweenie",
-    "kicker": "Family & Kids",
-    "theme": "orange",
-    "summary": "Layton Methodist Church presents Family Film Night, showing Tim Burton's Frankenweenie. Saturday 24 October 2026, food and drinks from 5:30pm, film at 6pm. Free, but you need a ticket.",
-    "ogImage": "/images/og/events/family-film-night-frankenweenie.jpg",
-    "posters": [
-      {
-        "src": "/images/family-film-night-frankenweenie-24-october.webp",
-        "alt": "Poster for Family Film Night at Layton Methodist Church, showing Disney's Frankenweenie on Saturday 24th October. Food and drinks served from 5:30pm, film starts at 6:00pm. Free event, ticketed."
-      }
-    ],
-    "sessions": [
-      {
-        "dateLabel": "Saturday 24 October 2026",
-        "time": "Food and drinks from 5:30pm, film at 6:00pm",
-        "start": "2026-10-24T17:30:00+01:00"
-      }
-    ],
-    "venue": {
-      "name": "Layton Methodist Church",
-      "street": "1 Westcliffe Drive",
-      "locality": "Blackpool",
-      "postcode": "FY3 7DZ"
-    },
-    "cost": "Free, but you need a ticket",
-    "offers": {
-      "price": "0",
-      "url": "https://tinyurl.com/FamilyFilmNightFrankenweenie"
-    },
-    "facts": [
-      {
-        "label": "Food and drinks",
-        "value": "Served from 5:30pm"
-      },
-      {
-        "label": "Film starts",
-        "value": "6:00pm"
-      },
-      {
-        "label": "Tickets",
-        "value": "Free, but the night is ticketed. Book through the link on this page"
-      },
-      {
-        "label": "Allergies",
-        "value": "Please message Layton Methodist on Facebook before the night"
-      }
-    ],
-    "intro": "Layton Methodist Church is hosting a Family Film Night, showing Disney's Tim Burton's Frankenweenie. Come along for food and drinks, then settle in for the film.",
-    "sections": [
-      {
-        "heading": "What's happening",
-        "html": "<p>Food and drinks are served from 5:30pm, and the film starts at 6:00pm. It is a free event for families, held at Layton Methodist Church.</p>"
-      },
-      {
-        "heading": "Tickets",
-        "html": "<p>Family Film Night is a ticketed event. Tickets are free and are booked through the ticket link on this page. They went live at 6:30pm on Wednesday 21 October.</p>"
-      },
-      {
-        "heading": "Allergies",
-        "html": "<p>If anyone in your family has an allergy, please message the Layton Methodist page on Facebook before the night so the team can plan.</p>"
-      }
-    ],
-    "links": [
-      {
-        "type": "website",
-        "label": "Get free tickets",
-        "url": "https://tinyurl.com/FamilyFilmNightFrankenweenie",
-        "primary": true
-      },
-      {
-        "type": "facebook",
-        "label": "Layton Methodist on Facebook",
-        "url": "https://www.facebook.com/laytonmethodist"
-      },
-      {
-        "type": "email",
-        "label": "Email the events team",
-        "url": "mailto:events@forwardproject.org.uk"
-      }
-    ],
-    "organiser": {
-      "name": "Layton Methodist Church",
-      "url": "https://www.facebook.com/laytonmethodist"
-    },
-    "lead": "Saturday 24 October 2026, food from 5:30pm, film at 6pm"
-  },
-  {
     "slug": "layton-police-and-community-together",
     "title": "Layton Police and Community Together (PACT)",
     "kicker": "Community",
@@ -1026,5 +656,88 @@
       "url": "https://www.facebook.com/laytontogether"
     },
     "lead": "Tuesday 1 December 2026, 5:30pm at Layton Methodist"
+  },
+  {
+    "slug": "layton-afternoon-film-club",
+    "title": "Monthly Afternoon Film Club: The Great Escaper",
+    "kicker": "Community",
+    "theme": "teal",
+    "summary": "Layton's new monthly Afternoon Film Club starts with The Great Escaper on Wednesday 11 November 2026, 2pm at Layton Methodist Church. Free admission, with tea, coffee and scones. Everyone welcome.",
+    "ogImage": "/images/og/events/layton-afternoon-film-club.jpg",
+    "posters": [
+      {
+        "src": "/images/layton-afternoon-film-club-the-great-escaper-11-november.webp",
+        "alt": "Poster for the Layton Monthly Afternoon Film Club: our first afternoon film club, The Great Escaper, Wednesday 11 November, 2pm at Layton Methodist Church. Free. A fitting choice for Remembrance Day. Everyone welcome. Supported by Marsden Building Society. Layton Methodist Charity 1194986."
+      }
+    ],
+    "sessions": [
+      {
+        "dateLabel": "Wednesday 11 November 2026",
+        "time": "2pm",
+        "start": "2026-11-11T14:00:00+00:00"
+      }
+    ],
+    "venue": {
+      "name": "Layton Methodist Church",
+      "street": "Westcliffe Drive",
+      "locality": "Blackpool",
+      "postcode": "FY3 7DZ"
+    },
+    "cost": "Free admission",
+    "offers": {
+      "price": "0",
+      "url": "https://facebook.com/events/s/monthly-afternoon-film-club-th/2614024095710545/"
+    },
+    "facts": [
+      {
+        "label": "Film",
+        "value": "The Great Escaper (Certificate 12A)"
+      },
+      {
+        "label": "Refreshments",
+        "value": "Tea, coffee and scones provided, with time for a chat"
+      },
+      {
+        "label": "Donations",
+        "value": "Welcome but never expected"
+      },
+      {
+        "label": "Supported by",
+        "value": "Marsden Building Society"
+      }
+    ],
+    "intro": "Layton Methodist Church is launching a new monthly Afternoon Film Club. Our first film is The Great Escaper, the moving true story of a Second World War veteran who sets off on a remarkable journey to Normandy to remember those who served.",
+    "sections": [
+      {
+        "heading": "What's happening",
+        "html": "<p>The first Afternoon Film Club is on Wednesday 11 November at 2pm, a fitting choice for Remembrance Day. The film is The Great Escaper, Certificate 12A.</p><p>Tea, coffee and scones will be provided, with time for a chat too.</p>"
+      },
+      {
+        "heading": "Come along",
+        "html": "<p>Admission is free. Donations are welcome but never expected. Come along on your own or bring a friend. Everyone is welcome.</p>"
+      },
+      {
+        "heading": "Thank you",
+        "html": "<p>A big thank you to Marsden Building Society for supporting the new Film Club.</p>"
+      }
+    ],
+    "links": [
+      {
+        "type": "facebook",
+        "label": "Event on Facebook",
+        "url": "https://facebook.com/events/s/monthly-afternoon-film-club-th/2614024095710545/",
+        "primary": true
+      },
+      {
+        "type": "facebook",
+        "label": "Layton Methodist on Facebook",
+        "url": "https://www.facebook.com/laytonmethodist"
+      }
+    ],
+    "organiser": {
+      "name": "Layton Methodist Church",
+      "url": "https://www.facebook.com/laytonmethodist"
+    },
+    "lead": "Wednesday 11 November 2026, 2pm at Layton Methodist Church"
   }
 ]

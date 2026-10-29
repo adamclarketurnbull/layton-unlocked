@@ -1011,3 +1011,8 @@ a.wo-card:hover, .help-tile:hover, .story-card:hover { transform: translate(-2px
   color: var(--white-warm); font-weight: 700; font-size: 0.9rem; text-decoration: none;
 }
 .footer .footer__fb:hover, .footer .footer__fb:focus-visible { background: var(--white-warm); color: var(--black); }
+
+/* Home featured image: let the poster set its own shape (square and landscape posters
+   no longer get white bars inside a fixed 2:1 box). */
+.featured-event__image-wrap--landscape { aspect-ratio: auto; }
+.featured-event__image-wrap--landscape img { height: auto; object-fit: initial; background: transparent; }
