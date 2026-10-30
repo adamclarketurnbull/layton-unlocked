@@ -216,5 +216,37 @@
     "homeBlurb": "Our first Afternoon Film Club shows The Great Escaper, the moving true story of a Second World War veteran's journey to Normandy to remember those who served. A fitting choice for Remembrance Day. Free admission, with tea, coffee and scones. Everyone welcome.",
     "pinned": false,
     "page": "/events/layton-afternoon-film-club/"
+  },
+  {
+    "slug": "fylde-kids-craft-club-2-november",
+    "date": "2026-11-02",
+    "title": "Fylde Kids Foundation Craft Club: Create Together",
+    "time": "11am-1pm",
+    "location": "The Grange, Grange Park",
+    "category": "Family & Kids",
+    "cost": "free",
+    "image": "/images/fylde-kids-craft-club-the-grange.webp",
+    "link": "https://www.facebook.com/FyldeKidsFoundation/",
+    "venueLink": "https://www.facebook.com/profile.php?id=100064311027215",
+    "venueLinkText": "The Grange on Facebook →",
+    "description": "A free craft club from Fylde Kids Foundation. Discover new crafts together, learn new skills and get creative with your parent or guardian. A parent or guardian must stay with their child. Monday 2 November, 11am-1pm at The Grange, Grange Park.",
+    "pinned": false,
+    "page": "/events/fylde-kids-craft-club/"
+  },
+  {
+    "slug": "fylde-kids-craft-club-6-november",
+    "date": "2026-11-06",
+    "title": "Fylde Kids Foundation Craft Club: Create Together",
+    "time": "11am-1pm",
+    "location": "The Grange, Grange Park",
+    "category": "Family & Kids",
+    "cost": "free",
+    "image": "/images/fylde-kids-craft-club-the-grange.webp",
+    "link": "https://www.facebook.com/FyldeKidsFoundation/",
+    "venueLink": "https://www.facebook.com/profile.php?id=100064311027215",
+    "venueLinkText": "The Grange on Facebook →",
+    "description": "A free craft club from Fylde Kids Foundation. Discover new crafts together, learn new skills and get creative with your parent or guardian. A parent or guardian must stay with their child. Friday 6 November, 11am-1pm at The Grange, Grange Park.",
+    "pinned": false,
+    "page": "/events/fylde-kids-craft-club/"
   }
 ]

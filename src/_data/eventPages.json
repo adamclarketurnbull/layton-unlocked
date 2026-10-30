@@ -735,5 +735,81 @@
       "url": "https://www.facebook.com/laytonmethodist"
     },
     "lead": "Wednesday 11 November 2026, 2pm at Layton Methodist Church"
+  },
+  {
+    "slug": "fylde-kids-craft-club",
+    "title": "Fylde Kids Foundation Craft Club: Create Together",
+    "kicker": "Family & Kids",
+    "theme": "purple",
+    "summary": "A free craft club for children and their parent or guardian at The Grange, Grange Park, on Monday 2 and Friday 6 November 2026, 11am to 1pm. Run by Fylde Kids Foundation.",
+    "ogImage": "/images/og/events/fylde-kids-craft-club.jpg",
+    "posters": [
+      {
+        "src": "/images/fylde-kids-craft-club-the-grange.webp",
+        "alt": "Poster for Fylde Kids Foundation Craft Club, Create Together, free at The Grange with a parent or guardian"
+      }
+    ],
+    "sessions": [
+      {
+        "dateLabel": "Monday 2 November 2026",
+        "time": "11am to 1pm",
+        "start": "2026-11-02T11:00:00+00:00",
+        "end": "2026-11-02T13:00:00+00:00"
+      },
+      {
+        "dateLabel": "Friday 6 November 2026",
+        "time": "11am to 1pm",
+        "start": "2026-11-06T11:00:00+00:00",
+        "end": "2026-11-06T13:00:00+00:00"
+      }
+    ],
+    "venue": {
+      "name": "The Grange",
+      "street": "2a Bathurst Avenue",
+      "locality": "Blackpool",
+      "postcode": "FY3 7RW"
+    },
+    "cost": "Free",
+    "offers": {
+      "price": "0"
+    },
+    "facts": [
+      {
+        "label": "Run by",
+        "value": "Fylde Kids Foundation"
+      },
+      {
+        "label": "Who it's for",
+        "value": "Children with their parent or guardian"
+      },
+      {
+        "label": "Please note",
+        "value": "A parent or guardian is required to attend"
+      }
+    ],
+    "intro": "Fylde Kids Foundation's free Craft Club is a chance to discover new crafts together, learn new skills and get creative with your parent or guardian.",
+    "sections": [
+      {
+        "heading": "What's happening",
+        "html": "<p>Join Fylde Kids Foundation at The Grange for a free craft session. Children discover exciting new crafts alongside their parent or guardian, learn new skills and get creative.</p>"
+      },
+      {
+        "heading": "Come along",
+        "html": "<p>It's free, and a parent or guardian needs to stay and take part. There are two sessions: Monday 2 November and Friday 6 November, both 11am to 1pm.</p>"
+      }
+    ],
+    "links": [
+      {
+        "type": "facebook",
+        "label": "Fylde Kids Foundation on Facebook",
+        "url": "https://www.facebook.com/FyldeKidsFoundation/",
+        "primary": true
+      }
+    ],
+    "organiser": {
+      "name": "Fylde Kids Foundation",
+      "url": "https://www.facebook.com/FyldeKidsFoundation/"
+    },
+    "lead": "Two free sessions for children and their parent or guardian, 2 and 6 November 2026, 11am to 1pm at The Grange"
   }
 ]
