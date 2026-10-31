@@ -1029,3 +1029,8 @@ a.wo-card:hover, .help-tile:hover, .story-card:hover { transform: translate(-2px
   }
   .wo-featured-grid:not(.wo-featured-grid--single) .wo-featured__body { padding: 22px 26px 26px; }
 }
+
+/* Food & Essentials: Living Well box about 15% smaller on desktop (image shrinks with the box) */
+@media (min-width: 900px) {
+  #fe-section-pinned .pinned-card { max-width: 707px; }
+}
