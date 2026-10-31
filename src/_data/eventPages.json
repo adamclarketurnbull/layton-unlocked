@@ -811,5 +811,168 @@
       "url": "https://www.facebook.com/FyldeKidsFoundation/"
     },
     "lead": "Two free sessions for children and their parent or guardian, 2 and 6 November 2026, 11am to 1pm at The Grange"
+  },
+  {
+    "slug": "lancashire-women-tuesday-nights",
+    "title": "Tuesday Nights at Lancashire Women",
+    "kicker": "Social",
+    "theme": "teal",
+    "summary": "A new weekly Tuesday evening drop-in at the Lancashire Women Blackpool Hub, 6pm to 7:30pm from 3 November 2026, with movie, games, crochet, karaoke and wellbeing nights. Just outside Layton.",
+    "ogImage": "/images/og/events/lancashire-women-tuesday-nights.jpg",
+    "posters": [
+      {
+        "src": "/images/lancashire-women-tuesday-nights.webp",
+        "alt": "Poster listing the Lancashire Women Tuesday evening programme at their Blackpool Hub, 3 November to 22 December 2026, 6pm to 7:30pm"
+      }
+    ],
+    "seriesName": "Tuesday Nights at Lancashire Women",
+    "sessions": [
+      {
+        "name": "Movie Night",
+        "dateLabel": "Tuesday 3 November 2026",
+        "time": "6pm to 7:30pm",
+        "start": "2026-11-03T18:00:00+00:00",
+        "end": "2026-11-03T19:30:00+00:00",
+        "venue": "Lancashire Women Blackpool Hub",
+        "venueName": "Lancashire Women Blackpool Hub",
+        "street": "255 Church Street",
+        "locality": "Blackpool",
+        "postcode": "FY1 3PB",
+        "blurb": "Drop in for a cosy film. Come as you are, bring a friend or come alone."
+      },
+      {
+        "name": "Crochet Night",
+        "dateLabel": "Tuesday 10 November 2026",
+        "time": "6pm to 7:30pm",
+        "start": "2026-11-10T18:00:00+00:00",
+        "end": "2026-11-10T19:30:00+00:00",
+        "venue": "Lancashire Women Blackpool Hub",
+        "venueName": "Lancashire Women Blackpool Hub",
+        "street": "255 Church Street",
+        "locality": "Blackpool",
+        "postcode": "FY1 3PB",
+        "blurb": "Drop in for something a little more creative. Come as you are, bring a friend or come alone."
+      },
+      {
+        "name": "Movie Night",
+        "dateLabel": "Tuesday 17 November 2026",
+        "time": "6pm to 7:30pm",
+        "start": "2026-11-17T18:00:00+00:00",
+        "end": "2026-11-17T19:30:00+00:00",
+        "venue": "Lancashire Women Blackpool Hub",
+        "venueName": "Lancashire Women Blackpool Hub",
+        "street": "255 Church Street",
+        "locality": "Blackpool",
+        "postcode": "FY1 3PB",
+        "blurb": "Drop in for a cosy film. Come as you are, bring a friend or come alone."
+      },
+      {
+        "name": "Games Night",
+        "dateLabel": "Tuesday 24 November 2026",
+        "time": "6pm to 7:30pm",
+        "start": "2026-11-24T18:00:00+00:00",
+        "end": "2026-11-24T19:30:00+00:00",
+        "venue": "Lancashire Women Blackpool Hub",
+        "venueName": "Lancashire Women Blackpool Hub",
+        "street": "255 Church Street",
+        "locality": "Blackpool",
+        "postcode": "FY1 3PB",
+        "blurb": "Drop in for a laugh over games. Come as you are, bring a friend or come alone."
+      },
+      {
+        "name": "Movie Night",
+        "dateLabel": "Tuesday 1 December 2026",
+        "time": "6pm to 7:30pm",
+        "start": "2026-12-01T18:00:00+00:00",
+        "end": "2026-12-01T19:30:00+00:00",
+        "venue": "Lancashire Women Blackpool Hub",
+        "venueName": "Lancashire Women Blackpool Hub",
+        "street": "255 Church Street",
+        "locality": "Blackpool",
+        "postcode": "FY1 3PB",
+        "blurb": "Drop in for a cosy film. Come as you are, bring a friend or come alone."
+      },
+      {
+        "name": "Karaoke Night",
+        "dateLabel": "Tuesday 8 December 2026",
+        "time": "6pm to 7:30pm",
+        "start": "2026-12-08T18:00:00+00:00",
+        "end": "2026-12-08T19:30:00+00:00",
+        "venue": "Lancashire Women Blackpool Hub",
+        "venueName": "Lancashire Women Blackpool Hub",
+        "street": "255 Church Street",
+        "locality": "Blackpool",
+        "postcode": "FY1 3PB",
+        "blurb": "Drop in for a night of karaoke. Come as you are, bring a friend or come alone."
+      },
+      {
+        "name": "Movie Night",
+        "dateLabel": "Tuesday 15 December 2026",
+        "time": "6pm to 7:30pm",
+        "start": "2026-12-15T18:00:00+00:00",
+        "end": "2026-12-15T19:30:00+00:00",
+        "venue": "Lancashire Women Blackpool Hub",
+        "venueName": "Lancashire Women Blackpool Hub",
+        "street": "255 Church Street",
+        "locality": "Blackpool",
+        "postcode": "FY1 3PB",
+        "blurb": "Drop in for a cosy film. Come as you are, bring a friend or come alone."
+      },
+      {
+        "name": "Wellbeing Night",
+        "dateLabel": "Tuesday 22 December 2026",
+        "time": "6pm to 7:30pm",
+        "start": "2026-12-22T18:00:00+00:00",
+        "end": "2026-12-22T19:30:00+00:00",
+        "venue": "Lancashire Women Blackpool Hub",
+        "venueName": "Lancashire Women Blackpool Hub",
+        "street": "255 Church Street",
+        "locality": "Blackpool",
+        "postcode": "FY1 3PB",
+        "blurb": "Drop in for a wellbeing night. Come as you are, bring a friend or come alone."
+      }
+    ],
+    "venue": {
+      "name": "Lancashire Women Blackpool Hub",
+      "street": "255 Church Street",
+      "locality": "Blackpool",
+      "postcode": "FY1 3PB"
+    },
+    "facts": [
+      {
+        "label": "Run by",
+        "value": "Lancashire Women"
+      },
+      {
+        "label": "Booking",
+        "value": "No need to sign up, just drop in"
+      },
+      {
+        "label": "Location",
+        "value": "Just outside Layton, on Church Street, Blackpool"
+      }
+    ],
+    "intro": "Lancashire Women are launching a brand new weekly evening session at their Blackpool Hub, with something different every week. Whether you fancy a cosy film, a laugh over games or something a little more creative, there is a Tuesday evening for you.",
+    "sections": [
+      {
+        "heading": "What's on",
+        "html": "<p>Movie nights, game nights, crochet, karaoke and wellbeing nights, every Tuesday from 3 November. Come as you are, bring a friend or come alone, and you will always find a warm welcome waiting.</p><p>There's no need to sign up. Just drop in.</p>"
+      }
+    ],
+    "links": [
+      {
+        "type": "facebook",
+        "label": "Lancashire Women on Facebook",
+        "url": "https://www.facebook.com/LancashireWomen",
+        "primary": true
+      }
+    ],
+    "organiser": {
+      "name": "Lancashire Women",
+      "url": "https://www.facebook.com/LancashireWomen"
+    },
+    "lead": "Every Tuesday from 3 November 2026, 6pm to 7:30pm at the Lancashire Women Blackpool Hub",
+    "whenSummary": "Tuesdays from 3 November to 22 December 2026, 6pm to 7:30pm (dates below)",
+    "whereSummary": "Lancashire Women Blackpool Hub, 255 Church Street, Blackpool FY1 3PB"
   }
 ]
