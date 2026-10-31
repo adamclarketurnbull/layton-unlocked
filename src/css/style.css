@@ -1016,3 +1016,16 @@ a.wo-card:hover, .help-tile:hover, .story-card:hover { transform: translate(-2px
    no longer get white bars inside a fixed 2:1 box). */
 .featured-event__image-wrap--landscape { aspect-ratio: auto; }
 .featured-event__image-wrap--landscape img { height: auto; object-fit: initial; background: transparent; }
+
+/* Two featured events side by side on desktop: same layout and same size for both.
+   Image sits on top in a square frame (the whole poster shows, nothing is cropped). */
+@media (min-width: 900px) {
+  .wo-featured-grid:not(.wo-featured-grid--single) { align-items: stretch; }
+  .wo-featured-grid:not(.wo-featured-grid--single) .wo-featured--portrait { grid-template-columns: 1fr; }
+  .wo-featured-grid:not(.wo-featured-grid--single) .wo-featured--portrait .wo-featured__img,
+  .wo-featured-grid:not(.wo-featured-grid--single) .wo-featured--stack .wo-featured__img {
+    display: block; width: 100%; height: auto; aspect-ratio: 1 / 1; object-fit: contain;
+    background: #FFF6E3; border-radius: 16px 16px 0 0; align-self: auto; max-width: none; margin: 0;
+  }
+  .wo-featured-grid:not(.wo-featured-grid--single) .wo-featured__body { padding: 22px 26px 26px; }
+}
