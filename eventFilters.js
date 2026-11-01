@@ -21,6 +21,31 @@ module.exports = function (eleventyConfig) {
     return `${left} - ${days[b.getDay()]} ${b.getDate()} ${months[b.getMonth()]}`;
   });
 
+  // Date label for a featured card when one event page has several dated entries
+  // (e.g. a craft club on Mon 2 and Fri 6 Nov). Lists only the dates still to come:
+  // "Mon 2 & Fri 6 Nov". Falls back to the single-event label for one date or more than three.
+  eleventyConfig.addFilter("sessionDates", (e, upcomingList) => {
+    if (!e || !e.date) return "";
+    const days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+    const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+    const one = (iso, withMonth) => {
+      const d = new Date(iso + "T00:00:00");
+      return `${days[d.getDay()]} ${d.getDate()}${withMonth ? " " + months[d.getMonth()] : ""}`;
+    };
+    const group = e.page ? (upcomingList || []).filter((x) => x.page === e.page && !x.endDate) : [];
+    if (group.length < 2 || group.length > 3 || e.endDate) {
+      const a = new Date(e.date + "T00:00:00");
+      if (!e.endDate || e.endDate === e.date) return one(e.date, true);
+      const b = new Date(e.endDate + "T00:00:00");
+      const left = a.getMonth() === b.getMonth() ? one(e.date, false) : one(e.date, true);
+      return `${left} - ${one(e.endDate, true)}`;
+    }
+    const dates = group.map((x) => x.date).sort();
+    const sameMonth = dates.every((d) => d.slice(0, 7) === dates[0].slice(0, 7));
+    const parts = dates.map((d, i) => one(d, !sameMonth || i === dates.length - 1));
+    return parts.length === 2 ? parts.join(" & ") : parts.slice(0, -1).join(", ") + " & " + parts[parts.length - 1];
+  });
+
   // schema.org Event JSON-LD for an entry in _data/eventPages.json.
   // One object for a single date, an array when the page covers several sessions.
   eleventyConfig.addFilter("eventJsonLd", (ev) => {
