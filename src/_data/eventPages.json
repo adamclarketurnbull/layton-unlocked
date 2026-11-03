@@ -898,5 +898,69 @@
     "lead": "Every Tuesday from 3 November 2026, 6pm to 7:30pm at the Lancashire Women Blackpool Hub",
     "whenSummary": "Tuesdays from 3 November to 22 December 2026, 6pm to 7:30pm (dates below)",
     "whereSummary": "Lancashire Women Blackpool Hub, 255 Church Street, Blackpool FY1 3PB"
+  },
+  {
+    "slug": "shadows-of-mortality",
+    "title": "Shadows of Mortality: A Gruesome & Grisly Tour",
+    "kicker": "Community",
+    "theme": "orange",
+    "summary": "Friends of Layton Cemetery present Shadows of Mortality, a gruesome and grisly tour of Layton Cemetery on Sunday 15 November 2026, 2pm. Meet by the Lodge / Main Gate at 1:45pm. Donations welcome.",
+    "ogImage": "/images/og/events/shadows-of-mortality.jpg",
+    "posters": [
+      {
+        "src": "/images/shadows-of-mortality-layton-cemetery-15-november.webp",
+        "alt": "Poster for Friends of Layton Cemetery presents Shadows of Mortality, a gruesome and grisly tour, Sunday 15th November, meet by the lodge or main gate at 1:45pm for a 2pm start, Layton Cemetery, Talbot Road, Blackpool. We rely on your generous donations."
+      }
+    ],
+    "sessions": [
+      {
+        "dateLabel": "Sunday 15 November 2026",
+        "time": "2pm (meet 1:45pm)",
+        "start": "2026-11-15T14:00:00+00:00"
+      }
+    ],
+    "venue": {
+      "name": "Layton Cemetery",
+      "street": "Talbot Road",
+      "locality": "Blackpool"
+    },
+    "facts": [
+      {
+        "label": "Meeting point",
+        "value": "By the Lodge / Main Gate at 1:45pm for a 2pm start"
+      },
+      {
+        "label": "Cost",
+        "value": "Donations welcome"
+      },
+      {
+        "label": "Presented by",
+        "value": "Friends of Layton Cemetery"
+      }
+    ],
+    "intro": "Join Friends of Layton Cemetery as they delve into the darker side of Layton Cemetery and uncover some of its more gruesome and grisly stories.",
+    "sections": [
+      {
+        "heading": "What's happening",
+        "html": "<p>Shadows of Mortality is a guided tour of Layton Cemetery full of its more gruesome and grisly stories. The tour was postponed in October because of high winds and has been rescheduled for Sunday 15 November.</p>"
+      },
+      {
+        "heading": "Come along",
+        "html": "<p>Meet by the Lodge / Main Gate at 1:45pm for a 2pm start. Donations are welcome, as the Friends of Layton Cemetery rely on generous donations to keep these stories alive.</p>"
+      }
+    ],
+    "links": [
+      {
+        "type": "facebook",
+        "label": "Friends of Layton Cemetery on Facebook",
+        "url": "https://www.facebook.com/share/g/19qfbXHnyn/",
+        "primary": true
+      }
+    ],
+    "organiser": {
+      "name": "Friends of Layton Cemetery",
+      "url": "https://www.facebook.com/share/g/19qfbXHnyn/"
+    },
+    "lead": "Sunday 15 November 2026, 2pm at Layton Cemetery, Talbot Road. Meet by the Lodge / Main Gate at 1:45pm."
   }
 ]

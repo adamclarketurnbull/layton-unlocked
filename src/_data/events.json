@@ -339,5 +339,18 @@
     "description": "Wellbeing Night at the Lancashire Women Blackpool Hub, part of their new weekly Tuesday evening sessions. Just drop in, no need to sign up. Tuesday 22 December 2026, 6pm-7:30pm at 255 Church Street, Blackpool FY1 3PB, just outside Layton.",
     "pinned": false,
     "page": "/events/lancashire-women-tuesday-nights/"
+  },
+  {
+    "slug": "shadows-of-mortality-layton-cemetery-15-november",
+    "title": "Shadows of Mortality: A Gruesome & Grisly Tour",
+    "date": "2026-11-15",
+    "time": "2pm (meet 1:45pm)",
+    "location": "Layton Cemetery, Talbot Road",
+    "category": "Community",
+    "image": "/images/shadows-of-mortality-layton-cemetery-15-november.webp",
+    "link": "https://www.facebook.com/share/g/19qfbXHnyn/",
+    "description": "Friends of Layton Cemetery present Shadows of Mortality, a gruesome and grisly tour of the darker side of Layton Cemetery. Rescheduled from October after high winds. Sunday 15 November, meet by the Lodge / Main Gate at 1:45pm for a 2pm start. Donations welcome.",
+    "pinned": false,
+    "page": "/events/shadows-of-mortality/"
   }
 ]
