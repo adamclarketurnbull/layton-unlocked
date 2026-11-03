@@ -962,5 +962,76 @@
       "url": "https://www.facebook.com/share/g/19qfbXHnyn/"
     },
     "lead": "Sunday 15 November 2026, 2pm at Layton Cemetery, Talbot Road. Meet by the Lodge / Main Gate at 1:45pm."
+  },
+  {
+    "slug": "trinity-hospice-christmas-event",
+    "title": "Christmas Event for Trinity Hospice",
+    "kicker": "Community",
+    "theme": "pink",
+    "summary": "Blackpool Friends of Trinity hold a Christmas event supporting Trinity Hospice on Saturday 7 November 2026, 9:30am to 12:30pm at Layton Methodist Church, Westcliffe Drive. Craft stalls, cuppa and cake, Tombola and Raffle.",
+    "ogImage": "/images/og/events/trinity-hospice-christmas-event.jpg",
+    "posters": [
+      {
+        "src": "/images/trinity-hospice-christmas-event-7-november.webp",
+        "alt": "Poster for the Blackpool Friends of Trinity Christmas Event, supporting your local hospice. Christmas cards, diaries and thoughtful present ideas at the craft stalls, plus a Tombola and Raffle. Saturday 7th November, 9.30 to 12.30, Layton Methodist Church, 1 Westcliffe Drive, Layton, FY3 7DZ. For more info contact Lynne on 07971283646."
+      }
+    ],
+    "sessions": [
+      {
+        "dateLabel": "Saturday 7 November 2026",
+        "time": "9:30am-12:30pm",
+        "start": "2026-11-07T09:30:00+00:00",
+        "end": "2026-11-07T12:30:00+00:00"
+      }
+    ],
+    "venue": {
+      "name": "Layton Methodist Church",
+      "street": "1 Westcliffe Drive",
+      "locality": "Blackpool",
+      "postcode": "FY3 7DZ"
+    },
+    "facts": [
+      {
+        "label": "What's on",
+        "value": "Craft stalls, cuppa and cake, Tombola and Raffle"
+      },
+      {
+        "label": "In support of",
+        "value": "Trinity Hospice"
+      },
+      {
+        "label": "Presented by",
+        "value": "Blackpool Friends of Trinity"
+      }
+    ],
+    "intro": "Blackpool Friends of Trinity invite you to spend a lovely morning supporting your local hospice, Trinity Hospice and Palliative Care Services, and to get into the Christmas spirit while contributing to a great cause.",
+    "sections": [
+      {
+        "heading": "What's happening",
+        "html": "<p>Browse the craft stalls for Christmas cards, diaries and thoughtful present ideas. Have a cuppa and cake, and try your luck on the Tombola and Raffle.</p>"
+      },
+      {
+        "heading": "Come along",
+        "html": "<p>Saturday 7 November, 9:30am to 12:30pm at Layton Methodist Church, 1 Westcliffe Drive, Layton, FY3 7DZ. For more information, contact Lynne on 07971283646.</p>"
+      }
+    ],
+    "links": [
+      {
+        "type": "facebook",
+        "label": "Trinity Hospice on Facebook",
+        "url": "https://www.facebook.com/TrinityHospiceAndBrianHouseChildrensHospice",
+        "primary": true
+      },
+      {
+        "type": "phone",
+        "label": "Call Lynne on 07971283646",
+        "url": "tel:07971283646"
+      }
+    ],
+    "organiser": {
+      "name": "Blackpool Friends of Trinity",
+      "url": "https://www.facebook.com/TrinityHospiceAndBrianHouseChildrensHospice"
+    },
+    "lead": "Saturday 7 November 2026, 9:30am to 12:30pm at Layton Methodist Church, 1 Westcliffe Drive."
   }
 ]

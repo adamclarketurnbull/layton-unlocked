@@ -352,5 +352,18 @@
     "description": "Friends of Layton Cemetery present Shadows of Mortality, a gruesome and grisly tour of the darker side of Layton Cemetery. Rescheduled from October after high winds. Sunday 15 November, meet by the Lodge / Main Gate at 1:45pm for a 2pm start. Donations welcome.",
     "pinned": false,
     "page": "/events/shadows-of-mortality/"
+  },
+  {
+    "slug": "christmas-event-blackpool-friends-of-trinity-7-november",
+    "title": "Christmas Event for Trinity Hospice",
+    "date": "2026-11-07",
+    "time": "9:30am-12:30pm",
+    "location": "Layton Methodist Church, Westcliffe Drive",
+    "category": "Community",
+    "image": "/images/trinity-hospice-christmas-event-7-november.webp",
+    "link": "https://www.facebook.com/TrinityHospiceAndBrianHouseChildrensHospice",
+    "description": "Blackpool Friends of Trinity hold a Christmas event supporting Trinity Hospice. Craft stalls with Christmas cards, diaries and present ideas, plus a cuppa and cake and a Tombola and Raffle. Saturday 7 November, 9:30am to 12:30pm at Layton Methodist Church, 1 Westcliffe Drive.",
+    "pinned": false,
+    "page": "/events/trinity-hospice-christmas-event/"
   }
 ]
