@@ -365,5 +365,57 @@
     "description": "Blackpool Friends of Trinity hold a Christmas event supporting Trinity Hospice. Craft stalls with Christmas cards, diaries and present ideas, plus a cuppa and cake and a Tombola and Raffle. Saturday 7 November, 9:30am to 12:30pm at Layton Methodist Church, 1 Westcliffe Drive.",
     "pinned": false,
     "page": "/events/trinity-hospice-christmas-event/"
+  },
+  {
+    "slug": "gruffalo-granny-storytime-layton-library-11-november",
+    "title": "Gruffalo Granny Storytime",
+    "date": "2026-11-11",
+    "time": "3:30pm (storytime 4pm)",
+    "location": "Layton Library",
+    "category": "Family & Kids",
+    "image": "/images/gruffalo-granny-storytime-layton-library-11-november.webp",
+    "link": "https://www.facebook.com/laytontogether",
+    "description": "An intergenerational storytime at Layton Library, ideal for children aged 3 to 7 and their granny or grandad. Reading the new Gruffalo book, a Gruffalo hunt and a simple craft, with a free copy of the new book gifted to each family. Wednesday 11 November, arrive from 3:30pm for a 4pm start. Booking essential: call Layton Library on 01253 478145 or email layton.library@blackpool.gov.uk.",
+    "pinned": false,
+    "page": "/events/gruffalo-granny-storytime/"
+  },
+  {
+    "slug": "music-and-memory-social-layton-library-28-november",
+    "title": "Music & Memory Social at Layton Library",
+    "date": "2026-11-28",
+    "time": "10:30am-12:30pm",
+    "location": "Layton Library",
+    "category": "Community",
+    "image": "/images/music-and-memory-social-layton-library-and-the-grange.webp",
+    "description": "A new dementia-inclusive social for older residents, families and carers. Nostalgic songs, cherished memories, gentle singalongs and a lovely brew and a chat. Every Saturday at Layton Library from 28 November 2026, 10:30am-12:30pm. No singing skills needed.",
+    "pinned": false,
+    "page": "/events/music-and-memory-social/"
+  },
+  {
+    "slug": "music-and-memory-social-the-grange-8-january",
+    "title": "Music & Memory Social at The Grange",
+    "date": "2027-01-08",
+    "time": "11am-1pm",
+    "location": "The Grange, Grange Park",
+    "category": "Community",
+    "image": "/images/music-and-memory-social-layton-library-and-the-grange.webp",
+    "venueLink": "https://www.facebook.com/profile.php?id=100064311027215",
+    "venueLinkText": "The Grange on Facebook →",
+    "description": "A new dementia-inclusive social for older residents, families and carers. Nostalgic songs, cherished memories, gentle singalongs and a lovely brew and a chat. Every Friday at The Grange from 8 January 2027, 11am-1pm. No singing skills needed.",
+    "pinned": false,
+    "page": "/events/music-and-memory-social/"
+  },
+  {
+    "slug": "afternoon-triniteas-st-marks-9-november",
+    "title": "Afternoon Triniteas",
+    "date": "2026-11-09",
+    "time": "1:30pm",
+    "location": "St Mark's Church, Westcliffe Drive",
+    "category": "Community",
+    "image": "/images/afternoon-triniteas-st-marks-9-november.webp",
+    "link": "https://www.facebook.com/thetrinityparish",
+    "description": "The Trinity Parish invite you to Afternoon Triniteas at St Mark's, Layton. Freshly made sandwiches, home-made cakes and scones and good company, with speaker Mark Wooding. Monday 9 November, 1:30pm. Suggested donation of £5 per head.",
+    "pinned": false,
+    "page": "/events/afternoon-triniteas/"
   }
 ]

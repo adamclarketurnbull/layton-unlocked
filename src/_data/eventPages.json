@@ -1033,5 +1033,220 @@
       "url": "https://www.facebook.com/TrinityHospiceAndBrianHouseChildrensHospice"
     },
     "lead": "Saturday 7 November 2026, 9:30am to 12:30pm at Layton Methodist Church, 1 Westcliffe Drive."
+  },
+  {
+    "slug": "gruffalo-granny-storytime",
+    "title": "Gruffalo Granny Storytime",
+    "kicker": "Family & Kids",
+    "theme": "orange",
+    "summary": "An intergenerational Gruffalo storytime at Layton Library on Wednesday 11 November 2026. Ideal for children aged 3 to 7 and their granny or grandad. Arrive from 3:30pm, storytime at 4pm. Booking essential.",
+    "ogImage": "/images/og/events/gruffalo-granny-storytime.jpg",
+    "posters": [
+      {
+        "src": "/images/gruffalo-granny-storytime-layton-library-11-november.webp",
+        "alt": "Gruffalo Granny and Have You Seen the Gruffalo books on a table at Layton Library, with a paper plate Gruffalo craft"
+      }
+    ],
+    "sessions": [
+      {
+        "dateLabel": "Wednesday 11 November 2026",
+        "time": "Arrive from 3:30pm, storytime at 4pm",
+        "start": "2026-11-11T16:00:00+00:00"
+      }
+    ],
+    "venue": {
+      "name": "Layton Library",
+      "locality": "Blackpool"
+    },
+    "facts": [
+      {
+        "label": "Who it's for",
+        "value": "Children aged 3 to 7, with their granny or grandad"
+      },
+      {
+        "label": "Booking",
+        "value": "Essential: call 01253 478145 or email layton.library@blackpool.gov.uk"
+      },
+      {
+        "label": "Free book",
+        "value": "A free copy of the new Gruffalo book (or other Gruffalo stories) is gifted to each family"
+      },
+      {
+        "label": "Photos",
+        "value": "Photos will be taken at the event. Chat to the team if you would rather not be in them"
+      }
+    ],
+    "intro": "An intergenerational storytime at Layton Library. Bring along your granny or grandad and enjoy the new Gruffalo book together.",
+    "sections": [
+      {
+        "heading": "What's happening",
+        "html": "<p>The new Gruffalo book will be read aloud, followed by a Gruffalo hunt and a simple craft. It is ideal for children aged 3 to 7, and the organisers would love you to bring along your granny or grandad.</p><p>A free copy of the new book is being gifted to each family, or copies of other Gruffalo stories.</p>"
+      },
+      {
+        "heading": "Booking and arrival",
+        "html": "<p>Booking is essential. Phone Layton Library on <a href=\"tel:01253478145\">01253 478145</a> or email <a href=\"mailto:layton.library@blackpool.gov.uk\">layton.library@blackpool.gov.uk</a>.</p><p>Arrive from 3:30pm, with storytime starting at 4pm. Photos will be taken at the event, so chat to the team if you would rather not be in them.</p>"
+      }
+    ],
+    "links": [
+      {
+        "type": "phone",
+        "label": "Call to book",
+        "url": "tel:01253478145",
+        "primary": true
+      },
+      {
+        "type": "email",
+        "label": "Email to book",
+        "url": "mailto:layton.library@blackpool.gov.uk"
+      },
+      {
+        "type": "facebook",
+        "label": "Layton Together on Facebook",
+        "url": "https://www.facebook.com/laytontogether"
+      }
+    ],
+    "organiser": {
+      "name": "Layton Together",
+      "url": "https://www.facebook.com/laytontogether"
+    },
+    "lead": "Wednesday 11 November 2026 at Layton Library. Arrive from 3:30pm, storytime at 4pm. Booking essential."
+  },
+  {
+    "slug": "music-and-memory-social",
+    "title": "Music & Memory Social",
+    "kicker": "Community",
+    "theme": "purple",
+    "summary": "A new dementia-inclusive social for older residents, families and carers: nostalgic songs, cherished memories and a lovely brew and a chat. Saturdays at Layton Library from 28 November 2026 and Fridays at The Grange from 8 January 2027.",
+    "ogImage": "/images/og/events/music-and-memory-social.jpg",
+    "posters": [
+      {
+        "src": "/images/music-and-memory-social-layton-library-and-the-grange.webp",
+        "alt": "Poster for the Music and Memory Social, a dementia-inclusive social for older residents, families and carers. Every Saturday from 28 November 2026, 10:30am to 12:30pm at Layton Library, and every Friday from 8 January 2027, 11am to 1pm at The Grange. Brought to you by Together in Tune."
+      }
+    ],
+    "seriesName": "Music & Memory Social",
+    "sessions": [
+      {
+        "name": "At Layton Library",
+        "dateLabel": "Saturdays from 28 November 2026",
+        "time": "10:30am to 12:30pm",
+        "start": "2026-11-28T10:30:00+00:00",
+        "end": "2026-11-28T12:30:00+00:00",
+        "venue": "Layton Library",
+        "venueName": "Layton Library",
+        "locality": "Blackpool",
+        "blurb": "Every Saturday, starting on 28 November 2026."
+      },
+      {
+        "name": "At The Grange",
+        "dateLabel": "Fridays from 8 January 2027",
+        "time": "11am to 1pm",
+        "start": "2027-01-08T11:00:00+00:00",
+        "end": "2027-01-08T13:00:00+00:00",
+        "venue": "The Grange, Grange Park",
+        "venueName": "The Grange",
+        "street": "2a Bathurst Avenue",
+        "locality": "Blackpool",
+        "postcode": "FY3 7RW",
+        "blurb": "Every Friday, starting on 8 January 2027."
+      }
+    ],
+    "venue": {
+      "name": "Layton Library",
+      "locality": "Blackpool"
+    },
+    "facts": [
+      {
+        "label": "Who it's for",
+        "value": "Older residents, including people living with dementia, their families and carers"
+      },
+      {
+        "label": "Brought to you by",
+        "value": "Together in Tune"
+      },
+      {
+        "label": "Good to know",
+        "value": "No show-biz singing skills needed"
+      }
+    ],
+    "intro": "A friendly, dementia-inclusive social created for local older residents, their families and carers. Step back in time with nostalgic songs and cherished memories.",
+    "sections": [
+      {
+        "heading": "What's on",
+        "html": "<p>A warm, relaxed space with nostalgic songs, cherished memories, gentle singalongs and a lovely brew and a chat together. There is no need to worry about singing skills. It is all about coming together, sharing memories and enjoying good company in a welcoming group.</p><p>Feel free to share the details with family, friends or neighbours who would love to pop along.</p>"
+      }
+    ],
+    "links": [],
+    "organiser": {
+      "name": "Together in Tune"
+    },
+    "lead": "Saturdays at Layton Library from 28 November 2026, and Fridays at The Grange from 8 January 2027",
+    "whenSummary": "Saturdays from 28 November 2026, 10:30am to 12:30pm at Layton Library. Fridays from 8 January 2027, 11am to 1pm at The Grange.",
+    "whereSummary": "Layton Library, and The Grange, 2a Bathurst Avenue, Blackpool FY3 7RW"
+  },
+  {
+    "slug": "afternoon-triniteas",
+    "title": "Afternoon Triniteas",
+    "kicker": "Community",
+    "theme": "teal",
+    "summary": "The Trinity Parish invite you to Afternoon Triniteas at St Mark's, Layton on Monday 9 November 2026, 1:30pm. Sandwiches, home-made cakes and scones, with speaker Mark Wooding. Suggested donation of \u00a35 per head.",
+    "ogImage": "/images/og/events/afternoon-triniteas.jpg",
+    "posters": [
+      {
+        "src": "/images/afternoon-triniteas-st-marks-9-november.webp",
+        "alt": "Poster for Afternoon Triniteas, Monday 9 November at 1:30pm, speaker Mark Wooding. Come and enjoy afternoon tea with sandwiches, scones and cakes. Suggested donation \u00a35 per head."
+      }
+    ],
+    "sessions": [
+      {
+        "dateLabel": "Monday 9 November 2026",
+        "time": "1:30pm",
+        "start": "2026-11-09T13:30:00+00:00"
+      }
+    ],
+    "venue": {
+      "name": "St Mark's Church",
+      "street": "Westcliffe Drive",
+      "locality": "Blackpool",
+      "postcode": "FY3 7HG"
+    },
+    "facts": [
+      {
+        "label": "Speaker",
+        "value": "Mark Wooding"
+      },
+      {
+        "label": "Cost",
+        "value": "Suggested donation of \u00a35 per head"
+      },
+      {
+        "label": "Presented by",
+        "value": "The Trinity Parish"
+      }
+    ],
+    "intro": "Afternoon tea with good company, hosted by The Trinity Parish at St Mark's, Layton.",
+    "sections": [
+      {
+        "heading": "What's happening",
+        "html": "<p>Enjoy freshly made sandwiches, home-made cakes and scones and good company. This month's speaker is Mark Wooding.</p>"
+      },
+      {
+        "heading": "Come along",
+        "html": "<p>Monday 9 November at 1:30pm at St Mark's, Layton. All for the suggested donation of \u00a35 per head.</p>"
+      }
+    ],
+    "links": [
+      {
+        "type": "facebook",
+        "label": "The Trinity Parish on Facebook",
+        "url": "https://www.facebook.com/thetrinityparish",
+        "primary": true
+      }
+    ],
+    "organiser": {
+      "name": "The Trinity Parish",
+      "url": "https://www.facebook.com/thetrinityparish"
+    },
+    "lead": "Monday 9 November 2026, 1:30pm at St Mark's Church, Westcliffe Drive"
   }
 ]
