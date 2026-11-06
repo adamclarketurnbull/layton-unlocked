@@ -1254,8 +1254,13 @@
     "title": "20p Toy Sale at the Re-use Shop",
     "kicker": "Family & Kids",
     "theme": "green",
-    "summary": "Enveco is holding a 20p Toy Sale at the Re-use Shop, Bristol Avenue, Bispham, on Saturday 12 December 2026, 10:30am to 3:30pm. Every toy is 20p, up to 10 toys per person.",
-    "posters": [],
+    "summary": "Enveco is holding a 20p Toy Sale at the Re-use Shop, Bristol Avenue, Bispham, just outside Layton, on Saturday 12 December 2026, 10:30am to 3:30pm. Every toy is 20p, up to 10 toys per person.",
+    "posters": [
+      {
+        "src": "/images/20p-toy-sale-re-use-shop-12-december.webp",
+        "alt": "The front of the Enveco Re-use Shop at the Household Waste Recycling Centre, with a sign reading Buy and donate: toys, books, gardening tools and discount electrical appliances"
+      }
+    ],
     "sessions": [
       {
         "dateLabel": "Saturday 12 December 2026",
@@ -1271,6 +1276,10 @@
       "postcode": "FY2 0JG"
     },
     "facts": [
+      {
+        "label": "Location",
+        "value": "Just outside Layton, at the Re-use Shop in Bispham"
+      },
       {
         "label": "Price",
         "value": "20p per toy, up to 10 toys per person"
@@ -1316,6 +1325,7 @@
       "name": "Enveco",
       "url": "https://enveconw.co.uk/20p-toy-sale/"
     },
-    "lead": "Saturday 12 December 2026, 10:30am to 3:30pm at the Re-use Shop, Bristol Avenue, Bispham. Every toy is 20p."
+    "lead": "Saturday 12 December 2026, 10:30am to 3:30pm at the Re-use Shop, Bristol Avenue, Bispham, just outside Layton. Every toy is 20p.",
+    "ogImage": "/images/og/events/20p-toy-sale.jpg"
   }
 ]
