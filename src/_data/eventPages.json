@@ -1248,5 +1248,74 @@
       "url": "https://www.facebook.com/thetrinityparish"
     },
     "lead": "Monday 9 November 2026, 1:30pm at St Mark's Church, Westcliffe Drive"
+  },
+  {
+    "slug": "20p-toy-sale",
+    "title": "20p Toy Sale at the Re-use Shop",
+    "kicker": "Family & Kids",
+    "theme": "green",
+    "summary": "Enveco is holding a 20p Toy Sale at the Re-use Shop, Bristol Avenue, Bispham, on Saturday 12 December 2026, 10:30am to 3:30pm. Every toy is 20p, up to 10 toys per person.",
+    "posters": [],
+    "sessions": [
+      {
+        "dateLabel": "Saturday 12 December 2026",
+        "time": "10:30am to 3:30pm",
+        "start": "2026-12-12T10:30:00+00:00",
+        "end": "2026-12-12T15:30:00+00:00"
+      }
+    ],
+    "venue": {
+      "name": "Re-use Shop, Household Waste Recycling Centre",
+      "street": "Bristol Avenue, Bispham",
+      "locality": "Blackpool",
+      "postcode": "FY2 0JG"
+    },
+    "facts": [
+      {
+        "label": "Price",
+        "value": "20p per toy, up to 10 toys per person"
+      },
+      {
+        "label": "Who can shop",
+        "value": "Anyone. Children must be accompanied by an adult"
+      },
+      {
+        "label": "Donate a toy",
+        "value": "Until Friday 11 December at the Re-use Shop: clean, good-quality, non-electrical toys for ages 0 to 16. Electrical toys are not accepted"
+      },
+      {
+        "label": "Run by",
+        "value": "Enveco"
+      }
+    ],
+    "intro": "Enveco is holding a 20p Toy Sale at its Re-use Shop, with good-quality pre-loved toys donated by the public.",
+    "sections": [
+      {
+        "heading": "What's happening",
+        "html": "<p>Every toy at the sale costs just 20p, and you can buy up to 10 toys per person. All the toys have been donated by the public.</p>"
+      },
+      {
+        "heading": "Donating toys",
+        "html": "<p>Toy donations are accepted at the Re-use Shop until Friday 11 December. Please bring clean, good-quality, non-electrical toys suitable for ages 0 to 16. Electrical toys and items are not accepted.</p>"
+      }
+    ],
+    "links": [
+      {
+        "type": "web",
+        "label": "Event details on the Enveco website",
+        "url": "https://enveconw.co.uk/20p-toy-sale/",
+        "primary": true
+      },
+      {
+        "type": "facebook",
+        "label": "Enveco on Facebook",
+        "url": "https://www.facebook.com/EnvecoBlackpool"
+      }
+    ],
+    "organiser": {
+      "name": "Enveco",
+      "url": "https://enveconw.co.uk/20p-toy-sale/"
+    },
+    "lead": "Saturday 12 December 2026, 10:30am to 3:30pm at the Re-use Shop, Bristol Avenue, Bispham. Every toy is 20p."
   }
 ]
