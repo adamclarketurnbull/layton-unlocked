@@ -274,5 +274,18 @@
     "description": "Enveco is holding a 20p Toy Sale at its Re-use Shop, just outside Layton, with every good-quality pre-loved toy just 20p and up to 10 toys per person. Saturday 12 December, 10:30am-3:30pm at the Re-use Shop, Household Waste Recycling Centre, Bristol Avenue, Bispham, FY2 0JG. Children must be accompanied by an adult.",
     "pinned": false,
     "page": "/events/20p-toy-sale/"
+  },
+  {
+    "slug": "free-christmas-party-the-victory-pub-29-november",
+    "title": "Free Christmas Party at The Victory Pub",
+    "date": "2026-11-29",
+    "time": "2pm-5pm",
+    "location": "The Victory Pub, Caunce Street, Blackpool",
+    "category": "Family & Kids",
+    "cost": "free",
+    "image": "/images/free-christmas-party-the-victory-pub-29-november.webp",
+    "description": "Blackpool Mums & Babies by Ameelia invite everyone to a free Christmas party to say a huge thank you to the community. Free disco, free buffet, free face painting and a free visit from Santa, plus games, dancing and festive fun. Sunday 29 November, 2pm-5pm at The Victory Pub, Caunce Street, Blackpool. Donations welcome, never expected, supporting the Christmas Present Drive and future community activities.",
+    "pinned": false,
+    "page": "/events/free-christmas-party/"
   }
 ]

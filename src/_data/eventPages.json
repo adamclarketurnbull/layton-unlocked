@@ -945,5 +945,74 @@
     },
     "lead": "Saturday 12 December 2026, 10:30am to 3:30pm at the Re-use Shop, Bristol Avenue, Bispham, just outside Layton. Every toy is 20p.",
     "ogImage": "/images/og/events/20p-toy-sale.jpg"
+  },
+  {
+    "slug": "free-christmas-party",
+    "title": "Free Christmas Party at The Victory Pub",
+    "kicker": "Family & Kids",
+    "theme": "pink",
+    "summary": "A free community Christmas party at The Victory Pub, Caunce Street, Blackpool, on Sunday 29 November 2026, 2pm to 5pm. Free disco, buffet, face painting and a Santa visit. Everyone is invited.",
+    "ogImage": "/images/og/events/free-christmas-party.jpg",
+    "posters": [
+      {
+        "src": "/images/free-christmas-party-the-victory-pub-29-november.webp",
+        "alt": "Poster for the Free Christmas Party, everyone's invited, a huge thank you to our community. Sunday 29 November 2026, 2pm till 5pm at The Victory Pub, Caunce Street, Blackpool. Free disco, free buffet, free face painting, free Santa visit, games, dancing and festive fun. Donations welcome, never expected, supporting the Christmas Present Drive and future community activities. Logos: Mel Bees Amusements, Blackpool Mums and Babies by Ameelia, Solo Parents United CIC."
+      }
+    ],
+    "sessions": [
+      {
+        "dateLabel": "Sunday 29 November 2026",
+        "time": "2pm to 5pm",
+        "start": "2026-11-29T14:00:00+00:00",
+        "end": "2026-11-29T17:00:00+00:00"
+      }
+    ],
+    "venue": {
+      "name": "The Victory Pub",
+      "street": "Caunce Street",
+      "locality": "Blackpool"
+    },
+    "cost": "Free",
+    "offers": {
+      "price": "0"
+    },
+    "facts": [
+      {
+        "label": "Cost",
+        "value": "Free. Donations welcome, never expected"
+      },
+      {
+        "label": "What's on",
+        "value": "Free disco, buffet, face painting and Santa visit, plus games, dancing and festive fun"
+      },
+      {
+        "label": "Supporting",
+        "value": "The Christmas Present Drive and future community activities"
+      },
+      {
+        "label": "Presented by",
+        "value": "Blackpool Mums & Babies by Ameelia"
+      },
+      {
+        "label": "Poster also shows",
+        "value": "Mel Bees Amusements and Solo Parents United CIC"
+      }
+    ],
+    "intro": "Blackpool Mums & Babies by Ameelia are throwing a free Christmas party as a huge thank you to everyone who has supported their work over the last few months. Everyone is invited, so bring the kids and round up your friends.",
+    "sections": [
+      {
+        "heading": "What's happening",
+        "html": "<p>An afternoon of festive fun with a free disco, free buffet, free face painting and a free visit from Santa, plus games and dancing.</p>"
+      },
+      {
+        "heading": "Come along",
+        "html": "<p>Sunday 29 November, 2pm to 5pm at The Victory Pub, Caunce Street, Blackpool. The party is free. Donations are welcome but never expected, and go towards the Christmas Present Drive and future community activities.</p>"
+      }
+    ],
+    "links": [],
+    "organiser": {
+      "name": "Blackpool Mums & Babies by Ameelia"
+    },
+    "lead": "Sunday 29 November 2026, 2pm to 5pm at The Victory Pub, Caunce Street, Blackpool. Free for everyone."
   }
 ]
