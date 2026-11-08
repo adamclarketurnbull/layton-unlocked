@@ -1014,5 +1014,71 @@
       "name": "Blackpool Mums & Babies by Ameelia"
     },
     "lead": "Sunday 29 November 2026, 2pm to 5pm at The Victory Pub, Caunce Street, Blackpool. Free for everyone."
+  },
+  {
+    "slug": "festive-family-fun-day",
+    "title": "Festive Family Fun Day at Layton Institute",
+    "kicker": "Family & Kids",
+    "theme": "teal",
+    "summary": "A free Festive Family Fun Day at Layton Institute, Westcliffe Drive, on Sunday 29 November 2026, 1pm to 4pm. Santa's Grotto, Christmas crafts, festive games, raffle, cake stall and hot food, in aid of Streetlife.",
+    "ogImage": "/images/og/events/festive-family-fun-day.jpg",
+    "posters": [
+      {
+        "src": "/images/streetlife-festive-family-fun-day-layton-institute-29-november.webp",
+        "alt": "Poster for the Festive Family Fun Day, free entry. Santa's Grotto, Christmas crafts, cake stall, festive games, raffle and tombola, Christmas gifts, lucky dip and hot food. Sunday 29th November, 1 to 4pm, Layton Institute. In aid of StreetLife, a local charity supporting young people in need."
+      }
+    ],
+    "sessions": [
+      {
+        "dateLabel": "Sunday 29 November 2026",
+        "time": "1pm to 4pm",
+        "start": "2026-11-29T13:00:00+00:00",
+        "end": "2026-11-29T16:00:00+00:00"
+      }
+    ],
+    "venue": {
+      "name": "Layton Institute",
+      "street": "30 Westcliffe Drive",
+      "locality": "Blackpool",
+      "postcode": "FY3 7HG"
+    },
+    "cost": "Free",
+    "offers": {
+      "price": "0"
+    },
+    "facts": [
+      {
+        "label": "What's on",
+        "value": "Santa's Grotto, Christmas crafts, festive games, Christmas gifts, raffle and tombola, cake stall, hot food and lucky dip"
+      },
+      {
+        "label": "Supporting",
+        "value": "Streetlife and the young people they help across Blackpool"
+      },
+      {
+        "label": "Presented by",
+        "value": "Streetlife"
+      }
+    ],
+    "intro": "Streetlife invite the whole family to get into the festive spirit with a free Festive Family Fun Day at Layton Institute. Every penny raised supports Streetlife and the young people they help across Blackpool.",
+    "sections": [
+      {
+        "heading": "What's happening",
+        "html": "<p>Santa's Grotto, Christmas crafts and festive games, plus Christmas gifts, a raffle and tombola, a cake stall, hot food and a lucky dip. Fun for all the family.</p>"
+      },
+      {
+        "heading": "Come along",
+        "html": "<p>Sunday 29 November, 1pm to 4pm at Layton Institute, Westcliffe Drive. Entry is free, and every penny raised goes to Streetlife, a local charity supporting young people in need.</p>"
+      },
+      {
+        "heading": "Double the fun",
+        "html": "<p>Why not visit the <a href=\"/events/free-christmas-party/\">Free Christmas Party at The Victory Pub</a> on the same day? Double the fun!</p>"
+      }
+    ],
+    "links": [],
+    "organiser": {
+      "name": "Streetlife"
+    },
+    "lead": "Sunday 29 November 2026, 1pm to 4pm at Layton Institute, Westcliffe Drive. Free entry."
   }
 ]

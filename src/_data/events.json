@@ -287,5 +287,18 @@
     "description": "Blackpool Mums & Babies by Ameelia invite everyone to a free Christmas party to say a huge thank you to the community. Free disco, free buffet, free face painting and a free visit from Santa, plus games, dancing and festive fun. Sunday 29 November, 2pm-5pm at The Victory Pub, Caunce Street, Blackpool. Donations welcome, never expected, supporting the Christmas Present Drive and future community activities.",
     "pinned": false,
     "page": "/events/free-christmas-party/"
+  },
+  {
+    "slug": "streetlife-festive-family-fun-day-layton-institute-29-november",
+    "title": "Festive Family Fun Day at Layton Institute",
+    "date": "2026-11-29",
+    "time": "1pm-4pm",
+    "location": "Layton Institute, Westcliffe Drive, Blackpool",
+    "category": "Family & Kids",
+    "cost": "free",
+    "image": "/images/streetlife-festive-family-fun-day-layton-institute-29-november.webp",
+    "description": "Streetlife invite families to a free Festive Family Fun Day at Layton Institute. Santa's Grotto, Christmas crafts, festive games, Christmas gifts, raffle and tombola, cake stall, hot food and a lucky dip. Sunday 29 November, 1pm-4pm. Free entry, and every penny raised supports Streetlife and the young people they help across Blackpool.",
+    "pinned": false,
+    "page": "/events/festive-family-fun-day/"
   }
 ]
