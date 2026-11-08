@@ -52,39 +52,6 @@
     "pinned": false
   },
   {
-    "slug": "mums-playin-out-baby-wearing-dance",
-    "title": "Mum's Playin' Out: Baby-Wearing Dance",
-    "date": "2026-10-30",
-    "time": "10:30am",
-    "location": "The Grange, Grange Park",
-    "category": "Fitness",
-    "cost": "free",
-    "image": "/images/mums-playin-out-poster.webp",
-    "link": "https://www.facebook.com/share/1F9S7JRUUN/",
-    "venueLink": "https://www.facebook.com/profile.php?id=100064311027215",
-    "venueLinkText": "The Grange on Facebook →",
-    "description": "Join Charlie from \"Dance Like a Mother\" - baby in the carrier, music up, dancing like no one can see. Two left feet welcome. Babies from 8 weeks to 2 years. Part of Mum's Playin' Out - Pride in Place Layton, free events for new mums to support their mental health, sense of identity and joy. Friday 30 October, 10:30am at The Grange, Grange Park. Mum's Playin' Out on Facebook →",
-    "pinned": false,
-    "page": "/events/mums-playin-out/"
-  },
-  {
-    "slug": "mums-playin-out-baby-friendly-comedy",
-    "title": "Mum's Playin' Out: Baby Friendly Comedy",
-    "date": "2026-11-06",
-    "time": "10:30am",
-    "location": "The Grange, Grange Park",
-    "category": "Social",
-    "cost": "free",
-    "image": "/images/mums-playin-out-poster.webp",
-    "link": "https://www.facebook.com/share/1F9S7JRUUN/",
-    "venueLink": "https://www.facebook.com/profile.php?id=100064311027215",
-    "venueLinkText": "The Grange on Facebook →",
-    "description": "Comedy clubs don't want your baby. We do. Daytime laughs with the fabulous comedians Black Liver & friends. No shushing. Adult content, so babies 18 months and under welcome. Part of Mum's Playin' Out - Pride in Place Layton, free events for new mums to support their mental health, sense of identity and joy. Friday 6 November, 10:30am at The Grange, Grange Park. Mum's Playin' Out on Facebook →",
-    "homeBlurb": "Comedy clubs don't want your baby, but this one does. Daytime laughs with the fabulous comedians Black Liver & friends, with no shushing. Adult content, so babies 18 months and under are welcome. Free, at The Grange, as part of Mum's Playin' Out.",
-    "pinned": false,
-    "page": "/events/mums-playin-out/"
-  },
-  {
     "slug": "christmas-market-blackpool-cricket-club-15-november",
     "title": "Christmas Market at Blackpool Cricket Club",
     "date": "2026-11-15",
@@ -97,19 +64,6 @@
     "description": "Stalls are fully sold out! Please come along for a gorgeous festive afternoon, supporting small businesses. Plenty of gorgeous stalls, gifting, sweet treats, decorations etc. The bar is open and you could even book yourself a table for Sunday lunch! Sunday 15 November, 1pm-5pm at Blackpool Cricket Club. Free entry. Raising money for Mind. Blackpool Cricket Club on Facebook →",
     "pinned": false,
     "page": "/events/christmas-market-blackpool-cricket-club/"
-  },
-  {
-    "slug": "barbie-spooky-styling-session-layton-library-30-october",
-    "title": "Barbie Spooky Styling Session",
-    "date": "2026-10-30",
-    "time": "10:30am-12:30pm",
-    "location": "Layton Library",
-    "category": "Family & Kids",
-    "cost": "free",
-    "image": "/images/barbie-spooky-styling-layton-library.webp",
-    "description": "A free children’s Barbie and Ken styling and play session hosted by Vintagebarbieclare. Pick your Barbie or Ken, choose their outfit and accessories, then take photos (optional) or just play. Fancy dress optional. Everything is provided and adults are welcome to join in with their children. Friday 30 October, 10:30am-12:30pm at Layton Library. Booking essential: contact Layton Library on 01253 478145 or layton.library@blackpool.gov.uk to book your child’s place.",
-    "pinned": false,
-    "page": "/events/barbie-spooky-styling-session/"
   },
   {
     "slug": "christmas-market-christ-king-church-21-november",
@@ -164,20 +118,6 @@
     "page": "/events/elf-jr-the-musical/"
   },
   {
-    "slug": "avr-dance-camp-october-half-term-26-october",
-    "title": "AVR Dance Camp: October Half Term",
-    "date": "2026-10-26",
-    "time": "Mon-Fri, 8:30am-3:30pm",
-    "location": "AVR Dance, Layton Concert Hall",
-    "category": "Family & Kids",
-    "cost": "paid",
-    "image": "/images/avr-dance-camp-half-term.webp",
-    "description": "A week of dance, performance and fun over October half term, Monday 26 to Friday 30 October, 8:30am to 3:30pm. £13 per person per day or £55 for the full week. Open to AVR students and non-AVR students, everyone welcome. Runs every half term.",
-    "pinned": false,
-    "page": "/events/avr-dance-camp-october-half-term/",
-    "endDate": "2026-10-30"
-  },
-  {
     "slug": "layton-police-and-community-together-1-december",
     "title": "Layton Police and Community Together (PACT)",
     "date": "2026-12-01",
@@ -204,38 +144,6 @@
     "homeBlurb": "Our first Afternoon Film Club shows The Great Escaper, the moving true story of a Second World War veteran's journey to Normandy to remember those who served. A fitting choice for Remembrance Day. Free admission, with tea, coffee and scones. Everyone welcome.",
     "pinned": false,
     "page": "/events/layton-afternoon-film-club/"
-  },
-  {
-    "slug": "fylde-kids-craft-club-2-november",
-    "date": "2026-11-02",
-    "title": "Fylde Kids Foundation Craft Club: Create Together",
-    "time": "11am-1pm",
-    "location": "The Grange, Grange Park",
-    "category": "Family & Kids",
-    "cost": "free",
-    "image": "/images/fylde-kids-craft-club-the-grange.webp",
-    "link": "https://www.facebook.com/FyldeKidsFoundation/",
-    "venueLink": "https://www.facebook.com/profile.php?id=100064311027215",
-    "venueLinkText": "The Grange on Facebook →",
-    "description": "A free craft club from Fylde Kids Foundation. Discover new crafts together, learn new skills and get creative with your parent or guardian. A parent or guardian must stay with their child. Monday 2 November, 11am-1pm at The Grange, Grange Park.",
-    "pinned": false,
-    "page": "/events/fylde-kids-craft-club/"
-  },
-  {
-    "slug": "fylde-kids-craft-club-6-november",
-    "date": "2026-11-06",
-    "title": "Fylde Kids Foundation Craft Club: Create Together",
-    "time": "11am-1pm",
-    "location": "The Grange, Grange Park",
-    "category": "Family & Kids",
-    "cost": "free",
-    "image": "/images/fylde-kids-craft-club-the-grange.webp",
-    "link": "https://www.facebook.com/FyldeKidsFoundation/",
-    "venueLink": "https://www.facebook.com/profile.php?id=100064311027215",
-    "venueLinkText": "The Grange on Facebook →",
-    "description": "A free craft club from Fylde Kids Foundation. Discover new crafts together, learn new skills and get creative with your parent or guardian. A parent or guardian must stay with their child. Friday 6 November, 11am-1pm at The Grange, Grange Park.",
-    "pinned": false,
-    "page": "/events/fylde-kids-craft-club/"
   },
   {
     "slug": "lancashire-women-crochet-night-10-november",
@@ -301,19 +209,6 @@
     "description": "Friends of Layton Cemetery present Shadows of Mortality, a gruesome and grisly tour of the darker side of Layton Cemetery. Rescheduled from October after high winds. Sunday 15 November, meet by the Lodge / Main Gate at 1:45pm for a 2pm start. Donations welcome.",
     "pinned": false,
     "page": "/events/shadows-of-mortality/"
-  },
-  {
-    "slug": "christmas-event-blackpool-friends-of-trinity-7-november",
-    "title": "Christmas Event for Trinity Hospice",
-    "date": "2026-11-07",
-    "time": "9:30am-12:30pm",
-    "location": "Layton Methodist Church, Westcliffe Drive",
-    "category": "Community",
-    "image": "/images/trinity-hospice-christmas-event-7-november.webp",
-    "link": "https://www.facebook.com/TrinityHospiceAndBrianHouseChildrensHospice",
-    "description": "Blackpool Friends of Trinity hold a Christmas event supporting Trinity Hospice. Craft stalls with Christmas cards, diaries and present ideas, plus a cuppa and cake and a Tombola and Raffle. Saturday 7 November, 9:30am to 12:30pm at Layton Methodist Church, 1 Westcliffe Drive.",
-    "pinned": false,
-    "page": "/events/trinity-hospice-christmas-event/"
   },
   {
     "slug": "gruffalo-granny-storytime-layton-library-11-november",
