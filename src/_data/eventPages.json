@@ -1097,5 +1097,86 @@
       "name": "Friends of Layton Rec"
     },
     "lead": "Friday 4 December 2026, from 5pm at Layton Rec Play Park."
+  },
+  {
+    "slug": "disney-themed-lunch-club",
+    "title": "Disney Themed Lunch Club at The Grange",
+    "kicker": "Lunch club",
+    "theme": "purple",
+    "summary": "A Disney themed Lunch Club at The Grange, Bathurst Avenue, Blackpool, on Thursday 26 November 2026 at 12:30pm. \u00a34 per person including a 2 course meal, tea and coffee, bingo, guess the song and a quiz. Booking essential.",
+    "ogImage": "/images/og/events/disney-themed-lunch-club.jpg",
+    "posters": [
+      {
+        "src": "/images/disney-themed-lunch-club-the-grange-26-november.webp",
+        "alt": "Poster for the Disney Themed Lunch Club at The Grange. 26th November, 12:30pm. 4 pounds per person including a 2 course meal, tea and coffee. Bingo, quiz, guess the song and best dressed. Must be booked and paid in cash before the day."
+      }
+    ],
+    "sessions": [
+      {
+        "dateLabel": "Thursday 26 November 2026",
+        "time": "12:30pm",
+        "start": "2026-11-26T12:30:00+00:00"
+      }
+    ],
+    "venue": {
+      "name": "The Grange",
+      "street": "2a Bathurst Avenue",
+      "locality": "Blackpool",
+      "postcode": "FY3 7RW"
+    },
+    "cost": "\u00a34 per person",
+    "offers": {
+      "price": "4"
+    },
+    "facts": [
+      {
+        "label": "Price",
+        "value": "\u00a34 per person, including a 2 course meal, tea and coffee"
+      },
+      {
+        "label": "On the day",
+        "value": "Classic bingo, guess the song and a fun quiz, with a best dressed prize"
+      },
+      {
+        "label": "Fancy dress",
+        "value": "Optional. Come as your favourite Disney character, princess or villain, or simply add a little Disney sparkle"
+      },
+      {
+        "label": "Booking",
+        "value": "Essential. Must be booked and paid in cash before the day"
+      },
+      {
+        "label": "Presented by",
+        "value": "The Grange"
+      }
+    ],
+    "intro": "The Grange is sprinkling a little Disney magic into the afternoon with a themed Lunch Club full of delicious food, fun, laughter and great company. Everyone is welcome, so bring a friend.",
+    "sections": [
+      {
+        "heading": "What's included",
+        "html": "<ul><li>A 2 course meal</li><li>Tea and coffee</li><li>Classic bingo</li><li>Guess the song</li><li>A fun quiz</li><li>Best dressed prize</li></ul><p>All for \u00a34 per person.</p>"
+      },
+      {
+        "heading": "Optional fancy dress",
+        "html": "<p>Come dressed as your favourite Disney character, princess or villain, or simply add a little Disney sparkle. The organisers also promise that you will want to see Mike's amazing costume.</p>"
+      },
+      {
+        "heading": "Booking",
+        "html": "<p>Booking is essential. Places must be booked and paid for in cash before the day, so make sure you reserve yours.</p>"
+      }
+    ],
+    "links": [
+      {
+        "type": "facebook",
+        "label": "The Grange on Facebook",
+        "url": "https://www.facebook.com/profile.php?id=100064311027215",
+        "primary": true
+      }
+    ],
+    "organiser": {
+      "name": "The Grange",
+      "url": "https://www.facebook.com/profile.php?id=100064311027215"
+    },
+    "lead": "Thursday 26 November 2026, 12:30pm at The Grange. \u00a34 per person, booking essential."
   }
 ]

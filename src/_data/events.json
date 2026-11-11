@@ -325,5 +325,19 @@
     "description": "Friends of Layton Rec invite everyone to a magical Christmas celebration with Father Christmas, a bouncy castle, stalls, the Christmas light switch on and lots more fun. Friday 4 December, 5pm onwards at Layton Rec Play Park.",
     "pinned": false,
     "page": "/events/layton-rec-christmas-party/"
+  },
+  {
+    "slug": "disney-themed-lunch-club-the-grange-26-november",
+    "title": "Disney Themed Lunch Club at The Grange",
+    "date": "2026-11-26",
+    "time": "12:30pm",
+    "location": "The Grange, 2a Bathurst Avenue, Blackpool",
+    "category": "Social",
+    "cost": "paid",
+    "image": "/images/disney-themed-lunch-club-the-grange-26-november.webp",
+    "link": "https://www.facebook.com/profile.php?id=100064311027215",
+    "description": "A Disney themed Lunch Club at The Grange with a 2 course meal, tea and coffee, classic bingo, guess the song and a fun quiz. Optional fancy dress, so come as your favourite Disney character. Thursday 26 November, 12:30pm. £4 per person. Booking essential, and it must be booked and paid in cash before the day.",
+    "pinned": false,
+    "page": "/events/disney-themed-lunch-club/"
   }
 ]
