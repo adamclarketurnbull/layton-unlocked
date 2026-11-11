@@ -313,5 +313,17 @@
     "description": "BFriend & Wellbeing, part of Community First, invite local families to a free festive afternoon with a toy station, teen station, Christmas Eve boxes, wrapping station, festive family food ideas and crafts and activities. Thursday 3 December, 2pm-5:30pm at Forest Gate Baptist Church, Blackpool. All free of charge. Donations of toys, gifts, wrapping supplies, toiletries and long-life food are being collected at Community First, Abingdon Street, until Wednesday 2 December.",
     "pinned": false,
     "page": "/events/festive-express-2026/"
+  },
+  {
+    "slug": "layton-rec-christmas-party-4-december",
+    "title": "Christmas Party at Layton Rec Play Park",
+    "date": "2026-12-04",
+    "time": "5pm onwards",
+    "location": "Layton Rec Play Park, Blackpool",
+    "category": "Family & Kids",
+    "image": "/images/layton-rec-christmas-party-4-december.webp",
+    "description": "Friends of Layton Rec invite everyone to a magical Christmas celebration with Father Christmas, a bouncy castle, stalls, the Christmas light switch on and lots more fun. Friday 4 December, 5pm onwards at Layton Rec Play Park.",
+    "pinned": false,
+    "page": "/events/layton-rec-christmas-party/"
   }
 ]

@@ -1046,5 +1046,56 @@
       "name": "BFriend & Wellbeing"
     },
     "lead": "Thursday 3 December 2026, 2pm to 5:30pm at Forest Gate Baptist Church, Blackpool. All free of charge."
+  },
+  {
+    "slug": "layton-rec-christmas-party",
+    "title": "Christmas Party at Layton Rec Play Park",
+    "kicker": "Family & Kids",
+    "theme": "pink",
+    "summary": "Friends of Layton Rec Christmas Party at Layton Rec Play Park on Friday 4 December 2026, from 5pm. Father Christmas, a bouncy castle, stalls, the Christmas light switch on and lots more fun.",
+    "ogImage": "/images/og/events/layton-rec-christmas-party.jpg",
+    "posters": [
+      {
+        "src": "/images/layton-rec-christmas-party-4-december.webp",
+        "alt": "Poster for the Friends of Layton Rec Christmas Party. Father Christmas, bouncy castle, stalls, Christmas light switch on and lots more fun. 4th December, Layton Rec Play Park, 5pm onwards. Join us for a magical Christmas celebration."
+      }
+    ],
+    "sessions": [
+      {
+        "dateLabel": "Friday 4 December 2026",
+        "time": "From 5pm",
+        "start": "2026-12-04T17:00:00+00:00"
+      }
+    ],
+    "venue": {
+      "name": "Layton Rec Play Park",
+      "locality": "Blackpool"
+    },
+    "facts": [
+      {
+        "label": "What's on",
+        "value": "Father Christmas, bouncy castle, stalls, Christmas light switch on and lots more fun"
+      },
+      {
+        "label": "Presented by",
+        "value": "Friends of Layton Rec"
+      }
+    ],
+    "intro": "Friends of Layton Rec invite everyone to a magical Christmas celebration at Layton Rec Play Park, with Father Christmas, a bouncy castle, stalls and the Christmas light switch on.",
+    "sections": [
+      {
+        "heading": "What's happening",
+        "html": "<p>Father Christmas will be there, along with a bouncy castle, festive stalls, the Christmas light switch on and lots more fun.</p>"
+      },
+      {
+        "heading": "Come along",
+        "html": "<p>Friday 4 December from 5pm at Layton Rec Play Park.</p>"
+      }
+    ],
+    "links": [],
+    "organiser": {
+      "name": "Friends of Layton Rec"
+    },
+    "lead": "Friday 4 December 2026, from 5pm at Layton Rec Play Park."
   }
 ]
