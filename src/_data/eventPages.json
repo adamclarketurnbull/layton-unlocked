@@ -347,85 +347,6 @@
     "lead": "Tuesday 1 December 2026, 5:30pm at Layton Methodist"
   },
   {
-    "slug": "layton-afternoon-film-club",
-    "title": "Monthly Afternoon Film Club: The Great Escaper",
-    "kicker": "Community",
-    "theme": "teal",
-    "summary": "Layton's new monthly Afternoon Film Club starts with The Great Escaper on Wednesday 11 November 2026, 2pm at Layton Methodist Church. Free admission, with tea, coffee and scones. Everyone welcome.",
-    "ogImage": "/images/og/events/layton-afternoon-film-club.jpg",
-    "posters": [
-      {
-        "src": "/images/layton-afternoon-film-club-the-great-escaper-11-november.webp",
-        "alt": "Poster for the Layton Monthly Afternoon Film Club: our first afternoon film club, The Great Escaper, Wednesday 11 November, 2pm at Layton Methodist Church. Free. A fitting choice for Remembrance Day. Everyone welcome. Supported by Marsden Building Society. Layton Methodist Charity 1194986."
-      }
-    ],
-    "sessions": [
-      {
-        "dateLabel": "Wednesday 11 November 2026",
-        "time": "2pm",
-        "start": "2026-11-11T14:00:00+00:00"
-      }
-    ],
-    "venue": {
-      "name": "Layton Methodist Church",
-      "street": "Westcliffe Drive",
-      "locality": "Blackpool",
-      "postcode": "FY3 7DZ"
-    },
-    "cost": "Free admission",
-    "offers": {
-      "price": "0",
-      "url": "https://facebook.com/events/s/monthly-afternoon-film-club-th/2614024095710545/"
-    },
-    "facts": [
-      {
-        "label": "Film",
-        "value": "The Great Escaper (Certificate 12A)"
-      },
-      {
-        "label": "Refreshments",
-        "value": "Tea, coffee and scones provided, with time for a chat"
-      },
-      {
-        "label": "Donations",
-        "value": "Welcome but never expected"
-      },
-      {
-        "label": "Supported by",
-        "value": "Marsden Building Society"
-      }
-    ],
-    "intro": "Layton Methodist Church is launching a new monthly Afternoon Film Club. The first film is The Great Escaper, the moving true story of a Second World War veteran who sets off on a remarkable journey to Normandy to remember those who served.",
-    "sections": [
-      {
-        "heading": "What's happening",
-        "html": "<p>The first Afternoon Film Club is on Wednesday 11 November at 2pm, a fitting choice for Remembrance Day. The film is The Great Escaper, Certificate 12A.</p><p>Tea, coffee and scones will be provided, with time for a chat too.</p>"
-      },
-      {
-        "heading": "Come along",
-        "html": "<p>Admission is free. Donations are welcome but never expected. Come along on your own or bring a friend. Everyone is welcome.</p>"
-      }
-    ],
-    "links": [
-      {
-        "type": "facebook",
-        "label": "Event on Facebook",
-        "url": "https://facebook.com/events/s/monthly-afternoon-film-club-th/2614024095710545/",
-        "primary": true
-      },
-      {
-        "type": "facebook",
-        "label": "Layton Methodist on Facebook",
-        "url": "https://www.facebook.com/laytonmethodist"
-      }
-    ],
-    "organiser": {
-      "name": "Layton Methodist Church",
-      "url": "https://www.facebook.com/laytonmethodist"
-    },
-    "lead": "Wednesday 11 November 2026, 2pm at Layton Methodist Church"
-  },
-  {
     "slug": "lancashire-women-tuesday-nights",
     "title": "Tuesday Nights at Lancashire Women",
     "kicker": "Social",
@@ -653,83 +574,6 @@
     "lead": "Sunday 15 November 2026, 2pm at Layton Cemetery, Talbot Road. Meet by the Lodge / Main Gate at 1:45pm."
   },
   {
-    "slug": "gruffalo-granny-storytime",
-    "title": "Gruffalo Granny Storytime",
-    "kicker": "Family & Kids",
-    "theme": "orange",
-    "summary": "An intergenerational Gruffalo storytime at Layton Library on Wednesday 11 November 2026. Ideal for children aged 3 to 7 and their granny or grandad. Arrive from 3:30pm, storytime at 4pm. Booking essential.",
-    "ogImage": "/images/og/events/gruffalo-granny-storytime.jpg",
-    "posters": [
-      {
-        "src": "/images/gruffalo-granny-storytime-layton-library-11-november.webp",
-        "alt": "Gruffalo Granny and Have You Seen the Gruffalo books on a table at Layton Library, with a paper plate Gruffalo craft"
-      }
-    ],
-    "sessions": [
-      {
-        "dateLabel": "Wednesday 11 November 2026",
-        "time": "Arrive from 3:30pm, storytime at 4pm",
-        "start": "2026-11-11T16:00:00+00:00"
-      }
-    ],
-    "venue": {
-      "name": "Layton Library",
-      "locality": "Blackpool"
-    },
-    "facts": [
-      {
-        "label": "Who it's for",
-        "value": "Children aged 3 to 7, with their granny or grandad"
-      },
-      {
-        "label": "Booking",
-        "value": "Essential: call 01253 478145 or email layton.library@blackpool.gov.uk"
-      },
-      {
-        "label": "Free book",
-        "value": "A free copy of the new Gruffalo book (or other Gruffalo stories) is gifted to each family"
-      },
-      {
-        "label": "Photos",
-        "value": "Photos will be taken at the event. Chat to the team if you would rather not be in them"
-      }
-    ],
-    "intro": "An intergenerational storytime at Layton Library. Bring along your granny or grandad and enjoy the new Gruffalo book together.",
-    "sections": [
-      {
-        "heading": "What's happening",
-        "html": "<p>The new Gruffalo book will be read aloud, followed by a Gruffalo hunt and a simple craft. It is ideal for children aged 3 to 7, and the organisers would love you to bring along your granny or grandad.</p><p>A free copy of the new book is being gifted to each family, or copies of other Gruffalo stories.</p>"
-      },
-      {
-        "heading": "Booking and arrival",
-        "html": "<p>Booking is essential. Phone Layton Library on <a href=\"tel:01253478145\">01253 478145</a> or email <a href=\"mailto:layton.library@blackpool.gov.uk\">layton.library@blackpool.gov.uk</a>.</p><p>Arrive from 3:30pm, with storytime starting at 4pm. Photos will be taken at the event, so chat to the team if you would rather not be in them.</p>"
-      }
-    ],
-    "links": [
-      {
-        "type": "phone",
-        "label": "Call to book",
-        "url": "tel:01253478145",
-        "primary": true
-      },
-      {
-        "type": "email",
-        "label": "Email to book",
-        "url": "mailto:layton.library@blackpool.gov.uk"
-      },
-      {
-        "type": "facebook",
-        "label": "Layton Together on Facebook",
-        "url": "https://www.facebook.com/laytontogether"
-      }
-    ],
-    "organiser": {
-      "name": "Layton Together",
-      "url": "https://www.facebook.com/laytontogether"
-    },
-    "lead": "Wednesday 11 November 2026 at Layton Library. Arrive from 3:30pm, storytime at 4pm. Booking essential."
-  },
-  {
     "slug": "music-and-memory-social",
     "title": "Music & Memory Social",
     "kicker": "Community",
@@ -801,71 +645,6 @@
     "lead": "Saturdays at Layton Library from 28 November 2026, and Fridays at The Grange from 8 January 2027",
     "whenSummary": "Saturdays from 28 November 2026, 10:30am to 12:30pm at Layton Library. Fridays from 8 January 2027, 11am to 1pm at The Grange.",
     "whereSummary": "Layton Library, and The Grange, 2a Bathurst Avenue, Blackpool FY3 7RW"
-  },
-  {
-    "slug": "afternoon-triniteas",
-    "title": "Afternoon Triniteas",
-    "kicker": "Community",
-    "theme": "teal",
-    "summary": "The Trinity Parish invite you to Afternoon Triniteas at St Mark's, Layton on Monday 9 November 2026, 1:30pm. Sandwiches, home-made cakes and scones, with speaker Mark Wooding. Suggested donation of \u00a35 per head.",
-    "ogImage": "/images/og/events/afternoon-triniteas.jpg",
-    "posters": [
-      {
-        "src": "/images/afternoon-triniteas-st-marks-9-november.webp",
-        "alt": "Poster for Afternoon Triniteas, Monday 9 November at 1:30pm, speaker Mark Wooding. Come and enjoy afternoon tea with sandwiches, scones and cakes. Suggested donation \u00a35 per head."
-      }
-    ],
-    "sessions": [
-      {
-        "dateLabel": "Monday 9 November 2026",
-        "time": "1:30pm",
-        "start": "2026-11-09T13:30:00+00:00"
-      }
-    ],
-    "venue": {
-      "name": "St Mark's Church",
-      "street": "Westcliffe Drive",
-      "locality": "Blackpool",
-      "postcode": "FY3 7HG"
-    },
-    "facts": [
-      {
-        "label": "Speaker",
-        "value": "Mark Wooding"
-      },
-      {
-        "label": "Cost",
-        "value": "Suggested donation of \u00a35 per head"
-      },
-      {
-        "label": "Presented by",
-        "value": "The Trinity Parish"
-      }
-    ],
-    "intro": "Afternoon tea with good company, hosted by The Trinity Parish at St Mark's, Layton.",
-    "sections": [
-      {
-        "heading": "What's happening",
-        "html": "<p>Enjoy freshly made sandwiches, home-made cakes and scones and good company. This month's speaker is Mark Wooding.</p>"
-      },
-      {
-        "heading": "Come along",
-        "html": "<p>Monday 9 November at 1:30pm at St Mark's, Layton. All for the suggested donation of \u00a35 per head.</p>"
-      }
-    ],
-    "links": [
-      {
-        "type": "facebook",
-        "label": "The Trinity Parish on Facebook",
-        "url": "https://www.facebook.com/thetrinityparish",
-        "primary": true
-      }
-    ],
-    "organiser": {
-      "name": "The Trinity Parish",
-      "url": "https://www.facebook.com/thetrinityparish"
-    },
-    "lead": "Monday 9 November 2026, 1:30pm at St Mark's Church, Westcliffe Drive"
   },
   {
     "slug": "20p-toy-sale",
@@ -1084,5 +863,188 @@
       "name": "Streetlife"
     },
     "lead": "Sunday 29 November 2026, 1pm to 4pm at Layton Institute, Westcliffe Drive. Free entry."
+  },
+  {
+    "slug": "christmas-at-the-grange",
+    "title": "Christmas at The Grange",
+    "kicker": "Community",
+    "theme": "green",
+    "summary": "Four festive dates at The Grange, Bathurst Avenue, Blackpool: Christmas Fayre and Lights Switch On on 1 December, Christmas Bingo on 4 December, the Walking Nativity on 15 December and a Christmas Community Meal on 22 December.",
+    "ogImage": "/images/og/events/christmas-at-the-grange.jpg",
+    "posters": [
+      {
+        "src": "/images/christmas-at-the-grange-christmas-calendar-2026.webp",
+        "alt": "The Grange Christmas Calendar. 1st December: Christmas Fayre 12pm and Lights Switch On from 3:30pm. 4th December: Christmas Bingo 5pm, eyes down at 5:15pm. 15th December: Walking Nativity from 3pm. 22nd December: Christmas Community Meal 12:30pm."
+      }
+    ],
+    "seriesName": "Christmas at The Grange",
+    "sessions": [
+      {
+        "name": "Christmas Fayre and Lights Switch On",
+        "dateLabel": "Tuesday 1 December 2026",
+        "time": "12pm Fayre, 3:30pm Lights Switch On",
+        "start": "2026-12-01T12:00:00+00:00",
+        "venue": "The Grange, Grange Park",
+        "venueName": "The Grange",
+        "street": "2a Bathurst Avenue",
+        "locality": "Blackpool",
+        "postcode": "FY3 7RW",
+        "blurb": "A Christmas Fayre with lots of stalls from 12pm, followed by the lights switch on at 3:30pm."
+      },
+      {
+        "name": "Christmas Bingo",
+        "dateLabel": "Friday 4 December 2026",
+        "time": "5pm, eyes down at 5:15pm",
+        "start": "2026-12-04T17:00:00+00:00",
+        "venue": "The Grange, Grange Park",
+        "venueName": "The Grange",
+        "street": "2a Bathurst Avenue",
+        "locality": "Blackpool",
+        "postcode": "FY3 7RW",
+        "blurb": "Some great prizes are up for grabs. Tickets go fast, so be quick."
+      },
+      {
+        "name": "Walking Nativity",
+        "dateLabel": "Tuesday 15 December 2026",
+        "time": "From 3pm",
+        "start": "2026-12-15T15:00:00+00:00",
+        "venue": "The Grange, Grange Park",
+        "venueName": "The Grange",
+        "street": "2a Bathurst Avenue",
+        "locality": "Blackpool",
+        "postcode": "FY3 7RW",
+        "blurb": "The Walking Nativity with the local schools arrives at The Grange at 3pm."
+      },
+      {
+        "name": "Christmas Community Meal",
+        "dateLabel": "Tuesday 22 December 2026",
+        "time": "12:30pm",
+        "start": "2026-12-22T12:30:00+00:00",
+        "venue": "The Grange, Grange Park",
+        "venueName": "The Grange",
+        "street": "2a Bathurst Avenue",
+        "locality": "Blackpool",
+        "postcode": "FY3 7RW",
+        "blurb": "A place to come along and share in the festive spirit."
+      }
+    ],
+    "venue": {
+      "name": "The Grange",
+      "street": "2a Bathurst Avenue",
+      "locality": "Blackpool",
+      "postcode": "FY3 7RW"
+    },
+    "facts": [
+      {
+        "label": "Dates",
+        "value": "1, 4, 15 and 22 December 2026"
+      },
+      {
+        "label": "Bingo tickets",
+        "value": "Tickets go fast, so be quick"
+      },
+      {
+        "label": "Presented by",
+        "value": "The Grange"
+      }
+    ],
+    "intro": "The Grange has a full Christmas calendar, from the Christmas Fayre and lights switch on to Christmas Bingo, the Walking Nativity with the local schools and a Christmas Community Meal.",
+    "sections": [
+      {
+        "heading": "Christmas Fayre and Lights Switch On, 1 December",
+        "html": "<p>The Christmas Fayre starts at 12pm with lots of stalls, followed by the lights switch on at 3:30pm.</p>"
+      },
+      {
+        "heading": "Christmas Bingo, 4 December",
+        "html": "<p>Doors for the Christmas Bingo are at 5pm, with eyes down at 5:15pm. Some great prizes are up for grabs, and tickets go fast, so be quick.</p>"
+      },
+      {
+        "heading": "Walking Nativity, 15 December",
+        "html": "<p>The Walking Nativity with the local schools arrives at The Grange at 3pm.</p>"
+      },
+      {
+        "heading": "Christmas Community Meal, 22 December",
+        "html": "<p>A Christmas Community Meal at 12:30pm, a place to come along and share in the festive spirit.</p>"
+      }
+    ],
+    "links": [
+      {
+        "type": "facebook",
+        "label": "The Grange on Facebook",
+        "url": "https://www.facebook.com/profile.php?id=100064311027215",
+        "primary": true
+      }
+    ],
+    "organiser": {
+      "name": "The Grange",
+      "url": "https://www.facebook.com/profile.php?id=100064311027215"
+    },
+    "lead": "Four festive dates at The Grange: 1, 4, 15 and 22 December 2026",
+    "whenSummary": "Tuesday 1 December (Fayre 12pm, Lights Switch On 3:30pm), Friday 4 December (Bingo 5pm), Tuesday 15 December (Walking Nativity 3pm) and Tuesday 22 December (Community Meal 12:30pm).",
+    "whereSummary": "The Grange, 2a Bathurst Avenue, Blackpool FY3 7RW"
+  },
+  {
+    "slug": "festive-express-2026",
+    "title": "Festive Express 2026",
+    "kicker": "Family & Kids",
+    "theme": "orange",
+    "summary": "A free festive afternoon for local families at Forest Gate Baptist Church, Blackpool, on Thursday 3 December 2026, 2pm to 5:30pm. Toy station, teen station, Christmas Eve boxes, gift wrapping, festive food ideas, crafts and activities. All free of charge.",
+    "ogImage": "/images/og/events/festive-express-2026.jpg",
+    "posters": [
+      {
+        "src": "/images/festive-express-2026-forest-gate-baptist-church-3-december.webp",
+        "alt": "Poster for Festive Express 2026, a free festive event from BFriend and Wellbeing. Thursday 3rd December, 2pm to 5:30pm at Forest Gate Baptist Church, Blackpool. Toy station, teen station, Christmas Eve boxes, wrapping station, festive family food ideas, and crafts and activities, all free of charge. Logos: Community First, BFriend and Wellbeing, The National Lottery Community Fund."
+      }
+    ],
+    "sessions": [
+      {
+        "dateLabel": "Thursday 3 December 2026",
+        "time": "2pm to 5:30pm",
+        "start": "2026-12-03T14:00:00+00:00",
+        "end": "2026-12-03T17:30:00+00:00"
+      }
+    ],
+    "venue": {
+      "name": "Forest Gate Baptist Church",
+      "locality": "Blackpool"
+    },
+    "cost": "Free",
+    "offers": {
+      "price": "0"
+    },
+    "facts": [
+      {
+        "label": "What's on",
+        "value": "Toy station, teen station, Christmas Eve boxes, wrapping station, festive family food ideas, and crafts and activities"
+      },
+      {
+        "label": "Donations",
+        "value": "Being collected at Community First, Abingdon Street, Blackpool, until Wednesday 2 December 2026"
+      },
+      {
+        "label": "Presented by",
+        "value": "BFriend & Wellbeing, part of Community First"
+      },
+      {
+        "label": "Poster also shows",
+        "value": "The National Lottery Community Fund"
+      }
+    ],
+    "intro": "BFriend & Wellbeing, part of Community First, invite local families to Festive Express 2026, a fun, family-friendly afternoon of festive activities, advice and refreshments, helping make Christmas a little brighter for families across Blackpool.",
+    "sections": [
+      {
+        "heading": "What's waiting at the festive stations",
+        "html": "<ul><li><strong>Toy Station:</strong> choose from a selection of donated new and good quality used toys.</li><li><strong>Teen Station:</strong> toiletries, make-up, games and gifts especially for young people.</li><li><strong>Christmas Eve Boxes:</strong> a little extra magic to take home for Christmas Eve.</li><li><strong>Wrapping Station:</strong> volunteers wrap your presents beautifully, ready for Christmas.</li><li><strong>Festive Family Food Ideas:</strong> affordable Christmas meal ideas, tips and inspiration.</li><li><strong>Crafts and Activities:</strong> festive fun for the family to enjoy.</li></ul><p>Everything is free of charge.</p>"
+      },
+      {
+        "heading": "Help fill the Festive Express",
+        "html": "<p>The organisers are asking the community for donations to make the event possible: toys and gifts for children and teenagers of all ages, wrapping supplies, toiletries and gift sets, tinned and long-life food, and Christmas extras such as selection boxes, chocolates, sweets, decorations and cards. Please donate toys unwrapped, clean, age-appropriate and in good condition.</p><p>Drop donations off at Community First, Abingdon Street, Blackpool. The donation deadline is Wednesday 2 December 2026.</p>"
+      }
+    ],
+    "links": [],
+    "organiser": {
+      "name": "BFriend & Wellbeing"
+    },
+    "lead": "Thursday 3 December 2026, 2pm to 5:30pm at Forest Gate Baptist Church, Blackpool. All free of charge."
   }
 ]
