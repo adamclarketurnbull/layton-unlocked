@@ -7,10 +7,12 @@
     "location": "Layton Methodist, Westcliffe Drive, Blackpool FY3 7DZ",
     "category": "Arts",
     "cost": "free",
-    "image": "/images/image-18.png",
+    "image": "/images/craft-and-table-top-sale-14-november.webp",
     "link": "https://www.facebook.com/laytonmethodist",
     "description": "A morning of browsing, chatting and supporting local crafters and sellers, with a cuppa from the café. Proceeds go towards our new Youth and Skills Hub. Saturday 14 November 2026, doors open 9:30am. Layton Methodist, Westcliffe Drive, Blackpool FY3 7DZ. Café open for refreshments. Free entry, everyone welcome. Layton Methodist on Facebook →",
-    "pinned": false
+    "pinned": false,
+    "landscape": true,
+    "homeBlurb": "A morning of browsing, chatting and supporting local crafters and sellers, with a cuppa from the cafe. Free entry, everyone welcome. Saturday 14 November, doors open 9:30am at Layton Methodist, Westcliffe Drive."
   },
   {
     "slug": "craft-and-table-top-sale-5-december",
