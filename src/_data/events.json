@@ -1,20 +1,5 @@
 [
   {
-    "slug": "craft-and-table-top-sale-14-november",
-    "title": "Craft and Table-Top Sale – 14 November",
-    "date": "2026-11-14",
-    "time": "9:30am",
-    "location": "Layton Methodist, Westcliffe Drive, Blackpool FY3 7DZ",
-    "category": "Arts",
-    "cost": "free",
-    "image": "/images/craft-and-table-top-sale-14-november.webp",
-    "link": "https://www.facebook.com/laytonmethodist",
-    "description": "A morning of browsing, chatting and supporting local crafters and sellers, with a cuppa from the café. Proceeds go towards our new Youth and Skills Hub. Saturday 14 November 2026, doors open 9:30am. Layton Methodist, Westcliffe Drive, Blackpool FY3 7DZ. Café open for refreshments. Free entry, everyone welcome. Layton Methodist on Facebook →",
-    "pinned": false,
-    "landscape": true,
-    "homeBlurb": "A morning of browsing, chatting and supporting local crafters and sellers, with a cuppa from the cafe. Free entry, everyone welcome. Saturday 14 November, doors open 9:30am at Layton Methodist, Westcliffe Drive."
-  },
-  {
     "slug": "craft-and-table-top-sale-5-december",
     "title": "Craft and Table-Top Sale – 5 December",
     "date": "2026-12-05",
@@ -52,20 +37,6 @@
     "link": "https://www.facebook.com/laytonmethodist",
     "description": "Community lights switch-on event at Layton Square. See the Layton Methodist Facebook page for full details.",
     "pinned": false
-  },
-  {
-    "slug": "christmas-market-blackpool-cricket-club-15-november",
-    "title": "Christmas Market at Blackpool Cricket Club",
-    "date": "2026-11-15",
-    "time": "1:00pm-5:00pm",
-    "location": "Blackpool Cricket Club",
-    "category": "Community",
-    "cost": "free",
-    "image": "/images/christmas-market-blackpool-cricket-club.webp",
-    "link": "https://www.facebook.com/groups/899351090106991/user/100043111851754/",
-    "description": "Stalls are fully sold out! Please come along for a gorgeous festive afternoon, supporting small businesses. Plenty of gorgeous stalls, gifting, sweet treats, decorations etc. The bar is open and you could even book yourself a table for Sunday lunch! Sunday 15 November, 1pm-5pm at Blackpool Cricket Club. Free entry. Raising money for Mind. Blackpool Cricket Club on Facebook →",
-    "pinned": false,
-    "page": "/events/christmas-market-blackpool-cricket-club/"
   },
   {
     "slug": "christmas-market-christ-king-church-21-november",
@@ -157,19 +128,6 @@
     "description": "Wellbeing Night at the Lancashire Women Blackpool Hub, part of their new weekly Tuesday evening sessions. Just drop in, no need to sign up. Tuesday 22 December 2026, 6pm-7:30pm at 255 Church Street, Blackpool FY1 3PB, just outside Layton.",
     "pinned": false,
     "page": "/events/lancashire-women-tuesday-nights/"
-  },
-  {
-    "slug": "shadows-of-mortality-layton-cemetery-15-november",
-    "title": "Shadows of Mortality: A Gruesome & Grisly Tour",
-    "date": "2026-11-15",
-    "time": "2pm (meet 1:45pm)",
-    "location": "Layton Cemetery, Talbot Road",
-    "category": "Community",
-    "image": "/images/shadows-of-mortality-layton-cemetery-15-november.webp",
-    "link": "https://www.facebook.com/share/g/19qfbXHnyn/",
-    "description": "Friends of Layton Cemetery present Shadows of Mortality, a gruesome and grisly tour of the darker side of Layton Cemetery. Rescheduled from October after high winds. Sunday 15 November, meet by the Lodge / Main Gate at 1:45pm for a 2pm start. Donations welcome.",
-    "pinned": false,
-    "page": "/events/shadows-of-mortality/"
   },
   {
     "slug": "music-and-memory-social-layton-library-28-november",
