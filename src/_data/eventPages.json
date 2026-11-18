@@ -790,7 +790,7 @@
     "title": "Festive Express 2026",
     "kicker": "Family & Kids",
     "theme": "orange",
-    "summary": "A free festive afternoon for local families at Forest Gate Baptist Church, Blackpool, on Thursday 3 December 2026, 2pm to 5:30pm. Toy station, teen station, Christmas Eve boxes, gift wrapping, festive food ideas, crafts and activities. All free of charge.",
+    "summary": "A free festive afternoon at Forest Gate Baptist Church, Blackpool, on Thursday 3 December 2026, 2pm to 5:30pm. A marketplace-style event where everything is given away free, with no referral or booking needed. Toy station, teen station, Christmas Eve boxes, gift wrapping, festive food ideas, crafts and a free pop-up cafe.",
     "ogImage": "/images/og/events/festive-express-2026.jpg",
     "posters": [
       {
@@ -820,6 +820,10 @@
         "value": "Toy station, teen station, Christmas Eve boxes, wrapping station, festive family food ideas, and crafts and activities"
       },
       {
+        "label": "Booking",
+        "value": "No referral or booking needed. No judgement and no pressure, just come along"
+      },
+      {
         "label": "Donations",
         "value": "Being collected at Community First, Abingdon Street, Blackpool, until Wednesday 2 December 2026"
       },
@@ -832,18 +836,29 @@
         "value": "The National Lottery Community Fund"
       }
     ],
-    "intro": "BFriend & Wellbeing, part of Community First, invite local families to Festive Express 2026, a fun, family-friendly afternoon of festive activities, advice and refreshments, helping make Christmas a little brighter for families across Blackpool.",
+    "intro": "BFriend & Wellbeing, part of Community First, invite local families to Festive Express 2026, a fun, family-friendly afternoon of festive activities, advice and refreshments. It is a free marketplace-style event where new and second-hand items are given away to anyone who wants to browse, helping make Christmas a little brighter for families across Blackpool.",
     "sections": [
       {
         "heading": "What's waiting at the festive stations",
         "html": "<ul><li><strong>Toy Station:</strong> choose from a selection of donated new and good quality used toys.</li><li><strong>Teen Station:</strong> toiletries, make-up, games and gifts especially for young people.</li><li><strong>Christmas Eve Boxes:</strong> a little extra magic to take home for Christmas Eve.</li><li><strong>Wrapping Station:</strong> volunteers wrap your presents beautifully, ready for Christmas.</li><li><strong>Festive Family Food Ideas:</strong> affordable Christmas meal ideas, tips and inspiration.</li><li><strong>Crafts and Activities:</strong> festive fun for the family to enjoy.</li></ul><p>Everything is free of charge.</p>"
       },
       {
+        "heading": "No referral or booking needed",
+        "html": "<p>There is no referral or booking needed, no judgement and no pressure. Come on in, browse the free gift stalls, enjoy the festive atmosphere, have a cosy brew and biscuit in the free pop-up cafe, and even get your chosen gifts wrapped while you wait. All for free.</p>"
+      },
+      {
         "heading": "Help fill the Festive Express",
         "html": "<p>The organisers are asking the community for donations to make the event possible: toys and gifts for children and teenagers of all ages, wrapping supplies, toiletries and gift sets, tinned and long-life food, and Christmas extras such as selection boxes, chocolates, sweets, decorations and cards. Please donate toys unwrapped, clean, age-appropriate and in good condition.</p><p>Drop donations off at Community First, Abingdon Street, Blackpool. The donation deadline is Wednesday 2 December 2026.</p>"
       }
     ],
-    "links": [],
+    "links": [
+      {
+        "type": "facebook",
+        "label": "Festive Express on Facebook",
+        "url": "https://facebook.com/events/s/bfriend-wellbeing-annual-festi/1427250752362216/",
+        "primary": true
+      }
+    ],
     "organiser": {
       "name": "BFriend & Wellbeing"
     },
