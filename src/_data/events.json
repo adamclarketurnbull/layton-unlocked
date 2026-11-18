@@ -284,5 +284,17 @@
     "description": "A Disney themed Lunch Club at The Grange with a 2 course meal, tea and coffee, classic bingo, guess the song and a fun quiz. Optional fancy dress, so come as your favourite Disney character. Thursday 26 November, 12:30pm. £4 per person. Booking essential, and it must be booked and paid in cash before the day.",
     "pinned": false,
     "page": "/events/disney-themed-lunch-club/"
+  },
+  {
+    "slug": "retro-games-night-blackpool-recovery-hub-22-november",
+    "title": "Retro Games Night at Blackpool Recovery Hub",
+    "date": "2026-11-22",
+    "time": "6pm-9pm",
+    "location": "Blackpool Recovery Hub, 258 Church Street, Blackpool",
+    "category": "Social",
+    "image": "/images/retro-games-night-blackpool-recovery-hub-22-november.webp",
+    "description": "Blackpool Recovery Hub invite everyone to a night of retro gaming fun. Dust off those old favourites, bring your competitive side and enjoy a bit of nostalgia, good vibes and great company. Sunday 22 November, 6pm-9pm at Blackpool Recovery Hub, 258 Church Street. Everyone welcome.",
+    "pinned": false,
+    "page": "/events/retro-games-night/"
   }
 ]

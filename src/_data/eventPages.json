@@ -980,5 +980,62 @@
       "url": "https://www.facebook.com/profile.php?id=100064311027215"
     },
     "lead": "Thursday 26 November 2026, 12:30pm at The Grange. \u00a34 per person, booking essential."
+  },
+  {
+    "slug": "retro-games-night",
+    "title": "Retro Games Night at Blackpool Recovery Hub",
+    "kicker": "Games night",
+    "theme": "purple",
+    "summary": "A retro games night at Blackpool Recovery Hub, 258 Church Street, Blackpool, on Sunday 22 November 2026, 6pm to 9pm. Retro gaming, good vibes and great company. Everyone welcome.",
+    "ogImage": "/images/og/events/retro-games-night.jpg",
+    "posters": [
+      {
+        "src": "/images/retro-games-night-blackpool-recovery-hub-22-november.webp",
+        "alt": "Poster for Retro Games Night at the Blackpool Recovery Hub. Dust off those old favourites and join us for a night of retro gaming fun. Sunday 22nd November, 6pm till 9pm. Games, good vibes, everyone welcome. Blackpool Recovery Hub: Connect, Support, Belong."
+      }
+    ],
+    "sessions": [
+      {
+        "dateLabel": "Sunday 22 November 2026",
+        "time": "6pm to 9pm",
+        "start": "2026-11-22T18:00:00+00:00",
+        "end": "2026-11-22T21:00:00+00:00"
+      }
+    ],
+    "venue": {
+      "name": "Blackpool Recovery Hub",
+      "street": "258 Church Street",
+      "locality": "Blackpool"
+    },
+    "facts": [
+      {
+        "label": "What's on",
+        "value": "An evening of retro gaming, good laughs and great company"
+      },
+      {
+        "label": "Who it's for",
+        "value": "Everyone is welcome, whether you're a gaming pro or just fancy a bit of fun"
+      },
+      {
+        "label": "Presented by",
+        "value": "Blackpool Recovery Hub"
+      }
+    ],
+    "intro": "Blackpool Recovery Hub invite you on a trip down memory lane with a retro games night. Dust off those old favourites, bring your competitive side and enjoy a bit of nostalgia.",
+    "sections": [
+      {
+        "heading": "What's happening",
+        "html": "<p>An evening of retro gaming, good laughs and great company. Whether you are a gaming pro or just fancy a bit of fun, everyone is welcome.</p>"
+      },
+      {
+        "heading": "Come along",
+        "html": "<p>Sunday 22 November, 6pm to 9pm at Blackpool Recovery Hub, 258 Church Street, Blackpool.</p>"
+      }
+    ],
+    "links": [],
+    "organiser": {
+      "name": "Blackpool Recovery Hub"
+    },
+    "lead": "Sunday 22 November 2026, 6pm to 9pm at Blackpool Recovery Hub, 258 Church Street. Everyone welcome."
   }
 ]
