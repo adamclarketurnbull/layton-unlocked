@@ -27,16 +27,17 @@
   },
   {
     "slug": "layton-lights-switch-on",
-    "title": "Layton Lights Switch On",
+    "title": "Layton Christmas Lights Switch-On",
     "date": "2026-11-27",
-    "time": "",
-    "location": "Layton Square, FY3",
+    "time": "From 5:15pm (lights on at 6:15pm)",
+    "location": "Layton Square, Westcliffe Drive, Blackpool FY3",
     "category": "Community",
     "cost": "free",
-    "image": "",
+    "image": "/images/layton-christmas-lights-switch-on-27-november.webp",
     "link": "https://www.facebook.com/laytonmethodist",
-    "description": "Community lights switch-on event at Layton Square. See the Layton Methodist Facebook page for full details.",
-    "pinned": false
+    "description": "The Layton Christmas Lights Switch-On, organised by Layton Together and supported by Forward Project and local councillors. Friday 27 November, event from 5:15pm, lights switched on at 6:15pm, on Westcliffe Drive, Layton. Special guests, live music, stalls, a treasure hunt, a book give-away and a brass band. Temporary road closures are in place from 5pm to 7pm.",
+    "pinned": false,
+    "page": "/events/layton-lights-switch-on/"
   },
   {
     "slug": "christmas-market-christ-king-church-21-november",

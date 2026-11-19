@@ -1052,5 +1052,80 @@
       "name": "Blackpool Recovery Hub"
     },
     "lead": "Sunday 22 November 2026, 6pm to 9pm at Blackpool Recovery Hub, 258 Church Street. Everyone welcome."
+  },
+  {
+    "slug": "layton-lights-switch-on",
+    "title": "Layton Christmas Lights Switch-On",
+    "kicker": "Christmas lights",
+    "theme": "orange",
+    "summary": "The Layton Christmas Lights Switch-On on Westcliffe Drive, Layton, on Friday 27 November 2026. Event from 5:15pm, lights switched on at 6:15pm, with special guests, live music, stalls, a treasure hunt, a book give-away and a brass band. Road closures from 5pm to 7pm.",
+    "ogImage": "/images/og/events/layton-lights-switch-on.jpg",
+    "posters": [
+      {
+        "src": "/images/layton-christmas-lights-switch-on-27-november.webp",
+        "alt": "Poster for the Layton Christmas Lights Switch On, Friday 27th November 2026. Event starts from 5.15pm, lights switched on at 6.15pm, Westcliffe Drive, Layton. Special guests, live music, stalls, treasure hunt, book give-away and brass band. Organised by Layton Together and supported by Forward Project and your local councillors."
+      }
+    ],
+    "sessions": [
+      {
+        "dateLabel": "Friday 27 November 2026",
+        "time": "From 5:15pm, lights switched on at 6:15pm",
+        "start": "2026-11-27T17:15:00+00:00"
+      }
+    ],
+    "venue": {
+      "name": "Layton Square, Westcliffe Drive",
+      "locality": "Blackpool"
+    },
+    "cost": "Free",
+    "offers": {
+      "price": "0"
+    },
+    "facts": [
+      {
+        "label": "Lights switched on",
+        "value": "6:15pm"
+      },
+      {
+        "label": "On the night",
+        "value": "Special guests, live music, stalls, treasure hunt, book give-away and a brass band"
+      },
+      {
+        "label": "Road closures",
+        "value": "5pm to 7pm around Layton Square, confirmed by Blackpool Council"
+      },
+      {
+        "label": "Organised by",
+        "value": "Layton Together, supported by Forward Project and local councillors"
+      }
+    ],
+    "intro": "The community comes together on Westcliffe Drive for the Layton Christmas Lights Switch-On, an evening with special guests, live music, stalls, a treasure hunt, a book give-away and a brass band.",
+    "sections": [
+      {
+        "heading": "What's happening",
+        "html": "<p>The event starts from 5:15pm, with the lights switched on at 6:15pm. There will be special guests, live music, stalls, a treasure hunt, a book give-away and a brass band.</p>"
+      },
+      {
+        "heading": "Road closure notice",
+        "html": "<p>Blackpool Council has confirmed temporary road closures around Layton Square from 5pm to 7pm on Friday 27 November 2026 for the Christmas Lights Switch-On.</p><p>Roads affected:</p><ul><li><strong>Talbot Road:</strong> Cameron Avenue to Westcliffe Drive</li><li><strong>Layton Road:</strong> Drummond Avenue to Westcliffe Drive</li><li><strong>Westcliffe Drive:</strong> Talbot Road/Layton Road junction to Granby Avenue</li></ul><p>Please plan your journeys accordingly and follow the road closure signs.</p><p>The organisers apologise for any inconvenience and thank local residents and businesses for their patience, understanding and support.</p>"
+      },
+      {
+        "heading": "Everyone is welcome",
+        "html": "<p>Everyone is welcome to a wonderful community Christmas celebration.</p>"
+      }
+    ],
+    "links": [
+      {
+        "type": "facebook",
+        "label": "Layton Together on Facebook",
+        "url": "https://www.facebook.com/laytontogether",
+        "primary": true
+      }
+    ],
+    "organiser": {
+      "name": "Layton Together",
+      "url": "https://www.facebook.com/laytontogether"
+    },
+    "lead": "Friday 27 November 2026 on Westcliffe Drive, Layton. Event from 5:15pm, lights on at 6:15pm. Road closures 5pm to 7pm."
   }
 ]
