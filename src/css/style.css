@@ -1034,3 +1034,18 @@ a.wo-card:hover, .help-tile:hover, .story-card:hover { transform: translate(-2px
 @media (min-width: 900px) {
   #fe-section-pinned .pinned-card { max-width: 707px; }
 }
+
+/* ============================================================
+   STORIES (homepage section and /stories/)
+   ============================================================ */
+.story-card__title { font-family: 'Fredoka', sans-serif; font-size: 1.3rem; line-height: 1.25; margin: 0 0 .5rem; padding-inline: 1.25rem; color: var(--black); }
+.story-card__title a:hover { text-decoration: underline; }
+.story-card__summary { padding-inline: 1.25rem; margin: 0 0 .75rem; color: var(--black); }
+.story-card__more { padding-inline: 1.25rem; margin: 0; font-weight: 800; }
+.story-card__imglink { display: block; }
+.story-card__placeholder--contain { object-fit: contain; background: #fff; height: 360px; }
+.stories__grid--single { grid-template-columns: 1fr; }
+@media (min-width: 768px) {
+  .stories__grid--single .story-card { display: grid; grid-template-columns: minmax(0, 320px) 1fr; align-items: center; column-gap: 1.5rem; padding: 1.25rem 1.5rem 1.25rem 1.25rem; }
+  .stories__grid--single .story-card__placeholder { height: auto; aspect-ratio: auto; border-radius: 12px; margin-bottom: 0; }
+}

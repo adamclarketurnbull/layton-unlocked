@@ -97,20 +97,16 @@ featuredEvent: ""
       <h2 class="section__heading">Our People. Our Stories.</h2>
       <span class="burst" aria-hidden="true"></span>
     </div>
-    <p style="color:var(--black);font-size:1rem;font-weight:700;font-style:italic;margin:-4px 0 22px;">Illustrative examples while we collect real stories from Layton residents - not verbatim quotes.</p>
+    <p style="color:var(--black);font-size:1rem;font-weight:700;margin:-4px 0 22px;">The people, projects and campaigns making things happen in Layton.</p>
 
-    <div class="stories__grid">
-      <article class="story-card zc-rotate-1">
-        <img class="story-card__placeholder" src="/images/florist.jpg" alt="Sandra, Layton resident">
-        <blockquote class="story-card__quote">"I'd lived here ten years and never felt part of it. Coming to a Layton Unlocked event changed that completely."</blockquote>
-        <p class="story-card__attribution"><span class="zc-badge zc-badge--teal">Sandra, Layton resident</span></p>
-      </article>
-      <article class="story-card zc-rotate-2">
-        <img class="story-card__placeholder" src="/images/garden.jpg" alt="Marcus, community volunteer">
-        <blockquote class="story-card__quote">"We set up a little community garden and suddenly people were talking to their neighbours for the first time."</blockquote>
-        <p class="story-card__attribution"><span class="zc-badge zc-badge--orange">Marcus, community volunteer</span></p>
-      </article>
+    <div class="stories__grid{{ ' stories__grid--single' if stories.length == 1 }}">
+      {% for s in stories %}
+        {% if loop.index <= 2 %}
+        {% set rot = loop.index %}
+        {% include "story-card.njk" %}
+        {% endif %}
+      {% endfor %}
     </div>
-    <p class="stories__more"><a href="/layton-voices/" class="link-green">More stories coming soon &rarr;</a></p>
+    <p class="stories__more"><a href="/stories/" class="link-green">{{ 'More stories' if stories.length > 2 else 'All stories' }} &rarr;</a></p>
   </div>
 </section>

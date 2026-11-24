@@ -111,3 +111,15 @@ portfolio site afterwards.
 
 This project never logged into or edited the live WordPress site - everything here was built from
 public, read-only pages plus the existing project handover doc. thesortingagent.com is untouched.
+
+## Our People. Our Stories.
+
+Stories live in `src/_data/stories.json` (newest first). Each entry becomes a card on the home page
+(the first two show there), a card on `/stories/`, and its own page at `/stories/<slug>/`.
+Images go in `src/images/` and share images in `src/images/og/stories/`.
+
+## Christmas theme
+
+`src/css/christmas.css` is generated from `style.css` by `python3 scripts/make-christmas-css.py`
+(re-run it after any change to `style.css`). Switch it on or off with `"christmas": true / false`
+in `src/_data/site.json`.

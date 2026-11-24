@@ -1,0 +1,29 @@
+---
+layout: base.njk
+title: Our People. Our Stories. - Layton Unlocked
+description: Stories from around Layton - the people, projects and campaigns making things happen.
+permalink: /stories/
+pageCss: /css/event-page.css
+---
+<div class="ev ev--orange">
+  <header class="ev-hero">
+    <div class="container">
+      <a class="ev-back" href="/">&larr; Back to home</a>
+      <span class="ev-badge">Stories</span>
+      <h1 class="ev-title">Our People. Our Stories.</h1>
+      <p class="ev-lead">The people, projects and campaigns making things happen in Layton.</p>
+    </div>
+  </header>
+</div>
+
+<section class="stories section">
+  <div class="container">
+    <div class="stories__grid{{ ' stories__grid--single' if stories.length == 1 }}">
+      {% for s in stories %}
+        {% set rot = (loop.index0 % 2) + 1 %}
+        {% include "story-card.njk" %}
+      {% endfor %}
+    </div>
+    <p class="stories__more">Have a story to share about Layton? Email <a class="link-green" href="mailto:adam@laytonunlocked.com">adam@laytonunlocked.com</a></p>
+  </div>
+</section>

@@ -25,7 +25,7 @@
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
   <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="192x192" href="/images/icon-192.png">
-  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/{{ 'christmas' if site.christmas else 'style' }}.css">
   <link rel="stylesheet" href="/css/consent.css">
   {% if pageCss %}<link rel="stylesheet" href="{{ pageCss }}">{% endif %}
   <script src="/js/consent.js" data-ga-id="{{ site.gaMeasurementId }}" defer></script>

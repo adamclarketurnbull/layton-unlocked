@@ -1,0 +1,74 @@
+---
+layout: base.njk
+pagination:
+  data: stories
+  size: 1
+  alias: st
+permalink: "/stories/{{ st.slug }}/"
+pageCss: /css/event-page.css
+eleventyComputed:
+  title: "{{ st.title | safe }} - Layton Unlocked"
+  description: "{{ st.summary | safe }}"
+  ogImage: "{{ st.ogImage }}"
+---
+<article class="ev ev--{{ st.theme or 'orange' }}">
+
+  <header class="ev-hero">
+    <div class="container">
+      <a class="ev-back" href="/stories/">&larr; Back to Our Stories</a>
+      <span class="ev-badge">{{ st.kicker }}</span>
+      <h1 class="ev-title">{{ st.title }}</h1>
+      <p class="ev-lead">{{ st.summary }}</p>
+    </div>
+  </header>
+
+  <div class="container ev-body{{ ' ev-body--single' if not st.image }}">
+
+    {% if st.image %}
+    <div class="ev-posters">
+      <figure class="ev-poster">
+        <a href="{{ st.image }}" target="_blank" rel="noopener" aria-label="Open the image full size (opens in a new tab)">
+          <img src="{{ st.image }}" alt="{{ st.imageAlt }}" loading="eager">
+        </a>
+      </figure>
+    </div>
+    {% endif %}
+
+    <div class="ev-main">
+      <p class="ev-intro">{{ st.intro }}</p>
+
+      {% if st.links.length %}
+      <div class="ev-actions">
+        {% for l in st.links %}
+          {% set external = l.url.startsWith("http") %}
+          <a class="ev-btn{{ ' ev-btn--primary' if l.primary }}" href="{{ l.url }}"{% if external %} target="_blank" rel="noopener"{% endif %}>{{ l.label }}</a>
+        {% endfor %}
+      </div>
+      {% endif %}
+
+      {% for p in st.paragraphs %}<p>{{ p }}</p>
+      {% endfor %}
+
+      {% if st.facts.length %}
+      <dl class="ev-facts">
+        {% for f in st.facts %}
+        <div class="ev-fact">
+          <dt>{{ f.label }}</dt>
+          <dd>{{ f.value }}</dd>
+        </div>
+        {% endfor %}
+      </dl>
+      {% endif %}
+
+      {% if st.source %}<p class="ev-note">Shared from {{ st.source }}. Details can change, so please check with the organisers.</p>{% endif %}
+    </div>
+  </div>
+
+  <section class="ev-more">
+    <div class="container">
+      <p>More from around Layton</p>
+      <a class="ev-btn ev-btn--primary" href="/stories/">Read more stories</a>
+      <a class="ev-btn" href="/whats-on/">See what's on</a>
+    </div>
+  </section>
+</article>

@@ -1,0 +1,9 @@
+<article class="story-card zc-rotate-{{ rot }}">
+  <a class="story-card__imglink" href="/stories/{{ s.slug }}/" tabindex="-1" aria-hidden="true"><img class="story-card__placeholder story-card__placeholder--{{ s.imageFit or 'cover' }}" src="{{ s.image }}" alt="" loading="lazy"></a>
+  <div class="story-card__body">
+    <p class="story-card__attribution"><span class="zc-badge zc-badge--{{ s.badge or 'orange' }}">{{ s.kicker }}</span></p>
+    <h3 class="story-card__title"><a href="/stories/{{ s.slug }}/">{{ s.title }}</a></h3>
+    <p class="story-card__summary">{{ s.summary }}</p>
+    <p class="story-card__more"><a class="link-green" href="/stories/{{ s.slug }}/">Read the story &rarr;</a></p>
+  </div>
+</article>

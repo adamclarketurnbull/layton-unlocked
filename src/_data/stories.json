@@ -1,0 +1,109 @@
+[
+  {
+    "slug": "lay-a-brick",
+    "title": "Lay a Brick: build a future",
+    "kicker": "Fundraising",
+    "badge": "orange",
+    "theme": "orange",
+    "date": "2026-11-24",
+    "image": "/images/story-lay-a-brick.webp",
+    "imageFit": "contain",
+    "imageAlt": "Poster for the Lay a Brick campaign for the Layton Youth and Skills Hub. Lay a brick, build a future. Five pounds per brick. Sponsor a brick and receive your own thank-you certificate, with the option to have your name included in the Hall of Fame. Scan the QR code to sponsor a brick today. Other payment methods available on request. Layton Methodist Forward Project, Charity No. 1194986.",
+    "ogImage": "/images/og/stories/lay-a-brick.jpg",
+    "summary": "A campaign to help build the new Layton Youth & Skills Hub, one £5 brick at a time. Around £270,000 of the £500,000 target is already secured.",
+    "intro": "Layton Methodist Church and Forward Project have launched the Lay a Brick campaign to help build the new Layton Youth & Skills Hub.",
+    "paragraphs": [
+      "Around £270,000 has already been secured towards a £500,000 target, and the campaign is asking the community to help with the rest.",
+      "For £5 per brick, supporters help create a space where local young people can meet, learn new skills and access opportunities. Anyone who gives their contact details receives a thank-you certificate, and can choose to have their name added to the Hall of Fame.",
+      "Donations are taken securely online through the campaign's fundraising partner, Give A Little. Other payment methods are available on request.",
+      "Every brick makes a difference, and sharing the campaign helps too."
+    ],
+    "links": [
+      {
+        "label": "Sponsor a brick",
+        "url": "https://givealittle.co/c/laytonyouth",
+        "primary": true
+      },
+      {
+        "label": "Email the team",
+        "url": "mailto:community@forwardproject.org.uk"
+      },
+      {
+        "label": "Call 01253 310758",
+        "url": "tel:01253310758"
+      }
+    ],
+    "facts": [
+      {
+        "label": "Cost",
+        "value": "£5 per brick"
+      },
+      {
+        "label": "Target",
+        "value": "£500,000, with around £270,000 secured when the campaign launched"
+      },
+      {
+        "label": "You receive",
+        "value": "A thank-you certificate, with the option to have your name added to the Hall of Fame"
+      },
+      {
+        "label": "Short link",
+        "value": "tinyurl.com/layabrick"
+      },
+      {
+        "label": "Organiser",
+        "value": "Layton Methodist Church and Forward Project (Registered Charity No. 1194986)"
+      }
+    ],
+    "source": "the Lay a Brick campaign announcement from Layton Methodist Church and Forward Project"
+  },
+  {
+    "slug": "layton-lights-road-closures",
+    "title": "Road closures for the Layton Christmas Lights Switch-On",
+    "kicker": "Road closures",
+    "badge": "teal",
+    "theme": "teal",
+    "date": "2026-11-24",
+    "image": "/images/story-layton-lights-road-closures.webp",
+    "imageFit": "contain",
+    "imageAlt": "Poster for the Layton Christmas Lights Switch-On on Friday 27th November 2026. Event starts from 5.15pm and the lights are switched on at 6.15pm, on Westcliffe Drive, Layton. Special guests, live music, stalls, treasure hunt, book give-away and a brass band. Organised by Layton Together and supported by Forward Project and your local councillors.",
+    "ogImage": "/images/og/stories/layton-lights-road-closures.jpg",
+    "summary": "Blackpool Council has confirmed temporary road closures around Layton Square on Friday 27 November, from 5pm to 7pm, for the Layton Christmas Lights Switch-On.",
+    "intro": "Blackpool Council has confirmed temporary road closures around Layton Square for the Layton Christmas Lights Switch-On on Friday 27 November 2026.",
+    "paragraphs": [
+      "The closures run from 5pm to 7pm. Drivers are asked to plan their journeys accordingly and to follow the road closure signs.",
+      "The organisers apologise for any inconvenience and thank local residents and businesses for their patience, understanding and support.",
+      "They look forward to welcoming everyone to a community Christmas celebration, with the event starting from 5:15pm and the lights switched on at 6:15pm."
+    ],
+    "links": [
+      {
+        "label": "See the switch-on event page",
+        "url": "/events/layton-lights-switch-on/",
+        "primary": true
+      }
+    ],
+    "facts": [
+      {
+        "label": "Closed",
+        "value": "Friday 27 November 2026, 5pm to 7pm"
+      },
+      {
+        "label": "Talbot Road",
+        "value": "Cameron Avenue to Westcliffe Drive"
+      },
+      {
+        "label": "Layton Road",
+        "value": "Drummond Avenue to Westcliffe Drive"
+      },
+      {
+        "label": "Westcliffe Drive",
+        "value": "Talbot Road and Layton Road junction to Granby Avenue"
+      },
+      {
+        "label": "Organiser",
+        "value": "Layton Together, supported by Forward Project and local councillors"
+      }
+    ],
+    "source": "the road closure notice from Layton Together"
+  }
+]
