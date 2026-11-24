@@ -60,6 +60,62 @@
     "source": "a weekend round-up shared in the Layton Together Facebook group"
   },
   {
+    "slug": "local-businesses-wanted",
+    "title": "Local businesses wanted: sponsors and raffle prizes for the Christmas fundraiser",
+    "kicker": "Can you help?",
+    "badge": "orange",
+    "theme": "pink",
+    "date": "2026-11-24",
+    "image": "/images/story-local-businesses-wanted.webp",
+    "imageFit": "contain",
+    "imageAlt": "Poster from Ameelia Unfiltered. Local business owners, want to get your business noticed whilst making a difference? Looking for event sponsors and raffle prizes, supporting children and struggling families across Blackpool, Fylde and Wyre this Christmas. Logos for Blackpool Mums and Babies by Ameelia, Mel Bee's Amusements and Solo Parents United CIC. Message me to get involved.",
+    "ogImage": "/images/og/stories/local-businesses-wanted.jpg",
+    "summary": "The organisers of the free Christmas Party at The Victory Pub on Sunday 29 November are looking for local businesses to sponsor the event or donate raffle, auction and tombola prizes.",
+    "intro": "Local business owners are being invited to get noticed while making a difference, by backing a Christmas fundraiser that supports children and struggling families across Blackpool, Fylde and Wyre.",
+    "paragraphs": [
+      "<a href=\"https://www.facebook.com/ameelia\" target=\"_blank\" rel=\"noopener\">Ameelia Unfiltered</a> is organising the <a href=\"/events/free-christmas-party/\">Christmas fundraiser and thank-you party</a> at <a href=\"https://www.facebook.com/profile.php?id=100037187122115\" target=\"_blank\" rel=\"noopener\">The Victory Pub</a> on Sunday 29 November, from 2pm to 5pm, together with <a href=\"https://www.facebook.com/groups/1514756812153363/\" target=\"_blank\" rel=\"noopener\">Blackpool Mums & Babies</a>, <a href=\"https://www.facebook.com/profile.php?id=61590236776680\" target=\"_blank\" rel=\"noopener\">Mel Bee's Amusements</a> and <a href=\"https://www.facebook.com/profile.php?id=100085520823366\" target=\"_blank\" rel=\"noopener\">Solo Parents United CIC</a>. The party is also a thank-you to everyone who has supported the Christmas present drive.",
+      "Some prizes and sponsors have already come forward, and the organisers would love a few more businesses to get involved. They are asking for event sponsors and for raffle, auction or tombola prizes.",
+      "Prizes do not have to be physical. A voucher, a meal out, a beauty treatment, house cleaning, handyman services, a car clean, or even an hour of your time offering a service could all make a brilliant prize.",
+      "In return, the organisers will promote each business across all of their pages, for some local exposure while backing a good cause. You do not have to be a big business to make a big difference.",
+      "To get involved, message <a href=\"https://www.facebook.com/ameelia\" target=\"_blank\" rel=\"noopener\">Ameelia on Facebook</a>. Sharing this story with a business owner who might help is a big help too.",
+      "<strong>Special thanks</strong> to <a href=\"https://www.facebook.com/ameelia\" target=\"_blank\" rel=\"noopener\">Ameelia Unfiltered</a> for sharing the call-out."
+    ],
+    "links": [
+      {
+        "label": "Message Ameelia on Facebook",
+        "url": "https://www.facebook.com/ameelia",
+        "primary": true
+      },
+      {
+        "label": "See the Christmas Party event",
+        "url": "/events/free-christmas-party/"
+      }
+    ],
+    "facts": [
+      {
+        "label": "What is needed",
+        "value": "Event sponsors, and raffle, auction or tombola prizes"
+      },
+      {
+        "label": "Prize ideas",
+        "value": "Vouchers, a meal out, a beauty treatment, house cleaning, handyman services, a car clean, or an hour of your time"
+      },
+      {
+        "label": "In return",
+        "value": "Promotion across all of the organisers' pages"
+      },
+      {
+        "label": "The event",
+        "value": "Sunday 29 November 2026, 2pm to 5pm, The Victory Pub, Caunce Street, Blackpool"
+      },
+      {
+        "label": "Supporting",
+        "value": "Children and struggling families across Blackpool, Fylde and Wyre this Christmas"
+      }
+    ],
+    "source": "a call-out from Ameelia Unfiltered"
+  },
+  {
     "slug": "layton-lights-road-closures",
     "title": "Road closures for the Layton Christmas Lights Switch-On",
     "kicker": "Road closures",

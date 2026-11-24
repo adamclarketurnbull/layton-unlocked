@@ -18,7 +18,7 @@ pageCss: /css/event-page.css
 
 <section class="stories section">
   <div class="container">
-    <div class="stories__grid{{ ' stories__grid--single' if stories.length == 1 }}{{ ' stories__grid--three' if stories.length >= 3 }}">
+    <div class="stories__grid{{ ' stories__grid--single' if stories.length == 1 }}{{ ' stories__grid--three' if stories.length % 3 == 0 }}">
       {% for s in stories %}
         {% set rot = (loop.index0 % 2) + 1 %}
         {% include "story-card.njk" %}
