@@ -113,6 +113,51 @@
     "source": "a post from Community First Blackpool, Wyre & Fylde"
   },
   {
+    "slug": "blackpool-stanley-youth-presentations",
+    "title": "Blackpool Stanley Youth Presentation Celebrations start this week",
+    "kicker": "Youth sport",
+    "badge": "dark",
+    "theme": "orange",
+    "date": "2026-11-24",
+    "image": "/images/story-blackpool-stanley-presentations.webp",
+    "imageFit": "cover",
+    "imageAlt": "Graphic listing the Blackpool Stanley Youth Presentation Celebrations dates: Saturday 28 November Under 10s, Friday 4 December Under 12s, Friday 4 December Under 14s, Saturday 12 December Stanley Scamps.",
+    "ogImage": "/images/og/stories/blackpool-stanley-presentations.jpg",
+    "summary": "Blackpool Stanley Rugby Club's youth presentation celebrations run from Saturday 28 November to Saturday 12 December, recognising a fantastic year of rugby for the club's young players.",
+    "intro": "It is presentation time at Blackpool Stanley, with four celebration dates for the club's young players, from the Under 10s to the Stanley Scamps.",
+    "paragraphs": [
+      "<a href=\"https://www.facebook.com/BplStanleyRL\" target=\"_blank\" rel=\"noopener\">Blackpool Stanley Rugby Club</a> are celebrating another fantastic year of rugby, recognising the hard work, commitment, development and achievements of their young players. The club says it is also a chance to bring everyone together, celebrate friendships and make memories.",
+      "The dates announced are: Saturday 28 November for the Under 10s, Friday 4 December for the Under 12s and the Under 14s, and Saturday 12 December for the Stanley Scamps.",
+      "Thank you from the club to all its players, parents, families, coaches and volunteers. Their message: every player matters, every effort counts, and every achievement deserves celebrating. Follow <a href=\"https://www.facebook.com/BplStanleyRL\" target=\"_blank\" rel=\"noopener\">Blackpool Stanley Rugby Club</a> on Facebook for the latest updates, and ask the club for times and venues for each age group."
+    ],
+    "links": [
+      {
+        "label": "Blackpool Stanley on Facebook",
+        "url": "https://www.facebook.com/BplStanleyRL",
+        "primary": true
+      }
+    ],
+    "facts": [
+      {
+        "label": "Sat 28 Nov",
+        "value": "Under 10s"
+      },
+      {
+        "label": "Fri 4 Dec",
+        "value": "Under 12s and Under 14s"
+      },
+      {
+        "label": "Sat 12 Dec",
+        "value": "Stanley Scamps"
+      },
+      {
+        "label": "Times and venues",
+        "value": "Not given in the club's post, so please check with the club"
+      }
+    ],
+    "source": "a post from Blackpool Stanley Rugby Club"
+  },
+  {
     "slug": "local-businesses-wanted",
     "title": "Local businesses wanted: sponsors and raffle prizes for the Christmas fundraiser",
     "kicker": "Can you help?",
