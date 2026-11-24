@@ -1,5 +1,117 @@
 [
   {
+    "slug": "winter-wonderland-weekend",
+    "title": "Winter Wonderland Weekend",
+    "kicker": "Weekend round-up",
+    "badge": "yellow",
+    "theme": "green",
+    "date": "2026-11-24",
+    "image": "/images/story-winter-wonderland-weekend.webp",
+    "imageFit": "cover",
+    "imageAlt": "Winter Wonderland Weekend, 27 to 29 November 2026. Posters for the Layton Christmas Lights Switch-On, the Free Christmas Party at The Victory Pub and the StreetLife Festive Family Fun Day at Layton Institute.",
+    "ogImage": "/images/og/stories/winter-wonderland-weekend.jpg",
+    "summary": "Four Christmas events across three days, from the Layton Lights Switch-On on Friday to a free community Christmas party on Sunday, with plenty of free fun along the way.",
+    "intro": "Blackpool families have a packed Christmas weekend ahead, with four community events across Friday 27, Saturday 28 and Sunday 29 November.",
+    "paragraphs": [
+      "Friday 27 November: the Layton Christmas Lights Switch-On on Westcliffe Drive. The event starts from 5:15pm and the lights go on at 6:15pm. There is a treasure hunt for the kids, live music, a brass band, stalls, special guests and a book giveaway, and it is free to attend.",
+      "Saturday 28 November, 12pm to 5:30pm: the Bloomfield Brewhouse Christmas Market, with festive stalls and free activities for children run by Blackpool STEM Club, including a Santa Zipline Challenge.",
+      "Saturday 28 November, 6pm to 10pm: the Condor Grove Christmas Lights Switch-On, with the main switch-on at 7pm. It raises funds for Fylde Kids Foundation, and promises Santa and Mrs Claus arriving by sleigh, live singers, the LIMITLESS girl band, stalls, mascots, hot food, a tombola, raffles and snow machines.",
+      "Sunday 29 November, 2pm to 5pm: a free Christmas party and community thank-you at The Victory Pub on Caunce Street, organised by Ameelia Unfiltered with Blackpool Mums & Babies, Mel Bee's and Solo Parents United. Entry, a disco, a buffet, face painting and Santa visits are free, and children get presents and chocolates from Santa. The party also supports a Christmas Present Drive, where donations are welcome but never expected.",
+      "Also in Layton that weekend: the Festive Family Fun Day at Layton Institute on Sunday from 1pm to 4pm, and the Music & Memory Social at Layton Library on Saturday morning."
+    ],
+    "links": [
+      {
+        "label": "Layton Lights Switch-On",
+        "url": "/events/layton-lights-switch-on/",
+        "primary": true
+      },
+      {
+        "label": "Free Christmas Party",
+        "url": "/events/free-christmas-party/"
+      },
+      {
+        "label": "Festive Family Fun Day",
+        "url": "/events/festive-family-fun-day/"
+      },
+      {
+        "label": "Music & Memory Social",
+        "url": "/events/music-and-memory-social/"
+      },
+      {
+        "label": "See everything on What's On",
+        "url": "/whats-on/"
+      }
+    ],
+    "facts": [
+      {
+        "label": "Fri 27 Nov",
+        "value": "Layton Christmas Lights Switch-On, Westcliffe Drive, from 5:15pm"
+      },
+      {
+        "label": "Sat 28 Nov, day",
+        "value": "Bloomfield Brewhouse Christmas Market, 12pm to 5:30pm"
+      },
+      {
+        "label": "Sat 28 Nov, evening",
+        "value": "Condor Grove Christmas Lights Switch-On, 6pm to 10pm"
+      },
+      {
+        "label": "Sun 29 Nov",
+        "value": "Free Christmas Party, The Victory Pub, Caunce Street, 2pm to 5pm"
+      }
+    ],
+    "source": "a weekend round-up shared in the Layton Together Facebook group"
+  },
+  {
+    "slug": "layton-lights-road-closures",
+    "title": "Road closures for the Layton Christmas Lights Switch-On",
+    "kicker": "Road closures",
+    "badge": "teal",
+    "theme": "teal",
+    "date": "2026-11-24",
+    "image": "/images/story-layton-lights-road-closures.webp",
+    "imageFit": "contain",
+    "imageAlt": "Poster for the Layton Christmas Lights Switch-On on Friday 27th November 2026. Event starts from 5.15pm and the lights are switched on at 6.15pm, on Westcliffe Drive, Layton. Special guests, live music, stalls, treasure hunt, book give-away and a brass band. Organised by Layton Together and supported by Forward Project and your local councillors.",
+    "ogImage": "/images/og/stories/layton-lights-road-closures.jpg",
+    "summary": "Blackpool Council has confirmed temporary road closures around Layton Square on Friday 27 November, from 5pm to 7pm, for the Layton Christmas Lights Switch-On.",
+    "intro": "Blackpool Council has confirmed temporary road closures around Layton Square for the Layton Christmas Lights Switch-On on Friday 27 November 2026.",
+    "paragraphs": [
+      "The closures run from 5pm to 7pm. Drivers are asked to plan their journeys accordingly and to follow the road closure signs.",
+      "The organisers apologise for any inconvenience and thank local residents and businesses for their patience, understanding and support.",
+      "They look forward to welcoming everyone to a community Christmas celebration, with the event starting from 5:15pm and the lights switched on at 6:15pm."
+    ],
+    "links": [
+      {
+        "label": "See the switch-on event page",
+        "url": "/events/layton-lights-switch-on/",
+        "primary": true
+      }
+    ],
+    "facts": [
+      {
+        "label": "Closed",
+        "value": "Friday 27 November 2026, 5pm to 7pm"
+      },
+      {
+        "label": "Talbot Road",
+        "value": "Cameron Avenue to Westcliffe Drive"
+      },
+      {
+        "label": "Layton Road",
+        "value": "Drummond Avenue to Westcliffe Drive"
+      },
+      {
+        "label": "Westcliffe Drive",
+        "value": "Talbot Road and Layton Road junction to Granby Avenue"
+      },
+      {
+        "label": "Organiser",
+        "value": "Layton Together, supported by Forward Project and local councillors"
+      }
+    ],
+    "source": "the road closure notice from Layton Together"
+  },
+  {
     "slug": "lay-a-brick",
     "title": "Lay a Brick: build a future",
     "kicker": "Fundraising",
@@ -56,54 +168,5 @@
       }
     ],
     "source": "the Lay a Brick campaign announcement from Layton Methodist Church and Forward Project"
-  },
-  {
-    "slug": "layton-lights-road-closures",
-    "title": "Road closures for the Layton Christmas Lights Switch-On",
-    "kicker": "Road closures",
-    "badge": "teal",
-    "theme": "teal",
-    "date": "2026-11-24",
-    "image": "/images/story-layton-lights-road-closures.webp",
-    "imageFit": "contain",
-    "imageAlt": "Poster for the Layton Christmas Lights Switch-On on Friday 27th November 2026. Event starts from 5.15pm and the lights are switched on at 6.15pm, on Westcliffe Drive, Layton. Special guests, live music, stalls, treasure hunt, book give-away and a brass band. Organised by Layton Together and supported by Forward Project and your local councillors.",
-    "ogImage": "/images/og/stories/layton-lights-road-closures.jpg",
-    "summary": "Blackpool Council has confirmed temporary road closures around Layton Square on Friday 27 November, from 5pm to 7pm, for the Layton Christmas Lights Switch-On.",
-    "intro": "Blackpool Council has confirmed temporary road closures around Layton Square for the Layton Christmas Lights Switch-On on Friday 27 November 2026.",
-    "paragraphs": [
-      "The closures run from 5pm to 7pm. Drivers are asked to plan their journeys accordingly and to follow the road closure signs.",
-      "The organisers apologise for any inconvenience and thank local residents and businesses for their patience, understanding and support.",
-      "They look forward to welcoming everyone to a community Christmas celebration, with the event starting from 5:15pm and the lights switched on at 6:15pm."
-    ],
-    "links": [
-      {
-        "label": "See the switch-on event page",
-        "url": "/events/layton-lights-switch-on/",
-        "primary": true
-      }
-    ],
-    "facts": [
-      {
-        "label": "Closed",
-        "value": "Friday 27 November 2026, 5pm to 7pm"
-      },
-      {
-        "label": "Talbot Road",
-        "value": "Cameron Avenue to Westcliffe Drive"
-      },
-      {
-        "label": "Layton Road",
-        "value": "Drummond Avenue to Westcliffe Drive"
-      },
-      {
-        "label": "Westcliffe Drive",
-        "value": "Talbot Road and Layton Road junction to Granby Avenue"
-      },
-      {
-        "label": "Organiser",
-        "value": "Layton Together, supported by Forward Project and local councillors"
-      }
-    ],
-    "source": "the road closure notice from Layton Together"
   }
 ]
