@@ -46,7 +46,7 @@ eleventyComputed:
       </div>
       {% endif %}
 
-      {% for p in st.paragraphs %}<p>{{ p }}</p>
+      {% for p in st.paragraphs %}<p>{{ p | safe }}</p>
       {% endfor %}
 
       {% if st.facts.length %}
