@@ -60,6 +60,59 @@
     "source": "a weekend round-up shared in the Layton Together Facebook group"
   },
   {
+    "slug": "festive-express",
+    "title": "Festive Express 2026: free Christmas gifts and goodies for local families",
+    "kicker": "Free Christmas help",
+    "badge": "orange",
+    "theme": "orange",
+    "date": "2026-11-24",
+    "image": "/images/story-festive-express.webp",
+    "imageFit": "contain",
+    "imageAlt": "Poster for Festive Express 2026, a free festive event from BFriend and Wellbeing. Thursday 3rd December, 2pm to 5:30pm at Forest Gate Baptist Church, Blackpool. Toy station, teen station, Christmas Eve boxes, wrapping station, festive family food ideas, and crafts and activities, all free of charge. Logos: Community First, BFriend and Wellbeing, The National Lottery Community Fund.",
+    "ogImage": "/images/og/stories/festive-express.jpg",
+    "summary": "BFriend & Wellbeing's annual Festive Express returns on Thursday 3 December at Forest Gate Baptist Church, with free Christmas gifts and goodies for local families. No referral, appointment or paperwork needed.",
+    "intro": "Last year the Festive Express helped over 100 families with presents, food parcels and Christmas extras. This year, the organisers hope to make an even bigger difference.",
+    "paragraphs": [
+      "The annual Festive Express is run by <a href=\"https://www.facebook.com/VCBWF\" target=\"_blank\" rel=\"noopener\">BFriend & Wellbeing, part of Community First Blackpool, Wyre & Fylde</a>, and takes place at Forest Gate Baptist Church on Thursday 3 December, from 2pm to 5:30pm. It is an afternoon of Christmas gifts, festive goodies and community spirit, with marketplace-style stalls where everything is free.",
+      "There are no referrals, appointments or paperwork. Everyone is welcome: just collect your tickets on arrival and exchange them for items. On the day you will find a toy station, a teen station, Christmas Eve boxes, a wrapping station, festive family food ideas, crafts and activities and a free pop-up cafe. The poster also carries The National Lottery Community Fund logo.",
+      "Want to help? The organisers are still welcoming donations, volunteers, raffle prizes and support with storage and transport. Donations can be dropped off at Community First, Abingdon Street, Blackpool, until Wednesday 2 December. Please donate toys unwrapped, clean and in good condition. Sharing the event with friends and family helps too."
+    ],
+    "links": [
+      {
+        "label": "Festive Express event page",
+        "url": "/events/festive-express-2026/",
+        "primary": true
+      },
+      {
+        "label": "Festive Express on Facebook",
+        "url": "https://facebook.com/events/s/bfriend-wellbeing-annual-festi/1427250752362216/"
+      },
+      {
+        "label": "Community First on Facebook",
+        "url": "https://www.facebook.com/VCBWF"
+      }
+    ],
+    "facts": [
+      {
+        "label": "When",
+        "value": "Thursday 3 December 2026, 2pm to 5:30pm"
+      },
+      {
+        "label": "Where",
+        "value": "Forest Gate Baptist Church, Forest Gate, Blackpool FY3 9AW"
+      },
+      {
+        "label": "Cost",
+        "value": "Free. No referral, appointment or paperwork"
+      },
+      {
+        "label": "Donations",
+        "value": "Community First, Abingdon Street, until Wednesday 2 December"
+      }
+    ],
+    "source": "a post from Community First Blackpool, Wyre & Fylde"
+  },
+  {
     "slug": "local-businesses-wanted",
     "title": "Local businesses wanted: sponsors and raffle prizes for the Christmas fundraiser",
     "kicker": "Can you help?",
