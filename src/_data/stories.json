@@ -60,6 +60,59 @@
     "source": "a weekend round-up shared in the Layton Together Facebook group"
   },
   {
+    "slug": "living-well-in-blackpool",
+    "title": "Living Well in Blackpool: free support, all in one place, every Monday",
+    "kicker": "Free support",
+    "badge": "teal",
+    "theme": "teal",
+    "date": "2026-11-25",
+    "image": "/images/story-living-well-support-hub.webp",
+    "imageFit": "contain",
+    "imageAlt": "Poster for the Living Well in Blackpool Support Hub. Free support, all in one place. Every Monday, 9.30am to 12.30pm, Layton Methodist, FY3 7DZ. Just turn up. Money feeling tight? Need employment support? Worried about housing? Need food support? Health concerns? Family worries? Want to learn new skills?",
+    "ogImage": "/images/og/stories/living-well-support-hub.jpg",
+    "summary": "Every Monday, 9.30am to 12.30pm at Layton Methodist Church, the Living Well in Blackpool Support Hub brings free help with money, work, housing, food, health, family worries and new skills together in one place.",
+    "intro": "Money feeling tight? Worried about housing? Need a hand finding work or learning new skills? The Living Well in Blackpool Support Hub is free, with no appointment needed. Just turn up.",
+    "paragraphs": [
+      "The Support Hub runs every Monday from 9.30am to 12.30pm at <a href=\"https://www.facebook.com/laytonmethodist\" target=\"_blank\" rel=\"noopener\">Layton Methodist Church</a>, Westcliffe Drive, FY3 7DZ, and is supported by Forward Projects. There is a free continental breakfast until 11am, and you do not need to book. Come in, have a chat, and the team will help you find the right support.",
+      "A range of local and national services are involved, so one visit can get you talking to the right people. Providers include:",
+      "<strong>Money:</strong> benefit checks, to help make sure people are getting the money they are entitled to, plus <a href=\"https://www.groundwork.org.uk/greendoctor\" target=\"_blank\" rel=\"noopener\">Green Doctors</a>, a free Groundwork service giving impartial advice on cutting energy use and managing energy bills at home.",
+      "<strong>Housing:</strong> <a href=\"https://www.shelter.org.uk\" target=\"_blank\" rel=\"noopener\">Shelter</a>, the housing and homelessness charity.",
+      "<strong>Work and skills:</strong> Jobcentre Plus for employment support, and <a href=\"https://www.blackpool.ac.uk\" target=\"_blank\" rel=\"noopener\">Blackpool &amp; Fylde College</a> for learning new skills.",
+      "<strong>Health and wellbeing:</strong> <a href=\"https://www.activeblackpool.co.uk\" target=\"_blank\" rel=\"noopener\">Active Blackpool</a>, helping people get active, and <a href=\"https://empowermentcharity.org.uk\" target=\"_blank\" rel=\"noopener\">Empowerment Charity</a>, a Blackpool-based charity supporting people across Blackpool and Lancashire.",
+      "Not sure if it is for you? If you are worried about money, work, housing, food, your health, your family or just want to learn something new, it probably is. Pop along on a Monday and see."
+    ],
+    "links": [
+      {
+        "label": "Find out more: Food & Essentials",
+        "url": "/food-essentials/#fe-section-pinned",
+        "primary": true
+      },
+      {
+        "label": "Layton Methodist on Facebook",
+        "url": "https://www.facebook.com/laytonmethodist"
+      }
+    ],
+    "facts": [
+      {
+        "label": "When",
+        "value": "Every Monday, 9.30am to 12.30pm"
+      },
+      {
+        "label": "Where",
+        "value": "Layton Methodist Church, Westcliffe Drive, Blackpool FY3 7DZ"
+      },
+      {
+        "label": "Cost",
+        "value": "Free. No appointment needed, just turn up"
+      },
+      {
+        "label": "Also",
+        "value": "Free continental breakfast until 11am"
+      }
+    ],
+    "source": "the Living Well in Blackpool Support Hub"
+  },
+  {
     "slug": "festive-express",
     "title": "Festive Express 2026: free Christmas gifts and goodies for local families",
     "kicker": "Free Christmas help",
