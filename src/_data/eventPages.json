@@ -1046,5 +1046,81 @@
       "url": "https://www.facebook.com/laytontogether"
     },
     "lead": "Friday 27 November 2026 on Westcliffe Drive, Layton. Event from 5:15pm, lights on at 6:15pm. Road closures 5pm to 7pm."
+  },
+  {
+    "slug": "brunswick-christmas-lights-switch-on",
+    "title": "Christmas Lights Switch On at Brunswick Community Garden",
+    "kicker": "Family & Kids",
+    "theme": "teal",
+    "summary": "A free family Christmas event for Brunswick on Friday 27 November 2026. Blackpool Boys & Girls Club opposite Brunswick Community Garden is open 4:30pm to 7:30pm for family arts and crafts, hot chocolates and biscuit decorating, with the Christmas lights switched on at 6pm.",
+    "ogImage": "/images/og/events/brunswick-christmas-lights-switch-on.jpg",
+    "posters": [
+      {
+        "src": "/images/brunswick-community-garden-christmas-lights-switch-on-27-november.webp",
+        "alt": "Poster for the Brunswick Community Garden Christmas Lights Switch On, Friday 27th November 2026, switch on time 6pm. The Blackpool Boys & Girls Club opposite the garden is open from 4:30pm till 7:30pm for family arts and crafts, including bauble making, hot chocolates and biscuit decorating. Normal club sessions will not be running. All welcome. Logos: Blackpool Boys & Girls Clubs, EPS, Blackpool Family Hubs, Brunswick On the Up."
+      }
+    ],
+    "sessions": [
+      {
+        "dateLabel": "Friday 27 November 2026",
+        "time": "4:30pm to 7:30pm, lights switched on at 6pm",
+        "start": "2026-11-27T16:30:00+00:00",
+        "end": "2026-11-27T19:30:00+00:00"
+      }
+    ],
+    "venue": {
+      "name": "Brunswick Community Garden",
+      "locality": "Blackpool"
+    },
+    "cost": "Free",
+    "offers": {
+      "price": "0"
+    },
+    "facts": [
+      {
+        "label": "Lights switched on",
+        "value": "6pm"
+      },
+      {
+        "label": "Club open",
+        "value": "4:30pm to 7:30pm, families can come and go"
+      },
+      {
+        "label": "What's on",
+        "value": "Family arts and crafts, bauble making, hot chocolates, biscuit decorating and carols"
+      },
+      {
+        "label": "Please note",
+        "value": "Normal club sessions are not running this night"
+      },
+      {
+        "label": "Presented by",
+        "value": "Blackpool Boys & Girls Clubs"
+      },
+      {
+        "label": "Poster also shows",
+        "value": "EPS, Blackpool Family Hubs and Brunswick On the Up"
+      }
+    ],
+    "intro": "Blackpool Boys & Girls Clubs invite everyone in the community to the Christmas Lights Switch On at Brunswick Community Garden. Come together, sing some carols and help turn on the Christmas lights.",
+    "sections": [
+      {
+        "heading": "Family arts and crafts from 4:30pm",
+        "html": "<p>The Blackpool Boys & Girls Club opposite the garden is open from 4:30pm until 7:30pm for families to come and go. Join in some Christmas arts and crafts, including the annual bauble making and biscuit decorating, or just enjoy a hot chocolate.</p>"
+      },
+      {
+        "heading": "Lights on at 6pm",
+        "html": "<p>The Christmas lights at Brunswick Community Garden are switched on at 6pm, with carols and festive fun for the whole community.</p>"
+      },
+      {
+        "heading": "Good to know",
+        "html": "<p>This is a family event for everyone in the community, so normal club sessions are not running this night. All welcome. Let's light up Brunswick together!</p>"
+      }
+    ],
+    "links": [],
+    "organiser": {
+      "name": "Blackpool Boys & Girls Clubs"
+    },
+    "lead": "Friday 27 November 2026 at Brunswick Community Garden, Blackpool. Club open 4:30pm to 7:30pm, lights on at 6pm. Free, all welcome."
   }
 ]

@@ -284,5 +284,18 @@
     "description": "Blackpool Recovery Hub invite everyone to a night of retro gaming fun. Dust off those old favourites, bring your competitive side and enjoy a bit of nostalgia, good vibes and great company. Sunday 22 November, 6pm-9pm at Blackpool Recovery Hub, 258 Church Street. Everyone welcome.",
     "pinned": false,
     "page": "/events/retro-games-night/"
+  },
+  {
+    "slug": "brunswick-community-garden-christmas-lights-switch-on-27-november",
+    "title": "Christmas Lights Switch On at Brunswick Community Garden",
+    "date": "2026-11-27",
+    "time": "4:30pm-7:30pm (lights on at 6pm)",
+    "location": "Brunswick Community Garden, Blackpool",
+    "category": "Family & Kids",
+    "cost": "free",
+    "image": "/images/brunswick-community-garden-christmas-lights-switch-on-27-november.webp",
+    "description": "A free family Christmas event at Brunswick Community Garden. Blackpool Boys & Girls Club, opposite the garden, is open from 4:30pm to 7:30pm for family arts and crafts, including bauble making, hot chocolates and biscuit decorating, with carols and the Christmas lights switched on at 6pm. Friday 27 November. Normal club sessions are not running. All welcome.",
+    "pinned": false,
+    "page": "/events/brunswick-christmas-lights-switch-on/"
   }
 ]
