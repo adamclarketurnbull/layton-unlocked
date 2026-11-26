@@ -1,5 +1,59 @@
 [
   {
+    "slug": "layton-lights-road-closures",
+    "title": "Layton Lights Switch-On: late openings, live music and road closures",
+    "kicker": "Switch-on night",
+    "badge": "teal",
+    "theme": "teal",
+    "date": "2026-11-26",
+    "image": "/images/story-layton-lights-road-closures.webp",
+    "imageFit": "contain",
+    "imageAlt": "Poster for the Layton Christmas Lights Switch-On on Friday 27th November 2026. Event starts from 5.15pm and the lights are switched on at 6.15pm, on Westcliffe Drive, Layton. Special guests, live music, stalls, treasure hunt, book give-away and a brass band. Organised by Layton Together and supported by Forward Project and your local councillors.",
+    "ogImage": "/images/og/stories/layton-lights-road-closures.jpg",
+    "summary": "The Layton Christmas Lights Switch-On is on Friday 27 November, with Coastal Radio on stage, performers, late-opening shops and community buildings, and road closures from 5pm to 7pm.",
+    "intro": "The Layton Christmas Lights Switch-On is happening on Friday 27 November, at the start of Westcliffe Drive and Layton Road, with the lights going on around 6:15pm.",
+    "paragraphs": [
+      "The event starts from 5:15pm, with the lights switched on at around 6:15pm to 6:20pm. Coastal Radio will be on stage with performers, and the night also has special guests, live music, stalls, a treasure hunt, a book give-away and a brass band.",
+      "Shops and community buildings are opening late so you can make an evening of it, including Hash Browns on Layton Road, Sue at Ninez, <a href=\"https://www.facebook.com/laytonmethodist\" target=\"_blank\" rel=\"noopener\">Layton Methodist Church</a>, <a href=\"https://www.facebook.com/LCHlayton\" target=\"_blank\" rel=\"noopener\">Layton Community House</a>, St Mark's Church and Layton Library. Do pop in, say hello and support them.",
+      "Blackpool Council has confirmed temporary road closures around Layton Square from 5pm to 7pm. Drivers are asked to plan their journeys accordingly and to follow the road closure signs. The roads affected are listed below.",
+      "The organisers apologise for any inconvenience and thank local residents and businesses for their patience, understanding and support. Is your business staying open late on Friday? Email adam@laytonunlocked.com and we will add it to the list."
+    ],
+    "links": [
+      {
+        "label": "See the switch-on event page",
+        "url": "/events/layton-lights-switch-on/",
+        "primary": true
+      },
+      {
+        "label": "Layton Together on Facebook",
+        "url": "https://www.facebook.com/laytontogether"
+      }
+    ],
+    "facts": [
+      {
+        "label": "When",
+        "value": "Friday 27 November 2026, from 5:15pm. Lights on around 6:15pm"
+      },
+      {
+        "label": "Where",
+        "value": "The start of Westcliffe Drive and Layton Road"
+      },
+      {
+        "label": "Open late",
+        "value": "Hash Browns (Layton Road), Sue at Ninez, Layton Methodist Church, Layton Community House, St Mark's Church and Layton Library"
+      },
+      {
+        "label": "Roads closed, 5pm to 7pm",
+        "value": "Talbot Road (Cameron Avenue to Westcliffe Drive); Layton Road (Drummond Avenue to Westcliffe Drive); Westcliffe Drive (Talbot Road and Layton Road junction to Granby Avenue)"
+      },
+      {
+        "label": "Organiser",
+        "value": "Layton Together, supported by Forward Project and local councillors"
+      }
+    ],
+    "source": "Layton Together"
+  },
+  {
     "slug": "layton-community-house-lottery-grant",
     "title": "Layton Community House secures £20,000 National Lottery grant",
     "kicker": "Grant news",
@@ -310,55 +364,6 @@
       }
     ],
     "source": "a call-out from Ameelia Unfiltered"
-  },
-  {
-    "slug": "layton-lights-road-closures",
-    "title": "Road closures for the Layton Christmas Lights Switch-On",
-    "kicker": "Road closures",
-    "badge": "teal",
-    "theme": "teal",
-    "date": "2026-11-24",
-    "image": "/images/story-layton-lights-road-closures.webp",
-    "imageFit": "contain",
-    "imageAlt": "Poster for the Layton Christmas Lights Switch-On on Friday 27th November 2026. Event starts from 5.15pm and the lights are switched on at 6.15pm, on Westcliffe Drive, Layton. Special guests, live music, stalls, treasure hunt, book give-away and a brass band. Organised by Layton Together and supported by Forward Project and your local councillors.",
-    "ogImage": "/images/og/stories/layton-lights-road-closures.jpg",
-    "summary": "Blackpool Council has confirmed temporary road closures around Layton Square on Friday 27 November, from 5pm to 7pm, for the Layton Christmas Lights Switch-On.",
-    "intro": "Blackpool Council has confirmed temporary road closures around Layton Square for the Layton Christmas Lights Switch-On on Friday 27 November 2026.",
-    "paragraphs": [
-      "The closures run from 5pm to 7pm. Drivers are asked to plan their journeys accordingly and to follow the road closure signs.",
-      "The organisers apologise for any inconvenience and thank local residents and businesses for their patience, understanding and support.",
-      "They look forward to welcoming everyone to a community Christmas celebration, with the event starting from 5:15pm and the lights switched on at 6:15pm."
-    ],
-    "links": [
-      {
-        "label": "See the switch-on event page",
-        "url": "/events/layton-lights-switch-on/",
-        "primary": true
-      }
-    ],
-    "facts": [
-      {
-        "label": "Closed",
-        "value": "Friday 27 November 2026, 5pm to 7pm"
-      },
-      {
-        "label": "Talbot Road",
-        "value": "Cameron Avenue to Westcliffe Drive"
-      },
-      {
-        "label": "Layton Road",
-        "value": "Drummond Avenue to Westcliffe Drive"
-      },
-      {
-        "label": "Westcliffe Drive",
-        "value": "Talbot Road and Layton Road junction to Granby Avenue"
-      },
-      {
-        "label": "Organiser",
-        "value": "Layton Together, supported by Forward Project and local councillors"
-      }
-    ],
-    "source": "the road closure notice from Layton Together"
   },
   {
     "slug": "lay-a-brick",
