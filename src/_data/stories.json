@@ -1,5 +1,50 @@
 [
   {
+    "slug": "layton-community-house-lottery-grant",
+    "title": "Layton Community House secures £20,000 National Lottery grant",
+    "kicker": "Grant news",
+    "badge": "yellow",
+    "theme": "green",
+    "date": "2026-11-26",
+    "image": "/images/story-layton-community-house-grant.webp",
+    "imageFit": "cover",
+    "imageAlt": "Graphic reading: £20,000 awarded to Layton Community House from The National Lottery Community Fund.",
+    "ogImage": "/images/og/stories/layton-community-house-grant.jpg",
+    "summary": "Layton Community House has been awarded £20,000 from The National Lottery Community Fund, to help it keep providing a welcoming, supportive space for the local community.",
+    "intro": "Fantastic news for Layton: Layton Community House has been awarded £20,000 in funding from The National Lottery Community Fund.",
+    "paragraphs": [
+      "<a href=\"https://www.facebook.com/LCHlayton\" target=\"_blank\" rel=\"noopener\">Layton Community House</a> has announced the award, which will help it continue providing a welcoming and supportive space for the local community, bringing people together, reducing social isolation and offering opportunities to learn new skills and build friendships.",
+      "The House, at 5 Grenfell Avenue, is home to a range of regular activities, from sewing and art and craft sessions to free IT help and the Friday infant essentials service. You can see what is on each week on the <a href=\"/whats-on/\">What's On guide</a>.",
+      "In its announcement, Layton Community House thanked National Lottery players for making the funding possible, and its staff, volunteers, trustees and visitors who make the House such a special place. It says it is looking forward to sharing more about the difference the funding will make to the community."
+    ],
+    "links": [
+      {
+        "label": "Layton Community House on Facebook",
+        "url": "https://www.facebook.com/LCHlayton",
+        "primary": true
+      },
+      {
+        "label": "See what's on",
+        "url": "/whats-on/"
+      }
+    ],
+    "facts": [
+      {
+        "label": "Awarded",
+        "value": "£20,000"
+      },
+      {
+        "label": "Funder",
+        "value": "The National Lottery Community Fund"
+      },
+      {
+        "label": "Where",
+        "value": "Layton Community House, 5 Grenfell Avenue, Layton, Blackpool FY3 7BP"
+      }
+    ],
+    "source": "an announcement from Layton Community House"
+  },
+  {
     "slug": "winter-wonderland-weekend",
     "title": "Winter Wonderland Weekend",
     "kicker": "Weekend round-up",
