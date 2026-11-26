@@ -101,12 +101,12 @@ featuredEvent: ""
 
     <div class="stories__grid{{ ' stories__grid--single' if stories.length == 1 }}{{ ' stories__grid--three' if stories.length == 3 }}">
       {% for s in stories %}
-        {% if loop.index <= 4 %}
+        {% if loop.index <= 3 %}
         {% set rot = loop.index %}
         {% include "story-card.njk" %}
         {% endif %}
       {% endfor %}
     </div>
-    <p class="stories__more"><a href="/stories/" class="link-green">{{ 'More stories' if stories.length > 4 else 'All stories' }} &rarr;</a></p>
+    <p class="stories__more"><a href="/stories/" class="link-green">{{ 'More stories' if stories.length > 3 else 'All stories' }} &rarr;</a></p>
   </div>
 </section>

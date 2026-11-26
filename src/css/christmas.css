@@ -1050,8 +1050,14 @@ a.wo-card:hover, .help-tile:hover, .story-card:hover { transform: translate(-2px
   .stories__grid--single .story-card { display: grid; grid-template-columns: minmax(0, 320px) 1fr; align-items: center; column-gap: 1.5rem; padding: 1.25rem 1.5rem 1.25rem 1.25rem; }
   .stories__grid--single .story-card__placeholder { height: auto; aspect-ratio: auto; border-radius: 12px; margin-bottom: 0; }
 }
-@media (min-width: 1000px) { .stories__grid--three { grid-template-columns: repeat(3, 1fr); } }
-.stories__grid--three .story-card__placeholder { height: 300px; }
+
+/* Stories: three across on desktop, smaller cards */
+@media (min-width: 1000px) { .stories__grid:not(.stories__grid--single) { grid-template-columns: repeat(3, 1fr); gap: 24px; } }
+.stories__grid .story-card__placeholder { height: 210px; margin-bottom: 1rem; }
+.stories__grid .story-card__placeholder--contain { height: 210px; }
+.stories__grid .story-card__title { font-size: 1.1rem; }
+.stories__grid .story-card__summary { font-size: .92rem; line-height: 1.5; }
+.stories__grid .story-card { padding-bottom: 1.1rem; }
 
 /* Christmas extras */
 .hero::before{background:linear-gradient(180deg,rgba(11,42,32,.55),rgba(11,42,32,.28) 45%,rgba(60,15,15,.6))!important}
