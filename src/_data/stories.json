@@ -54,6 +54,52 @@
     "source": "Layton Together"
   },
   {
+    "slug": "blackpool-stanley-christmas-hamper-appeal",
+    "title": "Blackpool Stanley Christmas Hamper Appeal 2026: food donations wanted",
+    "kicker": "Can you help?",
+    "badge": "orange",
+    "theme": "pink",
+    "date": "2026-11-26",
+    "image": "/images/story-stanley-hamper-appeal.webp",
+    "imageFit": "cover",
+    "imageAlt": "Poster for the Blackpool Stanley Rugby League Club Christmas Hamper Appeal 2026. Collecting non-perishable food items: tinned food, cupboard essentials, drinks and treats, and Christmas extras. Donations must be unopened, in date and suitable for storage. To arrange a drop-off, message the club's Facebook page.",
+    "ogImage": "/images/og/stories/stanley-hamper-appeal.jpg",
+    "summary": "Blackpool Stanley Rugby League Club is collecting non-perishable food for its Christmas Hamper Appeal, continuing a seven-year tradition of hampers for local families.",
+    "intro": "For seven years, Blackpool Stanley has been putting together Christmas hampers for local families. This year the club is asking for your help to continue.",
+    "paragraphs": [
+      "<a href=\"https://www.facebook.com/BplStanleyRL\" target=\"_blank\" rel=\"noopener\">Blackpool Stanley Rugby League Club</a> has donated more than 500 Christmas hampers to families in the local community over the last seven years, with recommendations coming from local schools. The 2026 Christmas Hamper Appeal is collecting non-perishable food items to help put together hampers for people who may need a little extra support this festive season.",
+      "The club is asking for: tinned vegetables, potatoes, tomatoes, soup, beans, spaghetti, meat, fish, fruit, rice pudding and custard; pasta, rice, noodles, cooking sauces, breakfast cereals, porridge, instant mash and stock cubes; tea, coffee, hot chocolate, long-life milk, biscuits, crisps, chocolate and sweets; and Christmas extras such as puddings, cakes, mince pies, gravy, stuffing, cranberry sauce and jams.",
+      "All food donations must be unopened, in date and suitable for storage. To arrange a drop-off, send the club a message through its Facebook page and they will organise a convenient time.",
+      "Every tin, packet and donation counts. As the club puts it: ONE CLUB. ONE STANLEY. ONE COMMUNITY."
+    ],
+    "links": [
+      {
+        "label": "Message Blackpool Stanley on Facebook",
+        "url": "https://www.facebook.com/BplStanleyRL",
+        "primary": true
+      }
+    ],
+    "facts": [
+      {
+        "label": "Collecting",
+        "value": "Non-perishable food for Christmas hampers"
+      },
+      {
+        "label": "Please note",
+        "value": "Unopened, in date and suitable for storage"
+      },
+      {
+        "label": "How to donate",
+        "value": "Message Blackpool Stanley on Facebook to arrange a drop-off time"
+      },
+      {
+        "label": "Closing date",
+        "value": "Not given in the club's post"
+      }
+    ],
+    "source": "a post from Blackpool Stanley Rugby League Club"
+  },
+  {
     "slug": "layton-community-house-lottery-grant",
     "title": "Layton Community House secures £20,000 National Lottery grant",
     "kicker": "Grant news",
